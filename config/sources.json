@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Anthropic News",
+    "url": "https://news.google.com/rss/search?q=site%3Aanthropic.com&hl=en-US&gl=US&ceid=US%3Aen",
+    "category": "モデル/研究",
+    "lang": "en",
+    "weight": 10,
+    "type": "rss",
+    "note": "Anthropic は公式 RSS を配信していないため Google News RSS 経由（2026-08-26 時点で anthropic.com/rss.xml 等はすべて 404）"
+  },
+  {
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/news/rss.xml",
+    "category": "モデル/研究",
+    "lang": "en",
+    "weight": 10,
+    "type": "rss"
+  },
+  {
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/rss/",
+    "category": "モデル/研究",
+    "lang": "en",
+    "weight": 9,
+    "type": "rss"
+  },
+  {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "category": "モデル/研究",
+    "lang": "en",
+    "weight": 9,
+    "type": "rss"
+  },
+  {
+    "name": "Meta AI",
+    "url": "https://news.google.com/rss/search?q=site%3Aai.meta.com&hl=en-US&gl=US&ceid=US%3Aen",
+    "category": "モデル/研究",
+    "lang": "en",
+    "weight": 8,
+    "type": "rss",
+    "note": "ai.meta.com/blog/rss/ は 404。Google News RSS 経由"
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "category": "開発ツール",
+    "lang": "en",
+    "weight": 7,
+    "type": "rss"
+  },
+  {
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "category": "ビジネス/資金調達",
+    "lang": "en",
+    "weight": 6,
+    "type": "rss"
+  },
+  {
+    "name": "VentureBeat AI",
+    "url": "https://venturebeat.com/category/ai/feed/",
+    "category": "ビジネス/資金調達",
+    "lang": "en",
+    "weight": 5,
+    "type": "rss"
+  },
+  {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "category": "プロダクト",
+    "lang": "en",
+    "weight": 6,
+    "type": "rss"
+  },
+  {
+    "name": "MIT Technology Review AI",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "category": "モデル/研究",
+    "lang": "en",
+    "weight": 7,
+    "type": "rss"
+  },
+  {
+    "name": "Ars Technica",
+    "url": "https://arstechnica.com/ai/feed/",
+    "category": "その他",
+    "lang": "en",
+    "weight": 5,
+    "type": "rss",
+    "note": "AI カテゴリ専用フィード。サイト全体の feeds.arstechnica.com/arstechnica/index は自転車等の非AI記事も混ざるため使わない"
+  },
+  {
+    "name": "ITmedia AI+",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "category": "その他",
+    "lang": "ja",
+    "weight": 7,
+    "type": "rss"
+  },
+  {
+    "name": "Publickey",
+    "url": "https://www.publickey1.jp/atom.xml",
+    "category": "開発ツール",
+    "lang": "ja",
+    "weight": 6,
+    "type": "rss"
+  },
+  {
+    "name": "arXiv cs.AI",
+    "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=60",
+    "category": "モデル/研究",
+    "lang": "en",
+    "weight": 4,
+    "type": "arxiv"
+  },
+  {
+    "name": "Hacker News",
+    "url": "https://hn.algolia.com/api/v1/search_by_date?query=AI&tags=story&numericFilters=points%3E%3D100&hitsPerPage=100",
+    "category": "その他",
+    "lang": "en",
+    "weight": 5,
+    "type": "hn-algolia",
+    "minPoints": 100
+  }
+]

@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+
+/* class 戦略のダークモード。<html class="dark"> で切り替える。 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* DFE Design System — Brand */
+  --color-primary: #0052cc;
+  --color-primary-hover: #003d99;
+  --color-primary-light: #e6f0ff;
+  --color-secondary: #00875a;
+  --color-warning: #ff8b00;
+  --color-danger: #de350b;
+
+  /* Neutral（Light） */
+  --color-text-primary: #172b4d;
+  --color-text-body: #42526e;
+  --color-text-secondary: #6b778c;
+  --color-text-disabled: #a5adba;
+  --color-border: #dfe1e6;
+  --color-surface: #ffffff;
+  --color-background: #f4f5f7;
+  --color-background-alt: #fafbfc;
+
+  /* Badge */
+  --color-badge-info-bg: #e6f0ff;
+  --color-badge-info-fg: #0747a6;
+  --color-badge-warn-bg: #fffae6;
+  --color-badge-warn-fg: #974f0c;
+  --color-badge-danger-bg: #ffebe6;
+  --color-badge-danger-fg: #bf2600;
+  --color-badge-muted-bg: #f4f5f7;
+  --color-badge-muted-fg: #6b778c;
+
+  --radius-card: 6px;
+  --radius-control: 4px;
+
+  --font-sans:
+    'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN',
+    'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, 'Yu Gothic', '游ゴシック', sans-serif;
+}
+
+/* Dark Mode トークン上書き（DESIGN.md §8） */
+.dark {
+  --color-primary: #4c9aff;
+  --color-primary-hover: #85b8ff;
+  --color-primary-light: #1c2b41;
+  --color-text-primary: #e6edfa;
+  --color-text-body: #9fadbc;
+  --color-text-secondary: #8c9bab;
+  --color-text-disabled: #5a6472;
+  --color-border: #2c333a;
+  --color-surface: #1d2125;
+  --color-background: #161a1d;
+  --color-background-alt: #22272b;
+
+  --color-badge-info-bg: #10233f;
+  --color-badge-info-fg: #9dc4ff;
+  --color-badge-warn-bg: #332a12;
+  --color-badge-warn-fg: #f5cd7d;
+  --color-badge-danger-bg: #3d1810;
+  --color-badge-danger-fg: #ff9c8f;
+  --color-badge-muted-bg: #22272b;
+  --color-badge-muted-fg: #8c9bab;
+}
+
+html {
+  color-scheme: light;
+  background-color: var(--color-background);
+}
+.dark html,
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-body);
+  font-family: var(--font-sans);
+  /* 日本語組版（DESIGN.md §3） */
+  font-feature-settings: 'palt' 1, 'kern' 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 見出し・短いラベル用。単語の途中で折らない（DESIGN.md §3 の禁則処理）。 */
+.jp-text {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-break: strict;
+  letter-spacing: 0.04em;
+}
+
+/*
+ * 本文用。keep-all を長い日本語の段落に効かせると読点までが1つの塊になり、
+ * 右端が大きく余って読みにくくなる。本文は文節（auto-phrase）で折る。
+ * 未対応ブラウザは直前の word-break: normal にフォールバックする。
+ */
+.jp-body {
+  word-break: normal;
+  word-break: auto-phrase;
+  overflow-wrap: anywhere;
+  line-break: strict;
+  letter-spacing: 0.04em;
+}
+
+/* 数値の桁を揃える */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
