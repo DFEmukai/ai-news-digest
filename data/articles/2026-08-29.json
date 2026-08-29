@@ -1,13 +1,13 @@
 {
   "date": "2026-08-29",
-  "generatedAt": "2026-08-29T03:36:33.775Z",
+  "generatedAt": "2026-08-29T14:59:02.652Z",
   "count": 30,
   "stats": {
-    "fetched": 81,
-    "afterDedupe": 79,
+    "fetched": 25,
+    "afterDedupe": 24,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 2,
+    "removedByTitle": 1,
     "failedSources": [],
     "emptySources": [],
     "absentFromDigest": [
@@ -19,40 +19,40 @@
       "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 79,
+    "summarized": 24,
     "summaryFailures": 30,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 6,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 435
+        "durationMs": 473
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1157,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 327
+        "durationMs": 225
       },
       {
         "name": "Google AI Blog",
         "weight": 9,
         "itemsInFeed": 20,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 737
+        "durationMs": 445
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 390
+        "durationMs": 437
       },
       {
         "name": "Meta AI",
@@ -60,23 +60,23 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 612
+        "durationMs": 468
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
         "itemsInFeed": 852,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 416
+        "durationMs": 248
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 19,
-        "fetched": 9,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 332
+        "durationMs": 102
       },
       {
         "name": "VentureBeat AI",
@@ -84,15 +84,15 @@
         "itemsInFeed": 7,
         "fetched": 0,
         "ok": true,
-        "durationMs": 713
+        "durationMs": 392
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 4,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 447
+        "durationMs": 270
       },
       {
         "name": "MIT Technology Review AI",
@@ -100,21 +100,21 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 484
+        "durationMs": 291
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 6,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 659
+        "durationMs": 417
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 16,
+        "fetched": 7,
         "ok": true,
         "durationMs": 951
       },
@@ -122,29 +122,77 @@
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 1056
+        "durationMs": 930
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 28,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 1217
+        "durationMs": 419
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 6,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 906
+        "durationMs": 898
       }
     ]
   },
   "articles": [
+    {
+      "id": "d76da847a400",
+      "title": "Nvidia’s AI advantage is moving beyond the GPU",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-08-29T13:00:00.000Z",
+      "description": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+      "category": "ビジネス/資金調達",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
+    {
+      "id": "6568a84d1f40",
+      "title": "Musicians-turned-detectives are hunting for AI grifters",
+      "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-08-29T12:00:00.000Z",
+      "description": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology until increasing public scrutiny for…",
+      "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodi…",
+      "category": "プロダクト",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
+    {
+      "id": "4a54d319f9e2",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-08-29T01:24:13.000Z",
+      "description": "Hacker News で 157 ポイント獲得。",
+      "summary": "Hacker News で 157 ポイント獲得。",
+      "category": "その他",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
     {
       "id": "2b7c66efac46",
       "title": "キオクシア5兆円投資、日米中韓の半導体投資競争はどこへゆく",
@@ -394,8 +442,8 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-08-28T06:33:57.000Z",
-      "description": "Hacker News で 467 ポイント獲得。",
-      "summary": "Hacker News で 467 ポイント獲得。",
+      "description": "Hacker News で 495 ポイント獲得。",
+      "summary": "Hacker News で 495 ポイント獲得。",
       "category": "その他",
       "tags": [],
       "importance": 3,
@@ -474,8 +522,8 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-08-28T03:49:33.000Z",
-      "description": "Hacker News で 208 ポイント獲得。",
-      "summary": "Hacker News で 208 ポイント獲得。",
+      "description": "Hacker News で 212 ポイント獲得。",
+      "summary": "Hacker News で 212 ポイント獲得。",
       "category": "その他",
       "tags": [],
       "importance": 3,
@@ -573,54 +621,6 @@
       "description": "",
       "summary": "The Open ASR Leaderboard Adds Its First Global South Language",
       "category": "開発ツール",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "b0fdd82d623f",
-      "title": "ヒューマノイドを育てるバイト!? タイミーとジールスが現場データ収集で協業",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/28/news061.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-08-27T23:30:00.000Z",
-      "description": "ZEALSとタイミーは、ヒューマノイドなどフィジカルAI学習に必要な現場データを収集する、「データ収集スポットワーク」の創出に向けて共創パートナーシップを締結した。",
-      "summary": "ZEALSとタイミーは、ヒューマノイドなどフィジカルAI学習に必要な現場データを収集する、「データ収集スポットワーク」の創出に向けて共創パートナーシップを締結した。",
-      "category": "その他",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "1098559340e0",
-      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-08-27T23:16:45.000Z",
-      "description": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "category": "ビジネス/資金調達",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "79e622779013",
-      "title": "「情シスはまだ実力の1割しか発揮していない」 AIリストラ時代のキャリアを考える",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/27/news042.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-08-27T23:00:00.000Z",
-      "description": "「クビにはならないが、専門性に合う仕事が消滅する」――。過去の技術転換期に起きたことは、AI時代にも起こり得る。ガートナーの亦賀忠明氏にAI時代にIT部門が果たすべき役割と、個人としてのキャリア構築の在り方を聞いた。",
-      "summary": "「クビにはならないが、専門性に合う仕事が消滅する」――。過去の技術転換期に起きたことは、AI時代にも起こり得る。ガートナーの亦賀忠明氏にAI時代にIT部門が果たすべき役割と、個人としてのキャリア構築の在り方を聞いた。",
-      "category": "その他",
       "tags": [],
       "importance": 3,
       "summaryFailed": true
