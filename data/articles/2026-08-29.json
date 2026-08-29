@@ -1,13 +1,13 @@
 {
   "date": "2026-08-29",
-  "generatedAt": "2026-08-28T21:09:02.657Z",
+  "generatedAt": "2026-08-29T03:36:33.775Z",
   "count": 30,
   "stats": {
-    "fetched": 130,
-    "afterDedupe": 127,
+    "fetched": 81,
+    "afterDedupe": 79,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 3,
+    "removedByTitle": 2,
     "failedSources": [],
     "emptySources": [],
     "absentFromDigest": [
@@ -19,24 +19,24 @@
       "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 127,
+    "summarized": 79,
     "summaryFailures": 30,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 8,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 417
+        "durationMs": 435
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1156,
-        "fetched": 1,
+        "itemsInFeed": 1157,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 263
+        "durationMs": 327
       },
       {
         "name": "Google AI Blog",
@@ -44,15 +44,15 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 485
+        "durationMs": 737
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
         "itemsInFeed": 100,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 288
+        "durationMs": 390
       },
       {
         "name": "Meta AI",
@@ -60,7 +60,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 415
+        "durationMs": 612
       },
       {
         "name": "Hugging Face Blog",
@@ -68,31 +68,31 @@
         "itemsInFeed": 852,
         "fetched": 1,
         "ok": true,
-        "durationMs": 339
+        "durationMs": 416
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 19,
-        "fetched": 14,
+        "fetched": 9,
         "ok": true,
-        "durationMs": 357
+        "durationMs": 332
       },
       {
         "name": "VentureBeat AI",
         "weight": 5,
         "itemsInFeed": 7,
-        "fetched": 2,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 524
+        "durationMs": 713
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 8,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 389
+        "durationMs": 447
       },
       {
         "name": "MIT Technology Review AI",
@@ -100,23 +100,23 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 374
+        "durationMs": 484
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 9,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 455
+        "durationMs": 659
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 15,
+        "fetched": 16,
         "ok": true,
-        "durationMs": 1034
+        "durationMs": 951
       },
       {
         "name": "Publickey",
@@ -124,27 +124,43 @@
         "itemsInFeed": 15,
         "fetched": 1,
         "ok": true,
-        "durationMs": 1030
+        "durationMs": 1056
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 60,
+        "fetched": 28,
         "ok": true,
-        "durationMs": 506
+        "durationMs": 1217
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 8,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 697
+        "durationMs": 906
       }
     ]
   },
   "articles": [
+    {
+      "id": "2b7c66efac46",
+      "title": "キオクシア5兆円投資、日米中韓の半導体投資競争はどこへゆく",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/29/news012.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-08-28T22:00:00.000Z",
+      "description": "2026年8月24日～28日に公開された記事の中から、MONOist編集部が厳選した今週のニュースをお届けします。",
+      "summary": "2026年8月24日～28日に公開された記事の中から、MONOist編集部が厳選した今週のニュースをお届けします。",
+      "category": "その他",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
     {
       "id": "3798eb0d2cff",
       "title": "Neocloud Lambda secures $1B in debt to buy more chips",
@@ -378,8 +394,8 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-08-28T06:33:57.000Z",
-      "description": "Hacker News で 367 ポイント獲得。",
-      "summary": "Hacker News で 367 ポイント獲得。",
+      "description": "Hacker News で 467 ポイント獲得。",
+      "summary": "Hacker News で 467 ポイント獲得。",
       "category": "その他",
       "tags": [],
       "importance": 3,
@@ -397,6 +413,22 @@
       "description": "Pollen Roboticsは、二足歩行ロボット「Microduck」を発表し予約受付を開始した。399ドルで25cmの小型設計。強化学習による動作学習に特化し、SDKやシミュレーターをOSSとして公開する。大型機と異なり家庭や教室で安全に試行錯誤できる「行動するAIのためのプラットフォーム」を目指す。",
       "summary": "Pollen Roboticsは、二足歩行ロボット「Microduck」を発表し予約受付を開始した。399ドルで25cmの小型設計。強化学習による動作学習に特化し、SDKやシミュレーターをOSSとして公開する。大型機と異なり家庭や教室で安全に試行錯誤できる「行動するAIのためのプラットフォーム」を目指す。",
       "category": "その他",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
+    {
+      "id": "f0dea2b9790e",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-08-28T06:00:00.000Z",
+      "description": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "category": "モデル/研究",
       "tags": [],
       "importance": 3,
       "summaryFailed": true
@@ -442,8 +474,8 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-08-28T03:49:33.000Z",
-      "description": "Hacker News で 204 ポイント獲得。",
-      "summary": "Hacker News で 204 ポイント獲得。",
+      "description": "Hacker News で 208 ポイント獲得。",
+      "summary": "Hacker News で 208 ポイント獲得。",
       "category": "その他",
       "tags": [],
       "importance": 3,
@@ -522,8 +554,8 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-08-28T00:06:51.000Z",
-      "description": "Hacker News で 110 ポイント獲得。",
-      "summary": "Hacker News で 110 ポイント獲得。",
+      "description": "Hacker News で 113 ポイント獲得。",
+      "summary": "Hacker News で 113 ポイント獲得。",
       "category": "その他",
       "tags": [],
       "importance": 3,
@@ -588,38 +620,6 @@
       "publishedAt": "2026-08-27T23:00:00.000Z",
       "description": "「クビにはならないが、専門性に合う仕事が消滅する」――。過去の技術転換期に起きたことは、AI時代にも起こり得る。ガートナーの亦賀忠明氏にAI時代にIT部門が果たすべき役割と、個人としてのキャリア構築の在り方を聞いた。",
       "summary": "「クビにはならないが、専門性に合う仕事が消滅する」――。過去の技術転換期に起きたことは、AI時代にも起こり得る。ガートナーの亦賀忠明氏にAI時代にIT部門が果たすべき役割と、個人としてのキャリア構築の在り方を聞いた。",
-      "category": "その他",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "458ff8a1be66",
-      "title": "とにかく足りない上級IT人材 需給ギャップの背景を2つの調査から読み解く",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/28/news045.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-08-27T23:00:00.000Z",
-      "description": "上級IT人材を確保できない企業は多く、人材育成の壁もまた高い――ITRとガートナーの2つの調査からIT人材不足の全体像に迫る。",
-      "summary": "上級IT人材を確保できない企業は多く、人材育成の壁もまた高い――ITRとガートナーの2つの調査からIT人材不足の全体像に迫る。",
-      "category": "その他",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "b3e6b34f6ec2",
-      "title": "「全従業員がAIを使っているか」はもう成功の物差しじゃない AI投資、どう評価すべきか？",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/28/news029.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-08-27T23:00:00.000Z",
-      "description": "従来のITと異なり、AIは使えば使うほどコストが増えます。それでも活用の指標として利用者数や利用率を重視する企業はまだ多くあります。拡大を続けるAI投資の成果を、企業は何によって判断すればよいのでしょうか。新しい投資評価の視点を考察します。",
-      "summary": "従来のITと異なり、AIは使えば使うほどコストが増えます。それでも活用の指標として利用者数や利用率を重視する企業はまだ多くあります。拡大を続けるAI投資の成果を、企業は何によって判断すればよいのでしょうか。新しい投資評価の視点を考察します。",
       "category": "その他",
       "tags": [],
       "importance": 3,
