@@ -1,10 +1,10 @@
 {
   "date": "2026-08-30",
-  "generatedAt": "2026-08-30T03:40:01.567Z",
+  "generatedAt": "2026-08-30T03:44:11.604Z",
   "count": 21,
   "stats": {
-    "fetched": 19,
-    "afterDedupe": 18,
+    "fetched": 17,
+    "afterDedupe": 16,
     "published": 21,
     "removedByUrl": 0,
     "removedByTitle": 1,
@@ -21,16 +21,16 @@
       "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 18,
+    "summarized": 16,
     "summaryFailures": 21,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 3,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 479
+        "durationMs": 358
       },
       {
         "name": "OpenAI Blog",
@@ -38,7 +38,7 @@
         "itemsInFeed": 1157,
         "fetched": 0,
         "ok": true,
-        "durationMs": 362
+        "durationMs": 211
       },
       {
         "name": "Google AI Blog",
@@ -46,7 +46,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 723
+        "durationMs": 387
       },
       {
         "name": "Google DeepMind",
@@ -54,7 +54,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 499
+        "durationMs": 256
       },
       {
         "name": "Meta AI",
@@ -62,7 +62,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 534
+        "durationMs": 485
       },
       {
         "name": "Hugging Face Blog",
@@ -70,7 +70,7 @@
         "itemsInFeed": 852,
         "fetched": 0,
         "ok": true,
-        "durationMs": 444
+        "durationMs": 247
       },
       {
         "name": "TechCrunch AI",
@@ -78,7 +78,7 @@
         "itemsInFeed": 19,
         "fetched": 6,
         "ok": true,
-        "durationMs": 367
+        "durationMs": 81
       },
       {
         "name": "VentureBeat AI",
@@ -86,7 +86,7 @@
         "itemsInFeed": 7,
         "fetched": 0,
         "ok": true,
-        "durationMs": 743
+        "durationMs": 368
       },
       {
         "name": "The Verge AI",
@@ -94,7 +94,7 @@
         "itemsInFeed": 10,
         "fetched": 3,
         "ok": true,
-        "durationMs": 476
+        "durationMs": 264
       },
       {
         "name": "MIT Technology Review AI",
@@ -102,15 +102,15 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 523
+        "durationMs": 277
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 666
+        "durationMs": 388
       },
       {
         "name": "ITmedia AI+",
@@ -118,7 +118,7 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 985
+        "durationMs": 846
       },
       {
         "name": "Publickey",
@@ -126,7 +126,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 1060
+        "durationMs": 890
       },
       {
         "name": "arXiv cs.AI",
@@ -134,7 +134,7 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 888
+        "durationMs": 349
       },
       {
         "name": "Hacker News",
@@ -142,7 +142,7 @@
         "itemsInFeed": 100,
         "fetched": 3,
         "ok": true,
-        "durationMs": 1112
+        "durationMs": 587
       }
     ]
   },
@@ -236,8 +236,8 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-08-29T17:19:47.000Z",
-      "description": "Hacker News で 283 ポイント獲得。",
-      "summary": "Hacker News で 283 ポイント獲得。",
+      "description": "Hacker News で 287 ポイント獲得。",
+      "summary": "Hacker News で 287 ポイント獲得。",
       "category": "その他",
       "tags": [],
       "importance": 3,
