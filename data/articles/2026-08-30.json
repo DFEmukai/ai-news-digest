@@ -1,10 +1,10 @@
 {
   "date": "2026-08-30",
-  "generatedAt": "2026-08-30T05:41:16.682Z",
+  "generatedAt": "2026-08-30T05:46:26.712Z",
   "count": 21,
   "stats": {
-    "fetched": 15,
-    "afterDedupe": 15,
+    "fetched": 14,
+    "afterDedupe": 14,
     "published": 21,
     "removedByUrl": 0,
     "removedByTitle": 0,
@@ -21,16 +21,16 @@
       "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 15,
+    "summarized": 14,
     "summaryFailures": 4,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 377
+        "durationMs": 355
       },
       {
         "name": "OpenAI Blog",
@@ -38,7 +38,7 @@
         "itemsInFeed": 1157,
         "fetched": 0,
         "ok": true,
-        "durationMs": 258
+        "durationMs": 202
       },
       {
         "name": "Google AI Blog",
@@ -46,7 +46,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 707
+        "durationMs": 599
       },
       {
         "name": "Google DeepMind",
@@ -54,7 +54,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 375
+        "durationMs": 412
       },
       {
         "name": "Meta AI",
@@ -62,7 +62,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 390
+        "durationMs": 538
       },
       {
         "name": "Hugging Face Blog",
@@ -70,7 +70,7 @@
         "itemsInFeed": 852,
         "fetched": 0,
         "ok": true,
-        "durationMs": 326
+        "durationMs": 317
       },
       {
         "name": "TechCrunch AI",
@@ -78,7 +78,7 @@
         "itemsInFeed": 19,
         "fetched": 6,
         "ok": true,
-        "durationMs": 432
+        "durationMs": 219
       },
       {
         "name": "VentureBeat AI",
@@ -86,7 +86,7 @@
         "itemsInFeed": 7,
         "fetched": 0,
         "ok": true,
-        "durationMs": 768
+        "durationMs": 666
       },
       {
         "name": "The Verge AI",
@@ -94,7 +94,7 @@
         "itemsInFeed": 10,
         "fetched": 2,
         "ok": true,
-        "durationMs": 343
+        "durationMs": 235
       },
       {
         "name": "MIT Technology Review AI",
@@ -102,7 +102,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 496
+        "durationMs": 342
       },
       {
         "name": "Ars Technica",
@@ -110,7 +110,7 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 792
+        "durationMs": 434
       },
       {
         "name": "ITmedia AI+",
@@ -118,7 +118,7 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 1779
+        "durationMs": 951
       },
       {
         "name": "Publickey",
@@ -126,7 +126,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 806
+        "durationMs": 948
       },
       {
         "name": "arXiv cs.AI",
@@ -134,7 +134,7 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 807
+        "durationMs": 580
       },
       {
         "name": "Hacker News",
@@ -142,30 +142,11 @@
         "itemsInFeed": 100,
         "fetched": 3,
         "ok": true,
-        "durationMs": 935
+        "durationMs": 875
       }
     ]
   },
   "articles": [
-    {
-      "id": "2b7c66efac46",
-      "title": "キオクシア5兆円投資、日米中韓の半導体投資競争はどこへゆく",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/29/news012.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-08-28T22:00:00.000Z",
-      "description": "2026年8月24日～28日に公開された記事の中から、MONOist編集部が厳選した今週のニュースをお届けします。",
-      "summary": "キオクシアが5兆円の大規模投資を発表し、半導体産業における日米中韓の投資競争が加速しています。各国の戦略的な投資動向が業界全体に大きな影響を与えています。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "半導体",
-        "投資",
-        "キオクシア"
-      ],
-      "importance": 5
-    },
     {
       "id": "0312240c5074",
       "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
@@ -176,12 +157,12 @@
       "lang": "en",
       "publishedAt": "2026-08-29T18:41:59.000Z",
       "description": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "summary": "ソニー・ミュージックとワーナーがAnthropicを訴訟。大規模な著作権侵害と違法な海賊行為の疑いを指摘している。",
+      "summary": "ソニー・ミュージックとワーナーがAnthropicに対し、知的財産の組織的盗用という広範な訴訟を提起した。違法な海賊行為の疑いを主張している。",
       "category": "規制/政策",
       "tags": [
         "著作権",
-        "訴訟",
-        "Anthropic"
+        "Anthropic",
+        "海賊行為"
       ],
       "importance": 4
     },
@@ -195,12 +176,31 @@
       "lang": "en",
       "publishedAt": "2026-08-29T18:19:53.000Z",
       "description": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, the damages could amount to several billion dollars if a court …",
-      "summary": "Sony MusicとWarner Chappellがanthropicを相手取り訴訟を起こし、数万件の著作権侵害に対して数十億ドルの損害賠償を請求しています。AI企業における著作権問題が深刻化しています。",
+      "summary": "ソニー・ミュージックとワーナー・チャペルがAnthropicを訴訟。数万件の著作権作品の無断使用で最大数十億ドルの損害賠償を求めている。",
       "category": "規制/政策",
       "tags": [
-        "著作権訴訟",
+        "著作権侵害",
         "Anthropic",
-        "音楽業界"
+        "訴訟"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2b7c66efac46",
+      "title": "キオクシア5兆円投資、日米中韓の半導体投資競争はどこへゆく",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2608/29/news012.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-08-28T22:00:00.000Z",
+      "description": "2026年8月24日～28日に公開された記事の中から、MONOist編集部が厳選した今週のニュースをお届けします。",
+      "summary": "キオクシアが大規模な投資を発表し、日米中韓における半導体産業への投資競争が加速している。各国の戦略的な投資動向について考察されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "キオクシア",
+        "半導体",
+        "投資"
       ],
       "importance": 4
     },
@@ -214,12 +214,31 @@
       "lang": "en",
       "publishedAt": "2026-08-28T19:30:38.000Z",
       "description": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-      "summary": "Anthropicの研究者が、自己改善型AIの仕組みを公開しました。自動化されたシステムが複数の不具合を改善できることが実証されています。",
-      "category": "その他",
+      "summary": "Anthropicの研究者が自己改善型AIの概念を発表した。自動化システムが整列の問題を改善しながら全体的なパフォーマンスを維持できることを示した。",
+      "category": "モデル/研究",
       "tags": [
+        "Anthropic",
         "自己改善",
-        "AI",
-        "Anthropic"
+        "AI安全性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "61518ccf95d9",
+      "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-08-28T18:07:55.000Z",
+      "description": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
+      "summary": "米国の連邦判事がトランプ前大統領によるAnthropicの不当な排除を違法と判断しました。Anthropicは自律型致死兵器と大量監視の支援を拒否していました。",
+      "category": "規制/政策",
+      "tags": [
+        "Anthropic",
+        "政治介入",
+        "違法判決"
       ],
       "importance": 4
     },
@@ -271,7 +290,7 @@
       "lang": "ja",
       "publishedAt": "2026-08-29T23:12:23.000Z",
       "description": "OpenAIは、AIコードエディタ「Cursor」へのモデル提供契約を11月12日に終了すると発表した。SpaceXによるCursor買収を受け、イーロン・マスク氏の過去の契約違反実績から規約順守を確信できないことを理由に挙げている。Cursor側は影響が限定的としつつ協議継続を表明、Anthropicは支援継続を示した。",
-      "summary": "OpenAIはSpaceXによるCursor買収を理由に、11月12日をもってCursorへのモデル提供を終了すると発表しました。イーロン・マスク氏の過去の契約問題を懸念しており、Anthropicはサポート継続の意思を示しています。",
+      "summary": "OpenAIはAIコードエディタCursorへのモデル提供を11月に終了する。SpaceX買収に伴い、イーロン・マスク氏の契約遵守に懸念を示している。Anthropicは支援継続を示唆している。",
       "category": "ビジネス/資金調達",
       "tags": [
         "OpenAI",
@@ -290,12 +309,31 @@
       "lang": "en",
       "publishedAt": "2026-08-29T17:36:47.000Z",
       "description": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
-      "summary": "a16zのバイオテック部門から独立したVijay Pandeが、AIネイティブなVZVCを設立し、生物学研究のエンジニアリング化とAIの医療応用について述べています。オープンなデータセットの重要性を強調しています。",
+      "summary": "a16zのバイオテック部門を離れたVijay Pandeが、AI駆動のVZVCを立ち上げた。生物学が発見科学から工学へシフトし、AIがオープンデータセットで医療を変革する可能性を述べている。",
       "category": "ビジネス/資金調達",
       "tags": [
+        "Vijay Pande",
         "バイオテック",
-        "AI医療",
-        "VZVCファンド"
+        "AI医療"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "74d536131926",
+      "title": "Debian votes to allow \"responsible use of generative AI\"",
+      "url": "https://lwn.net/Articles/1091231/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-08-29T14:02:10.000Z",
+      "description": "Hacker News で 476 ポイント獲得。",
+      "summary": "Debianプロジェクトが生成AIの責任ある利用を許可する決議を採択しました。オープンソースコミュニティにおけるAI活用の方針転換を示しています。",
+      "category": "規制/政策",
+      "tags": [
+        "Debian",
+        "ポリシー",
+        "オープンソース"
       ],
       "importance": 3
     },
@@ -309,12 +347,12 @@
       "lang": "en",
       "publishedAt": "2026-08-29T13:00:00.000Z",
       "description": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-      "summary": "Nvidiaの競争優位性がGPUを超えて拡大しています。新世代のデータセンターシステムは処理能力の向上に加え、効率的なトラフィック制御を実現しています。",
+      "summary": "Nvidiaの競争優位がGPUを超えて拡大している。次世代データセンターシステムが効率性向上のため、処理能力だけでなく高度なトラフィック制御を採用している。",
       "category": "プロダクト",
       "tags": [
         "Nvidia",
         "データセンター",
-        "AI効率化"
+        "AI基盤"
       ],
       "importance": 3
     },
@@ -328,12 +366,12 @@
       "lang": "en",
       "publishedAt": "2026-08-29T12:00:00.000Z",
       "description": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology until increasing public scrutiny for…",
-      "summary": "音楽家たちがAI生成音楽の不正利用を追跡する活動を展開しています。生成AIツールの発展に伴い、著作権問題への対応が重要な課題となっています。",
+      "summary": "音楽業界の専門家たちがAI生成音楽の不正利用者を調査している。アルゴリズムで生成された楽曲が人間のアーティストの作品から派生している実態が増加している。",
       "category": "規制/政策",
       "tags": [
+        "AI音楽",
         "著作権",
-        "AI生成音楽",
-        "知的財産"
+        "不正利用"
       ],
       "importance": 3
     },
@@ -347,12 +385,12 @@
       "lang": "en",
       "publishedAt": "2026-08-28T20:24:11.000Z",
       "description": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-      "summary": "Neocloud Lambdaが10億ドルの債務調達を実施し、NvidiaのAIチップを購入してMicrosoftにリースしています。AI産業における高額な投資競争が続いています。",
+      "summary": "Neocloud Lambdaが10億ドルの債務調達を実施し、NvidiaのAIチップを購入してMicrosoftにリースする。AI業界の高い設備投資コストを反映している。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "資金調達",
-        "AI チップ",
-        "Nvidia"
+        "Neocloud Lambda",
+        "AI投資",
+        "GPU"
       ],
       "importance": 3
     },
@@ -366,31 +404,12 @@
       "lang": "en",
       "publishedAt": "2026-08-28T18:19:40.000Z",
       "description": "There's a lot of capital pouring into the business of giving models away.",
-      "summary": "オープンウェイトのAI企業がシリコンバレーにおいて買収対象として注目を集めています。このセクターへの資本流入が活発化しています。",
+      "summary": "オープンウェイトのAIモデルを提供する企業が、シリコンバレーで最も注目される買収対象となっている。この分野への資本流入が増加している。",
       "category": "ビジネス/資金調達",
       "tags": [
         "オープンウェイト",
-        "買収",
+        "M&A",
         "AI企業"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "61518ccf95d9",
-      "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
-      "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-08-28T18:07:55.000Z",
-      "description": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
-      "summary": "トランプ政権によるAnthropicへの取引禁止措置が違法と判断された。同社の自律兵器と大量監視への非協力が背景。",
-      "category": "規制/政策",
-      "tags": [
-        "政治",
-        "規制",
-        "Anthropic"
       ],
       "importance": 3
     },
@@ -478,25 +497,6 @@
       "summaryFailed": true
     },
     {
-      "id": "74d536131926",
-      "title": "Debian votes to allow \"responsible use of generative AI\"",
-      "url": "https://lwn.net/Articles/1091231/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-08-29T14:02:10.000Z",
-      "description": "Hacker News で 476 ポイント獲得。",
-      "summary": "Debianプロジェクトが生成AIの責任ある利用を認める方針を採択。コミュニティでの活発な議論を経て投票が実施された。",
-      "category": "規制/政策",
-      "tags": [
-        "Debian",
-        "生成AI",
-        "ガイドライン"
-      ],
-      "importance": 2
-    },
-    {
       "id": "4a54d319f9e2",
       "title": "StemDeck, a free, open-source and local AI stem separator",
       "url": "https://github.com/stemdeckapp/stemdeck",
@@ -506,12 +506,12 @@
       "lang": "en",
       "publishedAt": "2026-08-29T01:24:13.000Z",
       "description": "Hacker News で 215 ポイント獲得。",
-      "summary": "StemDeckというオープンソースで無料のAIステムセパレータが公開された。ローカル環境での動作に対応している。",
+      "summary": "StemDeckというオープンソースで無料のAI音声分離ツールが公開されました。ローカル環境で動作し、Hacker Newsで高い評価を獲得しています。",
       "category": "開発ツール",
       "tags": [
         "オープンソース",
         "音声処理",
-        "AI"
+        "無料ツール"
       ],
       "importance": 2
     },
@@ -525,12 +525,12 @@
       "lang": "en",
       "publishedAt": "2026-08-29T17:19:47.000Z",
       "description": "Hacker News で 321 ポイント獲得。",
-      "summary": "優れた企業文化がAIよりも生産性向上の重要な要因だという主張。技術以上に人的環境の重要性を指摘している。",
+      "summary": "優れた企業文化こそが生産性向上の最重要要因であり、AIではないという主張の記事です。Hacker Newsで多くの注目を集めています。",
       "category": "その他",
       "tags": [
-        "生産性",
         "企業文化",
-        "AI"
+        "生産性",
+        "AI考察"
       ],
       "importance": 1
     }
