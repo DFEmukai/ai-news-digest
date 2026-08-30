@@ -57,17 +57,39 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): $(TZ=Asia/Tokyo date +'%Y-%m-%d %H:%M') JST のダイジェストを更新"
-          # 実行中に人間が push していると non-fast-forward で落ちるので、リベースして数回試す。
+          # 実行中に他の実行や人間が push していると non-fast-forward で落ちるので、
+          # リベースして数回試す。
           for attempt in 1 2 3; do
             if git push; then
               echo "changed=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             echo "push 失敗（$attempt/3）。rebase して再試行する。"
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}"; then
+              continue
+            fi
+            # rebase が競合したまま先に進むと、未マージのファイル（衝突マーカー入りのJSON）を
+            # 抱えた作業ツリーで次の Build が走り、壊れたサイトを公開してしまう。
+            # 実際に 2026-08-30 のトップページが「まだダイジェストがありません」で公開された。
+            # 収集し直せば復元できるデータなので、競合したら諦めてリモートの状態に戻す。
+            echo "::warning::rebase が競合した。作業ツリーをリモートの状態に戻す（今回の収集分は破棄）。"
+            git rebase --abort || true
+            git reset --hard "origin/${GITHUB_REF_NAME}"
+            break
           done
-          echo "::warning::data/ の push に3回失敗した。デプロイは続行する。"
+          echo "::warning::data/ の push に失敗した。デプロイは続行する。"
           echo "changed=false" >> "$GITHUB_OUTPUT"
+
+      # 壊れた作業ツリーからサイトを公開しないための門。
+      # data/*.json を全件パースするので、衝突マーカー入りや破損したJSONがあればここで落ちる。
+      - name: Validate data before build
+        run: |
+          if [ -n "$(git ls-files --unmerged)" ]; then
+            echo "::error::作業ツリーに未マージのファイルが残っている。ビルドを中止する。"
+            git ls-files --unmerged
+            exit 1
+          fi
+          npm run repair
 
       - name: Build site
         env:
