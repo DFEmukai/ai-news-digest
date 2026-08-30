@@ -82,6 +82,20 @@ export interface DigestFile {
     sources: SourceStat[];
   };
   articles: Article[];
+  /**
+   * 事後に補修した記録（scripts/repair-data.ts）。
+   * 掲載件数が当日の実行結果と食い違う理由を、git 履歴ではなくデータ自体に残す。
+   */
+  repairs?: {
+    at: string;
+    reason: 'broken-title' | 'duplicate-id';
+    removed: number;
+    before: number;
+    after: number;
+    /** 補修前の stats の値（補修で上書きするため、元の記録をここに退避する） */
+    originalPublished: number;
+    originalSummaryFailures: number;
+  }[];
 }
 
 export interface IndexEntry {

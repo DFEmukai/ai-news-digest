@@ -609,5 +609,16 @@
       "importance": 3,
       "summaryFailed": true
     }
+  ],
+  "repairs": [
+    {
+      "at": "2026-08-30T04:52:00.000Z",
+      "reason": "broken-title",
+      "removed": 1,
+      "before": 30,
+      "after": 29,
+      "originalPublished": 30,
+      "originalSummaryFailures": 30
+    }
   ]
 }

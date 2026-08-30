@@ -80,7 +80,7 @@ npm run build
 | `npm run dev` | Next.js 開発サーバー |
 | `npm run build` | 静的書き出し（`out/`） |
 | `npm run typecheck` | `tsc --noEmit` |
-| `npm run repair` | 既存の日次JSONを現在の収集基準で検証し直す（`-- --write` で実際に修正） |
+| `npm run repair` | 既存の日次JSONの整合を検査する（`-- --write` で実際に修正）。詳細は §5.4 |
 
 ---
 
@@ -180,10 +180,7 @@ grep -c '<item>\|<entry' /tmp/feed.xml
   `title="- Anthropic"` / `description="Anthropic"` というアイテムを配信しているのを確認した
   （見出し部分が空で媒体名だけ残った形）。区切り文字で始まるタイトルは
   `isUsableTitle()` で除外し、スキップした事実をログに出す。
-  **収集側の判定を変えたときは `npm run repair -- --write` を1回流すこと。**
-  `build-data.ts` は当日分のファイルしか書かないため、過去日に混入した不正データは
-  放置すると二度と検証されない（実際、除外の修正を入れたあとも 2026-08-29 の
-  ダイジェストには `- Anthropic` が残ったまま公開されていた）。
+  **収集側の判定を変えたときは `npm run repair` を流すこと（§5.4）。**
 - **土日は収集件数が大きく落ちる。** 実測（2026年8月）: 金 131件 → 土 25件 → 日 22件。
   arXiv は週末に新着が無く、企業ブログもほぼ更新されないため。障害ではない。
   障害と区別するには `stats.sources[].itemsInFeed`（フィード側の総件数）を見ること。
@@ -275,6 +272,52 @@ HTTP 200 で中身が空のフィードは「成功・0 件」になるため、
 - `stats.absentFromDigest` — 最終的な掲載 30 件に 1 件も載らなかったソース
 
 **同じソースがこれらに数日連続で出てきたら、URL の陳腐化を疑って `config/sources.json` を見直す。**
+
+### 5.4 過去日データの補修（`npm run repair`）
+
+`build-data.ts` は**当日分のファイルしか書かない**。そのため収集側の判定を直しても、
+過去日のファイルに混入した不正データは二度と検証されず残り続ける。
+実際、見出し欠落アイテムの除外を入れたあとも 2026-08-29 のダイジェストには
+`- Anthropic` が残り、公開サイトの `/d/2026-08-29/` に見出しとして描画されていた。
+
+```bash
+npm run repair              # 検出のみ（何も書かない）
+npm run repair -- --write   # 実際に修正する
+```
+
+検査するのは**保存済みデータだけで判定できる不変条件**に限る。
+
+1. title が空、または区切り文字で始まる（見出しが欠落した記事）
+2. 同一ファイル内での `id` の重複
+3. `count` / `stats.published` と `articles` の実件数のずれ
+4. `index.json` と `data/articles/` のファイル集合・件数のずれ
+
+**「不変条件1〜4はすべて満たしている」は「現在の収集基準を満たしている」という意味ではない。**
+`isUsableTitle()` は整形前の生タイトルを見て判定するが、`cleanTitle()` が先頭の区切り文字を
+落としてから保存するため、保存済みの title には判定材料が残っていない。
+条件1が拾えるのは、先頭区切り除去を入れる前（コミット `6cab4f4` 以前）の古いデータだけである。
+
+修正すると、その理由をファイル直下の `repairs` に残す。
+
+```jsonc
+"repairs": [
+  { "at": "…", "reason": "broken-title", "removed": 1,
+    "before": 30, "after": 29,
+    "originalPublished": 30, "originalSummaryFailures": 30 }
+]
+```
+
+理由を git のコミットメッセージにしか残さないと、データだけを見た人が
+「この日はネタが少なかった」と誤読する。`stats` は補修で上書きされるので、
+補修前の値は `originalPublished` / `originalSummaryFailures` に退避している。
+
+**`index.json` に実体の無い日付が残っていると `next build` が落ちる**
+（`generateStaticParams()` が index 由来なので、存在しない日付のページを作ろうとする）。
+そのため `--write` では index を `data/articles/` の実体から作り直す。
+
+**なぜ毎回の収集で全ファイルを検証しないか**: 過去日の JSON を毎日書き直すと
+git 履歴が肥大化する（§7 の gh-pages と同じ問題を `data/` 側に持ち込む）。
+検出は明示的に流す運用にしている。
 
 ---
 
@@ -562,7 +605,8 @@ GitHub Pages を無料で使うには public が前提。public にすると
 │   ├── fetch.ts                  収集（RSS / arXiv / HN）
 │   ├── dedupe.ts                 重複除去（URL正規化 + Jaro-Winkler）
 │   ├── summarize.ts              Claude での要約
-│   └── build-data.ts             上記をつないで JSON 出力
+│   ├── build-data.ts             上記をつないで JSON 出力
+│   └── repair-data.ts            過去日データの整合検査・補修（§5.4）
 ├── src/
 │   ├── app/                      Next.js App Router
 │   ├── components/               UI コンポーネント（Eyecatch.tsx がアイキャッチ）

@@ -1,89 +1,209 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { isUsableTitle } from './fetch.ts';
-import type { DigestFile, IndexFile } from './types.ts';
+import type { Article, DigestFile, IndexEntry, IndexFile } from './types.ts';
 
 /**
- * 既存の日次JSONを、いまの収集基準で検証し直す。
+ * 既存の日次JSONに残った不正データを取り除き、件数の整合を取り直す。
  *
- * `build-data.ts` は当日分のファイルしか書かない。そのため収集側の判定を直しても、
- * 過去日のファイルに混入した不正データは二度と検証されず残り続ける。
+ * なぜ要るか: `build-data.ts` は当日分のファイルしか書かない。そのため収集側の判定を
+ * 直しても、過去日のファイルに混入した不正データは二度と検証されず残り続ける。
  * 実際、見出しが欠落した記事（title="- Anthropic"）を除外する修正を入れたあとも、
  * 2026-08-29 のダイジェストには残ったまま公開されていた。
  *
- * 収集側の判定を変えたときに、この補修を1回流す運用にする。
- *
  *   npx tsx scripts/repair-data.ts            # 検出のみ（書き込まない）
  *   npx tsx scripts/repair-data.ts --write    # 実際に修正する
+ *
+ * ## このスクリプトが検査できること・できないこと
+ *
+ * 検査するのは「保存済みデータだけで判定できる不変条件」に限る。
+ *
+ *   1. title が空、または区切り文字で始まる（= 見出しが欠落した記事）
+ *   2. 同一ファイル内での id の重複
+ *   3. count / stats.published と articles の実件数のずれ
+ *   4. index.json と data/articles/ のファイル集合・件数のずれ
+ *
+ * **収集側（fetch.ts）の判定をそのまま再現することはできない。**
+ * `isUsableTitle` は「整形前の生タイトル」を見て判定するが、`cleanTitle` が先頭の
+ * 区切り文字を落としてから保存するため、保存済みの title には判定材料が残っていない。
+ * したがって条件1が拾えるのは、先頭区切り除去を入れる前（コミット 6cab4f4 以前）に
+ * 書かれた古いデータだけである。
+ *
+ * 「除去対象なし」は **1〜4 を満たしている**という意味であって、
+ * 「現在の収集基準を満たしている」という意味ではない。
  */
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const ARTICLES_DIR = path.join(DATA_DIR, 'articles');
 
+const SEPARATOR_START = /^\s*[-–—|·•]/u;
+
+/** 保存済みの title だけで判定できる「見出しとして成立していない」条件。 */
+function isBrokenStoredTitle(title: string): boolean {
+  return title.trim().length === 0 || SEPARATOR_START.test(title);
+}
+
+interface FileReport {
+  file: string;
+  date: string;
+  digest: DigestFile;
+  kept: Article[];
+  removedTitles: string[];
+  duplicateIds: string[];
+  countMismatch: boolean;
+}
+
+async function inspect(file: string): Promise<FileReport> {
+  const digest = JSON.parse(await readFile(path.join(ARTICLES_DIR, file), 'utf8')) as DigestFile;
+  const articles = digest.articles ?? [];
+
+  const removedTitles: string[] = [];
+  const seen = new Set<string>();
+  const duplicateIds: string[] = [];
+  const kept: Article[] = [];
+
+  for (const article of articles) {
+    if (isBrokenStoredTitle(article.title)) {
+      removedTitles.push(article.title);
+      continue;
+    }
+    if (seen.has(article.id)) {
+      duplicateIds.push(article.id);
+      continue;
+    }
+    seen.add(article.id);
+    kept.push(article);
+  }
+
+  return {
+    file,
+    date: digest.date ?? file.replace('.json', ''),
+    digest,
+    kept,
+    removedTitles,
+    duplicateIds,
+    countMismatch: digest.count !== articles.length || digest.stats?.published !== articles.length,
+  };
+}
+
+/** index.json を data/articles/ の実体から作り直す（build-data.ts の rebuildIndex と同じ方針）。 */
+function buildIndexFrom(reports: FileReport[], previous: IndexFile): IndexFile {
+  const dates: IndexEntry[] = reports
+    .map((r) => ({
+      date: r.date,
+      count: r.kept.length,
+      generatedAt: r.digest.generatedAt ?? '',
+    }))
+    .sort((a, b) => b.date.localeCompare(a.date));
+  return { updatedAt: new Date().toISOString(), lastAttemptedAt: previous.lastAttemptedAt, dates };
+}
+
 async function main(): Promise<void> {
   const write = process.argv.slice(2).includes('--write');
+
   const files = (await readdir(ARTICLES_DIR))
     .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
     .sort();
 
-  let totalRemoved = 0;
-  let changedFiles = 0;
+  // 途中で失敗して一部だけ書き換わるのを避けるため、全件読んで検証してから書き出す
+  const reports: FileReport[] = [];
+  for (const file of files) reports.push(await inspect(file));
 
-  for (const file of files) {
-    const filePath = path.join(ARTICLES_DIR, file);
-    const digest = JSON.parse(await readFile(filePath, 'utf8')) as DigestFile;
-    const before = digest.articles ?? [];
-
-    const kept = before.filter((article) => {
-      if (isUsableTitle(article.title, article.title)) return true;
-      console.log(`[repair] ${file}: 除去 ${JSON.stringify(article.title)} (${article.source})`);
-      return false;
-    });
-
-    const removed = before.length - kept.length;
-    if (removed === 0) continue;
-
-    totalRemoved += removed;
-    changedFiles++;
-
-    if (!write) continue;
-
-    digest.articles = kept;
-    digest.count = kept.length;
-    if (digest.stats) {
-      digest.stats.published = kept.length;
-      digest.stats.summaryFailures = kept.filter((a) => a.summaryFailed).length;
-    }
-    await writeFile(filePath, `${JSON.stringify(digest, null, 2)}\n`, 'utf8');
-    console.log(`[repair] ${file}: ${before.length}件 → ${kept.length}件 で書き直した`);
+  let indexPrev: IndexFile = { updatedAt: '', dates: [] };
+  try {
+    indexPrev = JSON.parse(await readFile(path.join(DATA_DIR, 'index.json'), 'utf8')) as IndexFile;
+  } catch {
+    console.warn('[repair] index.json を読めなかった。実体から作り直す。');
   }
 
-  if (totalRemoved === 0) {
-    console.log('[repair] 除去対象なし。全ファイルが現在の基準を満たしている。');
+  const nextIndex = buildIndexFrom(reports, indexPrev);
+  const indexDates = new Set(indexPrev.dates.map((d) => d.date));
+  const fileDates = new Set(reports.map((r) => r.date));
+  const dangling = [...indexDates].filter((d) => !fileDates.has(d));
+  const missingInIndex = [...fileDates].filter((d) => !indexDates.has(d));
+  const countDrift = indexPrev.dates.filter((e) => {
+    const r = reports.find((x) => x.date === e.date);
+    return r && e.count !== r.kept.length;
+  });
+
+  for (const r of reports) {
+    for (const title of r.removedTitles) {
+      console.log(`[repair] ${r.file}: 見出し欠落を除去 ${JSON.stringify(title)}`);
+    }
+    for (const id of r.duplicateIds) {
+      console.log(`[repair] ${r.file}: id 重複を除去 ${id}`);
+    }
+    if (r.countMismatch) {
+      console.log(
+        `[repair] ${r.file}: 件数のずれ count=${r.digest.count} published=${r.digest.stats?.published} 実体=${(r.digest.articles ?? []).length}`,
+      );
+    }
+  }
+  // index.json の不整合は、記事の除去が0件でも起こりうるので独立に報告する
+  if (dangling.length > 0) {
+    // 残すと generateStaticParams が実体の無い日付のページを作ろうとして next build が落ちる
+    console.log(`[repair] index.json: 実体の無い日付 ${dangling.join(', ')}`);
+  }
+  if (missingInIndex.length > 0) {
+    console.log(`[repair] index.json: 未登録の日付 ${missingInIndex.join(', ')}`);
+  }
+  if (countDrift.length > 0) {
+    console.log(`[repair] index.json: 件数のずれ ${countDrift.map((e) => e.date).join(', ')}`);
+  }
+
+  const removedTotal = reports.reduce((n, r) => n + r.removedTitles.length + r.duplicateIds.length, 0);
+  const needsFileWrite = reports.filter((r) => r.removedTitles.length + r.duplicateIds.length > 0 || r.countMismatch);
+  const needsIndexWrite = dangling.length > 0 || missingInIndex.length > 0 || countDrift.length > 0;
+
+  if (removedTotal === 0 && needsFileWrite.length === 0 && !needsIndexWrite) {
+    console.log(`[repair] ${files.length}ファイルを検査。不変条件1〜4はすべて満たしている。`);
     return;
   }
 
   if (!write) {
-    console.log(`[repair] ${changedFiles}ファイルに計${totalRemoved}件の除去対象。--write で実行する。`);
+    console.log(
+      `[repair] 要修正: ${needsFileWrite.length}ファイル / 除去対象${removedTotal}件${needsIndexWrite ? ' / index.json' : ''}。--write で実行する。`,
+    );
     return;
   }
 
-  // count が変わったので index.json を作り直す
-  const indexPath = path.join(DATA_DIR, 'index.json');
-  const index = JSON.parse(await readFile(indexPath, 'utf8')) as IndexFile;
-  for (const entry of index.dates) {
-    try {
-      const digest = JSON.parse(
-        await readFile(path.join(ARTICLES_DIR, `${entry.date}.json`), 'utf8'),
-      ) as DigestFile;
-      entry.count = digest.count;
-    } catch {
-      /* ファイルが無い日はそのまま */
+  for (const r of needsFileWrite) {
+    const before = (r.digest.articles ?? []).length;
+    const removed = r.removedTitles.length + r.duplicateIds.length;
+
+    // 何をどう直したかをデータ自体に残す。
+    // git のコミットメッセージにしか理由が無いと、後からデータだけを見た人が
+    // 「その日はネタが少なかった」と誤読する。
+    if (removed > 0) {
+      r.digest.repairs = [
+        ...(r.digest.repairs ?? []),
+        {
+          at: new Date().toISOString(),
+          reason: r.removedTitles.length > 0 ? 'broken-title' : 'duplicate-id',
+          removed,
+          before,
+          after: r.kept.length,
+          originalPublished: r.digest.stats?.published ?? before,
+          originalSummaryFailures: r.digest.stats?.summaryFailures ?? 0,
+        },
+      ];
     }
+
+    r.digest.articles = r.kept;
+    r.digest.count = r.kept.length;
+    if (r.digest.stats) {
+      r.digest.stats.published = r.kept.length;
+      r.digest.stats.summaryFailures = r.kept.filter((a) => a.summaryFailed).length;
+    }
+    await writeFile(
+      path.join(ARTICLES_DIR, r.file),
+      `${JSON.stringify(r.digest, null, 2)}\n`,
+      'utf8',
+    );
+    console.log(`[repair] ${r.file}: ${before}件 → ${r.kept.length}件 で書き直した`);
   }
-  index.updatedAt = new Date().toISOString();
-  await writeFile(indexPath, `${JSON.stringify(index, null, 2)}\n`, 'utf8');
-  console.log(`[repair] index.json を更新。計${totalRemoved}件を除去した。`);
+
+  await writeFile(path.join(DATA_DIR, 'index.json'), `${JSON.stringify(nextIndex, null, 2)}\n`, 'utf8');
+  console.log(`[repair] index.json を実体から作り直した（${nextIndex.dates.length}日分）。`);
 }
 
 main().catch((error) => {
