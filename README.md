@@ -80,6 +80,7 @@ npm run build
 | `npm run dev` | Next.js 開発サーバー |
 | `npm run build` | 静的書き出し（`out/`） |
 | `npm run typecheck` | `tsc --noEmit` |
+| `npm run repair` | 既存の日次JSONを現在の収集基準で検証し直す（`-- --write` で実際に修正） |
 
 ---
 
@@ -179,6 +180,10 @@ grep -c '<item>\|<entry' /tmp/feed.xml
   `title="- Anthropic"` / `description="Anthropic"` というアイテムを配信しているのを確認した
   （見出し部分が空で媒体名だけ残った形）。区切り文字で始まるタイトルは
   `isUsableTitle()` で除外し、スキップした事実をログに出す。
+  **収集側の判定を変えたときは `npm run repair -- --write` を1回流すこと。**
+  `build-data.ts` は当日分のファイルしか書かないため、過去日に混入した不正データは
+  放置すると二度と検証されない（実際、除外の修正を入れたあとも 2026-08-29 の
+  ダイジェストには `- Anthropic` が残ったまま公開されていた）。
 - **土日は収集件数が大きく落ちる。** 実測（2026年8月）: 金 131件 → 土 25件 → 日 22件。
   arXiv は週末に新着が無く、企業ブログもほぼ更新されないため。障害ではない。
   障害と区別するには `stats.sources[].itemsInFeed`（フィード側の総件数）を見ること。

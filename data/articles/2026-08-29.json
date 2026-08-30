@@ -1,11 +1,11 @@
 {
   "date": "2026-08-29",
   "generatedAt": "2026-08-29T14:59:02.652Z",
-  "count": 30,
+  "count": 29,
   "stats": {
     "fetched": 25,
     "afterDedupe": 24,
-    "published": 30,
+    "published": 29,
     "removedByUrl": 0,
     "removedByTitle": 1,
     "failedSources": [],
@@ -20,7 +20,7 @@
       "arXiv cs.AI"
     ],
     "summarized": 24,
-    "summaryFailures": 30,
+    "summaryFailures": 29,
     "sources": [
       {
         "name": "Anthropic News",
@@ -332,22 +332,6 @@
       "publishedAt": "2026-08-28T14:57:10.000Z",
       "description": "TASTE: Can AI Models Judge AI Safety Research Proposals? Alignment Science Blog",
       "summary": "TASTE: Can AI Models Judge AI Safety Research Proposals? Alignment Science Blog",
-      "category": "モデル/研究",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "70177c21ce9f",
-      "title": "- Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6WXJxdnhvVmlyaG1KLXBVU3lHWmcxMkNXSWh2dDljckRfcmFlSm4xZnhSTVl1WjRJVDBRd1hTVkE2WG9uNnFLV0h3?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-08-28T13:03:18.000Z",
-      "description": "Anthropic",
-      "summary": "Anthropic",
       "category": "モデル/研究",
       "tags": [],
       "importance": 3,

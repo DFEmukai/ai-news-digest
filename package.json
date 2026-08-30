@@ -7,6 +7,7 @@
   "scripts": {
     "collect": "tsx scripts/build-data.ts",
     "collect:dry": "tsx scripts/build-data.ts --dry-run",
+    "repair": "tsx scripts/repair-data.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
