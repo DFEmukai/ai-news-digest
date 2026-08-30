@@ -72,8 +72,27 @@ export function toPlainText(input: unknown, maxLen = 400): string {
  */
 export function cleanTitle(title: string, stripSourceSuffix: boolean): string {
   const normalized = title.replace(/\s+/g, ' ').trim();
-  if (!stripSourceSuffix) return normalized;
-  return normalized.replace(/\s+[-–—]\s+[^-–—]{1,40}$/u, '').trim();
+  const stripped = stripSourceSuffix
+    ? normalized.replace(/\s+[-–—]\s+[^-–—]{1,40}$/u, '').trim()
+    : normalized;
+  // 前後に残った区切り文字を落とす
+  return stripped.replace(/^[-–—|·•\s]+/u, '').replace(/[-–—|·•\s]+$/u, '').trim();
+}
+
+/**
+ * 見出しとして成立していないアイテムを弾く。
+ *
+ * 2026-08-30 の本番データで、Google News が title="- Anthropic" /
+ * description="Anthropic" というアイテムを配信しているのを確認した。
+ * 見出し部分が欠けて媒体名だけが残った形で、そのまま載せると
+ * 「- Anthropic」というタイトルのカードが公開されてしまう。
+ * 区切り文字で始まるタイトルは見出しが欠落しているとみなして捨てる。
+ */
+export function isUsableTitle(rawTitle: string, cleaned: string): boolean {
+  if (cleaned.length === 0) return false;
+  // 元のタイトルが区切り文字で始まっている = 見出しが空
+  if (/^\s*[-–—|·•]/u.test(rawTitle)) return false;
+  return true;
 }
 
 /** Google News RSS 経由かどうか。タイトル末尾の媒体名を落とすかの判定に使う。 */
@@ -141,8 +160,13 @@ async function fetchRss(source: Source, now: number): Promise<SourceOutcome> {
 
   for (const item of items) {
     const url = (item.link ?? '').trim();
-    const title = cleanTitle(toPlainText(item.title ?? '', 300), stripSuffix);
-    if (!url || !title || !isSafeHttpUrl(url)) continue;
+    const rawTitle = toPlainText(item.title ?? '', 300);
+    const title = cleanTitle(rawTitle, stripSuffix);
+    if (!url || !isSafeHttpUrl(url)) continue;
+    if (!isUsableTitle(rawTitle, title)) {
+      console.warn(`[fetch] skip  ${source.name}: 見出しが成立していないアイテム ${JSON.stringify(rawTitle)}`);
+      continue;
+    }
     const publishedAt = item.isoDate ?? (item.pubDate ? new Date(item.pubDate).toISOString() : '');
     if (!publishedAt || !isFresh(publishedAt, now)) continue;
     out.push({

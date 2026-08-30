@@ -175,6 +175,14 @@ grep -c '<item>\|<entry' /tmp/feed.xml
 - **Ars Technica** はサイト全体のフィード（`feeds.arstechnica.com/arstechnica/index`）だと
   自転車やスペースの記事まで混ざるので、AI カテゴリ専用の
   `https://arstechnica.com/ai/feed/` を使っている。
+- **見出しが欠けたアイテムは捨てる**。2026-08-30 の本番データで Google News が
+  `title="- Anthropic"` / `description="Anthropic"` というアイテムを配信しているのを確認した
+  （見出し部分が空で媒体名だけ残った形）。区切り文字で始まるタイトルは
+  `isUsableTitle()` で除外し、スキップした事実をログに出す。
+- **土日は収集件数が大きく落ちる。** 実測（2026年8月）: 金 131件 → 土 25件 → 日 22件。
+  arXiv は週末に新着が無く、企業ブログもほぼ更新されないため。障害ではない。
+  障害と区別するには `stats.sources[].itemsInFeed`（フィード側の総件数）を見ること。
+  こちらが 0 なら配信元の異常、0 でないのに `fetched` が 0 なら単に新着が無いだけ。
 - **Hacker News** は Algolia API を叩き、`points >= 100` かつ
   タイトルが AI 関連キーワードに当たるものだけを拾う（`scripts/fetch.ts` の
   `HN_AI_PATTERN`）。
