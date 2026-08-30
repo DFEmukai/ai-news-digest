@@ -1,6 +1,6 @@
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { fetchAll, loadSources } from './fetch.ts';
+import { fetchAll, isUsableTitle, loadSources } from './fetch.ts';
 import { dedupe } from './dedupe.ts';
 import { summarizeAll } from './summarize.ts';
 import type { Article, DigestFile, IndexFile, RawArticle } from './types.ts';
@@ -68,6 +68,10 @@ async function rebuildIndex(lastAttemptedAt: string): Promise<IndexFile> {
 /**
  * 同じ日に2回走る（07:00 / 19:00 JST）ので、既存ファイルとマージする。
  * id は正規化後 URL のハッシュなので、utm 等が変わっただけの再取得は同一とみなせる。
+ *
+ * 既存記事も収集時と同じ基準で検証し直す。検証を新規取得分にしか掛けないと、
+ * 一度混入した不正データがマージで残り続けて自然に消えない
+ * （実際、"- Anthropic" という見出し欠落の記事が公開サイトに残った）。
  */
 async function mergeWithExisting(filePath: string, fresh: Article[]): Promise<Article[]> {
   let existing: Article[] = [];
@@ -77,10 +81,17 @@ async function mergeWithExisting(filePath: string, fresh: Article[]): Promise<Ar
   } catch {
     return fresh;
   }
+
+  const usable = existing.filter((article) => {
+    if (isUsableTitle(article.title, article.title)) return true;
+    console.warn(`[build] 既存記事を破棄: 見出しが成立していない ${JSON.stringify(article.title)}`);
+    return false;
+  });
+
   const byId = new Map<string, Article>();
-  for (const article of existing) byId.set(article.id, article);
+  for (const article of usable) byId.set(article.id, article);
   for (const article of fresh) byId.set(article.id, article);
-  console.log(`[build] 既存 ${existing.length}件 とマージ → ${byId.size}件`);
+  console.log(`[build] 既存 ${existing.length}件（有効 ${usable.length}件）とマージ → ${byId.size}件`);
   return [...byId.values()];
 }
 
