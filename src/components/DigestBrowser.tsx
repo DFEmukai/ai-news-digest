@@ -6,6 +6,8 @@ import type { Article, Category, DigestFile, IndexEntry } from '@/lib/types';
 import { CATEGORIES } from '@/lib/types';
 import { formatDateLabel, formatTime } from '@/lib/format';
 import ArticleCard from './ArticleCard';
+import Eyecatch from './Eyecatch';
+import { assignStyles, WIDE_STYLES } from '@/lib/art';
 import { ChevronDownIcon } from './Icons';
 
 type Props = {
@@ -42,6 +44,26 @@ export default function DigestBrowser({ digest, dates }: Props) {
 
   return (
     <>
+      {/* その日の顔になるヒーロー。日付をシードにするので、日が変われば絵も変わる */}
+      <div className="relative mb-8 h-32 overflow-hidden rounded-[6px] border border-border sm:h-44">
+        <Eyecatch
+          seed={`hero-${digest.date}`}
+          intensity={0.85}
+          width={1200}
+          height={300}
+          styles={WIDE_STYLES}
+          className="h-full w-full"
+        />
+        <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 bg-gradient-to-t from-surface/95 to-transparent px-4 pb-3 pt-10 sm:px-6 sm:pb-4">
+          <p className="text-[11px] font-medium tracking-[0.1em] text-text-primary">
+            AI NEWS DIGEST
+          </p>
+          <p className="tabular text-[11px] text-text-secondary">
+            {digest.stats.sources ? `${digest.stats.sources.length} sources` : null}
+          </p>
+        </div>
+      </div>
+
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div className="flex flex-col gap-1">
           <h2 className="text-[24px] font-bold leading-[1.4] tracking-[-0.01em] text-text-primary">
@@ -106,7 +128,10 @@ export default function DigestBrowser({ digest, dates }: Props) {
         </p>
       ) : (
         <div className="mt-8 flex flex-col gap-12">
-          {sections.map((section) => (
+          {sections.map((section) => {
+            // 同じカテゴリは配色が同じなので、構図が隣り合って被らないように割り当てる
+            const artStyles = assignStyles(section.articles.map((a) => a.id));
+            return (
             <section key={section.category} aria-labelledby={`cat-${section.category}`}>
               <h3
                 id={`cat-${section.category}`}
@@ -118,12 +143,13 @@ export default function DigestBrowser({ digest, dates }: Props) {
                 </span>
               </h3>
               <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-                {section.articles.map((article) => (
-                  <ArticleCard key={article.id} article={article} />
+                {section.articles.map((article, i) => (
+                  <ArticleCard key={article.id} article={article} artStyle={artStyles[i]} />
                 ))}
               </div>
             </section>
-          ))}
+            );
+          })}
         </div>
       )}
     </>

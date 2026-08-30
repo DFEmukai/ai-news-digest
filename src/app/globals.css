@@ -104,6 +104,140 @@ body {
   letter-spacing: 0.04em;
 }
 
+/* ──────────────────────────────────────────────────────────────
+ * アイキャッチ抽象画のパレット
+ *
+ * 幾何はJS側（src/lib/art.ts）が記事IDから決定的に生成し、色はここで解決する。
+ * こうしておくとダークモードの切り替えに絵が自動で追従し、
+ * 配色を変えたいときにJSを触らずに済む。
+ *
+ * DESIGN.md は「グラデーション背景を使わない」としているが、それはページ背景・
+ * カード・テーブルの話。ここはアイキャッチの内側に閉じた装飾なので例外とし、
+ * カード本体とページ背景はフラットのまま維持している。
+ * ────────────────────────────────────────────────────────────── */
+[data-art] {
+  --art-bg: #eef2f7;
+  --art-bg-2: #e2e8f2;
+  --art-1: #0052cc;
+  --art-2: #4c9aff;
+  --art-3: #172b4d;
+}
+[data-art='model'] {
+  --art-bg: #eaf0fb;
+  --art-bg-2: #dde7f8;
+  --art-1: #1d4ed8;
+  --art-2: #60a5fa;
+  --art-3: #1e3a8a;
+}
+[data-art='product'] {
+  --art-bg: #e6f5f3;
+  --art-bg-2: #d5ebe8;
+  --art-1: #0f766e;
+  --art-2: #5eead4;
+  --art-3: #134e4a;
+}
+[data-art='business'] {
+  --art-bg: #f1ebfa;
+  --art-bg-2: #e6dcf6;
+  --art-1: #6d28d9;
+  --art-2: #c4b5fd;
+  --art-3: #4c1d95;
+}
+[data-art='policy'] {
+  --art-bg: #fbf0e4;
+  --art-bg-2: #f6e4d2;
+  --art-1: #b45309;
+  --art-2: #fbbf24;
+  --art-3: #78350f;
+}
+[data-art='tools'] {
+  --art-bg: #eaf4ec;
+  --art-bg-2: #dbecdf;
+  --art-1: #15803d;
+  --art-2: #86efac;
+  --art-3: #14532d;
+}
+[data-art='other'] {
+  --art-bg: #eef1f4;
+  --art-bg-2: #e1e6ec;
+  --art-1: #475569;
+  --art-2: #94a3b8;
+  --art-3: #1e293b;
+}
+/* ページ上部のヒーロー用。ブランドカラー寄り */
+[data-art='brand'] {
+  --art-bg: #e8eefb;
+  --art-bg-2: #dae6f9;
+  --art-1: #0052cc;
+  --art-2: #4c9aff;
+  --art-3: #172b4d;
+}
+
+/* ダークは彩度を落として沈める。カード上で文字より前に出ないようにする */
+.dark [data-art] {
+  --art-bg: #1b2027;
+  --art-bg-2: #171b21;
+  --art-1: #4c9aff;
+  --art-2: #7fb3ff;
+  --art-3: #2b3a52;
+}
+.dark [data-art='model'] {
+  --art-bg: #171d2b;
+  --art-bg-2: #141926;
+  --art-1: #3b82f6;
+  --art-2: #93c5fd;
+  --art-3: #1e3a8a;
+}
+.dark [data-art='product'] {
+  --art-bg: #132322;
+  --art-bg-2: #101d1c;
+  --art-1: #2dd4bf;
+  --art-2: #99f6e4;
+  --art-3: #115e59;
+}
+.dark [data-art='business'] {
+  --art-bg: #1e1a2b;
+  --art-bg-2: #191626;
+  --art-1: #a78bfa;
+  --art-2: #ddd6fe;
+  --art-3: #5b21b6;
+}
+.dark [data-art='policy'] {
+  --art-bg: #271e14;
+  --art-bg-2: #211a12;
+  --art-1: #f59e0b;
+  --art-2: #fcd34d;
+  --art-3: #92400e;
+}
+.dark [data-art='tools'] {
+  --art-bg: #14231a;
+  --art-bg-2: #111d16;
+  --art-1: #4ade80;
+  --art-2: #bbf7d0;
+  --art-3: #166534;
+}
+.dark [data-art='other'] {
+  --art-bg: #1b1f24;
+  --art-bg-2: #171a1f;
+  --art-1: #94a3b8;
+  --art-2: #cbd5e1;
+  --art-3: #334155;
+}
+.dark [data-art='brand'] {
+  --art-bg: #161c28;
+  --art-bg-2: #131822;
+  --art-1: #4c9aff;
+  --art-2: #93c5fd;
+  --art-3: #1e3a5f;
+}
+
+/* 印刷時は絵を出さない（インクの無駄） */
+@media print {
+  [data-art] {
+    display: none;
+  }
+}
+
 /* 数値の桁を揃える */
 .tabular {
   font-variant-numeric: tabular-nums;
