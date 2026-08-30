@@ -1,11 +1,11 @@
 {
   "date": "2026-08-30",
-  "generatedAt": "2026-08-30T03:44:11.604Z",
-  "count": 21,
+  "generatedAt": "2026-08-30T03:45:52.010Z",
+  "count": 20,
   "stats": {
     "fetched": 17,
     "afterDedupe": 16,
-    "published": 21,
+    "published": 20,
     "removedByUrl": 0,
     "removedByTitle": 1,
     "failedSources": [],
@@ -22,7 +22,7 @@
       "arXiv cs.AI"
     ],
     "summarized": 16,
-    "summaryFailures": 21,
+    "summaryFailures": 20,
     "sources": [
       {
         "name": "Anthropic News",
@@ -30,7 +30,7 @@
         "itemsInFeed": 100,
         "fetched": 2,
         "ok": true,
-        "durationMs": 358
+        "durationMs": 403
       },
       {
         "name": "OpenAI Blog",
@@ -38,7 +38,7 @@
         "itemsInFeed": 1157,
         "fetched": 0,
         "ok": true,
-        "durationMs": 211
+        "durationMs": 278
       },
       {
         "name": "Google AI Blog",
@@ -46,7 +46,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 387
+        "durationMs": 544
       },
       {
         "name": "Google DeepMind",
@@ -54,7 +54,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 256
+        "durationMs": 284
       },
       {
         "name": "Meta AI",
@@ -62,7 +62,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 485
+        "durationMs": 416
       },
       {
         "name": "Hugging Face Blog",
@@ -70,7 +70,7 @@
         "itemsInFeed": 852,
         "fetched": 0,
         "ok": true,
-        "durationMs": 247
+        "durationMs": 309
       },
       {
         "name": "TechCrunch AI",
@@ -78,7 +78,7 @@
         "itemsInFeed": 19,
         "fetched": 6,
         "ok": true,
-        "durationMs": 81
+        "durationMs": 137
       },
       {
         "name": "VentureBeat AI",
@@ -86,7 +86,7 @@
         "itemsInFeed": 7,
         "fetched": 0,
         "ok": true,
-        "durationMs": 368
+        "durationMs": 514
       },
       {
         "name": "The Verge AI",
@@ -94,7 +94,7 @@
         "itemsInFeed": 10,
         "fetched": 3,
         "ok": true,
-        "durationMs": 264
+        "durationMs": 351
       },
       {
         "name": "MIT Technology Review AI",
@@ -102,7 +102,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 277
+        "durationMs": 339
       },
       {
         "name": "Ars Technica",
@@ -110,7 +110,7 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 388
+        "durationMs": 431
       },
       {
         "name": "ITmedia AI+",
@@ -118,7 +118,7 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 846
+        "durationMs": 1022
       },
       {
         "name": "Publickey",
@@ -126,7 +126,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 890
+        "durationMs": 1036
       },
       {
         "name": "arXiv cs.AI",
@@ -134,7 +134,7 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 349
+        "durationMs": 512
       },
       {
         "name": "Hacker News",
@@ -142,7 +142,7 @@
         "itemsInFeed": 100,
         "fetched": 3,
         "ok": true,
-        "durationMs": 587
+        "durationMs": 693
       }
     ]
   },
@@ -159,22 +159,6 @@
       "description": "OpenAIは、AIコードエディタ「Cursor」へのモデル提供契約を11月12日に終了すると発表した。SpaceXによるCursor買収を受け、イーロン・マスク氏の過去の契約違反実績から規約順守を確信できないことを理由に挙げている。Cursor側は影響が限定的としつつ協議継続を表明、Anthropicは支援継続を示した。",
       "summary": "OpenAIは、AIコードエディタ「Cursor」へのモデル提供契約を11月12日に終了すると発表した。SpaceXによるCursor買収を受け、イーロン・マスク氏の過去の契約違反実績から規約順守を確信できないことを理由に挙げている。Cursor側は影響が限定的としつつ協議継続を表明、Anthropicは支援継続を示し…",
       "category": "その他",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "70177c21ce9f",
-      "title": "- Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6WXJxdnhvVmlyaG1KLXBVU3lHWmcxMkNXSWh2dDljckRfcmFlSm4xZnhSTVl1WjRJVDBRd1hTVkE2WG9uNnFLV0h3?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-08-29T20:46:11.000Z",
-      "description": "Anthropic",
-      "summary": "Anthropic",
-      "category": "モデル/研究",
       "tags": [],
       "importance": 3,
       "summaryFailed": true
