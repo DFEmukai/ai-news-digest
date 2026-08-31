@@ -80,7 +80,7 @@ npm run build
 | `npm run dev` | Next.js 開発サーバー |
 | `npm run build` | 静的書き出し（`out/`） |
 | `npm run typecheck` | `tsc --noEmit` |
-| `npm run repair` | 既存の日次JSONの整合を検査する（`-- --write` で実際に修正）。詳細は §5.4 |
+| `npm run repair` | 既存の日次JSONの整合を検査する（`-- --check` で違反時に非0終了、`-- --write` で修正）。詳細は §5.4 |
 
 ---
 
@@ -281,9 +281,13 @@ HTTP 200 で中身が空のフィードは「成功・0 件」になるため、
 `- Anthropic` が残り、公開サイトの `/d/2026-08-29/` に見出しとして描画されていた。
 
 ```bash
-npm run repair              # 検出のみ（何も書かない）
+npm run repair              # 検出のみ。違反があっても終了コードは0
+npm run repair -- --check   # 検出のみ。違反があれば終了コード1（CIの門が使う）
 npm run repair -- --write   # 実際に修正する
 ```
+
+**CI の `Validate data before build` は `--check` を呼んでいる。**
+終了コードの意味を変えると門が静かに壊れるので注意すること。
 
 検査するのは**保存済みデータだけで判定できる不変条件**に限る。
 
@@ -310,6 +314,10 @@ npm run repair -- --write   # 実際に修正する
 理由を git のコミットメッセージにしか残さないと、データだけを見た人が
 「この日はネタが少なかった」と誤読する。`stats` は補修で上書きされるので、
 補修前の値は `originalPublished` / `originalSummaryFailures` に退避している。
+
+**`index.json` のパース失敗は握り潰さない。** 2026-08-30 の障害で壊れたのはこのファイルで、
+`getIndex()` が catch フォールバックに落ちた結果、全日付の件数が 0 のサイトが公開された。
+ファイルが存在しないのは初回なので許すが、「あるのに読めない」は破損として落とす。
 
 **`index.json` に実体の無い日付が残っていると `next build` が落ちる**
 （`generateStaticParams()` が index 由来なので、存在しない日付のページを作ろうとする）。

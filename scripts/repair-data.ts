@@ -10,8 +10,12 @@ import type { Article, DigestFile, IndexEntry, IndexFile } from './types.ts';
  * 実際、見出しが欠落した記事（title="- Anthropic"）を除外する修正を入れたあとも、
  * 2026-08-29 のダイジェストには残ったまま公開されていた。
  *
- *   npx tsx scripts/repair-data.ts            # 検出のみ（書き込まない）
+ *   npx tsx scripts/repair-data.ts            # 検出のみ。違反があっても終了コードは0
+ *   npx tsx scripts/repair-data.ts --check    # 検出のみ。違反があれば終了コード1（CIの門用）
  *   npx tsx scripts/repair-data.ts --write    # 実際に修正する
+ *
+ * **CI の `Validate data before build` は `--check` を呼んでいる。**
+ * 終了コードの意味を変えると門が静かに壊れるので注意すること。
  *
  * ## このスクリプトが検査できること・できないこと
  *
@@ -81,7 +85,10 @@ async function inspect(file: string): Promise<FileReport> {
     kept,
     removedTitles,
     duplicateIds,
-    countMismatch: digest.count !== articles.length || digest.stats?.published !== articles.length,
+    // stats を持たない古い形式のファイルでも冪等になるよう、stats はある場合だけ見る
+    countMismatch:
+      digest.count !== articles.length ||
+      (digest.stats !== undefined && digest.stats.published !== articles.length),
   };
 }
 
@@ -98,7 +105,9 @@ function buildIndexFrom(reports: FileReport[], previous: IndexFile): IndexFile {
 }
 
 async function main(): Promise<void> {
-  const write = process.argv.slice(2).includes('--write');
+  const argv = process.argv.slice(2);
+  const write = argv.includes('--write');
+  const check = argv.includes('--check');
 
   const files = (await readdir(ARTICLES_DIR))
     .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
@@ -108,11 +117,26 @@ async function main(): Promise<void> {
   const reports: FileReport[] = [];
   for (const file of files) reports.push(await inspect(file));
 
+  // index.json のパース失敗を握り潰してはいけない。
+  // 2026-08-30 の障害で壊れたのはこのファイルで、getIndex() が catch に落ちた結果、
+  // 全日付の件数が 0 のサイトが公開された。
+  // ファイルが無いのは初回なので許すが、「あるのに読めない」は破損なので落とす。
   let indexPrev: IndexFile = { updatedAt: '', dates: [] };
+  let indexRaw: string | null = null;
   try {
-    indexPrev = JSON.parse(await readFile(path.join(DATA_DIR, 'index.json'), 'utf8')) as IndexFile;
+    indexRaw = await readFile(path.join(DATA_DIR, 'index.json'), 'utf8');
   } catch {
-    console.warn('[repair] index.json を読めなかった。実体から作り直す。');
+    console.warn('[repair] index.json が存在しない。実体から作り直す。');
+  }
+  if (indexRaw !== null) {
+    try {
+      indexPrev = JSON.parse(indexRaw) as IndexFile;
+    } catch (error) {
+      console.error(`[repair] index.json が壊れている（パース不能）: ${String(error)}`);
+      process.exitCode = 1;
+      if (!write) return;
+      console.warn('[repair] --write なので実体から作り直す。');
+    }
   }
 
   const nextIndex = buildIndexFrom(reports, indexPrev);
@@ -160,9 +184,13 @@ async function main(): Promise<void> {
   }
 
   if (!write) {
-    console.log(
-      `[repair] 要修正: ${needsFileWrite.length}ファイル / 除去対象${removedTotal}件${needsIndexWrite ? ' / index.json' : ''}。--write で実行する。`,
-    );
+    const message = `[repair] 要修正: ${needsFileWrite.length}ファイル / 除去対象${removedTotal}件${needsIndexWrite ? ' / index.json' : ''}。--write で修正する。`;
+    if (check) {
+      console.error(message);
+      process.exitCode = 1;
+    } else {
+      console.log(message);
+    }
     return;
   }
 

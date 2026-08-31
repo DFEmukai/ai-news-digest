@@ -77,7 +77,11 @@ jobs:
             git reset --hard "origin/${GITHUB_REF_NAME}"
             break
           done
-          echo "::warning::data/ の push に失敗した。デプロイは続行する。"
+          # push が失敗し rebase は成功、が3回続くとここに来る。作業ツリーには
+          # push できていないコミットが残るので、そのままビルドすると
+          # 「リポジトリのどこにも無いデータから作られたサイト」が公開される。
+          git reset --hard "origin/${GITHUB_REF_NAME}"
+          echo "::warning::data/ の push に失敗した。収集分は破棄し、デプロイは続行する。"
           echo "changed=false" >> "$GITHUB_OUTPUT"
 
       # 壊れた作業ツリーからサイトを公開しないための門。
@@ -89,7 +93,7 @@ jobs:
             git ls-files --unmerged
             exit 1
           fi
-          npm run repair
+          npm run repair -- --check
 
       - name: Build site
         env:
@@ -100,6 +104,26 @@ jobs:
 
       # 第三者アクションをタグ参照している。contents: write を持つジョブなので、
       # 本番運用に入れる前にコミット SHA でピンすること（タグは差し替えられる）。
+      # 公開直前に成果物そのものを検査する。
+      # data が健全でも、想定していない経路でトップページが空になることはある
+      # （実際に 2026-08-30、index.json が読めず全件0のサイトが公開された）。
+      # モデルではなく結果を測るのが、この門の役目。
+      - name: Verify built site is not empty
+        run: |
+          for page in out/index.html out/archive/index.html; do
+            if [ ! -f "$page" ]; then
+              echo "::error::$page が生成されていない。"
+              exit 1
+            fi
+          done
+          articles=$(grep -o '<article' out/index.html | wc -l | tr -d ' ')
+          if [ "$articles" -lt 1 ]; then
+            echo "::error::トップページに記事が1件も無い（<article> = ${articles}）。公開しない。"
+            grep -o 'まだダイジェストがありません' out/index.html | head -1 || true
+            exit 1
+          fi
+          echo "トップページの記事数: ${articles}"
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
