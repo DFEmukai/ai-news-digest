@@ -1,13 +1,13 @@
 {
   "date": "2026-09-08",
-  "generatedAt": "2026-09-08T00:07:41.056Z",
+  "generatedAt": "2026-09-08T14:19:02.123Z",
   "count": 30,
   "stats": {
-    "fetched": 29,
-    "afterDedupe": 29,
+    "fetched": 34,
+    "afterDedupe": 33,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 0,
+    "removedByTitle": 1,
     "failedSources": [
       {
         "name": "VentureBeat AI",
@@ -18,14 +18,13 @@
     "absentFromDigest": [
       "Anthropic News",
       "Google AI Blog",
-      "Google DeepMind",
       "Hugging Face Blog",
       "VentureBeat AI",
-      "MIT Technology Review AI",
+      "Ars Technica",
       "arXiv cs.AI",
       "Hacker News"
     ],
-    "summarized": 29,
+    "summarized": 33,
     "summaryFailures": 0,
     "sources": [
       {
@@ -34,15 +33,15 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 455
+        "durationMs": 422
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1173,
-        "fetched": 1,
+        "itemsInFeed": 1175,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 211
+        "durationMs": 200
       },
       {
         "name": "Google AI Blog",
@@ -50,23 +49,23 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 433
+        "durationMs": 509
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
         "itemsInFeed": 100,
-        "fetched": 0,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 269
+        "durationMs": 571
       },
       {
         "name": "Meta AI",
         "weight": 8,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 448
+        "durationMs": 520
       },
       {
         "name": "Hugging Face Blog",
@@ -74,15 +73,15 @@
         "itemsInFeed": 859,
         "fetched": 0,
         "ok": true,
-        "durationMs": 260
+        "durationMs": 333
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 3,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 273
+        "durationMs": 244
       },
       {
         "name": "VentureBeat AI",
@@ -91,23 +90,23 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 296
+        "durationMs": 216
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 1,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 286
+        "durationMs": 214
       },
       {
         "name": "MIT Technology Review AI",
         "weight": 7,
         "itemsInFeed": 10,
-        "fetched": 0,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 293
+        "durationMs": 269
       },
       {
         "name": "Ars Technica",
@@ -115,15 +114,15 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 419
+        "durationMs": 632
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 18,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 994
+        "durationMs": 716
       },
       {
         "name": "Publickey",
@@ -131,7 +130,7 @@
         "itemsInFeed": 15,
         "fetched": 3,
         "ok": true,
-        "durationMs": 937
+        "durationMs": 1171
       },
       {
         "name": "arXiv cs.AI",
@@ -139,35 +138,111 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 447
+        "durationMs": 468
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 721
+        "durationMs": 785
       }
     ]
   },
   "articles": [
     {
-      "id": "fbe6850dba19",
-      "title": "M365 Copilotでも「GPT-6 Astra」利用可能に 「Fable 5.1」も可 Work IQと合わせて「より的確な応答」に",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/",
+      "id": "4049cae026cf",
+      "title": "OpenAI「GPT-6 Astra」発表 Codexのコーディングは前世代からどれだけ進化？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-07T06:32:17.000Z",
-      "description": "Microsoftは、OpenAIの新モデル「GPT-6 Astra」を「Copilot Cowork」と「Copilot Studio」で提供開始。作業を細かく分けて指示せずとも、より大きなタスクを委任できるとうたう。",
-      "summary": "MicrosoftがCopilotプラットフォームでOpenAIの新モデル「GPT-6 Astra」の提供を開始した。より大規模なタスク委任が可能になり、より的確な応答が実現するとしている。",
-      "category": "プロダクト",
+      "publishedAt": "2026-09-08T08:00:00.000Z",
+      "description": "OpenAIは、次世代AIモデル「GPT-6 Astra」を発表した。PC自律操作やコーディング、セキュリティ検証などの能力が大幅に向上し、抽象推論ベンチマークテスト「ARC-AGI-3」で99.9％のスコアを達成したという。",
+      "summary": "OpenAIが新世代モデル「GPT-6 Astra」を発表した。PC自動操作やコーディング能力が大幅に向上し、抽象推論ベンチマークで99.9%のスコアを達成している。",
+      "category": "モデル/研究",
       "tags": [
-        "Copilot",
         "GPT-6",
-        "モデル"
+        "大規模言語モデル",
+        "AI能力向上"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "1c6dc6007150",
+      "title": "Mistral raises €3B as sovereign AI becomes big business",
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-08T14:17:48.000Z",
+      "description": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe and PSG Equity.",
+      "summary": "フランスのAI企業Mistralが、Samsung等のリードで3億ユーロの資金調達に成功した。210億ユーロの企業評価額で、主権的AIが本格化しつつある。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Mistral",
+        "資金調達",
+        "欧州AI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "0d0cc5421d6b",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source": "Google DeepMind",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "summary": "Google DeepMindが、人間のゲノム内の90億個の一文字DNA変異の分子的影響をマップする「AlphaGenome Atlas」を開発した。予測マップにより遺伝学研究が進展する可能性がある。",
+      "category": "その他",
+      "tags": [
+        "AlphaGenome",
+        "ゲノム",
+        "遺伝学"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fb68a3c4bc5f",
+      "title": "Google’s Atlas of the human genome could pave the way for new treatments",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-08T14:00:00.000Z",
+      "description": "Google DeepMind has unveiled an AI tool that its scientists claim could help unravel the mysteries of the human genome and transform our understanding of biology, accelerating scientific research and ultimately paving the way for new treatments for diseases. The platform, called AlphaGenome Atlas, contains a \"predictive map of every possible DNA letter change in the human genome,\" the researchers …",
+      "summary": "Google DeepMindが「AlphaGenome Atlas」というAIツールを発表した。人間ゲノムのあらゆるDNA変異を予測でき、生物学の理解を深め新治療開発を加速させる可能性がある。",
+      "category": "モデル/研究",
+      "tags": [
+        "生物学",
+        "ゲノム",
+        "AI応用"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "57d5d8d9785b",
+      "title": "「2026年はフィジカルAI元年」 日立、AIサービス群全体で売上5000億円へ ミュトス利用の知見を基にした新サービスも",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T07:06:21.000Z",
+      "description": "日立製作所は9月3日、社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用やサイバー防御などの新サービスを発表。2026年を「フィジカルAI元年」と位置付け、HMAXを売上高5000億円の事業に育てる見込み。",
+      "summary": "日立製作所がAIソリューション群「HMAX」を拡充し、2026年を「フィジカルAI元年」と位置付けた。データセンター運用やサイバー防御などの新サービスで、2026年には売上高5000億円を目指す。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "日立",
+        "HMAX",
+        "フィジカルAI"
       ],
       "importance": 4
     },
@@ -267,6 +342,158 @@
       "importance": 4
     },
     {
+      "id": "4d17e9c813c8",
+      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+      "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T15:54:55.000Z",
+      "description": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazon Linux 2023 Amazon LinuxはAWSによって無料で提供されているLinux OSのディストリビューションです。Amazon EC2などのAWSのサービスで安全かつ安定して動作し、高い性能で利用できることに最適化されてい……",
+      "summary": "AWSはAmazon Linuxの4年ぶりのメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューでリリースしました。新版ではSELinuxがデフォルトで強制モードに設定され、セキュリティが強化されています。",
+      "category": "プロダクト",
+      "tags": [
+        "Amazon Linux",
+        "AWS",
+        "セキュリティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "64a2d91f9e1d",
+      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "description": "Suspenseful clock ticking… as you wait for AI to take your job. | Image: Adobe Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the big change is how eas…",
+      "summary": "Adobeが動画編集ソフト「Premiere」でAI生成機能を刷新した。新しい生成メディアツールにより、タイムライン内で動画や音響効果をより簡単に生成できる。",
+      "category": "プロダクト",
+      "tags": [
+        "Adobe",
+        "AI生成",
+        "動画編集"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "2e2362bce20c",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-08T10:34:00.000Z",
+      "description": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+      "summary": "起業家Danijar Hafnerがサンフランシスコでステルスモード中のスタートアップを立ち上げた。不確定事象への計画能力を持つAIエージェントの開発に取り組んでいる。",
+      "category": "プロダクト",
+      "tags": [
+        "AIエージェント",
+        "スタートアップ",
+        "自律計画"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ba452030e688",
+      "title": "「中に人いる？」と疑われた人型ロボ、ついに量産へ 2027年に市場投入 中国EVメーカーのシャオペン",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T04:24:41.000Z",
+      "description": "中国のEVメーカー小鵬汽車（シャオペン）は、人型ロボット「IRON」の生産ラインを稼働させたと発表した。2026年内に量産を始め、27年に中国および海外市場に投入する予定だ。",
+      "summary": "中国のEVメーカー小鵬汽車が人型ロボット「IRON」の生産ラインを稼働させた。2026年内に量産を開始し、2027年に中国および海外市場への投入を予定している。",
+      "category": "プロダクト",
+      "tags": [
+        "人型ロボット",
+        "IRON",
+        "量産化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "22f5d46dea4c",
+      "title": "100万円のPCが注目ランキング1位に？ ローカルLLMブームを生んだ「3つの条件」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T03:43:41.000Z",
+      "description": "価格比較サイト「価格.com」のデスクトップPC注目ランキング1位に約100万円のAIスパコンが掲載されるなど、いま「ローカルLLM」が熱い状況だ。ここでは3本の記事で、ローカルLLM関連が急速に盛り上がりを見せている理由を解剖していく。1本目となるこの記事では、「モデル」「ハードウェア」「ソフトウェア」という3つの土壌が成熟しつつあることを紹介する。",
+      "summary": "約100万円のAIスパコンが価格比較サイトの注目ランキング1位になるなど、ローカルLLMが急速に普及している。モデル、ハードウェア、ソフトウェアの3つの環境が成熟しつつある。",
+      "category": "モデル/研究",
+      "tags": [
+        "ローカルLLM",
+        "ハードウェア",
+        "市場動向"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "0967a2157782",
+      "title": "「Gemini 3.8 Flash」の狙いは“賢さ”ではない？ 発表から見えた3つのポイント",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T03:32:12.000Z",
+      "description": "Googleが「Gemini 3.8 Flash」の一般提供を開始した。長時間のコーディングや自律型エージェントを想定する新モデルだ。発表内容を読み解くと、単なる性能向上とは異なる3つの変化が見えてくる。",
+      "summary": "Googleが「Gemini 3.8 Flash」の一般提供を開始した。長時間のコーディングと自律型エージェント対応を想定した新モデルで、性能向上以外の3つの変化がある。",
+      "category": "モデル/研究",
+      "tags": [
+        "Gemini 3.8 Flash",
+        "Google",
+        "自律エージェント"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d06c2b03f895",
+      "title": "人型ロボが「完全自律格闘」 中国Unitreeがデモ動画を公開 AIで「リアルタイムの未来予測」うたう",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T02:34:28.000Z",
+      "description": "ロボット開発企業の中国Unitree Roboticsは、完全自律動作をうたう人型ロボットが人間と格闘するデモ動画を公開した。",
+      "summary": "中国のUnitree Roboticsが、完全自律動作で人間と格闘する人型ロボットのデモ動画を公開した。リアルタイムの未来予測AIを用いた自律行動を実現している。",
+      "category": "プロダクト",
+      "tags": [
+        "人型ロボット",
+        "自律動作",
+        "格闘"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "3b07b79f2c85",
+      "title": "図面探しや検図の悩みをAIで支援、製造業の現場課題に対応する新ソリューション",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news032.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "description": "Polaris.AIは、製造業向けの「図面×AI活用ソリューション」の提供を開始した。自動車や重工業などにおける図面／設計AIの開発・検証実績を業務課題に沿って体系化し、図面を探す、読む、確かめるといった業務をAI（人工知能）で支援する。",
+      "summary": "Polaris.AIが製造業向けに図面とAIを組み合わせたソリューションを開始した。図面の検索、読み取り、確認といった業務をAIで支援し、自動車や重工業の現場課題に対応する。",
+      "category": "プロダクト",
+      "tags": [
+        "製造業",
+        "図面AI",
+        "業務効率化"
+      ],
+      "importance": 3
+    },
+    {
       "id": "0b0ebde10f41",
       "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
       "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/",
@@ -276,31 +503,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T22:02:55.000Z",
       "description": "バイオテクノロジー企業のInsilico Medicineは、生成AIで設計した特発性肺線維症の治療薬候補「レントセルチブ」のデータを再解析した結果を発表した。血中タンパク質から測る6種の「老化時計」すべてで、患者の生物学的年齢が最大約6歳分低下したという。老化への直接的な作用を確認するには更なる検証が必要としている。",
-      "summary": "バイオテクノロジー企業が生成AIで設計した特発性肺線維症の治療薬候補について再解析結果を発表した。6種の老化時計で生物学的年齢が最大約6歳分低下したと示唆されたが、さらなる検証が必要とされている。",
-      "category": "モデル/研究",
+      "summary": "バイオテック企業Insilico Medicineが、生成AIで設計した治療薬候補のデータを再解析し、患者の生物学的年齢が複数の老化時計で低下したと報告した。さらなる検証が必要としている。",
+      "category": "その他",
       "tags": [
         "AI創薬",
-        "老化",
-        "治療薬"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "1528da46b34b",
-      "title": "The complex corporate web behind a $3.2 billion AI data center",
-      "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-07T11:00:03.000Z",
-      "description": "When multiple companies are behind one project, who bears responsibility for problems?",
-      "summary": "32億ドルのAIデータセンタープロジェクトに関わる複雑な企業ネットワークについて検証しています。複数企業関与時の責任所在が問題となっています。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "データセンター",
-        "AI投資",
-        "企業責任"
+        "老化対策",
+        "生物学的年齢"
       ],
       "importance": 3
     },
@@ -314,12 +522,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T07:03:00.000Z",
       "description": "グラフィックデザインやインテリアデザインなど「デザイン業」の倒産が急増している。東京商工リサーチの調査によると、2026年上半期に発生したデザイン業の倒産は40件（前年同期比166.6％増）だった。",
-      "summary": "デザイン業の倒産が前年同期比で大幅に増加し、2026年上半期は166.6％増の40件に達した。生成AIの普及以外にも、業界を取り巻く複数の要因が倒産増加につながっている。",
+      "summary": "デザイン業の倒産が前年同期比166%増となり、2026年上半期に40件に達した。生成AIの普及以外にも複合的な要因があると指摘されている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "デザイン業",
-        "倒産",
-        "影響"
+        "倒産増加",
+        "経済影響"
       ],
       "importance": 3
     },
@@ -339,6 +547,25 @@
         "セキュリティ",
         "脅威",
         "Copilot"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "fbe6850dba19",
+      "title": "M365 Copilotでも「GPT-6 Astra」利用可能に 「Fable 5.1」も可 Work IQと合わせて「より的確な応答」に",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T06:32:17.000Z",
+      "description": "Microsoftは、OpenAIの新モデル「GPT-6 Astra」を「Copilot Cowork」と「Copilot Studio」で提供開始。作業を細かく分けて指示せずとも、より大きなタスクを委任できるとうたう。",
+      "summary": "マイクロソフトがOpenAIの新モデル「GPT-6 Astra」をCopilot系製品で利用可能にした。大型のタスク処理を細分化せずに委任できるようになり、より正確な対応が期待できる。",
+      "category": "プロダクト",
+      "tags": [
+        "Microsoft Copilot",
+        "GPT-6 Astra",
+        "新機能"
       ],
       "importance": 3
     },
@@ -419,308 +646,80 @@
       "importance": 3
     },
     {
-      "id": "fad16be6b7aa",
-      "title": "行政機関18万人を支える「源内」 わずか1～2人での運用を実現した“一見手の込んだ仕組み”",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T23:00:00.000Z",
-      "description": "省庁ごとに環境を分ければセキュリティは上がるが、運用の手間はテナントの数だけ膨らむ――。約18万人の職員が利用する生成AI基盤「源内」で、デジタル庁はこの二律背反をどう乗り越えたのか。インフラ担当者1～2人体制で「高いセキュリティ」と運用の効率化を両立させる設計とは。",
-      "summary": "デジタル庁は約18万人が利用する生成AI基盤「源内」をわずか1～2人の体制で運用している。高いセキュリティと運用効率化を両立させた設計が実現している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "行政",
-        "基盤",
-        "運用"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "760b721dfd1a",
-      "title": "初回正答率の向上で「対話の往復」削減 Meta「Muse Spark 1.3」の推論強化と活用ポイント",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T23:00:00.000Z",
-      "description": "Metaが新たに公開したモデル「Muse Spark 1.3」は、推論能力の強化により開発時の「会話の往復」を削減するという。100万トークンのコンテキストやマルチモーダル処理を継承しつつ、選べる2種類の料金体系を提示している。",
-      "summary": "Metaが発表した「Muse Spark 1.3」は推論能力の強化により開発時の対話回数を減らしている。100万トークンのコンテキストと複数の料金体系を備えている。",
-      "category": "モデル/研究",
-      "tags": [
-        "Meta",
-        "推論",
-        "Muse Spark"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "e1382edca86d",
-      "title": "Googleの自動化ツール「Workspace Studio」とは？ 他ツールとの違いと活用法",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T22:00:00.000Z",
-      "description": "AIに仕事を手伝わせるだけでなく、仕事そのものを自動化するにはどうすればいいのか。Google Workspace Studioを使った4つの実例から、日々の業務を効率化する具体的な方法を紹介する。",
-      "summary": "GoogleのWorkspace Studioは仕事の自動化を実現するツールである。4つの具体例を通じて、日々の業務効率化の方法を紹介している。",
-      "category": "開発ツール",
-      "tags": [
-        "Google",
-        "自動化",
-        "Workspace"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "975c313dfafc",
-      "title": "中国新興自動車メーカーが取り組むAIアーキテクチャ「LBM」は本流となるか",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news009.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T22:00:00.000Z",
-      "description": "近年、中国の新興自動車メーカーを中心に、従来の枠組みとは異なる新たなAIアーキテクチャが台頭しつつある。それが「LBM」である。今回は、このLBMが中国の新興自動車メーカーに限定された一過性の技術潮流にとどまるのか、あるいは将来的に多くの自動車メーカーへと波及していくのかを考察してみたい。",
-      "summary": "中国の新興自動車メーカーが新たなAIアーキテクチャ「LBM」を採用している。この技術が業界全体に波及するかどうか、その可能性を考察している。",
-      "category": "その他",
-      "tags": [
-        "自動車",
-        "AI",
-        "中国"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "54963a618408",
-      "title": "HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など",
-      "url": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html",
+      "id": "019aa4f3bba4",
+      "title": "巨大オンラインゲーム「EVE Online」。ゲームを支える240万行のPython 2.7のコードをPython 3へ移行すると発表",
+      "url": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
       "source": "Publickey",
       "sourceWeight": 6,
       "sourceCategory": "開発ツール",
       "lang": "ja",
-      "publishedAt": "2026-09-07T15:39:27.000Z",
-      "description": "HTMLに属性を追加するだけで、Webページにサーバと連動した動的なアプリケーションの機能を追加できるJavaScriptライブラリ「HTMX」の最新バージョンとなる「HTMX 4.0」正式版のリリースが発表されました。 very happy to announce the release of htmx 4! pic.twitter.com/Jo2i6v9piA— htmx.org / CEO of htmx 4 (same thing) (@htmx_org)……",
-      "summary": "WebライブラリHTMXがバージョン4.0をリリースしました。内部実装がXHRからfetchに変更され、ストリーミングHTMLに対応する一方、属性の子要素継承がデフォルトで無効化されています。",
+      "publishedAt": "2026-09-08T14:28:02.000Z",
+      "description": "宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」が、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。 We have officially started our codebase migration over to Python 3There’s quite a lot involved in this process, and you've already helped us tremendousl……",
+      "summary": "大規模オンラインゲーム「EVE Online」が、240万行のPython 2.7コードをPython 3へ移行すると発表した。レガシーコードの現代化を進める。",
       "category": "開発ツール",
       "tags": [
-        "HTMX",
-        "Webライブラリ",
-        "fetch"
+        "Python",
+        "レガシーコード",
+        "EVE Online"
       ],
       "importance": 2
     },
     {
-      "id": "3c767eaad66d",
-      "title": "独自AI搭載の「国産四足歩行ロボ」、デモ動画を公開 東大発スタートアップのHighlanders",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001223/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T07:58:42.000Z",
-      "description": "ロボット開発企業のHighlandersは、国産をうたう四足歩行ロボット「HLQ EDGE」を発表した。同日に公開したデモ動画では、段差を昇降する姿などを披露した。",
-      "summary": "東大発スタートアップのHighlandersが独自AI搭載の国産四足歩行ロボット「HLQ EDGE」を発表した。段差の昇降などの性能をデモ動画で公開している。",
-      "category": "プロダクト",
-      "tags": [
-        "ロボット",
-        "AI搭載",
-        "国産"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "721a782f0987",
-      "title": "M365 Copilotを配っても「使われない」 でもAI活用が進んだ福島県庁の\"逆張り\"戦略",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/07/2000000807/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T06:31:29.000Z",
-      "description": "福島といえば喜多方ラーメン。毎日でも飽きないスープのように、生成AIも職員が日常的に使う存在にできるのか。有償アカウント100件と研修を用意しても利用が二極化した福島県が、それでも約6000人への全庁展開に踏み切った理由を追う。",
-      "summary": "福島県庁は、M365 Copilotの導入で初期は利用が二極化したにもかかわらず、全庁6000人への展開を決定した。職員が生成AIを日常的に使いこなす環境を整備するための独自の戦略を推し進めている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "行政",
-        "生成AI",
-        "導入事例"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "9051422b6246",
-      "title": "日立、フィジカルAIの4つの新サービスを発表 「なんちゃってFDE」で終わらせないアプローチとは",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T03:00:00.000Z",
-      "description": "「FDE」を名乗るサービスが次々に誕生する中、日立はフィジカルAIの実装を担うFDEをあえて「チーム」として構成する。「1人のスーパーマンでは足りない」理由とは。",
-      "summary": "日立がフィジカルAIの新サービスを発表。FDE実装をチーム構成で進め、単一の専門家依存を回避するアプローチを提示。",
-      "category": "プロダクト",
-      "tags": [
-        "フィジカルAI",
-        "日立",
-        "FDE"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "d2345f6a5c24",
-      "title": "初登場の“あの技術”、早くも「過度な期待」ピーク期に Gartnerが2026年版ハイプ・サイクルを発表",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news043.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T02:55:00.000Z",
-      "description": "Gartnerが2026年版のハイプ・サイクルを発表した。2025年版では「黎明期」にあったエージェント型AIの他、これまで取り上げられてこなかった「ある技術」が早くも「過度な期待」に突入した。初登場にもかかわらず、「過度な期待」を背負っている技術とは何か。",
-      "summary": "Gartnerが2026年版ハイプサイクルを発表。エージェント型AIが黎明期から進展し、初登場の技術が早くも過度な期待ピークに到達。",
-      "category": "その他",
-      "tags": [
-        "ハイプサイクル",
-        "市場予測",
-        "エージェント"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "b1e0a01927b6",
-      "title": "Artificial Analysisがベンチマークテスト更新 非公開データ拡充で「ゲーム化を防ぐ」",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T01:23:27.000Z",
-      "description": "Artificial Analysisが知能指標「Intelligence Index」をv4.2に更新。実務に近い評価を加え、非公開データの比重を倍増して「ゲーム化を防ぐ」とうたう。首位はClaude Fable 5.1で、GPT-6 Astraが続く。",
-      "summary": "Artificial Analysisがベンチマーク指標を更新し、非公開データの比重を倍増。モデル評価のゲーム化防止を目指す。Claude Fableが首位を獲得。",
-      "category": "開発ツール",
-      "tags": [
-        "ベンチマーク",
-        "モデル評価",
-        "Intelligence Index"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "d575bc0c3753",
-      "title": "Supporting independent journalism in Ukraine",
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "id": "855b8130e206",
+      "title": "The Work Now Within Reach",
+      "url": "https://openai.com/index/the-work-now-within-reach",
       "source": "OpenAI Blog",
       "sourceWeight": 10,
       "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "description": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "summary": "OpenAIなどの企業がウクライナのニュース機関向けにAI技術活用プログラムを立ち上げた。独立系ジャーナリズムの強化とメディア組織の革新を支援する取り組み。",
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "description": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "summary": "より高機能で低価格なAIの活用により、個人と企業が実行可能な業務の範囲が拡大し、成長をより経済的に実現できるようになることを論じている。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "ウクライナ",
-        "ジャーナリズム",
-        "社会貢献"
+        "AI活用",
+        "経済効率",
+        "ビジネス"
       ],
       "importance": 2
     },
     {
-      "id": "4568de338088",
-      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
-      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-06T20:47:37.000Z",
-      "description": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
-      "summary": "Anthropicとの和解金配分をめぐり、著作者らが出版社と著作権エージェントの請求に異議を唱えています。配分比率の公正性に疑問が呈されています。",
-      "category": "規制/政策",
-      "tags": [
-        "Anthropic",
-        "著作権",
-        "和解金"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "b21197fb9f8a",
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-06T16:45:00.000Z",
-      "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
-      "summary": "Uber創業者のTravis Kalanickが率いるAtomsが、ロボタクシー事業への参入を検討しているとされています。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "ロボタクシー",
-        "Uber",
-        "Atoms"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "162476c698e2",
-      "title": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか",
-      "url": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-09-06T15:07:10.000Z",
-      "description": "Visual Studio Code（以下、VS Code）はいまやITエンジニアのあいだで最も人気のあるコードエディタの地位を確立しています。 VS Codeはオープンソースであり、そしてWindows、Mac、Linuxのマルチプラットフォームに対応しています。 しかしVS Codeの開発が始まった2011年当時、マイクロソフトのCEOはオープンソースを敵視していたスティーブ・バルマー氏であり、同社はVisual StudioというWindowsだけに対応した強力なソフト……",
-      "summary": "VS Codeの開発経緯を扱ったドキュメンタリーがYouTubeで公開されました。作者エリック・ガンマ氏がIBMからMicrosoftに移籍してエディタを開発した背景が明かされています。",
-      "category": "その他",
-      "tags": [
-        "VS Code",
-        "開発履歴",
-        "エディタ"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "28d0e3f42f50",
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-07T19:24:00.000Z",
-      "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "summary": "AI関連の新しい用語やスラングが増えてきた中、重要なキーワードと定義を集めた用語集が作成されました。AIの急速な発展に伴う業界用語の整理を行っています。",
-      "category": "その他",
-      "tags": [
-        "AI用語",
-        "用語集",
-        "知識"
-      ],
-      "importance": 1
-    },
-    {
-      "id": "f43b3b77742d",
-      "title": "GPT-6 Astraの「low」はGPT-5.6 Solの「high」より高性能？ 公式が推奨",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001209/",
+      "id": "df004ebeb54b",
+      "title": "日立社長の“フィジカルAI”熱弁に「あれは、叱咤激励だ」 社内外に刺さるトップメッセージの核心とは",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/08/news028.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-07T02:46:28.000Z",
-      "description": "OpenAIの「Tibo」氏はXでGPT-6 Astraの「low」設定はGPT-5.6 Solの「high」設定よりも優れていると発言した。",
-      "summary": "OpenAIの担当者がGPT-6 Astraの低設定は前世代の高設定を上回ると発言。モデルの性能構成に関する詳細を示唆。",
+      "publishedAt": "2026-09-08T08:30:00.000Z",
+      "description": "日立製作所の徳永社長が講演で「フィジカルAI」について熱弁を振るった。その講演は、社員にも響いたようだ。社内外に刺さるトップメッセージの核心とは。",
+      "summary": "日立製作所の徳永社長が講演で「フィジカルAI」について強調した。このメッセージは社内外に響き、トップのビジョン伝達の重要性を示している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "フィジカルAI",
+        "日立",
+        "経営戦略"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "0383c2e04efa",
+      "title": "「人型ロボット向け救急車」登場、国内初うたう 世界の救急車両を参考にデザイン GMO傘下",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T07:58:18.000Z",
+      "description": "GMO AI&ロボティクス商事は人型ロボットの故障・トラブル時に診断や修理、代替機の提供などを行う「GMOヒューマノイド救急車」を導入すると発表した。",
+      "summary": "GMO傘下がAI&ロボティクス向けに「GMOヒューマノイド救急車」を導入した。人型ロボットの故障時に診断、修理、代替機提供などを行う国内初のサービスである。",
       "category": "プロダクト",
       "tags": [
-        "GPT-6",
-        "OpenAI",
-        "性能"
+        "人型ロボット",
+        "保守サービス",
+        "GMO"
       ],
-      "importance": 1
+      "importance": 2
     }
   ]
 }
