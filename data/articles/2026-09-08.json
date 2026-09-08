@@ -1,11 +1,11 @@
 {
   "date": "2026-09-08",
-  "generatedAt": "2026-09-07T15:41:44.615Z",
-  "count": 24,
+  "generatedAt": "2026-09-08T00:07:41.056Z",
+  "count": 30,
   "stats": {
-    "fetched": 24,
-    "afterDedupe": 24,
-    "published": 24,
+    "fetched": 29,
+    "afterDedupe": 29,
+    "published": 30,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
@@ -19,13 +19,13 @@
       "Anthropic News",
       "Google AI Blog",
       "Google DeepMind",
-      "Meta AI",
       "Hugging Face Blog",
       "VentureBeat AI",
       "MIT Technology Review AI",
-      "arXiv cs.AI"
+      "arXiv cs.AI",
+      "Hacker News"
     ],
-    "summarized": 24,
+    "summarized": 29,
     "summaryFailures": 0,
     "sources": [
       {
@@ -34,15 +34,15 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 504
+        "durationMs": 455
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1173,
-        "fetched": 3,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 265
+        "durationMs": 211
       },
       {
         "name": "Google AI Blog",
@@ -50,7 +50,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 534
+        "durationMs": 433
       },
       {
         "name": "Google DeepMind",
@@ -58,15 +58,15 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 517
+        "durationMs": 269
       },
       {
         "name": "Meta AI",
         "weight": 8,
         "itemsInFeed": 100,
-        "fetched": 0,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 564
+        "durationMs": 448
       },
       {
         "name": "Hugging Face Blog",
@@ -74,15 +74,15 @@
         "itemsInFeed": 859,
         "fetched": 0,
         "ok": true,
-        "durationMs": 318
+        "durationMs": 260
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
-        "itemsInFeed": 19,
-        "fetched": 2,
+        "itemsInFeed": 20,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 325
+        "durationMs": 273
       },
       {
         "name": "VentureBeat AI",
@@ -91,7 +91,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 380
+        "durationMs": 296
       },
       {
         "name": "The Verge AI",
@@ -99,7 +99,7 @@
         "itemsInFeed": 10,
         "fetched": 1,
         "ok": true,
-        "durationMs": 348
+        "durationMs": 286
       },
       {
         "name": "MIT Technology Review AI",
@@ -107,7 +107,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 361
+        "durationMs": 293
       },
       {
         "name": "Ars Technica",
@@ -115,15 +115,15 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 580
+        "durationMs": 419
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 13,
+        "fetched": 18,
         "ok": true,
-        "durationMs": 878
+        "durationMs": 994
       },
       {
         "name": "Publickey",
@@ -131,7 +131,7 @@
         "itemsInFeed": 15,
         "fetched": 3,
         "ok": true,
-        "durationMs": 915
+        "durationMs": 937
       },
       {
         "name": "arXiv cs.AI",
@@ -139,7 +139,7 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 601
+        "durationMs": 447
       },
       {
         "name": "Hacker News",
@@ -147,11 +147,30 @@
         "itemsInFeed": 100,
         "fetched": 1,
         "ok": true,
-        "durationMs": 817
+        "durationMs": 721
       }
     ]
   },
   "articles": [
+    {
+      "id": "fbe6850dba19",
+      "title": "M365 Copilotでも「GPT-6 Astra」利用可能に 「Fable 5.1」も可 Work IQと合わせて「より的確な応答」に",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T06:32:17.000Z",
+      "description": "Microsoftは、OpenAIの新モデル「GPT-6 Astra」を「Copilot Cowork」と「Copilot Studio」で提供開始。作業を細かく分けて指示せずとも、より大きなタスクを委任できるとうたう。",
+      "summary": "MicrosoftがCopilotプラットフォームでOpenAIの新モデル「GPT-6 Astra」の提供を開始した。より大規模なタスク委任が可能になり、より的確な応答が実現するとしている。",
+      "category": "プロダクト",
+      "tags": [
+        "Copilot",
+        "GPT-6",
+        "モデル"
+      ],
+      "importance": 4
+    },
     {
       "id": "8e06930b1a2e",
       "title": "OpenAI、エージェントによる研究加速と直面する安全性の壁を開示 チーフサイエンティストは「自発的減速」を提唱",
@@ -162,50 +181,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T00:19:02.000Z",
       "description": "OpenAIは、研究加速レポートとチーフサイエンティストのエッセイを公開した。社内でのAIエージェント活用により研究が急加速する一方、7月のインシデントによる訓練停止や、CoT監視の有効性低下など深刻な課題に直面していると開示。安全基準確立までの「自発的な減速」や国際的な規制枠組みの必要性を訴えた。",
-      "summary": "OpenAIは研究加速レポートで、AIエージェント導入による研究の急速化を報告一方、訓練停止や監視機構の脆弱化など深刻な課題に直面。チーフサイエンティストは安全基準確立まで自発的に減速し、国際規制枠組みを構築すべきと主張している。",
-      "category": "その他",
-      "tags": [
-        "AI安全性",
-        "自発的減速",
-        "国際規制"
-      ],
-      "importance": 5
-    },
-    {
-      "id": "e3ff0f2ab66c",
-      "title": "「Copilot、Word文書まとめて」で社内全滅？ 勝手に増殖するAIウイルスで大騒ぎ：895th Lap",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/04/2000001139/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T06:38:18.000Z",
-      "description": "「Microsoft Copilot」が仕事で使われるようになるなか、Word文書を介して感染が広がる、これまでとは少し違った脅威が見つかった。生成AIを仕事で使う企業が増えているだけに、警戒した方が良さそうだ。",
-      "summary": "Word文書を介して感染が広がる新型のAI関連脅威が発見された。生成AIの業務利用が増える中で、企業の注意が必要となっている。",
+      "summary": "OpenAIが研究加速レポートを公開。AIエージェントの導入で研究が加速する一方、安全性の課題に直面。チーフサイエンティストが安全基準確立まで自発的減速を提唱。",
       "category": "規制/政策",
       "tags": [
-        "セキュリティ",
-        "Copilot",
-        "脅威"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "4c6156b6d58a",
-      "title": "Teslaのロボタクシー「Cybercab」が日本で実車初公開 東京・大阪・名古屋で",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001207/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-07T05:10:57.000Z",
-      "description": "Tesla Japanが自動運転タクシー専用車両「Cybercab」を日本初公開。9月11日から東京・大阪・名古屋の4会場で「Cybercab Japan Tour」を開き、ハンドルもペダルもない2人乗りの実車を展示する。",
-      "summary": "テスラが自動運転タクシー「Cybercab」を日本初公開。ハンドルもペダルもない2人乗り実車を9月11日から東京・大阪・名古屋で展示する。",
-      "category": "プロダクト",
-      "tags": [
-        "自動運転",
-        "Cybercab",
-        "ロボタクシー"
+        "AI安全",
+        "エージェント",
+        "OpenAI"
       ],
       "importance": 4
     },
@@ -219,12 +200,12 @@
       "lang": "en",
       "publishedAt": "2026-09-06T23:36:04.000Z",
       "description": "The OpenAI logo is displayed on a smartphone screen placed on a reflective surface on which the company's logo is projected in Creteil, France, on September 4, 2026, as OpenAI began rolling out GPT-6 Astra, its most advanced model to date. (Photo by Samuel Boivin/NurPhoto via Getty Images) | NurPhoto via Getty Images The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to co…",
-      "summary": "シアトル・タイムズとニューズデイがOpenAIとマイクロソフトを著作権侵害で提訴した。両社は複数の著作権侵害訴訟の最新の原告となっている。",
+      "summary": "シアトル・タイムスとNewsday紙がOpenAIとMicrosoftを著作権侵害で提訴しました。複数のメディア企業がOpenAIを対象とした訴訟を進めています。",
       "category": "規制/政策",
       "tags": [
+        "OpenAI",
         "著作権",
-        "訴訟",
-        "OpenAI"
+        "訴訟"
       ],
       "importance": 4
     },
@@ -238,12 +219,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-06T23:00:00.000Z",
       "description": "Googleは、「Gemini 3.8 Flash」と防衛特化の「Gemini 3.8 Flash Cyber」を発表した。3.7と同等の低価格を維持しながら、コーディングや推論、脆弱性検知／修正の性能を大幅に向上させた。",
-      "summary": "Googleが新型モデル「Gemini 3.8 Flash」と防衛特化版を発表。既存価格を維持しつつ、コーディングや推論性能を大幅に向上させ、プロンプトのみで3Dゲーム生成が可能になった。",
+      "summary": "GoogleがGemini 3.8 Flashを発表。プロンプトのみで3Dゲーム生成が可能で、前世代と同価格ながら大規模モデル並みの性能向上を実現。",
       "category": "プロダクト",
       "tags": [
         "Gemini",
         "Google",
-        "モデル更新"
+        "3Dゲーム生成"
       ],
       "importance": 4
     },
@@ -286,6 +267,44 @@
       "importance": 4
     },
     {
+      "id": "0b0ebde10f41",
+      "title": "AI創薬候補、6種の「老化時計」で生物学的年齢の低下を示唆",
+      "url": "https://www.itmedia.co.jp/news/article/2609/08/2000001239/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T22:02:55.000Z",
+      "description": "バイオテクノロジー企業のInsilico Medicineは、生成AIで設計した特発性肺線維症の治療薬候補「レントセルチブ」のデータを再解析した結果を発表した。血中タンパク質から測る6種の「老化時計」すべてで、患者の生物学的年齢が最大約6歳分低下したという。老化への直接的な作用を確認するには更なる検証が必要としている。",
+      "summary": "バイオテクノロジー企業が生成AIで設計した特発性肺線維症の治療薬候補について再解析結果を発表した。6種の老化時計で生物学的年齢が最大約6歳分低下したと示唆されたが、さらなる検証が必要とされている。",
+      "category": "モデル/研究",
+      "tags": [
+        "AI創薬",
+        "老化",
+        "治療薬"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "1528da46b34b",
+      "title": "The complex corporate web behind a $3.2 billion AI data center",
+      "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-07T11:00:03.000Z",
+      "description": "When multiple companies are behind one project, who bears responsibility for problems?",
+      "summary": "32億ドルのAIデータセンタープロジェクトに関わる複雑な企業ネットワークについて検証しています。複数企業関与時の責任所在が問題となっています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "データセンター",
+        "AI投資",
+        "企業責任"
+      ],
+      "importance": 3
+    },
+    {
       "id": "2837791c5347",
       "title": "生成AIの普及だけじゃない 「デザイン業の倒産」が前年同期比166％増になった意外な理由",
       "url": "https://www.itmedia.co.jp/business/articles/2609/07/news075.html",
@@ -295,50 +314,50 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T07:03:00.000Z",
       "description": "グラフィックデザインやインテリアデザインなど「デザイン業」の倒産が急増している。東京商工リサーチの調査によると、2026年上半期に発生したデザイン業の倒産は40件（前年同期比166.6％増）だった。",
-      "summary": "デザイン業の倒産が急増し、2026年上半期は前年同期比166%増の40件に達した。生成AIの普及以外の要因も関係していると指摘されている。",
+      "summary": "デザイン業の倒産が前年同期比で大幅に増加し、2026年上半期は166.6％増の40件に達した。生成AIの普及以外にも、業界を取り巻く複数の要因が倒産増加につながっている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "デザイン業",
         "倒産",
-        "生成AI"
+        "影響"
       ],
       "importance": 3
     },
     {
-      "id": "fbe6850dba19",
-      "title": "M365 Copilotでも「GPT-6 Astra」利用可能に 「Fable 5.1」も可 Work IQと合わせて「より的確な応答」に",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/",
+      "id": "e3ff0f2ab66c",
+      "title": "「Copilot、Word文書まとめて」で社内全滅？ 勝手に増殖するAIウイルスで大騒ぎ：895th Lap",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/04/2000001139/",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-07T06:32:17.000Z",
-      "description": "Microsoftは、OpenAIの新モデル「GPT-6 Astra」を「Copilot Cowork」と「Copilot Studio」で提供開始。作業を細かく分けて指示せずとも、より大きなタスクを委任できるとうたう。",
-      "summary": "マイクロソフトがOpenAIの新モデル「GPT-6 Astra」をCopilotで利用可能にした。より大型のタスク委任を実現し、より正確な応答を提供するとしている。",
-      "category": "モデル/研究",
+      "publishedAt": "2026-09-07T06:38:18.000Z",
+      "description": "「Microsoft Copilot」が仕事で使われるようになるなか、Word文書を介して感染が広がる、これまでとは少し違った脅威が見つかった。生成AIを仕事で使う企業が増えているだけに、警戒した方が良さそうだ。",
+      "summary": "Microsoft CopilotがWord文書を介して広がるセキュリティ脅威が発見された。生成AIの業務利用が拡大する中、企業は新たな感染経路への対策が必要となっている。",
+      "category": "規制/政策",
       "tags": [
-        "GPT-6",
-        "Copilot",
-        "OpenAI"
+        "セキュリティ",
+        "脅威",
+        "Copilot"
       ],
       "importance": 3
     },
     {
-      "id": "d2345f6a5c24",
-      "title": "初登場の“あの技術”、早くも「過度な期待」ピーク期に Gartnerが2026年版ハイプ・サイクルを発表",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news043.html",
+      "id": "4c6156b6d58a",
+      "title": "Teslaのロボタクシー「Cybercab」が日本で実車初公開 東京・大阪・名古屋で",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001207/",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-07T02:55:00.000Z",
-      "description": "Gartnerが2026年版のハイプ・サイクルを発表した。2025年版では「黎明期」にあったエージェント型AIの他、これまで取り上げられてこなかった「ある技術」が早くも「過度な期待」に突入した。初登場にもかかわらず、「過度な期待」を背負っている技術とは何か。",
-      "summary": "Gartnerが2026年版ハイプ・サイクルを発表。エージェント型AIが成長段階に進む中、初登場ながら早くも「過度な期待」ピークに達した新技術が存在する。",
-      "category": "その他",
+      "publishedAt": "2026-09-07T05:10:57.000Z",
+      "description": "Tesla Japanが自動運転タクシー専用車両「Cybercab」を日本初公開。9月11日から東京・大阪・名古屋の4会場で「Cybercab Japan Tour」を開き、ハンドルもペダルもない2人乗りの実車を展示する。",
+      "summary": "Teslaがロボタクシー「Cybercab」を日本初公開。東京・大阪・名古屋で展示。ハンドルとペダルなしの2人乗り自動運転車。",
+      "category": "プロダクト",
       "tags": [
-        "ハイプサイクル",
-        "Gartner",
-        "トレンド"
+        "自動運転",
+        "ロボタクシー",
+        "Tesla"
       ],
       "importance": 3
     },
@@ -352,52 +371,128 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T02:20:00.000Z",
       "description": "IBMが「人とデジタルワーカーの協働」について自社のユースケースを説明するとともに、これからの企業経営の在り方を示した。AIによる成果の全社展開を阻む4つの課題の解消方法とともに紹介し、考察する。",
-      "summary": "IBMが自社のAIエージェント運用事例を示し、人間とデジタルワーカーの協働モデルと、AIの全社展開を阻む4つの課題の解決方法を提示している。",
-      "category": "プロダクト",
+      "summary": "IBMがAIエージェントを人材として活用する事例を公開。企業経営全体へのAI展開を阻む課題と解決策を示唆。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "AIエージェント",
-        "企業経営",
-        "デジタルワーカー"
+        "エージェント",
+        "企業運用",
+        "IBM"
       ],
       "importance": 3
     },
     {
-      "id": "b1e0a01927b6",
-      "title": "Artificial Analysisがベンチマークテスト更新 非公開データ拡充で「ゲーム化を防ぐ」",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205/",
+      "id": "42fa37a28402",
+      "title": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGtVTFc4RWVaZE1VS01CcnBfaWtlbEdRcmdmT2pjbVVlQWh0OVVaTzhqNWI1YlF5bl9mYm8ySUI5Yklab3FpbDhGRHN5blFiVWJELWlHLUtBSnNKWndBQTl2WUhETndzbk13LVFkc3RFRlpBM3NjSFd1T29xN1FnTjBkblF6bGRNeTBiQUh0cS1ENmhCNGtETl82a1hZeTM3SHBKbk12ZGlpSGpvZEpuQUs5Qkwxd3BDQU9xWm9nU3RYUQ?oc=5",
+      "source": "Meta AI",
+      "sourceWeight": 8,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-06T17:18:44.000Z",
+      "description": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis AI at Meta",
+      "summary": "Metaが音声吹き替えと対話型音声合成を実現する新しいAI技術を発表した。アライメント不要の手法で高度な音声処理を可能にする。",
+      "category": "モデル/研究",
+      "tags": [
+        "音声合成",
+        "ダビング",
+        "Meta"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "03c59fe4217b",
+      "title": "JavaScriptをC言語にコンパイルする「porffor」がアルファ版に到達。ネイティブやWASMを生成可能",
+      "url": "https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-09-06T15:04:34.000Z",
+      "description": "JavaScriptを事前コンパイルしてC言語に変換するコンパイラ「porffor」（発音はpoor-for）がアルファ版に到達したことが発表されました（公式サイト、GitHubリポジトリ）。 作者のOliver Medhurst氏が明らかにしました。 Porffor alpha is out! It represents a new phase of the project where real-world dependencies are beginning to wor……",
+      "summary": "JavaScriptをC言語にコンパイルするツール「porffor」がアルファ版に到達しました。ネイティブコードやWASMの生成に対応し、実際のプロジェクトでの活用が進み始めています。",
+      "category": "開発ツール",
+      "tags": [
+        "JavaScript",
+        "コンパイラ",
+        "WASM"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "fad16be6b7aa",
+      "title": "行政機関18万人を支える「源内」 わずか1～2人での運用を実現した“一見手の込んだ仕組み”",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-07T01:23:27.000Z",
-      "description": "Artificial Analysisが知能指標「Intelligence Index」をv4.2に更新。実務に近い評価を加え、非公開データの比重を倍増して「ゲーム化を防ぐ」とうたう。首位はClaude Fable 5.1で、GPT-6 Astraが続く。",
-      "summary": "Artificial Analysisがベンチマークテスト「Intelligence Index」をv4.2に更新し、非公開データの比重を倍増してゲーム化を防止。Claude Fable 5.1が首位、GPT-6 Astraが次点となった。",
-      "category": "その他",
+      "publishedAt": "2026-09-07T23:00:00.000Z",
+      "description": "省庁ごとに環境を分ければセキュリティは上がるが、運用の手間はテナントの数だけ膨らむ――。約18万人の職員が利用する生成AI基盤「源内」で、デジタル庁はこの二律背反をどう乗り越えたのか。インフラ担当者1～2人体制で「高いセキュリティ」と運用の効率化を両立させる設計とは。",
+      "summary": "デジタル庁は約18万人が利用する生成AI基盤「源内」をわずか1～2人の体制で運用している。高いセキュリティと運用効率化を両立させた設計が実現している。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "ベンチマーク",
-        "モデル評価",
-        "Intelligence Index"
+        "行政",
+        "基盤",
+        "運用"
       ],
-      "importance": 3
+      "importance": 2
     },
     {
-      "id": "b21197fb9f8a",
-      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-06T16:45:00.000Z",
-      "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
-      "summary": "Uber創業者トラビス・カラニックが率いるAtomsが、ロボタクシー事業への参入を検討しているとみられている。",
-      "category": "プロダクト",
+      "id": "760b721dfd1a",
+      "title": "初回正答率の向上で「対話の往復」削減 Meta「Muse Spark 1.3」の推論強化と活用ポイント",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news045.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T23:00:00.000Z",
+      "description": "Metaが新たに公開したモデル「Muse Spark 1.3」は、推論能力の強化により開発時の「会話の往復」を削減するという。100万トークンのコンテキストやマルチモーダル処理を継承しつつ、選べる2種類の料金体系を提示している。",
+      "summary": "Metaが発表した「Muse Spark 1.3」は推論能力の強化により開発時の対話回数を減らしている。100万トークンのコンテキストと複数の料金体系を備えている。",
+      "category": "モデル/研究",
       "tags": [
-        "ロボタクシー",
-        "Atoms",
-        "Uber"
+        "Meta",
+        "推論",
+        "Muse Spark"
       ],
-      "importance": 3
+      "importance": 2
+    },
+    {
+      "id": "e1382edca86d",
+      "title": "Googleの自動化ツール「Workspace Studio」とは？ 他ツールとの違いと活用法",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001168/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T22:00:00.000Z",
+      "description": "AIに仕事を手伝わせるだけでなく、仕事そのものを自動化するにはどうすればいいのか。Google Workspace Studioを使った4つの実例から、日々の業務を効率化する具体的な方法を紹介する。",
+      "summary": "GoogleのWorkspace Studioは仕事の自動化を実現するツールである。4つの具体例を通じて、日々の業務効率化の方法を紹介している。",
+      "category": "開発ツール",
+      "tags": [
+        "Google",
+        "自動化",
+        "Workspace"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "975c313dfafc",
+      "title": "中国新興自動車メーカーが取り組むAIアーキテクチャ「LBM」は本流となるか",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/08/news009.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T22:00:00.000Z",
+      "description": "近年、中国の新興自動車メーカーを中心に、従来の枠組みとは異なる新たなAIアーキテクチャが台頭しつつある。それが「LBM」である。今回は、このLBMが中国の新興自動車メーカーに限定された一過性の技術潮流にとどまるのか、あるいは将来的に多くの自動車メーカーへと波及していくのかを考察してみたい。",
+      "summary": "中国の新興自動車メーカーが新たなAIアーキテクチャ「LBM」を採用している。この技術が業界全体に波及するかどうか、その可能性を考察している。",
+      "category": "その他",
+      "tags": [
+        "自動車",
+        "AI",
+        "中国"
+      ],
+      "importance": 2
     },
     {
       "id": "54963a618408",
@@ -409,31 +504,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T15:39:27.000Z",
       "description": "HTMLに属性を追加するだけで、Webページにサーバと連動した動的なアプリケーションの機能を追加できるJavaScriptライブラリ「HTMX」の最新バージョンとなる「HTMX 4.0」正式版のリリースが発表されました。 very happy to announce the release of htmx 4! pic.twitter.com/Jo2i6v9piA— htmx.org / CEO of htmx 4 (same thing) (@htmx_org)……",
-      "summary": "JavaScriptライブラリHTMX 4.0がリリースされた。内部実装がXHRからfetchに変更され、ストリーミングHTMLが対応し、属性の子要素への継承がデフォルトで無効化された。",
+      "summary": "WebライブラリHTMXがバージョン4.0をリリースしました。内部実装がXHRからfetchに変更され、ストリーミングHTMLに対応する一方、属性の子要素継承がデフォルトで無効化されています。",
       "category": "開発ツール",
       "tags": [
         "HTMX",
-        "JavaScript",
-        "ライブラリ"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "1528da46b34b",
-      "title": "The complex corporate web behind a $3.2 billion AI data center",
-      "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-07T11:00:03.000Z",
-      "description": "When multiple companies are behind one project, who bears responsibility for problems?",
-      "summary": "複数企業が関わる32億ドル規模のAIデータセンタープロジェクトについて、問題発生時の責任所在が複雑な構造になっている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "データセンター",
-        "AI",
-        "企業体制"
+        "Webライブラリ",
+        "fetch"
       ],
       "importance": 2
     },
@@ -447,11 +523,11 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T07:58:42.000Z",
       "description": "ロボット開発企業のHighlandersは、国産をうたう四足歩行ロボット「HLQ EDGE」を発表した。同日に公開したデモ動画では、段差を昇降する姿などを披露した。",
-      "summary": "東大発スタートアップのHighlandersが、独自AI搭載の国産四足歩行ロボット「HLQ EDGE」を発表した。段差昇降など各種機能を実演している。",
+      "summary": "東大発スタートアップのHighlandersが独自AI搭載の国産四足歩行ロボット「HLQ EDGE」を発表した。段差の昇降などの性能をデモ動画で公開している。",
       "category": "プロダクト",
       "tags": [
         "ロボット",
-        "AI",
+        "AI搭載",
         "国産"
       ],
       "importance": 2
@@ -466,12 +542,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T06:31:29.000Z",
       "description": "福島といえば喜多方ラーメン。毎日でも飽きないスープのように、生成AIも職員が日常的に使う存在にできるのか。有償アカウント100件と研修を用意しても利用が二極化した福島県が、それでも約6000人への全庁展開に踏み切った理由を追う。",
-      "summary": "福島県庁は有償アカウント配布でも利用が進まなかったが、全職員約6000人への生成AI展開に踏み切った。利用を日常化させる独自の戦略を実施している。",
+      "summary": "福島県庁は、M365 Copilotの導入で初期は利用が二極化したにもかかわらず、全庁6000人への展開を決定した。職員が生成AIを日常的に使いこなす環境を整備するための独自の戦略を推し進めている。",
       "category": "ビジネス/資金調達",
       "tags": [
+        "行政",
         "生成AI",
-        "M365 Copilot",
-        "行政"
+        "導入事例"
       ],
       "importance": 2
     },
@@ -485,31 +561,50 @@
       "lang": "ja",
       "publishedAt": "2026-09-07T03:00:00.000Z",
       "description": "「FDE」を名乗るサービスが次々に誕生する中、日立はフィジカルAIの実装を担うFDEをあえて「チーム」として構成する。「1人のスーパーマンでは足りない」理由とは。",
-      "summary": "日立がフィジカルAIの4つの新サービスを発表。FDEを単一人材ではなく複数人で構成するチームアプローチで、実装の実効性を高める戦略を打ち出している。",
+      "summary": "日立がフィジカルAIの新サービスを発表。FDE実装をチーム構成で進め、単一の専門家依存を回避するアプローチを提示。",
       "category": "プロダクト",
       "tags": [
         "フィジカルAI",
         "日立",
-        "実装戦略"
+        "FDE"
       ],
       "importance": 2
     },
     {
-      "id": "f43b3b77742d",
-      "title": "GPT-6 Astraの「low」はGPT-5.6 Solの「high」より高性能？ 公式が推奨",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001209/",
+      "id": "d2345f6a5c24",
+      "title": "初登場の“あの技術”、早くも「過度な期待」ピーク期に Gartnerが2026年版ハイプ・サイクルを発表",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news043.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-07T02:46:28.000Z",
-      "description": "OpenAIの「Tibo」氏はXでGPT-6 Astraの「low」設定はGPT-5.6 Solの「high」設定よりも優れていると発言した。",
-      "summary": "OpenAIの関係者がXで、GPT-6 Astraの低設定はGPT-5.6 Solの高設定より高性能だと公式に推奨している。",
-      "category": "プロダクト",
+      "publishedAt": "2026-09-07T02:55:00.000Z",
+      "description": "Gartnerが2026年版のハイプ・サイクルを発表した。2025年版では「黎明期」にあったエージェント型AIの他、これまで取り上げられてこなかった「ある技術」が早くも「過度な期待」に突入した。初登場にもかかわらず、「過度な期待」を背負っている技術とは何か。",
+      "summary": "Gartnerが2026年版ハイプサイクルを発表。エージェント型AIが黎明期から進展し、初登場の技術が早くも過度な期待ピークに到達。",
+      "category": "その他",
       "tags": [
-        "GPT-6",
-        "性能比較",
-        "OpenAI"
+        "ハイプサイクル",
+        "市場予測",
+        "エージェント"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "b1e0a01927b6",
+      "title": "Artificial Analysisがベンチマークテスト更新 非公開データ拡充で「ゲーム化を防ぐ」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001205/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T01:23:27.000Z",
+      "description": "Artificial Analysisが知能指標「Intelligence Index」をv4.2に更新。実務に近い評価を加え、非公開データの比重を倍増して「ゲーム化を防ぐ」とうたう。首位はClaude Fable 5.1で、GPT-6 Astraが続く。",
+      "summary": "Artificial Analysisがベンチマーク指標を更新し、非公開データの比重を倍増。モデル評価のゲーム化防止を目指す。Claude Fableが首位を獲得。",
+      "category": "開発ツール",
+      "tags": [
+        "ベンチマーク",
+        "モデル評価",
+        "Intelligence Index"
       ],
       "importance": 2
     },
@@ -523,10 +618,10 @@
       "lang": "en",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "description": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "summary": "OpenAIと複数の国際機関がウクライナの報道機関向けAIプログラムを立ち上げ、技術革新と独立系ジャーナリズムの強化を支援する。",
+      "summary": "OpenAIなどの企業がウクライナのニュース機関向けにAI技術活用プログラムを立ち上げた。独立系ジャーナリズムの強化とメディア組織の革新を支援する取り組み。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "ウクライナ支援",
+        "ウクライナ",
         "ジャーナリズム",
         "社会貢献"
       ],
@@ -542,31 +637,31 @@
       "lang": "en",
       "publishedAt": "2026-09-06T20:47:37.000Z",
       "description": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
-      "summary": "Anthropicとの和解に関して、著者らが出版社と代理人による過度な請求に異議を唱えている。和解金の配分をめぐる争いが生じている。",
+      "summary": "Anthropicとの和解金配分をめぐり、著作者らが出版社と著作権エージェントの請求に異議を唱えています。配分比率の公正性に疑問が呈されています。",
       "category": "規制/政策",
       "tags": [
         "Anthropic",
         "著作権",
-        "和解"
+        "和解金"
       ],
       "importance": 2
     },
     {
-      "id": "03c59fe4217b",
-      "title": "JavaScriptをC言語にコンパイルする「porffor」がアルファ版に到達。ネイティブやWASMを生成可能",
-      "url": "https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html",
-      "source": "Publickey",
+      "id": "b21197fb9f8a",
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "source": "TechCrunch AI",
       "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-09-06T15:04:34.000Z",
-      "description": "JavaScriptを事前コンパイルしてC言語に変換するコンパイラ「porffor」（発音はpoor-for）がアルファ版に到達したことが発表されました（公式サイト、GitHubリポジトリ）。 作者のOliver Medhurst氏が明らかにしました。 Porffor alpha is out! It represents a new phase of the project where real-world dependencies are beginning to wor……",
-      "summary": "JavaScriptをC言語にコンパイルするツール「porffor」がアルファ版に到達した。ネイティブおよびWASMコードの生成が可能となっている。",
-      "category": "開発ツール",
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-06T16:45:00.000Z",
+      "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+      "summary": "Uber創業者のTravis Kalanickが率いるAtomsが、ロボタクシー事業への参入を検討しているとされています。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "JavaScript",
-        "コンパイラ",
-        "WASM"
+        "ロボタクシー",
+        "Uber",
+        "Atoms"
       ],
       "importance": 2
     },
@@ -580,30 +675,50 @@
       "lang": "ja",
       "publishedAt": "2026-09-06T15:07:10.000Z",
       "description": "Visual Studio Code（以下、VS Code）はいまやITエンジニアのあいだで最も人気のあるコードエディタの地位を確立しています。 VS Codeはオープンソースであり、そしてWindows、Mac、Linuxのマルチプラットフォームに対応しています。 しかしVS Codeの開発が始まった2011年当時、マイクロソフトのCEOはオープンソースを敵視していたスティーブ・バルマー氏であり、同社はVisual StudioというWindowsだけに対応した強力なソフト……",
-      "summary": "Visual Studio Codeの開発史をまとめたドキュメンタリー「The Story of VS Code」がYouTubeで公開。作者エリック・ガンマ氏がIBMからマイクロソフトに移籍した経緯などを語っている。",
-      "category": "開発ツール",
+      "summary": "VS Codeの開発経緯を扱ったドキュメンタリーがYouTubeで公開されました。作者エリック・ガンマ氏がIBMからMicrosoftに移籍してエディタを開発した背景が明かされています。",
+      "category": "その他",
       "tags": [
         "VS Code",
-        "エディタ",
-        "開発"
+        "開発履歴",
+        "エディタ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "28d0e3f42f50",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-07T19:24:00.000Z",
+      "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "summary": "AI関連の新しい用語やスラングが増えてきた中、重要なキーワードと定義を集めた用語集が作成されました。AIの急速な発展に伴う業界用語の整理を行っています。",
+      "category": "その他",
+      "tags": [
+        "AI用語",
+        "用語集",
+        "知識"
       ],
       "importance": 1
     },
     {
-      "id": "aeb02c4f78fe",
-      "title": "How I feel about AI",
-      "url": "https://beza1e1.tuxen.de/ai_feelings.html",
-      "source": "Hacker News",
-      "sourceWeight": 5,
+      "id": "f43b3b77742d",
+      "title": "GPT-6 Astraの「low」はGPT-5.6 Solの「high」より高性能？ 公式が推奨",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001209/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
       "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-06T15:00:19.000Z",
-      "description": "Hacker News で 161 ポイント獲得。",
-      "summary": "Hacker NewsでAIに関する個人的な見解を述べた投稿が161ポイントを獲得した。",
-      "category": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T02:46:28.000Z",
+      "description": "OpenAIの「Tibo」氏はXでGPT-6 Astraの「low」設定はGPT-5.6 Solの「high」設定よりも優れていると発言した。",
+      "summary": "OpenAIの担当者がGPT-6 Astraの低設定は前世代の高設定を上回ると発言。モデルの性能構成に関する詳細を示唆。",
+      "category": "プロダクト",
       "tags": [
-        "AI",
-        "意見"
+        "GPT-6",
+        "OpenAI",
+        "性能"
       ],
       "importance": 1
     }
