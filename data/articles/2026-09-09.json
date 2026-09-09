@@ -1,0 +1,722 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-08T23:58:55.160Z",
+  "count": 30,
+  "stats": {
+    "fetched": 59,
+    "afterDedupe": 57,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 2,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Google AI Blog",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "arXiv cs.AI",
+      "Hacker News"
+    ],
+    "summarized": 57,
+    "summaryFailures": 1,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 408
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1180,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 353
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 616
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 472
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 558
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 860,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 464
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 19,
+        "fetched": 8,
+        "ok": true,
+        "durationMs": 359
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 412
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 419
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 495
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 668
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 20,
+        "ok": true,
+        "durationMs": 933
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 997
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 702
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 840
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "4049cae026cf",
+      "title": "OpenAI「GPT-6 Astra」発表 Codexのコーディングは前世代からどれだけ進化？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T08:00:00.000Z",
+      "description": "OpenAIは、次世代AIモデル「GPT-6 Astra」を発表した。PC自律操作やコーディング、セキュリティ検証などの能力が大幅に向上し、抽象推論ベンチマークテスト「ARC-AGI-3」で99.9％のスコアを達成したという。",
+      "summary": "OpenAIが次世代モデル「GPT-6 Astra」を発表。PC自律操作やコーディング能力が大幅に向上し、抽象推論ベンチマークで99.9％を達成した。",
+      "category": "モデル/研究",
+      "tags": [
+        "GPT-6",
+        "OpenAI",
+        "AIモデル"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "41d8d557da62",
+      "title": "Google DeepMind、90億通りの全塩基変異の影響を予測した「AlphaGenome Atlas」 学術向けに無償提供",
+      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001296/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T23:13:49.000Z",
+      "description": "Google DeepMindは、ヒトゲノムで起こり得る約90億通り全ての一塩基変異の影響を事前予測したデータベース「AlphaGenome Atlas」を公開した。影響度を数値化するスコアも導入し、未解明な非コード領域の変異解析を加速させる。学術研究向けにWebから無償提供する。",
+      "summary": "Google DeepMindがヒトゲノムの約90億通りの一塩基変異の影響を予測したデータベース「AlphaGenome Atlas」を公開した。学術研究向けに無償で提供され、ゲノム解析の加速を目指している。",
+      "category": "モデル/研究",
+      "tags": [
+        "ゲノム",
+        "生物学",
+        "DeepMind"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "9cee558749f2",
+      "title": "Meta、パーソナルAIエージェント「Muse」発表 メール送信や買い物も代行（まずは米国で無料提供開始）",
+      "url": "https://www.itmedia.co.jp/news/article/2609/09/2000001294/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T21:41:57.000Z",
+      "description": "Metaは、日常の作業を代行するパーソナルAIエージェント「Muse」を発表した。専用アプリやWhatsAppから操作でき、メール送信や旅行予約、Webフォーム入力などを自律して行う。専用VMや別エージェントによる多層防御で安全性を高め、決済やログイン情報との連携にも対応する。基本機能は無料。",
+      "summary": "MetaがパーソナルAIエージェント「Muse」を発表。メール送信や旅行予約などの日常作業を自動実行。米国で無料提供開始、安全性対策も実装。",
+      "category": "プロダクト",
+      "tags": [
+        "Meta",
+        "AIエージェント",
+        "パーソナルAI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "61c29219916e",
+      "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-08T20:53:52.000Z",
+      "description": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and gas - using an internal AI model more powerful than the newly released GPT-6 Astra alongside 10,00…",
+      "summary": "OpenAIが約90年間未解決だったナビエ・ストークス問題の解決策を発見したと発表しました。GPT-6 Astraより強力な内部AIモデルを使用して液体や気体の流動に関連する難問に取り組んだとしています。",
+      "category": "その他",
+      "tags": [
+        "OpenAI",
+        "ナビエ・ストークス",
+        "数学"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "42f9bcd0cc9b",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-08T19:00:00.000Z",
+      "description": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+      "summary": "MetaがパーソナルAIエージェント「Muse」を発表しました。ユーザーのメール、カレンダー、決済、ヘルスケアデータへのアクセスが必要となり、Metaに対するデータ信頼が試されています。",
+      "category": "プロダクト",
+      "tags": [
+        "Meta",
+        "AI agent",
+        "Muse"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2a5b71d8e7eb",
+      "title": "Meta bets on AI agent Muse to catch up in AI race",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-08T19:00:00.000Z",
+      "description": "Meta is making another push to bring artificial intelligence to the masses with Muse, a personal assistant it says can put AI in the hands of virtually anyone. The product is the latest step in a multi-billion-dollar strategy overhaul designed to revitalize the company's ailing position in the AI race and help it catch up to rivals like OpenAI, Anthropic, and Google. Muse is a \"personal AI agent\" …",
+      "summary": "MetaがパーソナルAIアシスタント「Muse」をリリースしました。AI競争での遅れを取り戻すための数十億ドル規模の戦略的転換の一環です。",
+      "category": "プロダクト",
+      "tags": [
+        "Meta",
+        "Muse",
+        "AI race"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "7150386f7f31",
+      "title": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
+      "url": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-08T18:43:09.000Z",
+      "description": "Meta dragged its feet removing ads that nudify young girls' Instagram pics.",
+      "summary": "Metaの広告プラットフォームで、若い女性の写真を加工するアプリを推し広告が表示された問題が発生。Metaが削除に時間をかけたことが批判されています。",
+      "category": "規制/政策",
+      "tags": [
+        "Meta",
+        "広告",
+        "児童保護"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "0d0cc5421d6b",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source": "Google DeepMind",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "description": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "summary": "Google DeepMindがAlphaGenome Atlasを発表し、人間のゲノムにおける90億個の一塩基変異の分子的影響をマッピングした。遺伝子解析における大規模な知見獲得。",
+      "category": "モデル/研究",
+      "tags": [
+        "ゲノム解析",
+        "DeepMind",
+        "バイオ応用"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fb68a3c4bc5f",
+      "title": "Google’s Atlas of the human genome could pave the way for new treatments",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-08T14:00:00.000Z",
+      "description": "Google DeepMind has unveiled an AI tool that its scientists claim could help unravel the mysteries of the human genome and transform our understanding of biology, accelerating scientific research and ultimately paving the way for new treatments for diseases. The platform, called AlphaGenome Atlas, contains a \"predictive map of every possible DNA letter change in the human genome,\" the researchers …",
+      "summary": "Google DeepMindが「AlphaGenome Atlas」を発表し、ヒトゲノムのDNA変異を予測するツールとして機能する。科学研究の加速と新しい治療法の開発につながる可能性がある。",
+      "category": "モデル/研究",
+      "tags": [
+        "ゲノム",
+        "医学",
+        "Google"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "57d5d8d9785b",
+      "title": "「2026年はフィジカルAI元年」 日立、AIサービス群全体で売上5000億円へ ミュトス利用の知見を基にした新サービスも",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001272/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T07:06:21.000Z",
+      "description": "日立製作所は9月3日、社会インフラ向けAIソリューション群「HMAX」を拡充し、データセンター運用やサイバー防御などの新サービスを発表。2026年を「フィジカルAI元年」と位置付け、HMAXを売上高5000億円の事業に育てる見込み。",
+      "summary": "日立製作所がAIソリューション群「HMAX」を拡充し、2026年を「フィジカルAI元年」と位置付け。2026年までにこの事業の売上を5000億円に育てる方針を発表。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "日立",
+        "フィジカルAI",
+        "事業展開"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fad16be6b7aa",
+      "title": "行政機関18万人を支える「源内」 わずか1～2人での運用を実現した“一見手の込んだ仕組み”",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-07T23:00:00.000Z",
+      "description": "省庁ごとに環境を分ければセキュリティは上がるが、運用の手間はテナントの数だけ膨らむ――。約18万人の職員が利用する生成AI基盤「源内」で、デジタル庁はこの二律背反をどう乗り越えたのか。インフラ担当者1～2人体制で「高いセキュリティ」と運用の効率化を両立させる設計とは。",
+      "summary": "デジタル庁が約18万人の行政職員向けに展開する生成AI基盤「源内」について、わずか1～2人の小規模体制でセキュリティと運用効率を両立させた設計を紹介。政府機関の実運用モデルの事例です。",
+      "category": "プロダクト",
+      "tags": [
+        "生成AI",
+        "デジタル庁",
+        "行政"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "60ebe661427c",
+      "title": "Armが3つの新プロダクトを発表、モバイルとAIインフラ、フィジカルAI向け",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/09/news059.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T23:00:00.000Z",
+      "description": "Armが3つの新プロダクトを発表した。モバイル機器向けソリューション「Arm CSS for Mobile 2」とインフラストラクチャ向けソリューション「Arm Neoverse CSS N4」、半導体製品の市場投入期間を短縮するサービスをフィジカルAI向けに拡大する「Arm Total Design for Physical AI」である。",
+      "summary": "Armがモバイル、インフラ、フィジカルAI向けの3つの新プロダクトを発表した。これらはモバイル機器やインフラストラクチャへの対応、半導体製品の市場投入期間短縮を目指している。",
+      "category": "プロダクト",
+      "tags": [
+        "Arm",
+        "AI",
+        "ハードウェア"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "900240b6cf5d",
+      "title": "「AIエージェントはモデルだけじゃない」 NVIDIAらが説く“エージェント防御”の勘所と共有の仕組み",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/09/news038.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T23:00:00.000Z",
+      "description": "Linux Foundationは、エージェント型AIのセキュリティインシデントを業界で共有するためのガイドライン「SAFE」について意見募集を始めた。NVIDIAやCisco、CrowdStrikeなどが初期案の作成に参加している。",
+      "summary": "Linux Foundationがエージェント型AIのセキュリティに関するガイドライン「SAFE」の意見募集を開始した。NVIDIAやCiscoなど複数の企業がこのセキュリティ共有の仕組みづくりに参加している。",
+      "category": "規制/政策",
+      "tags": [
+        "AIセキュリティ",
+        "エージェント",
+        "ガイドライン"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "593c29fd4d78",
+      "title": "求職者がAIで会社を選ぶ時代、AIの「企業評価」が採用にも影響 企業はどう対策すべき？",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001267/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T22:00:00.000Z",
+      "description": "「ChatGPT」などの生成AIに企業選びを相談する求職者が増えている。AIの回答が応募や選考辞退を左右する可能性もあるなか、企業には「AIからどう見られているか」という新たな採用対策が求められている。",
+      "summary": "生成AIを企業選びに利用する求職者が増加しており、AIの評価が採用活動に影響を与える可能性が出現している。企業は採用対策として、AIにどう評価されるかという新しい課題に対応する必要が生じている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "採用",
+        "生成AI",
+        "企業評価"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b3e54292ea9b",
+      "title": "Why this month's Microsoft patch release is a doozy",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-08T21:11:46.000Z",
+      "description": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+      "summary": "Microsoftが予想されるAI支援型の攻撃に先手を打つため、今月のセキュリティパッチ配信で例年以上の数のパッチをリリースしています。",
+      "category": "その他",
+      "tags": [
+        "Microsoft",
+        "パッチ",
+        "セキュリティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d74b58b58d36",
+      "title": "Hackers are stealing Claude tokens from subscribers",
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-08T21:10:27.000Z",
+      "description": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+      "summary": "Claudeのユーザーアカウントから不正にトークンが消費される事例が報告され、Anthropicが利用者に警告を発出しました。ハッカーによるトークン盗難の問題が浮上しています。",
+      "category": "その他",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "トークン盗難"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "643a6be94f85",
+      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-08T21:04:06.000Z",
+      "description": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "summary": "CognitionがAI業界での高い評価を受けて480億ドルの企業評価に達しました。AI開発分野が単一企業による独占ではなく、複数プレイヤーが成立する市場と見なされていることを示唆しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Cognition",
+        "AI coding",
+        "資金調達"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "1b84e94977b0",
+      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+      "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-08T16:20:31.000Z",
+      "description": "Google Cloud expands its enterprise AI push with Accenture, betting on forward-deployed engineers to drive adoption and overcome deployment bottlenecks.",
+      "summary": "Google Cloudがエンタープライズ向けAI展開を強化するため、Accentureとの提携を発表しました。導入の瓶頸を解決するため、現地配置エンジニアの活用に注力しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Google Cloud",
+        "Accenture",
+        "エンタープライズ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "4d17e9c813c8",
+      "title": "Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」パブリックプレビュー。SELinuxがデフォルトで強制モードに",
+      "url": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T15:54:55.000Z",
+      "description": "Amazon Web Services（AWS）は、AWSに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現時点の正式版はAmazon Linux 2023 Amazon LinuxはAWSによって無料で提供されているLinux OSのディストリビューションです。Amazon EC2などのAWSのサービスで安全かつ安定して動作し、高い性能で利用できることに最適化されてい……",
+      "summary": "AWSが4年ぶりにAmazon Linuxをメジャーアップデートし、Amazon Linux 2027をパブリックプレビューで公開しました。SELinuxがデフォルトで強制モードになるなどセキュリティが強化されています。",
+      "category": "プロダクト",
+      "tags": [
+        "Amazon Linux",
+        "AWS",
+        "セキュリティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "4b186b060128",
+      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-08T15:04:09.000Z",
+      "description": "Google is speeding up Chrome’s release schedule to ship security patches and new features faster.",
+      "summary": "Googleがセキュリティ脅威の変化に対応するため、Chromeの更新頻度を2週間ごとに加速させています。セキュリティパッチと新機能をより迅速に配信する方針です。",
+      "category": "プロダクト",
+      "tags": [
+        "Chrome",
+        "セキュリティ",
+        "更新"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "1c6dc6007150",
+      "title": "Mistral raises €3B as sovereign AI becomes big business",
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-08T14:17:48.000Z",
+      "description": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
+      "summary": "フランスのAI企業Mistralが€3億の資金調達を達成し、評価額は€210億に達した。Samsung、Scaleup Europe、PSG Equityが主導するシリーズDラウンドである。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Mistral",
+        "資金調達",
+        "主権AI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "64a2d91f9e1d",
+      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-08T13:00:00.000Z",
+      "description": "Suspenseful clock ticking… as you wait for AI to take your job. | Image: Adobe Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever leaving the project timeline. The generators themselves aren't entirely new; the big change is how eas…",
+      "summary": "Suspenseful clock ticking… as you wait for AI to take your job. | Image: Adobe Adobe is overhauling how editors interact with AI in its Premiere professional vi…",
+      "category": "プロダクト",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
+    {
+      "id": "8c435283c1a4",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-08T10:00:00.000Z",
+      "description": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "summary": "OpenAIが数学の難問「Navier-Stokes方程式ミレニアム懸賞問題」に対するAI生成ソリューションを発表した。解説資料と形式的証明をLean言語で提供している。",
+      "category": "その他",
+      "tags": [
+        "AI応用",
+        "数学問題解決",
+        "形式証明"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9da23622268d",
+      "title": "Funding grants for new research into AI and teen development",
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-08T09:00:00.000Z",
+      "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "summary": "OpenAIが500万ドル規模の助成金プログラムを開始し、生成AIが10代の発達や健康、安全に及ぼす影響に関する独立研究を募集している。応募受け付け中。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "助成金",
+        "AI研究",
+        "青少年"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ba452030e688",
+      "title": "「中に人いる？」と疑われた人型ロボ、ついに量産へ 2027年に市場投入 中国EVメーカーのシャオペン",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001261/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T04:24:41.000Z",
+      "description": "中国のEVメーカー小鵬汽車（シャオペン）は、人型ロボット「IRON」の生産ラインを稼働させたと発表した。2026年内に量産を始め、27年に中国および海外市場に投入する予定だ。",
+      "summary": "中国のEVメーカー小鵬汽車が人型ロボット「IRON」の量産化を発表。2026年内に生産を開始し、2027年に中国および海外市場へ投入予定。",
+      "category": "プロダクト",
+      "tags": [
+        "人型ロボット",
+        "小鵬汽車",
+        "量産化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "22f5d46dea4c",
+      "title": "100万円のPCが注目ランキング1位に？ ローカルLLMブームを生んだ「3つの条件」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T03:43:41.000Z",
+      "description": "価格比較サイト「価格.com」のデスクトップPC注目ランキング1位に約100万円のAIスパコンが掲載されるなど、いま「ローカルLLM」が熱い状況だ。ここでは3本の記事で、ローカルLLM関連が急速に盛り上がりを見せている理由を解剖していく。1本目となるこの記事では、「モデル」「ハードウェア」「ソフトウェア」という3つの土壌が成熟しつつあることを紹介する。",
+      "summary": "約100万円のAIスパコンが価格比較サイトのランキング1位に登場するなど、ローカルLLMが注目を集めている。モデル、ハードウェア、ソフトウェアの3分野が成熟して需要が急速に高まっています。",
+      "category": "その他",
+      "tags": [
+        "ローカルLLM",
+        "ハードウェア",
+        "トレンド"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "0967a2157782",
+      "title": "「Gemini 3.8 Flash」の狙いは“賢さ”ではない？ 発表から見えた3つのポイント",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T03:32:12.000Z",
+      "description": "Googleが「Gemini 3.8 Flash」の一般提供を開始した。長時間のコーディングや自律型エージェントを想定する新モデルだ。発表内容を読み解くと、単なる性能向上とは異なる3つの変化が見えてくる。",
+      "summary": "Googleが「Gemini 3.8 Flash」の一般提供を開始。長時間のコーディング支援と自律型エージェント向けを想定した新モデルであり、単なる性能向上とは異なる3つの変化を備えています。",
+      "category": "モデル/研究",
+      "tags": [
+        "Gemini",
+        "Google",
+        "LLM"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d06c2b03f895",
+      "title": "人型ロボが「完全自律格闘」 中国Unitreeがデモ動画を公開 AIで「リアルタイムの未来予測」うたう",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001252/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T02:34:28.000Z",
+      "description": "ロボット開発企業の中国Unitree Roboticsは、完全自律動作をうたう人型ロボットが人間と格闘するデモ動画を公開した。",
+      "summary": "中国のUnitree Roboticsが、完全自律動作する人型ロボットが人間と格闘するデモ動画を公開。リアルタイム予測を活用したAI制御の実演です。",
+      "category": "プロダクト",
+      "tags": [
+        "人型ロボット",
+        "Unitree",
+        "自律動作"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "467498dd7ec1",
+      "title": "Claude Sonnet 5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fa1M5bWZ1VElFUnZNeFVrMDk0dFNKSF9HRmxGbkhzaHdyRHVzWFk0SXZMT3hfdVVaTnVkVWNYLWRJTlI2YTRQcWQ2QjBjVXlqdVR5WEJLMG95ZWl4empOS1JuUFp0b0pLYlotNlo2ZmY3LUtR?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-08T00:24:41.000Z",
+      "description": "Claude Sonnet 5 Anthropic",
+      "summary": "Anthropicが新モデル「Claude Sonnet 5」を発表した。詳細な説明が限定的で、具体的な機能や特性については記載されていない。",
+      "category": "モデル/研究",
+      "tags": [
+        "Claude",
+        "新モデル",
+        "Anthropic"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "7464771b1a5f",
+      "title": "新SAP認定試験は「AIの利用OK」 実践型の新方式で備えるべきことは？",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/09/2000001278/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-08T22:00:00.000Z",
+      "description": "SAPの認定試験が、知識を問う従来型から実践型へと大きく変わった。さらに一部の試験ではAIの利用も可能になった。30年続くSAP認定試験で、知識よりも求めていることとは。",
+      "summary": "SAP認定試験が従来の知識型から実践型へ変更。一部試験でAI利用も可能に。試験制度の大きな転換により、実務スキルがより重視される。",
+      "category": "開発ツール",
+      "tags": [
+        "SAP",
+        "認定試験",
+        "AI活用"
+      ],
+      "importance": 2
+    }
+  ]
+}
