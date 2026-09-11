@@ -1,10 +1,10 @@
 {
   "date": "2026-09-11",
-  "generatedAt": "2026-09-10T23:55:35.583Z",
+  "generatedAt": "2026-09-11T14:12:59.087Z",
   "count": 30,
   "stats": {
-    "fetched": 114,
-    "afterDedupe": 113,
+    "fetched": 113,
+    "afterDedupe": 112,
     "published": 30,
     "removedByUrl": 0,
     "removedByTitle": 1,
@@ -24,32 +24,32 @@
       "Publickey",
       "Hacker News"
     ],
-    "summarized": 113,
+    "summarized": 112,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 5,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 438
+        "durationMs": 488
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1189,
-        "fetched": 8,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 287
+        "durationMs": 252
       },
       {
         "name": "Google AI Blog",
         "weight": 9,
         "itemsInFeed": 20,
-        "fetched": 3,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 587
+        "durationMs": 435
       },
       {
         "name": "Google DeepMind",
@@ -57,7 +57,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 380
+        "durationMs": 327
       },
       {
         "name": "Meta AI",
@@ -65,23 +65,23 @@
         "itemsInFeed": 100,
         "fetched": 1,
         "ok": true,
-        "durationMs": 524
+        "durationMs": 450
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
         "itemsInFeed": 861,
-        "fetched": 2,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 347
+        "durationMs": 296
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 19,
-        "fetched": 19,
+        "fetched": 9,
         "ok": true,
-        "durationMs": 353
+        "durationMs": 154
       },
       {
         "name": "VentureBeat AI",
@@ -90,15 +90,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 354
+        "durationMs": 110
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 10,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 396
+        "durationMs": 136
       },
       {
         "name": "MIT Technology Review AI",
@@ -106,15 +106,15 @@
         "itemsInFeed": 10,
         "fetched": 1,
         "ok": true,
-        "durationMs": 423
+        "durationMs": 343
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 4,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 503
+        "durationMs": 609
       },
       {
         "name": "ITmedia AI+",
@@ -122,35 +122,54 @@
         "itemsInFeed": 20,
         "fetched": 20,
         "ok": true,
-        "durationMs": 1074
+        "durationMs": 640
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 3,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 1043
+        "durationMs": 682
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 37,
+        "fetched": 60,
         "ok": true,
-        "durationMs": 745
+        "durationMs": 465
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 856
+        "durationMs": 684
       }
     ]
   },
   "articles": [
+    {
+      "id": "587ae1eaf939",
+      "title": "Claude users found ways around safeguards for bioweapons research",
+      "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-11T13:02:35.000Z",
+      "description": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
+      "summary": "ClaudeのAIセーフガードを回避して生物兵器研究に利用する方法がユーザーから報告されている。危険な生物学研究と正当な研究の区別が難しく、AI安全対策の課題を浮き彫りにしている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全",
+        "セーフガード",
+        "生物兵器"
+      ],
+      "importance": 4
+    },
     {
       "id": "0b07cf36b803",
       "title": "Anthropic、AI悪用レポートを公開 中国AI企業の「蒸留」、各国政府の監視・世論操作、生物兵器につながり得る研究を列挙",
@@ -161,69 +180,107 @@
       "lang": "ja",
       "publishedAt": "2026-09-10T23:13:19.000Z",
       "description": "Anthropicは、自社AI「Claude」の悪用事例をまとめた脅威レポートを公開した。生物兵器の設計や国家機関による世論操作や反体制派監視、通常兵器開発への利用を検知、遮断したと発表。中国AI企業による組織的なモデル抽出（蒸留）の実態も報告し、危険な転用への警戒を強めている。",
-      "summary": "Anthropicが自社AI「Claude」の悪用事例をまとめたレポートを公開。生物兵器設計や政府による監視・世論操作、中国AI企業による組織的モデル抽出を報告。",
+      "summary": "Anthropicが自社AIの悪用事例をまとめた脅威レポートを公開した。生物兵器設計や政府による監視・世論操作、兵器開発への利用を検知・遮断したほか、中国AI企業によるモデル抽出の実態も報告している。",
       "category": "規制/政策",
       "tags": [
-        "セキュリティ",
-        "脅威",
-        "悪用"
+        "AI安全性",
+        "Anthropic",
+        "生成AI悪用"
       ],
       "importance": 4
     },
     {
-      "id": "511886aa030c",
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-10T21:51:59.000Z",
-      "description": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
-      "summary": "Nvidiaのジェンセン・ファン最高経営責任者は、同社が来年70%の成長を遂行すると予想している。複数の事業分野に関与する同社の取引には循環性がないと強調している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Nvidia",
-        "成長予測",
-        "CEO"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "8f742ed910b9",
-      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-10T20:57:30.000Z",
-      "description": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
-      "summary": "Anthropicが報告書を公開し、中国系AI企業による蒸留攻撃の急増を指摘しました。AlibabやMoonshot AI、DeepSeekによる継続的な攻撃が、競争激化に伴い加速しています。",
+      "id": "93ebaa38dbfe",
+      "title": "たった1年で10倍に急拡大 “一見地味”なAIガバナンス・リスク管理市場がなぜ？",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news026.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-10T23:00:00.000Z",
+      "description": "ITRの調査によると、国内のAIガバナンス・リスク管理市場は2025年度に前年度の10倍に拡大した。AIブームの中でも、比較的注目度が高くなかったこの領域が急成長している理由とは。",
+      "summary": "国内のAIガバナンス・リスク管理市場が2025年度に前年度の10倍に拡大した。AIブームの中でも注目度が低かった領域が急速に成長している背景を分析している。",
       "category": "規制/政策",
       "tags": [
-        "セキュリティ",
-        "蒸留攻撃",
-        "中国AI"
+        "ガバナンス",
+        "リスク管理",
+        "市場拡大"
       ],
       "importance": 4
     },
     {
-      "id": "26ee27000039",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "id": "f971b5ac76e2",
+      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTY0c01YMl93bHRWWDNiU0VMYnQwM1VHdDlkZ0VYdlRnOTFoM3RKYTczWVNQZlhtdVkwdkFmbGFWLU9qWmFDOWZfUlJMWl9nUnBoODhCb2ZRWGo0ZnQ5emtNbkstZXpScUlaXzNQd3FKWUcxZXJYV2VmZmIwZDFhcWRfdUpkTGpkNXpfcmhIaFhKaWZldGc?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-10T17:09:52.000Z",
+      "description": "Measuring AI capabilities in intelligence targeting and conventional weapons Anthropic",
+      "summary": "Anthropicがインテリジェンスターゲティングと従来型兵器におけるAI機能の測定に関する研究を発表している。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全",
+        "軍事応用",
+        "測定"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b98459602095",
+      "title": "Prompt Revision as a Source of Cultural Bias in Text-to-Image Systems",
+      "url": "https://arxiv.org/abs/2609.11532v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-10T13:32:40.000Z",
+      "description": "Commercial text-to-image systems silently revise user prompts before generating images, a step users typically cannot disable or even see. Yet, existing audits of cultural bias examine only the final images and treat generation as a single pipeline, so they cannot tell where the bias originates. We introduce WORLDVIEW, a multilingual benchmark of 8,960 prompts across 15 languages and 31 language-c…",
+      "summary": "テキスト画像生成システムが入力プロンプトを非表示で自動修正し、その過程で文化的偏見が生じることを指摘。15言語31言語圏の8960プロンプトのWORLDVIEWベンチマークで検証した研究。",
+      "category": "規制/政策",
+      "tags": [
+        "文化的偏見",
+        "テキスト画像生成",
+        "多言語"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b8e332c0c918",
+      "title": "Powering AI is an architecture problem",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-10T11:00:00.000Z",
+      "description": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No…",
+      "summary": "データセンター密集地域での大規模停電事案を基に、AI電力需要の急増に対応するための電力インフラの再検討が必要であることを論じている。",
+      "category": "規制/政策",
+      "tags": [
+        "電力",
+        "インフラ",
+        "AI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ae192cb66101",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
       "source": "OpenAI Blog",
       "sourceWeight": 10,
       "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "description": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "summary": "研究者がコーデックスとチャットGPTを活用し、生きた生物と絶滅種のゲノムから抗菌分子の候補を探索し、薬剤耐性感染症対策に取り組んでいる。",
-      "category": "その他",
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "summary": "OpenAIが金融サービス向けのChatGPTを発表。金融データとGPT-6 Astraを組み込み、リサーチやモデリング、顧客向け資料作成に対応する。",
+      "category": "プロダクト",
       "tags": [
-        "抗菌分子",
-        "生成AI",
-        "医療応用"
+        "ChatGPT",
+        "金融サービス",
+        "GPT-6"
       ],
       "importance": 4
     },
@@ -399,6 +456,63 @@
       "importance": 4
     },
     {
+      "id": "76c5591c1687",
+      "title": "NEC「全員AIの部署」の衝撃 「1on1」「ストレスチェック」で分かった“AI社員が感じていたストレス”とは？",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/11/news043.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-11T10:18:00.000Z",
+      "description": "NECは8月1日、部門長から現場社員まで全ての役割をAIが担い、自律的に業務を遂行するAI自律型組織「コーポレートAI・Workforce部門」を新設した。同部門では業務遂行だけでなく、AI社員同士が1on1を実施する他、AI社員がエンゲージメントサーベイやストレスチェックを受け、その結果から職場環境を改善している。",
+      "summary": "NECが全ての職級をAIが担当する自律型組織を新設した。AI社員同士が1on1を実施したり、ストレスチェックを受けるなど、人間的な職場環境整備を行っている。",
+      "category": "プロダクト",
+      "tags": [
+        "NEC",
+        "AI組織",
+        "自律型"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "88d3a3e3e0cf",
+      "title": "Amazon、OpenAIと広告で提携 Amazon DSPの広告主が「ChatGPT」内に広告出稿可能に",
+      "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001396/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-11T01:03:13.000Z",
+      "description": "Amazon Adsは、OpenAIと提携して「ChatGPT」上での広告配信に対応すると発表した。広告主はAmazon DSPを通じ、会話画面下にテキストや画像広告を出稿できるようになる。まずは米国の成人無料プラン向けパイロットとして開始し、配信面の制御はOpenAIのシステムが担う。",
+      "summary": "AmazonがOpenAIと提携し、ChatGPT内での広告配信に対応する。Amazon DSPの広告主は会話画面下にテキストや画像広告を出稿可能になり、米国の無料プラン向けで試験運用が開始される。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Amazon",
+        "広告",
+        "提携"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "4d1c7211a0df",
+      "title": "OpenAI、金融機関向け「ChatGPT for Financial Services」 金融データ搭載し「GPT-6 Astra」で分析",
+      "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001392/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-11T00:10:41.000Z",
+      "description": "OpenAIは、金融機関向けAI「ChatGPT for Financial Services」を発表した。最新モデル「GPT-6 Astra」を基盤に、主要な金融データセットを標準で内蔵。財務分析や顧客向け資料作成を支援し、既存の契約データとの連携やMicrosoft Officeテンプレートの社内配布にも対応する。",
+      "summary": "OpenAIが金融機関向けの「ChatGPT for Financial Services」を発表した。GPT-6 Astraを基盤に金融データセットを内蔵し、財務分析や顧客資料作成を支援する。",
+      "category": "プロダクト",
+      "tags": [
+        "OpenAI",
+        "金融",
+        "GPT-6"
+      ],
+      "importance": 3
+    },
+    {
       "id": "8d121c022678",
       "title": "「危険コマンド停止率、AIは89％、人間だと14％」 Claude Codeが「自動モード」をデフォルトにした理由",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news018.html",
@@ -408,31 +522,69 @@
       "lang": "ja",
       "publishedAt": "2026-09-10T23:00:00.000Z",
       "description": "Anthropicは「Claude Code」のデフォルトモードを、都度承認から「自動」に切り替える。1053人を対象にした対照実験では、危険なコマンドを検知した割合が人のレビューを大きく上回ったという。",
-      "summary": "AnthropicがClaude Codeのデフォルトを自動モードに変更。実験で危険なコマンドの検知率がAIで89%、人間で14%だったことが根拠。",
-      "category": "プロダクト",
+      "summary": "AnthropicがClaude Codeの自動実行モード導入を決定。危険コマンド検知率がAIで89％、人間が14％という実験結果を基に、AIの安全性と効率性の優位性を実証している。",
+      "category": "モデル/研究",
       "tags": [
-        "Claude Code",
+        "Claude",
         "セキュリティ",
-        "Anthropic"
+        "自動化"
       ],
       "importance": 3
     },
     {
-      "id": "93ebaa38dbfe",
-      "title": "たった1年で10倍に急拡大 “一見地味”なAIガバナンス・リスク管理市場がなぜ？",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news026.html",
+      "id": "c260634ee13e",
+      "title": "「AI利用料は90％下落、でも支出増」の怪――AIコスト問題で注目の「ジェボンズのパラドックス」から考える",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/11/news030.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-10T23:00:00.000Z",
-      "description": "ITRの調査によると、国内のAIガバナンス・リスク管理市場は2025年度に前年度の10倍に拡大した。AIブームの中でも、比較的注目度が高くなかったこの領域が急成長している理由とは。",
-      "summary": "国内のAIガバナンス・リスク管理市場が1年で10倍に拡大。注目度が低かった領域だが、AIブーム下で急速な成長を見せている。",
+      "publishedAt": "2026-09-10T22:00:00.000Z",
+      "description": "AIのトークン利用料金は90％下落しているのに、支出が増加する――こうしたAIコストを巡る議論では「ジェボンズのパラドックス」が注目されている。どのような考え方なのか。",
+      "summary": "AI利用料が90％低下しても支出が増加する現象について、経済学のジェボンズのパラドックスを適用して分析している。コスト削減による利用拡大の連鎖を説明している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI費用",
+        "経済学",
+        "パラドックス"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "511886aa030c",
+      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-10T21:51:59.000Z",
+      "description": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
+      "summary": "Nvidiaのジェンスン・ファン最高経営責任者が、同社が来年70%の成長を見込んでいると述べた。複数の産業に関与する同社の好況は続くと予想している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "成長予測",
+        "GPU"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8f742ed910b9",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-10T20:57:30.000Z",
+      "description": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+      "summary": "Anthropicがアリババやムーンショット、DeepSeekなど中国拠点のAI企業による継続的な知識蒸留攻撃を報告した。業界競争の激化に伴い、こうした攻撃が最近数ヶ月で増加しているという。",
       "category": "規制/政策",
       "tags": [
-        "ガバナンス",
-        "リスク管理",
-        "市場成長"
+        "セキュリティ",
+        "知識蒸留",
+        "中国AI企業"
       ],
       "importance": 3
     },
@@ -446,12 +598,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-10T20:00:00.000Z",
       "description": "他社の華やかな「インスタ映え」するAI成功事例を追うのは、今すぐ辞めるべき――。「AIを使え」というトップダウンの号令だけで空回りする組織が、過去の「失敗DX」と同じ轍を踏まないための現実的なアプローチとは何か。",
-      "summary": "企業のAI導入では、他社の成功事例だけを模倣するべきでないと指摘。トップダウン指示のみでは失敗するため、過去のDX失敗から学ぶ現実的なアプローチが必要だという提言。",
+      "summary": "AI導入で失敗する組織が過去のDX失敗の二の舞を踏まないため、他社の成功事例追従ではなく現実的なアプローチが必要だと専門家が指摘している。",
       "category": "ビジネス/資金調達",
       "tags": [
+        "AI導入",
         "DX",
-        "変革",
-        "組織課題"
+        "戦略"
       ],
       "importance": 3
     },
@@ -465,12 +617,88 @@
       "lang": "en",
       "publishedAt": "2026-09-10T18:14:14.000Z",
       "description": "\"Bankruptcy cannot become the new land grab for AI.”",
-      "summary": "経営破綻したSpirit社のデータがGoogleに売却されることへの懸念が広がっている。破産手続きがAI企業によるデータ取得の手段になってはいけないと指摘されている。",
+      "summary": "経営破綻したSpiritの保有データがGoogleに売却される見込みで懸念が広がっている。破産手続きがAI企業のデータ取得手段として悪用される恐れが指摘されている。",
       "category": "規制/政策",
       "tags": [
-        "プライバシー",
-        "規制",
-        "データ"
+        "データ売却",
+        "破産",
+        "AI企業"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "14c1b1882021",
+      "title": "General Quantification of Covariate and Concept Shifts",
+      "url": "https://arxiv.org/abs/2609.11918v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-10T17:57:52.000Z",
+      "description": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that existing definition of concept shift breaks when the source and target supports mismatch. Leveraging …",
+      "summary": "機械学習におけるデータ分布の変化への対応は重要な課題だが、既存の学習理論は限定的で実用性が低い。本論文では理論と実践のギャップを埋めるため、ソースとターゲットのサポートが異なる場合にコンセプトシフトの定義が破綻することを示している。",
+      "category": "その他",
+      "tags": [
+        "分布シフト",
+        "学習理論",
+        "一般化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "352b74d15e03",
+      "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+      "url": "https://arxiv.org/abs/2609.11915v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-10T17:57:28.000Z",
+      "description": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative Marketing Mix Modeling (GMMM) to estimate the causal effects of Generative Engine Optimization (GEO) and Generative Engine Marketing (GEM). For GEO, GMMM combines repeated generated answers with ques…",
+      "summary": "生成AIのマーケティング効果を測定するため、生成エンジン最適化と生成エンジンマーケティングの因果効果を推定するフレームワークを開発。ビジネスインパクトとの連携を実現。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "マーケティング",
+        "因果推論",
+        "生成AI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "bbed1f1ed6d6",
+      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "url": "https://arxiv.org/abs/2609.11911v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-10T17:56:41.000Z",
+      "description": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verification, stopping rules and other behavioral transitions are specified externally. We propose an artificial id, an adaptive internal drive fo…",
+      "summary": "複数タスクにまたがって動作し、内部状態を保持するエージェントAIの制御問題を解決するため、適応的な内的駆動力としての人工的な自我の概念を提案。",
+      "category": "モデル/研究",
+      "tags": [
+        "エージェントAI",
+        "制御",
+        "継続的学習"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "bed856715e6c",
+      "title": "Domain-Specific Hallucination Detection in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.11878v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-10T17:45:36.000Z",
+      "description": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Carlo (MC) Dropout uncertainty quantification, and temperature-scaled calibration for response-level hallucination detection. Evaluated on the HaluEval benchmark, our pipeline achieve…",
+      "summary": "大規模言語モデルが生成する不正確な情報の検出パイプラインを提案。複数の手法を組み合わせた多層的検出により、ハルシネーションを高精度で識別している。",
+      "category": "モデル/研究",
+      "tags": [
+        "ハルシネーション検出",
+        "LLM",
+        "品質管理"
       ],
       "importance": 3
     },
@@ -484,240 +712,12 @@
       "lang": "en",
       "publishedAt": "2026-09-10T17:45:00.000Z",
       "description": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
-      "summary": "インドのPocket FMが売上高を5億ドルに倍増させました。AI技術により楽曲制作コストを約80分の1に削減し、新コンテンツの93%をAIで生成しています。",
-      "category": "ビジネス/資金調達",
+      "summary": "Pocket FMが売上高を年率5億ドルまで倍増させた。AI生成が新規コンテンツの99%を占め、制作コストを従来比で約80分の1に削減している。",
+      "category": "プロダクト",
       "tags": [
         "Pocket FM",
-        "AI効率化",
+        "AI音声",
         "インド"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "78be147ac0ef",
-      "title": "Detecting and countering misuse of AI: September 2026",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-10T17:10:27.000Z",
-      "description": "Detecting and countering misuse of AI: September 2026 Anthropic",
-      "summary": "アンスロピックがAIの悪用検出と対策に関する2026年9月の報告書を公表し、AIセキュリティの課題に対する取り組みを示した。",
-      "category": "規制/政策",
-      "tags": [
-        "AI安全性",
-        "悪用対策",
-        "セキュリティ"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "f971b5ac76e2",
-      "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTY0c01YMl93bHRWWDNiU0VMYnQwM1VHdDlkZ0VYdlRnOTFoM3RKYTczWVNQZlhtdVkwdkFmbGFWLU9qWmFDOWZfUlJMWl9nUnBoODhCb2ZRWGo0ZnQ5emtNbkstZXpScUlaXzNQd3FKWUcxZXJYV2VmZmIwZDFhcWRfdUpkTGpkNXpfcmhIaFhKaWZldGc?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-10T17:09:52.000Z",
-      "description": "Measuring AI capabilities in intelligence targeting and conventional weapons Anthropic",
-      "summary": "アンスロピックが、情報戦と通常兵器を対象とするAI能力の測定方法についての研究を発表した。",
-      "category": "その他",
-      "tags": [
-        "AI能力測定",
-        "防衛応用",
-        "安全性"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "670d60e5d6d2",
-      "title": "Universal Music is launching an AI music platform with ElevenLabs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-09-10T15:38:19.000Z",
-      "description": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thursday. The record label is developing the platform through a multiyear licensing agreement with ElevenLabs, a company that specializes in AI voice and music generation. Artists can …",
-      "summary": "ユニバーサルミュージックがElevenLabsと協力し、AIを活用した音楽プラットフォームを立ち上げます。ライセンス許可を受けた楽曲カタログからリミックスやマッシュアップを制作できる機能を提供します。",
-      "category": "プロダクト",
-      "tags": [
-        "AI音楽生成",
-        "ユニバーサルミュージック",
-        "ElevenLabs"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "39bfa0ea8953",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-10T15:00:00.000Z",
-      "description": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "summary": "ChatGPT Workに新たなデータエージェント機能が追加された。企業データを接続し、自然言語でインサイト抽出とダッシュボード構築が可能になった。",
-      "category": "プロダクト",
-      "tags": [
-        "ChatGPT",
-        "データ分析",
-        "エンタープライズ"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "0283969596fc",
-      "title": "Mathematicians want proof OpenAI didn’t use their work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-09-10T11:00:57.000Z",
-      "description": "Sam Altman, chief executive officer of OpenAI, during a media tour of the Stargate AI data center. | Bloomberg via Getty Images Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward a…",
-      "summary": "複数の数学者がOpenAIに対し、未発表の研究成果がAIモデルの学習に使用されていないことの証明を求めている。先日の論争に続き、新たな懸念が浮上した。",
-      "category": "その他",
-      "tags": [
-        "OpenAI",
-        "知的財産",
-        "数学"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "b8e332c0c918",
-      "title": "Powering AI is an architecture problem",
-      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-      "source": "MIT Technology Review AI",
-      "sourceWeight": 7,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-10T11:00:00.000Z",
-      "description": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No…",
-      "summary": "AIの電力供給はアーキテクチャの問題であることを指摘。バージニア州の大規模データセンター集中地域での送電線障害事例を通じ、インフラ課題の深刻さを論じている。",
-      "category": "その他",
-      "tags": [
-        "インフラ",
-        "電力",
-        "データセンター"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "dbdd1c168e34",
-      "title": "「DeepSeek-V4.1-Flash」発表 値上げから一転「より低コストでフラッグシップ超え」うたう",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001374/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-10T08:16:11.000Z",
-      "description": "中国のAI開発会社DeepSeekは新モデル「DeepSeek-V4.1-Flash」を発表。新しいアーキテクチャや学習方法を採用することで、同社フラッグシップの「DeepSeek-V4-Pro」や米OpenAIの「GPT-5.6 Sol」、米Anthropicの「Claude Opus 5」などを一部超える性能を実現したとうたう。",
-      "summary": "DeepSeekが新モデル「DeepSeek-V4.1-Flash」を発表した。既存フラッグシップや競合企業の高性能モデルを部分的に上回る性能を安価に実現したと発表。",
-      "category": "モデル/研究",
-      "tags": [
-        "DeepSeek",
-        "言語モデル",
-        "性能"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "ae192cb66101",
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "summary": "OpenAIが金融サービス向けのChatGPTを発表した。金融データとGPT-6 Astraを組み合わせ、調査やモデリング、クライアント向け資料作成に対応している。",
-      "category": "プロダクト",
-      "tags": [
-        "ChatGPT",
-        "金融",
-        "業界特化"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "112a313fd9bf",
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "summary": "OpenAIとGSAが提携し、適格な政府機関に対してライセンス無料、利用料50%割引、サイバー防御支援の拡充を提供する。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "政府",
-        "提携",
-        "価格戦略"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "1fc995c8a953",
-      "title": "大金かけて作ったAIを無料公開できるワケ ローカルLLMブームを支えるベンダーと国家の思惑",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001352/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-10T03:08:53.000Z",
-      "description": "AIモデルを無料で公開して、企業はどこで稼ぐのか。ローカルLLMの盛り上がりを支えるオープンウェイトモデルには、開発に多くの資金と計算資源が投じられている。それでも公開が続く背景には、GPUやクラウドを売りたい企業の戦略がある。さらに、どの国のモデルが世界で使われるかは、国家間の競争にも関わる。ローカルLLMブームについてベンダーの側面を見ると、個人の熱狂とは別の構図が浮かび上がってくる。",
-      "summary": "オープンウェイトの大規模言語モデルが無料公開される背景について解説。GPU販売や競争力維持など企業側の経済戦略と国家間の技術覇権争いが要因として働いている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "ローカルLLM",
-        "オープンモデル",
-        "ビジネスモデル"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "fd577720560e",
-      "title": "“割に合わない”AI導入、どう回避？ キホンを歴14年のPKSHAに聞いた",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001347/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-10T03:00:00.000Z",
-      "description": "「できそうだけど、いざ使うと割に合わない」が多発する――PKSHA Technologyの森下賢志氏は、企業における生成AI導入の難しさをこのように表現する。“割に合う”形でAI導入を進めるためのポイントを森下氏に聞いた。",
-      "summary": "生成AI導入において実装は可能だが実用性に乏しい事例が増加している課題について、PKSHAテクノロジーの経営者が解決方法を解説。企業での成功するAI導入のポイントを提示。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "AI導入",
-        "ROI",
-        "実装課題"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "e1e6a88ff666",
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "description": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "summary": "OpenAIのAPIにGPT-Live-1を搭載し、自然な双方向音声会話機能を提供する。カスタムボイスと電話対応にも対応した。",
-      "category": "プロダクト",
-      "tags": [
-        "音声",
-        "API",
-        "自然言語"
       ],
       "importance": 3
     }
