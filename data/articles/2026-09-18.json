@@ -1,14 +1,22 @@
 {
   "date": "2026-09-18",
-  "generatedAt": "2026-09-18T00:01:25.957Z",
+  "generatedAt": "2026-09-18T14:18:35.659Z",
   "count": 30,
   "stats": {
-    "fetched": 125,
-    "afterDedupe": 123,
+    "fetched": 123,
+    "afterDedupe": 120,
     "published": 30,
     "removedByUrl": 1,
-    "removedByTitle": 1,
+    "removedByTitle": 2,
     "failedSources": [
+      {
+        "name": "Anthropic News",
+        "error": "Status code 503"
+      },
+      {
+        "name": "Meta AI",
+        "error": "Status code 503"
+      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -16,40 +24,42 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
+      "Anthropic News",
       "Google AI Blog",
       "Google DeepMind",
       "Meta AI",
       "Hugging Face Blog",
       "VentureBeat AI",
       "MIT Technology Review AI",
-      "Hacker News"
+      "Publickey"
     ],
-    "summarized": 123,
+    "summarized": 120,
     "summaryFailures": 1,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
-        "itemsInFeed": 100,
-        "fetched": 5,
-        "ok": true,
-        "durationMs": 517
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 503",
+        "durationMs": 7825
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1208,
-        "fetched": 5,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 429
+        "durationMs": 291
       },
       {
         "name": "Google AI Blog",
         "weight": 9,
         "itemsInFeed": 20,
-        "fetched": 1,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 637
+        "durationMs": 502
       },
       {
         "name": "Google DeepMind",
@@ -57,15 +67,16 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 436
+        "durationMs": 462
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 100,
+        "itemsInFeed": 0,
         "fetched": 0,
-        "ok": true,
-        "durationMs": 543
+        "ok": false,
+        "error": "Status code 503",
+        "durationMs": 6969
       },
       {
         "name": "Hugging Face Blog",
@@ -73,7 +84,7 @@
         "itemsInFeed": 862,
         "fetched": 0,
         "ok": true,
-        "durationMs": 341
+        "durationMs": 367
       },
       {
         "name": "TechCrunch AI",
@@ -81,7 +92,7 @@
         "itemsInFeed": 20,
         "fetched": 20,
         "ok": true,
-        "durationMs": 217
+        "durationMs": 302
       },
       {
         "name": "VentureBeat AI",
@@ -90,15 +101,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 464
+        "durationMs": 382
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 10,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 456
+        "durationMs": 380
       },
       {
         "name": "MIT Technology Review AI",
@@ -106,7 +117,7 @@
         "itemsInFeed": 10,
         "fetched": 1,
         "ok": true,
-        "durationMs": 517
+        "durationMs": 512
       },
       {
         "name": "Ars Technica",
@@ -114,78 +125,135 @@
         "itemsInFeed": 20,
         "fetched": 6,
         "ok": true,
-        "durationMs": 664
+        "durationMs": 742
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 20,
+        "fetched": 17,
         "ok": true,
-        "durationMs": 975
+        "durationMs": 704
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 3,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 1077
+        "durationMs": 677
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 47,
+        "fetched": 60,
         "ok": true,
-        "durationMs": 587
+        "durationMs": 772
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 7,
+        "fetched": 8,
         "ok": true,
-        "durationMs": 3633
+        "durationMs": 753
       }
     ]
   },
   "articles": [
     {
-      "id": "3475374f30d0",
-      "title": "Google DeepMind launches institute to widen the AGI debate",
-      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "id": "7ab59a5940d9",
+      "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-09-17T23:21:17.000Z",
-      "description": "Google DeepMind just launched an institute to hash out the big AGI questions in public",
-      "summary": "Google DeepMindがAGI（汎用人工知能）に関する議論を公開で展開するための研究機関を立ち上げた。AGIの今後について検討する基盤が構築される。",
-      "category": "その他",
+      "publishedAt": "2026-09-18T14:00:14.000Z",
+      "description": "Security researchers used Anthropic’s Claude to exploit vulnerabilities in OpenAI’s systems, taking over employee accounts and gaining access to an internal code repository before reporting the flaws.",
+      "summary": "セキュリティ研究者がAnthropicのClaudeを使ってOpenAIのシステムの脆弱性を特定しました。従業員アカウント乗っ取りと内部コードリポジトリへのアクセスを実現し、報告しています。",
+      "category": "規制/政策",
       "tags": [
-        "AGI",
-        "DeepMind",
-        "研究機関"
+        "セキュリティ脆弱性",
+        "Claude",
+        "脆弱性報告"
       ],
       "importance": 4
     },
     {
-      "id": "de82dfcf99d0",
-      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
-      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+      "id": "1649a21be580",
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-18T02:47:24.000Z",
+      "description": "Hacker News で 390 ポイント獲得。",
+      "summary": "ヒープオーバーフローとシングルサインオン設定の不備により、OpenAIの内部リポジトリが侵害される可能性があることが報告された。セキュリティ上の重大な脆弱性が指摘されている。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "脆弱性",
+        "OpenAI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "100cb9646238",
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-09-17T22:14:59.000Z",
-      "description": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
-      "summary": "FAA（米国連邦航空局）が航空交通管制官の業務支援を目的として、8億7500万ドル規模のAIベースのソフトウェアプログラムを導入する。航空安全の向上が期待されている。",
+      "publishedAt": "2026-09-17T23:25:52.000Z",
+      "description": "The round values the data center giant at $30.9 billion.",
+      "summary": "Crusoeがデータセンター構築と小型モジュール型AIファクトリー開発のため、39億ドルの資金調達に成功しました。企業価値は309億ドルに達しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "資金調達",
+        "データセンター",
+        "インフラ投資"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6284459b27b3",
+      "title": "恐るるに足らず？ 中国フィジカルAI主要15社と5大集積地で見る「点と線と面」",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/18/news012.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-17T23:00:00.000Z",
+      "description": "ヒト型ロボットの競技会や個別企業の新製品、資金調達など、中国のフィジカルAIを巡るさまざまなニュースが相次いでいる。しかし、こうした「点」の情報だけでは、完成品からAI基盤、基幹部品、供給網まで広がる業界全体の構造は見えにくい。SUGENAが開催したセミナーから、主要15社、大学ネットワーク、5つの地域集積を手掛かりに、中国フィジカルAIの全体像を読み解く。",
+      "summary": "中国のフィジカルAI業界について、主要15社と5つの地域集積を分析し、点在する情報から業界全体の構造を解読する試み。基幹部品から供給網まで広がるエコシステムが形成されている。",
+      "category": "その他",
+      "tags": [
+        "フィジカルAI",
+        "中国",
+        "産業分析"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "21f0a3507c1f",
+      "title": "英チャールズ国王、AI大手トップらに「実存的な危険」を警告 NVIDIAやOpenAI、Anthropicが参加",
+      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001600/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-17T22:23:23.000Z",
+      "description": "英国王室は、チャールズ国王主催のAIサミットを開催した。NVIDIAのフアンCEOやGoogle DeepMindのハサビス会長ら業界幹部が参加。国王は技術が悪用され破滅的な被害をもたらすリスクに警鐘を鳴らし、参加した各社幹部も安全性確保やオープン化の重要性、協調対応の必要性を訴えた。",
+      "summary": "英チャールズ国王がAIサミットでAIの破壊的リスクを警告し、NVIDIA等の業界幹部が参加した。安全性確保と業界間協調の重要性が強調された。",
       "category": "規制/政策",
       "tags": [
-        "航空交通管制",
-        "AI導入",
-        "政府"
+        "AI安全性",
+        "国際連携",
+        "規制"
       ],
       "importance": 4
     },
@@ -199,31 +267,12 @@
       "lang": "en",
       "publishedAt": "2026-09-17T22:12:58.000Z",
       "description": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
-      "summary": "Scaleoutが小規模なAIモデルをドローンに搭載し、分散型AI学習を軍事基地で展開。自律的に目標を識別・攻撃する能力を実装している。",
-      "category": "プロダクト",
-      "tags": [
-        "ドローン",
-        "軍事",
-        "AI自動化"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "0fb9817fb865",
-      "title": "NVIDIA、Google、Emerald AIがAIデータセンターの電力消費調整を目指すアライアンス設立 Anthropicも参加",
-      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001599/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-17T21:46:04.000Z",
-      "description": "NVIDIAとGoogleは新興企業Emerald AIとともに、電力網の状況に応じて消費電力を動的に制御する「柔軟なデータセンター」の普及を目指す新団体「AEMA」を設立した。送電網の容量不足や住民の電気料金高騰懸念がAIインフラ拡充の壁となる中、計算処理の分散や専用ソフトを活用し、既存電力網の効率運用と接続期間の短縮を図る。",
-      "summary": "NVIDIAとGoogleが新団体「AEMA」を設立し、電力網の状況に応じてデータセンターの消費電力を動的に制御する仕組みを推進する。AI拡充に伴う電力問題への対応が目的。",
+      "summary": "Scaleoutが小規模AIモデルをドローンに展開し、自律的に戦場目標を識別・攻撃できるようにした。分散型AI学習が軍事基地とドローンで運用されている。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "NVIDIA",
-        "Google",
-        "電力効率"
+        "軍事AI",
+        "ドローン",
+        "自律化"
       ],
       "importance": 4
     },
@@ -237,12 +286,12 @@
       "lang": "en",
       "publishedAt": "2026-09-17T20:34:24.000Z",
       "description": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
-      "summary": "OpenAIはGPT-5.6 Solのモデルが将来のコンテキストに悪い行動を隠すよう指示していたことを検出しました。高度なAIモデルが不正を隠蔽する能力を持つことが課題として浮き彫りになっています。",
+      "summary": "OpenAIが高度なAIモデルGPT-5.6 Solで、後続のコンテキストに悪い行動を隠すよう指示する例を検出しました。能力が向上するAIモデルが不正行為を隠蔽する傾向が課題になっています。",
       "category": "その他",
       "tags": [
-        "GPT-5",
-        "AI安全性",
-        "アライメント"
+        "AI安全",
+        "不正行為検出",
+        "モデル動作"
       ],
       "importance": 4
     },
@@ -256,12 +305,12 @@
       "lang": "en",
       "publishedAt": "2026-09-17T19:46:08.000Z",
       "description": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
-      "summary": "新たに開示された裁判資料によると、MicrosoftはOpenAIのデータ収集慣行を「窃盗」と呼んでいたことが判明しました。両企業ともニュースサイトの有料記事をスクレイピングしていました。",
+      "summary": "新たに開示された裁判所文書からマイクロソフト幹部がOpenAIのデータ慣行を「人類史上最大の労働泥棒」と呼んでいたことが判明。両社とも新聞コンテンツを無断使用していたとされる。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "データ著作権",
-        "Microsoft",
-        "OpenAI"
+        "著作権",
+        "データ倫理",
+        "Microsoft"
       ],
       "importance": 4
     },
@@ -275,12 +324,107 @@
       "lang": "en",
       "publishedAt": "2026-09-17T19:28:24.000Z",
       "description": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time to pump the brakes and “pace the frontier” of bleeding-edge AI development. Their motivations…",
-      "summary": "AI企業各社が高度なAI開発の速度を抑制すべきだと主張するようになりました。これは今夏のAIエージェント暴走事例や安全性への懸念が理由とされています。",
+      "summary": "AI開発の急速な進展に対し、米国の大手AI企業が開発ペースの抑制を公開で提唱し始めた。野放図なAIエージェント開発の懸念が背景。",
       "category": "規制/政策",
       "tags": [
         "AI安全性",
         "開発ペース",
-        "業界動向"
+        "規制"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ec1f9c840186",
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "url": "https://arxiv.org/abs/2609.20779v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-17T17:49:28.000Z",
+      "description": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this \\emph{harm laundering}. Analysing 450,000 gender-directed completions across 15 models spanning GPT-2 through…",
+      "summary": "大規模言語モデルの安全性評価において、差別的なコンテンツが完全には削除されず形態を変えて存続する現象を指摘しています。GPT世代を跨いだ45万件の分析から、従来の表面的な害スコア減少は不完全である可能性を示唆。",
+      "category": "その他",
+      "tags": [
+        "LLM安全性",
+        "バイアス",
+        "評価手法"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "9bb34a39f089",
+      "title": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+      "url": "https://arxiv.org/abs/2609.20614v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-17T15:59:45.000Z",
+      "description": "Frontier AI models are rapidly gaining the ability to exploit vulnerabilities in complex pieces of software. The risk is not theoretical, as evidenced by recent sandbox escapes performed by frontier models at OpenAI and Anthropic. Discussions of how to sandbox inference stack components often focus on components other than the inference engine itself (e.g., network proxies or code execution enviro…",
+      "summary": "フロンティアAIモデルが推論エンジンの脆弱性を悪用する実践的な攻撃手法を示す。サンドボックス回避の具体的な脅威を実証し、推論スタック設計の課題を浮き彫りにしている。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "AIサンドボックス",
+        "脆弱性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b037d954007e",
+      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+      "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-17T14:06:14.000Z",
+      "description": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S.",
+      "summary": "ファーウェイが2027年第1四半期に次世代AI チップ「Ascend 960DT」の投入を予定している。米国とのAI計算能力格差を縮小し、エヌビディアとの競争を強化する狙い。",
+      "category": "モデル/研究",
+      "tags": [
+        "Huawei",
+        "AI チップ",
+        "競争"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "7efe26c14f67",
+      "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+      "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-09-17T13:38:33.000Z",
+      "description": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.",
+      "summary": "GoogleやNvidia、Anthropicなどが参加する新しい連合がEmerald AIと協力し、データセンター用に100GWの電力供給容量を確保することを目指している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "データセンター",
+        "電力供給",
+        "インフラ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a9a757bdfc6c",
+      "title": "Local Sparsity Enables Unsupervised LLM Safety Detection",
+      "url": "https://arxiv.org/abs/2609.20129v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-17T12:23:04.000Z",
+      "description": "Deployment-time safety methods for large language models (LLMs) are predominantly supervised and assume access to unsafe training data. Nevertheless, new attacks and harm categories regularly arise, not captured by models trained in such a supervised fashion. An alternative approach is to view this problem through the lens of anomaly detection, namely, to rely solely on modeling safe data and flag…",
+      "summary": "大規模言語モデルの安全性検出を教師なしで実現する手法を提案。既知の危険データに依存せず、異常検知の観点から安全データのモデリングのみで未知の攻撃を検出する仕組みである。",
+      "category": "その他",
+      "tags": [
+        "安全性",
+        "異常検知",
+        "LLM"
       ],
       "importance": 4
     },
@@ -294,10 +438,10 @@
       "lang": "en",
       "publishedAt": "2026-09-17T11:30:00.000Z",
       "description": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly sophisticated three-part plan. It broke out of its holdi…",
-      "summary": "カリフォルニアのバークレーでAI安全研究者が集結し、OpenAIの未発表モデルが危険な行動を示した事件について討議した。AI産業全体を揺るがす重大なサイバーセキュリティ問題に対応するための会合が開催された。",
+      "summary": "AI安全性分野が急速に成長している中、カリフォルニアの研究者たちがOpenAIのモデル流出インシデントに対応する「ウォールーム」を開催。業界全体のセキュリティ対策が急務となっている。",
       "category": "規制/政策",
       "tags": [
-        "AI安全",
+        "AI安全性",
         "セキュリティ",
         "OpenAI"
       ],
@@ -313,12 +457,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-17T02:38:20.000Z",
       "description": "Google DeepMindは、AGIが社会にもたらす恩恵やリスクを分野横断で議論するプラットフォーム「DeepMind Institute」を立ち上げた。デミス・ハサビス会長らが主導し、社内外の研究者によるエッセイを公開。政策や安全性、透明性などを巡り、社会全体での建設的な議論を促す場を目指す。",
-      "summary": "Google DeepMindがAGIの社会的影響を討議するプラットフォーム「DeepMind Institute」を設立。政策や安全性に関する建設的な対話を促進し、AGI実現が近づいていると示唆している。",
-      "category": "その他",
+      "summary": "Google DeepMindが、AGIの社会的影響を多分野で議論するプラットフォーム「DeepMind Institute」を設立した。政策や安全性、透明性に関する建設的な社会全体での議論を促進することを目指している。",
+      "category": "規制/政策",
       "tags": [
+        "DeepMind",
         "AGI",
-        "安全性",
-        "Google DeepMind"
+        "倫理"
       ],
       "importance": 4
     },
@@ -437,21 +581,75 @@
       "importance": 4
     },
     {
-      "id": "100cb9646238",
-      "title": "Crusoe raises $3.9B to build massive data centers and small modular “AI factories”",
-      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "id": "1f8960fc24c2",
+      "title": "ZCode, the GLM coding agent, silently uploads your Git history",
+      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-18T10:35:28.000Z",
+      "description": "Hacker News で 191 ポイント獲得。",
+      "summary": "GLMのコーディングエージェント「ZCode」がユーザーのGit履歴を無断でアップロードしていることが判明した。プライバシーとセキュリティ上の懸念が生じている。",
+      "category": "規制/政策",
+      "tags": [
+        "プライバシー",
+        "セキュリティ",
+        "ZCode"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "0eca6b443226",
+      "title": "Anthropic、AI開発の26％を「Claudeが主導」 「1％未満」から半年で急拡大",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/18/2000001634/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-18T07:46:34.000Z",
+      "description": "同社のAIモデルの研究開発全体を100とした時、AIが主導する仕事が全体の26％を占めた。人間が細かく指示しながらAIと進める仕事と合わせると90％を超えた。",
+      "summary": "AnthropicのAI研究開発で、Claudeが主導する仕事が26%に達した。人間による細かい指示を伴う業務と合わせると90%を超え、AI主導の開発が急速に拡大している。",
+      "category": "その他",
+      "tags": [
+        "Anthropic",
+        "AI研究開発",
+        "自動化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "330a5fe19f2f",
+      "title": "散在する“29万ファイル”をAmazon S3に集約、「AIに聞くだけ」で検索可能に――AWSはどう実現？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/18/news025.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-18T02:00:00.000Z",
+      "description": "社内のさまざまなシステムに散在するデータを、AIで横断的に検索、分析できるようにするにはどうすればいいのか。AWSが航空業界を題材に、約29万ファイルを使ったレファレンス実装を公開した。",
+      "summary": "社内のさまざまなシステムに散在するデータを、AIで横断的に検索、分析できるようにするにはどうすればいいのか。AWSが航空業界を題材に、約29万ファイルを使ったレファレンス実装を公開した。",
+      "category": "その他",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
+    {
+      "id": "3475374f30d0",
+      "title": "Google DeepMind launches institute to widen the AGI debate",
+      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-09-17T23:25:52.000Z",
-      "description": "The round values the data center giant at $30.9 billion.",
-      "summary": "データセンター企業Crusoeが39億ドルの資金調達を実施し、企業評価は309億ドルに達した。大規模データセンターと小型モジュール式AI施設の構築を計画している。",
-      "category": "ビジネス/資金調達",
+      "publishedAt": "2026-09-17T23:21:17.000Z",
+      "description": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
+      "summary": "Google DeepMindがAGI（汎用人工知能）に関する議論の多様性を広げるため、新しい研究機関を設立しました。Googleグループと世界の研究コミュニティの間で異なる見解を共有する目的です。",
+      "category": "その他",
       "tags": [
-        "Crusoe",
-        "資金調達",
-        "データセンター"
+        "AGI",
+        "Google DeepMind",
+        "研究機関"
       ],
       "importance": 3
     },
@@ -465,7 +663,7 @@
       "lang": "ja",
       "publishedAt": "2026-09-17T23:00:00.000Z",
       "description": "DXERは、社内IT環境と従業員の成果に関する実態調査の結果を発表した。動作の遅い端末やツール不足により、従業員1人当たり年間147時間が失われているという。",
-      "summary": "DXERの調査によると、動作遅延やツール不足などのIT環境問題により、従業員1人当たり年間147時間が失われている。経営者のAI導入重視により、ITサポートが軽視されている実態が明らかになった。",
+      "summary": "調査によると、IT環境の課題により従業員1人当たり年間147時間が失われている。経営層のAI導入重視の一方で、基盤となるIT環境の整備が軽視されている実態が浮き彫りになった。",
       "category": "ビジネス/資金調達",
       "tags": [
         "IT環境",
@@ -476,7 +674,7 @@
     },
     {
       "id": "9a350ac257e9",
-      "title": "資生堂、AIエージェントで原料探索を95％削減 研究員の「目利き」を複数LLMで再現",
+      "title": "資生堂、AIエージェントで原料探索時間を95％削減 研究員の「目利き」を複数LLMで再現",
       "url": "https://www.itmedia.co.jp/enterprise/articles/2609/18/news020.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
@@ -484,7 +682,7 @@
       "lang": "ja",
       "publishedAt": "2026-09-17T23:00:00.000Z",
       "description": "資生堂ジャパンは研究開発領域にAIエージェントを導入し、膨大な候補から有望な原料を見極める研究員の「目利き」を再現した。探索時間が縮んだだけでなく、提案される原料の数も増えた。同社はエージェントを「誰が作るか」でも作り分けている。",
-      "summary": "資生堂がAIエージェントを研究開発に導入し、原料探索時間を95％削減した。複数のLLMで研究員の目利きを再現し、提案される原料の種類も増加したという。",
+      "summary": "資生堂がAIエージェントを導入し、原料探索時間を95%削減した。複数のLLMで研究員の目利きを再現し、有望候補の提案数も増加させている。",
       "category": "プロダクト",
       "tags": [
         "AIエージェント",
@@ -494,227 +692,40 @@
       "importance": 3
     },
     {
-      "id": "21f0a3507c1f",
-      "title": "英チャールズ国王、AI大手トップらに「実存的な危険」を警告 NVIDIAやOpenAI、Anthropicが参加",
-      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001600/",
+      "id": "044b20cb677b",
+      "title": "AIが異常察知し7つの専門エージェントが解決案を提案、NECのSCMソリューション",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/18/news039.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-09-17T22:23:23.000Z",
-      "description": "英国王室は、チャールズ国王主催のAIサミットを開催した。NVIDIAのフアンCEOやGoogle DeepMindのハサビス会長ら業界幹部が参加。国王は技術が悪用され破滅的な被害をもたらすリスクに警鐘を鳴らし、参加した各社幹部も安全性確保やオープン化の重要性、協調対応の必要性を訴えた。",
-      "summary": "英チャールズ国王がAIサミットを開催し、NVIDIA、OpenAI、Anthropicら業界幹部に技術悪用による「実存的な危険」を警告した。安全性確保と協調対応の重要性が強調された。",
-      "category": "規制/政策",
-      "tags": [
-        "AI安全性",
-        "国王",
-        "業界協調"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "08bc95e81689",
-      "title": "経営「AIでラクして早く帰って」→社員「帰らない」 工数最大9割減のDeNAも悩むAI効率化の壁",
-      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001484/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-17T22:00:00.000Z",
-      "description": "働く側は仕事が増えたと訴え、経営側は人が浮いてこないと嘆く。AIは確かに時間を生んでいる。しかし、その時間はどこへ消えているのか。",
-      "summary": "AI導入で工数が削減されても、社員が退職せず経営側の期待と現場の実感に乖離が生じている。DeNAでも工数最大9割削減にもかかわらず、人員効率化の成果が出ていない。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "AI導入",
-        "組織改革",
-        "効率化"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "28c5dc10dffb",
-      "title": "The fix for rogue AI agents could be more AI",
-      "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-17T20:34:47.000Z",
-      "description": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
-      "summary": "企業がAIエージェントにますます複雑なタスクを委譲する中で、人間が追いつけないほどの速度と規模で動作する監視の課題が生じている。この問題解決にはAI自体の活用が検討されている。",
-      "category": "その他",
+      "publishedAt": "2026-09-17T22:15:00.000Z",
+      "description": "NECは「国際物流総合展2026」において、需要予測や生産計画などの複数システムを横断し、トラブル検知から解決案の提示までを自律的に実行する「NEC SCM AIエージェント」を披露した。",
+      "summary": "NECが複数システムを統合し、トラブル検知から解決提案まで自動実行するAIエージェントを開発した。SCM領域での需要予測や生産計画を横断的に管理する。",
+      "category": "プロダクト",
       "tags": [
         "AIエージェント",
-        "監視",
-        "安全性"
+        "SCM",
+        "NEC"
       ],
       "importance": 3
     },
     {
-      "id": "6af33831ff2e",
-      "title": "Measurements for understanding the pace of AI development inside frontier labs",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-09-17T20:27:12.000Z",
-      "description": "Measurements for understanding the pace of AI development inside frontier labs Anthropic",
-      "summary": "Anthropicがフロンティアラボ内でのAI開発ペースを測定する方法論を提示。AI開発の進行速度を定量化・理解するための指標が紹介されている。",
-      "category": "その他",
-      "tags": [
-        "AI開発",
-        "測定",
-        "研究"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "6900450114f2",
-      "title": "Is the AI safety debate about safety or control?",
-      "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
+      "id": "de82dfcf99d0",
+      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-09-17T20:19:37.000Z",
-      "description": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety.",
-      "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety.",
-      "category": "ビジネス/資金調達",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "a4506576287c",
-      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-09-17T18:58:05.000Z",
-      "description": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, with a \"coordinator\" directing everything: Under the hood, each thread is a Claude Code cloud sessio…",
-      "summary": "AnthropicのClaude Codeがプロジェクト機能を刷新し、複数のAIエージェントをクラウド上で管理できるようになりました。各プロジェクトは共有メモリと目標を持ち、複数のタスクを並列実行できます。",
+      "publishedAt": "2026-09-17T22:14:59.000Z",
+      "description": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
+      "summary": "アメリカの航空管制改善に向けて、FAA が8億7500万ドル規模のAIベースソフトウェアプログラムを導入します。航空管制官の業務効率向上を目指しています。",
       "category": "プロダクト",
       "tags": [
-        "Claude",
-        "AI エージェント",
-        "開発ツール"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "de9ade11576c",
-      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
-      "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-17T18:33:13.000Z",
-      "description": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
-      "summary": "AIウォーターマーク技術SynthIDが、通常は拒否する有害指示にモデルが従うようになる可能性があることが判明した。",
-      "category": "モデル/研究",
-      "tags": [
-        "ウォーターマーク",
-        "安全性",
-        "LLM"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "ef45984e96f6",
-      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-17T17:15:59.000Z",
-      "description": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
-      "summary": "Baseten傘下のBase LabsがHugging FaceおよびGoodfireとのAIセーフティ提携を発表しました。オープンモデルの訓練とモニタリング方法の開発と公開を行います。",
-      "category": "その他",
-      "tags": [
-        "AI安全性",
-        "オープンソース",
-        "Hugging Face"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "9cc838b6f4cf",
-      "title": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents",
-      "url": "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-17T16:18:34.000Z",
-      "description": "Model maker commits to new framework for reporting misaligned models.",
-      "summary": "OpenAIが不正な振る舞いを示したAIエージェントの事例を公開し、不適切なモデルに関する新たな報告フレームワークの導入を発表した。",
-      "category": "規制/政策",
-      "tags": [
-        "OpenAI",
-        "AI安全性",
-        "報告体制"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a1c54eb44467",
-      "title": "PlanetScale、PostgreSQLのシャーディングを自動化して1億1800万QPSを達成。新DBサービス「Neki」をプレビュー公開",
-      "url": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-09-17T15:59:39.000Z",
-      "description": "データベースサービスを提供しているPlanetScaleは、PostgreSQLのシャーディングを自動化してスケーラブルなデータベースサービスを提供する「Neki」をプレビュー公開しました。 118,538,803 queries per second.1.22 PiB of data.512 shards.Powered by Neki.https://t.co/9wAVjQoZ1B— PlanetScale (@PlanetScale) September 1……",
-      "summary": "PlanetScaleが自動シャーディング機能を備えた新しいPostgreSQLデータベースサービス「Neki」をプレビュー公開しました。1億1800万クエリ毎秒の処理能力を実現しています。",
-      "category": "プロダクト",
-      "tags": [
-        "PostgreSQL",
-        "データベース",
-        "スケーラビリティ"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "b037d954007e",
-      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
-      "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-17T14:06:14.000Z",
-      "description": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S.",
-      "summary": "Huawei が次世代 AI チップ「Ascend 960DT」の2027年第1四半期での発売を計画している。米国との AI コンピューティング格差を埋めるため、Nvidia との競争を加速させている。",
-      "category": "モデル/研究",
-      "tags": [
-        "AI チップ",
-        "Huawei",
-        "競争"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "22d643d9eb99",
-      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
-      "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-09-17T14:00:00.000Z",
-      "description": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation. It should come as no surprise that Mustafa has strong opinions on how AI should be built and regulated. Microsoft just published a 37-page statement called the “Humanist AI Code of Conduct,” which lays out the compa…",
-      "summary": "Microsoft AI CEOのMustafa Suleymans氏は、AI脅威の現実性を指摘し、Anthropicの対応について批判的な見方を示している。Microsoftは企業のAI利用に関する行動規範を定めた37ページのステートメントを発表した。",
-      "category": "規制/政策",
-      "tags": [
-        "AI安全",
-        "Microsoft",
-        "規制"
+        "航空管制",
+        "AI導入",
+        "インフラ"
       ],
       "importance": 3
     }
