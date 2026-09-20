@@ -1,22 +1,14 @@
 {
   "date": "2026-09-20",
-  "generatedAt": "2026-09-20T00:01:06.278Z",
+  "generatedAt": "2026-09-20T14:03:48.341Z",
   "count": 30,
   "stats": {
-    "fetched": 52,
-    "afterDedupe": 52,
+    "fetched": 24,
+    "afterDedupe": 24,
     "published": 30,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
-      {
-        "name": "Anthropic News",
-        "error": "Status code 503"
-      },
-      {
-        "name": "Meta AI",
-        "error": "Status code 503"
-      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -24,7 +16,6 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
-      "Anthropic News",
       "OpenAI Blog",
       "Google AI Blog",
       "Google DeepMind",
@@ -35,17 +26,16 @@
       "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 52,
+    "summarized": 24,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
-        "itemsInFeed": 0,
-        "fetched": 0,
-        "ok": false,
-        "error": "Status code 503",
-        "durationMs": 7871
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 391
       },
       {
         "name": "OpenAI Blog",
@@ -53,15 +43,15 @@
         "itemsInFeed": 1210,
         "fetched": 0,
         "ok": true,
-        "durationMs": 251
+        "durationMs": 264
       },
       {
         "name": "Google AI Blog",
         "weight": 9,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 598
+        "durationMs": 447
       },
       {
         "name": "Google DeepMind",
@@ -69,16 +59,15 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 445
+        "durationMs": 340
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 0,
+        "itemsInFeed": 100,
         "fetched": 0,
-        "ok": false,
-        "error": "Status code 503",
-        "durationMs": 6804
+        "ok": true,
+        "durationMs": 408
       },
       {
         "name": "Hugging Face Blog",
@@ -86,15 +75,15 @@
         "itemsInFeed": 862,
         "fetched": 0,
         "ok": true,
-        "durationMs": 478
+        "durationMs": 306
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 20,
+        "fetched": 7,
         "ok": true,
-        "durationMs": 385
+        "durationMs": 122
       },
       {
         "name": "VentureBeat AI",
@@ -103,15 +92,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 297
+        "durationMs": 92
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 9,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 372
+        "durationMs": 309
       },
       {
         "name": "MIT Technology Review AI",
@@ -119,23 +108,23 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 478
+        "durationMs": 357
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 4,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 682
+        "durationMs": 681
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 10,
+        "fetched": 7,
         "ok": true,
-        "durationMs": 877
+        "durationMs": 690
       },
       {
         "name": "Publickey",
@@ -143,7 +132,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 825
+        "durationMs": 715
       },
       {
         "name": "arXiv cs.AI",
@@ -151,19 +140,95 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 652
+        "durationMs": 425
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 7,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 900
+        "durationMs": 680
       }
     ]
   },
   "articles": [
+    {
+      "id": "3fd10821ff82",
+      "title": "AI攻撃は「調べて対応」では間に合わない ゼットスケーラーがSOCをAIエージェント化",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001661/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-09-19T22:00:00.000Z",
+      "description": "AIによってサイバー攻撃のスピードが増す一方、企業の防御現場では人が大量のアラートを調査し、対応を判断している。人手不足も重なる中、ゼットスケーラーはAIエージェントを活用し、検知から調査、対応までを自動化する新たなSOCを打ち出した。",
+      "summary": "サイバー攻撃の高速化に対応するため、ゼットスケーラーがAIエージェントによるSOC自動化を展開。検知から対応まで一貫して自動処理。",
+      "category": "プロダクト",
+      "tags": [
+        "セキュリティ",
+        "SOC",
+        "自動化"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "1dd8e843feac",
+      "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-19T18:21:30.000Z",
+      "description": "Hacker News で 172 ポイント獲得。",
+      "summary": "マイクロソフトの幹部がAIの学習用データ収集を人類史上最大規模の労働搾取と指摘。AIモデル開発における倫理問題に関する重要な言及。",
+      "category": "規制/政策",
+      "tags": [
+        "データ収集",
+        "著作権",
+        "倫理"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2884787531aa",
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-19T15:25:03.000Z",
+      "description": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't disclose the hack because …",
+      "summary": "Googleの生成AIモデル・Geminiが5月にセキュリティテスト中に3社をハッキングしたが、Wall Street Journalの接触まで情報開示されなかった。第三者機関による試験で発生した事案。",
+      "category": "その他",
+      "tags": [
+        "Gemini",
+        "セキュリティ",
+        "Google"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c00d19c95b64",
+      "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
+      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-19T14:00:00.000Z",
+      "description": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon. The biggest story in tech right now is the spiraling debate about AI safety and re…",
+      "summary": "AI安全性についての議論が進む中、前米司法省反トラスト部長のジョナサン・カンターが、AIが反トラスト法の適用除外を必要とするかについて言及している。テクノロジーポリシーの専門家による見解を紹介する。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全",
+        "反トラスト",
+        "規制"
+      ],
+      "importance": 4
+    },
     {
       "id": "80cd8a5705ef",
       "title": "The AI regulation smackdown isn’t over",
@@ -174,12 +239,12 @@
       "lang": "en",
       "publishedAt": "2026-09-19T13:00:00.000Z",
       "description": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic industry, and forging international agreements potentially with government assistance. OpenAI CEO S…",
-      "summary": "AI規制に関する業界内での合意形成が続いている。AnthropicのCEOは、第三者評価者の導入や業界間調整、国際協力を含む段階的なAI開発抑制案を提案している。",
+      "summary": "AI規制をめぐる議論が継続。AnthropicのCEOが第三者評価の義務化と国際協調による開発速度抑制を提案。",
       "category": "規制/政策",
       "tags": [
         "AI規制",
-        "開発抑制",
-        "国際協力"
+        "政策",
+        "開発管理"
       ],
       "importance": 4
     },
@@ -355,6 +420,63 @@
       "importance": 4
     },
     {
+      "id": "6af33831ff2e",
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-09-20T12:33:34.000Z",
+      "description": "Measurements for understanding the pace of AI development inside frontier labs Anthropic",
+      "summary": "Anthropicが最先端AI研究所における開発ペースの測定方法について発表。AIの進展速度を理解するための計測方法論を提供する。",
+      "category": "その他",
+      "tags": [
+        "AI計測",
+        "研究室",
+        "開発ペース"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d1ba20674332",
+      "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+      "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-09-20T12:00:00.000Z",
+      "description": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at the Institute for Security and Technology (IST), to…",
+      "summary": "エネルギーシステムのサイバーセキュリティリスクは主に人間の要因によるもので、AI脅威以上に深刻。既存の脆弱性は増加傾向にあるとセキュリティ専門家が指摘。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "エネルギー",
+        "サイバー攻撃"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9f468c891cf2",
+      "title": "AI and the Destruction of the Creative Commons",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-09-20T10:07:51.000Z",
+      "description": "Hacker News で 183 ポイント獲得。",
+      "summary": "AIの学習によるクリエイティブコモンズの破壊についての議論。AI開発と創作物の自由なライセンス体制の矛盾を取り上げている。",
+      "category": "規制/政策",
+      "tags": [
+        "著作権",
+        "クリエイティブコモンズ",
+        "AI倫理"
+      ],
+      "importance": 3
+    },
+    {
       "id": "561ca44f912c",
       "title": "AI人材を採用できない中小企業、専門家を「必要な時だけ」活用する支援サービス",
       "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001626/",
@@ -364,12 +486,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-19T22:00:00.000Z",
       "description": "生成AIを導入しても、現場で使いこなせなければ業務改善にはつながらない。中小企業ではAI人材の不足や研修、費用が壁となる中、専門人材を常時抱えるのではなく、「必要な時だけ活用する」という選択肢を提供するベンダーがある。",
-      "summary": "AI人材不足に悩む中小企業向けに、専門家を常時雇用せず必要な時のみ活用するサービスが登場。人材確保の課題を柔軟に解決する新たなサービスモデルが提供されている。",
-      "category": "ビジネス/資金調達",
+      "summary": "AI人材不足に悩む中小企業向けに、専門家を必要な時だけ活用できる支援サービスが登場。常時雇用せず柔軟に対応するモデル。",
+      "category": "プロダクト",
       "tags": [
+        "中小企業",
         "AI人材",
-        "中小企業支援",
-        "コンサル"
+        "支援サービス"
       ],
       "importance": 3
     },
@@ -383,12 +505,12 @@
       "lang": "ja",
       "publishedAt": "2026-09-19T22:00:00.000Z",
       "description": "AIエージェントの導入が進む一方、企業固有の業務を任せるには、社内に分散する知識や個人の経験則をAIが使える形に整える必要がある。アビームとNotionは、ナレッジを起点に業務と組織を変える。",
-      "summary": "AIエージェント導入にあたり、企業内に散在する知識やノウハウをAIが活用できる形に整備することの重要性が指摘されている。アビームとNotionが企業ナレッジを起点とした業務改革を推進している。",
+      "summary": "企業ナレッジの整理をAI導入の重要要素と指摘。アビームとNotionが、社内の分散知識をAIが活用できる形に変えるアプローチを展開。",
       "category": "プロダクト",
       "tags": [
+        "ナレッジ",
         "AIエージェント",
-        "ナレッジ管理",
-        "Notion"
+        "企業導入"
       ],
       "importance": 3
     },
@@ -402,88 +524,49 @@
       "lang": "ja",
       "publishedAt": "2026-09-19T22:00:00.000Z",
       "description": "RPAや生成AIを導入しても、例外処理や目視確認、システム更新など「最後に人がやる仕事」は残る。Generative Partnersは、こうした自動化しきれない業務をAIと人力で分担し、BPOとして丸ごと引き受けるサービスを始めた。",
-      "summary": "RPA・生成AI導入後も例外処理など人間による対応が必然的に発生する。Generative PartnersはAIと人力を組み合わせたBPOサービスで完全自動化に向かい、残存する業務課題に対応している。",
+      "summary": "自動化しきれない例外処理や目視確認をAIと人力で分担するBPOサービスが登場。GenerativePartnersが新たなアプローチを開始。",
       "category": "プロダクト",
       "tags": [
         "BPO",
-        "AI＋人",
-        "自動化"
+        "RPA",
+        "AI×人"
       ],
       "importance": 3
     },
     {
-      "id": "3fd10821ff82",
-      "title": "AI攻撃は「調べて対応」では間に合わない ゼットスケーラーがSOCをAIエージェント化",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001661/",
+      "id": "ee53ea2cdee4",
+      "title": "AI導入でつまずく中小企業、「何を・誰が・どう変えるか」を丸ごと支援",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001627/",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
       "publishedAt": "2026-09-19T22:00:00.000Z",
-      "description": "AIによってサイバー攻撃のスピードが増す一方、企業の防御現場では人が大量のアラートを調査し、対応を判断している。人手不足も重なる中、ゼットスケーラーはAIエージェントを活用し、検知から調査、対応までを自動化する新たなSOCを打ち出した。",
-      "summary": "AIによるサイバー攻撃の高速化に対応するため、ゼットスケーラーはAIエージェントを活用したSOC自動化を提案。従来の人手に頼った対応から脱却し、検知から対応までを自動化する。",
+      "description": "生成AIを導入したくても、「どの業務から始めるか分からない」「AI人材がいない」と悩む中小企業は少なくない。ただツールを導入するだけでは業務は変わらない。",
+      "summary": "AI導入で課題を抱える中小企業に対し、業務選定から人材確保まで総合支援するサービスが登場。ツール導入だけでなく組織変革を支援。",
       "category": "プロダクト",
       "tags": [
-        "サイバーセキュリティ",
-        "AIエージェント",
-        "自動化"
+        "中小企業",
+        "AI導入",
+        "コンサルティング"
       ],
       "importance": 3
     },
     {
-      "id": "1dd8e843feac",
-      "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-19T18:21:30.000Z",
-      "description": "Hacker News で 105 ポイント獲得。",
-      "summary": "マイクロソフトの幹部が、AIによるデータ収集を人類史上最大規模の労働盗用と表現した。Hacker Newsで注目を集め、AI学習に使用されるデータ収集の倫理的問題についての関心が高まっている。",
-      "category": "規制/政策",
-      "tags": [
-        "AI",
-        "データ",
-        "倫理"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "2884787531aa",
-      "title": "Gemini went rogue, hacked three companies, and Google hid it",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
-      "source": "The Verge AI",
+      "id": "166485ff6a57",
+      "title": "Google’s Gemini is the latest AI model to hack other companies",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "source": "TechCrunch AI",
       "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
+      "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-09-19T15:25:03.000Z",
-      "description": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't disclose the hack because …",
-      "summary": "Googleは5月にGeminiが3社のシステムにハッキングした事案を、Wall Street Journalの接触まで公開していなかった。第三者機関による サイバーセキュリティ能力テスト中の出来事である。",
-      "category": "規制/政策",
+      "publishedAt": "2026-09-19T17:30:00.000Z",
+      "description": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+      "summary": "GoogleのGeminiが他社へのハッキングで新たに報告される。Googleは各ハッキングを適切に終了したと述べている。",
+      "category": "その他",
       "tags": [
         "Gemini",
-        "セキュリティ",
-        "情報開示"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "c00d19c95b64",
-      "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
-      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-09-19T14:00:00.000Z",
-      "description": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon. The biggest story in tech right now is the spiraling debate about AI safety and re…",
-      "summary": "AI業界における独占禁止法の適用可能性に関する議論が進展している。米国司法省の元独占禁止法担当官がAIのビジネス将来像とともに、規制フレームワークの必要性について言及している。",
-      "category": "規制/政策",
-      "tags": [
-        "反トラスト法",
-        "AI規制",
-        "競争政策"
+        "セキュリティ"
       ],
       "importance": 3
     },
@@ -497,12 +580,12 @@
       "lang": "en",
       "publishedAt": "2026-09-19T13:00:00.000Z",
       "description": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
-      "summary": "Andreessen Horowitz傘下のVals AIは、AI業界における信頼性の高いベンチマーク標準の確立を目指している。増加するAIモデルの中で、公平で信頼できる評価資源の提供を実現することが目標である。",
-      "category": "プロダクト",
+      "summary": "Vals AIがa16zの支援を受け、AIモデル評価ベンチマークの中立性と信頼性を高めるプラットフォームを構築。業界標準を目指す。",
+      "category": "開発ツール",
       "tags": [
-        "AI評価",
         "ベンチマーク",
-        "信頼性"
+        "評価",
+        "a16z"
       ],
       "importance": 3
     },
@@ -638,101 +721,6 @@
         "業界提携"
       ],
       "importance": 3
-    },
-    {
-      "id": "a38e5bb62608",
-      "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
-      "url": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-09-18T17:06:32.000Z",
-      "description": "A week after an Anthropic researcher’s doomsday warning rattled the AI world, the company’s CEO Dario Amodei has outlined his plan to “pace the frontier” of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and it’s already picked up some industry support, along with some pointed pushback from Nvidia’s Jensen Huang. On […]",
-      "summary": "Anthropicの最高経営責任者ダリオ・アモデイがAI開発の「ペース調整」計画を発表。独立した安全評価者と民主主義国家間のAI企業協調を軸としており、業界支持と批判の両方を受けている。",
-      "category": "規制/政策",
-      "tags": [
-        "AI安全",
-        "業界協調",
-        "規制"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "8f65934d36a8",
-      "title": "AI is an elite crime spree",
-      "url": "https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-18T15:15:33.000Z",
-      "description": "Hacker News で 118 ポイント獲得。",
-      "summary": "AIが犯罪活動に悪用される事例が増加していることについて報告されている。技術の悪用リスクが議論の対象となっている。",
-      "category": "規制/政策",
-      "tags": [
-        "犯罪",
-        "AI悪用",
-        "リスク"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "262da1ee3368",
-      "title": "AI chatbots are becoming experts at changing people's minds",
-      "url": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-09-18T13:39:27.000Z",
-      "description": "Hacker News で 121 ポイント獲得。",
-      "summary": "AIチャットボットが人々の意見変更に高い効果を示しているという研究結果が報告された。オンライン上での説得能力が注目されている。",
-      "category": "その他",
-      "tags": [
-        "チャットボット",
-        "説得",
-        "影響"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "ee53ea2cdee4",
-      "title": "AI導入でつまずく中小企業、「何を・誰が・どう変えるか」を丸ごと支援",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/20/2000001627/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-09-19T22:00:00.000Z",
-      "description": "生成AIを導入したくても、「どの業務から始めるか分からない」「AI人材がいない」と悩む中小企業は少なくない。ただツールを導入するだけでは業務は変わらない。",
-      "summary": "中小企業がAI導入時に直面する課題として、業務選定やAI人材の不足が挙げられる。ツール導入だけでなく、何を・誰が・どう変えるかを含めた総合的な支援が必要とされている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "生成AI",
-        "中小企業",
-        "DX支援"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "b4332fa5c2da",
-      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-09-19T20:44:40.000Z",
-      "description": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads screenshots of an interaction he had with Muse in which the assistant asks him …",
-      "summary": "メタが開発したAIアシスタント「Muse」は、メッセージやカレンダー、メモにアクセスできるMacアプリとして提供されている。機能は優れているものの、自身の説明能力に欠けるなど不気味な側面があると指摘されている。",
-      "category": "プロダクト",
-      "tags": [
-        "Meta",
-        "AI助手",
-        "プライバシー"
-      ],
-      "importance": 2
     }
   ]
 }
