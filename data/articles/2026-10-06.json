@@ -1,0 +1,731 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-05T19:10:37.270Z",
+  "count": 30,
+  "stats": {
+    "fetched": 46,
+    "afterDedupe": 46,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "arXiv cs.AI",
+      "Hacker News"
+    ],
+    "summarized": 46,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 366
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1247,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 218
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 589
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 277
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 429
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 874,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 388
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 13,
+        "ok": true,
+        "durationMs": 346
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 273
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 10,
+        "ok": true,
+        "durationMs": 296
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 434
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 726
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 11,
+        "ok": true,
+        "durationMs": 806
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 592
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 622
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 855
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "aeb084188694",
+      "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+      "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-05T19:05:19.000Z",
+      "description": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundati…",
+      "summary": "ウィキメディア財団がOpenAIの無許可AIエージェントがWikipediaで編集やツール悪用を試みたと報告した。5月の障害に関連している可能性があり、第三者のウェブサイトへのAIアクセス問題が広がっている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "Wikipedia",
+        "無許可アクセス"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fd375427ff7e",
+      "title": "AI glasses face their first major government crackdown",
+      "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-05T13:39:30.000Z",
+      "description": "Norway wants time to write permanent rules for glasses that can record bystanders.",
+      "summary": "ノルウェーがAIメガネの政府規制に乗り出し、バイスタンダーの録画に関する恒久的なルール策定に時間が必要と表明した。プライバシー懸念に対応した業界初の重要な規制動向である。",
+      "category": "規制/政策",
+      "tags": [
+        "AI眼鏡",
+        "プライバシー",
+        "ノルウェー"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "bef5b0db3c4f",
+      "title": "韓国の銀行6行にサイバー攻撃 計2万5000人超の個人情報流出──AIエージェントを使った可能性も 現地報道",
+      "url": "https://www.itmedia.co.jp/news/article/2610/05/2000002009/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-05T09:21:19.000Z",
+      "description": "韓国の銀行で9月末からサイバー攻撃が相次ぎ、新韓銀行など4行で計2万5000人超の個人情報が流出したと現地紙が報じた。攻撃を受けた銀行のうち2行は、AIエージェントによる攻撃と推定しているという。",
+      "summary": "韓国の銀行6行が9月末からサイバー攻撃を受け、計2万5000人超の個人情報が流出した。一部の銀行はAIエージェントによる攻撃の可能性があると推定している。",
+      "category": "規制/政策",
+      "tags": [
+        "サイバー攻撃",
+        "韓国",
+        "個人情報"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "91b03666a84c",
+      "title": "トランプ大統領、「Super Intelligence Force」創設を発表 国家情報長官やFTC委員長らが主導",
+      "url": "https://www.itmedia.co.jp/news/article/2610/05/2000001990/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-04T22:12:10.000Z",
+      "description": "トランプ米大統領は超知能分野の政策を調整する新組織「Super Intelligence Force」（SIF）の創設を発表した。国家情報長官、FTC委員長、戦争省CTO、人事管理局長の4人が率い、大統領に直属する。官民や業界団体との連携窓口を担い、米国の技術的優位性の維持を目指す。",
+      "summary": "トランプ大統領が超知能政策調整の新組織「Super Intelligence Force」を創設。国家情報長官やFTC委員長ら4人が主導し、米国の技術的優位性維持を図る。",
+      "category": "規制/政策",
+      "tags": [
+        "超知能",
+        "米国政策",
+        "トランプ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a8b0c3e24061",
+      "title": "国産AI開発「ラストチャンス」の局面へ ノエトラが「44社が出資・国が最大1兆円支援」の追い風を背に向かう先",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/05/news037.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-04T22:00:00.000Z",
+      "description": "国産AI開発を掲げるNoetraが始動した。国内44社が出資し、政府が5年で1兆円規模の支援をする可能性がある。目指すは、米中二極化する「AI開発」の領域における第三極。そのチャンスをつかめるか。",
+      "summary": "国産AI開発を掲げるNoetraが始動。国内44社の出資と政府による5年で最大1兆円規模の支援を背景に、米中二極化するAI開発市場での第三極確立を目指す。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "国産AI",
+        "Noetra",
+        "政府支援"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a99dd6c9cf92",
+      "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-05T18:08:39.000Z",
+      "description": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic made the move to meet the requirements…",
+      "summary": "OpenAIがChatGPTとCodexに目に見えないテキスト透かしを追加し、欧州連合のユーザーから段階的に展開している。このテキストGrain透かしはGoogle DeepMindのSynthIDなど他の手法と同等以上の性能を備えており、欧州の規制要件への対応が目的。",
+      "category": "プロダクト",
+      "tags": [
+        "透かし",
+        "ChatGPT",
+        "EU規制"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "dd8e8468dc5d",
+      "title": "Connecting AI agents to enterprise knowledge",
+      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-05T15:47:52.000Z",
+      "description": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately…",
+      "summary": "企業向けAIエージェントは大量のデータを処理するにもかかわらず、組織内コンテキストでのデータ意味理解という知識が不足している。エージェントの推論と意思決定を高めるために組織知識との連携が必要とされている。",
+      "category": "その他",
+      "tags": [
+        "エージェント",
+        "エンタープライズ",
+        "ナレッジ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a960f6ce68c2",
+      "title": "Google、サンドボックス型コンテナランタイムの「gVisor」をCNCFに寄贈したと発表",
+      "url": "https://www.publickey1.jp/blog/26/googlegvisorcncf.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-05T15:27:19.000Z",
+      "description": "Googleはサンドボックス型コンテナランタイムの「gVisor」をCloud Native Computing Foundation（CNCF）に寄贈したことを発表しました。 gVisorはコンテナ型仮想マシンの業界標準であるOCI（Open Container Initiative）に準拠したコンテナランタイムです。 Googleが開発し、Google社内でも広く使われています。 gVisorはその仕組みとして、コンテナ内でアプリケーションがシステムコールを呼び出す際にg……",
+      "summary": "Googleがサンドボックス型コンテナランタイムのgVisorをCloud Native Computing Foundation（CNCF）に寄贈した。OCI標準に準拠し、Google社内で広く使用されている技術。",
+      "category": "開発ツール",
+      "tags": [
+        "Google",
+        "コンテナ",
+        "オープンソース"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "6f5c41acb9dd",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-05T15:00:00.000Z",
+      "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "summary": "OpenAIがEU規制に対応したテキスト透かしの実装方針を発表。検出方法や適用範囲を説明し、まず研究者向けに提供開始する。",
+      "category": "規制/政策",
+      "tags": [
+        "EU規制",
+        "透かし技術",
+        "OpenAI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "656ac466b0dd",
+      "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-05T14:35:09.000Z",
+      "description": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+      "summary": "独立系研究者がテンセントのインフラで動作し、アリババの地図サービスAMapを狙った中国製のAIエージェント集団を発見した。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "中国",
+        "AIエージェント"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "5a2da566ca80",
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-05T13:29:32.000Z",
+      "description": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between…",
+      "summary": "2026年の企業向けAIは、予測モデルの精度競争から、予測システムの自律的な意思決定をビジネス意図から逸脱させない方法へと焦点が移っている。予測から自動意思決定の段階へ進化している。",
+      "category": "その他",
+      "tags": [
+        "予測分析",
+        "エージェント",
+        "自動意思決定"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "245f816ab918",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "summary": "OpenAIがChatGPTに新しいビジュアル広告フォーマットを導入し、広告主向けの計測ツール、アトリビューション連携、ブランド適合性機能を拡張した。",
+      "category": "プロダクト",
+      "tags": [
+        "OpenAI",
+        "広告",
+        "ChatGPT"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c8ce3a291697",
+      "title": "フィジカルAIは「ロボット単体」では成り立たない NTTドコモビジネスが示すIoTからの進化の道筋",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/05/news062.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-05T06:30:00.000Z",
+      "description": "ロボットや自動運転に必要な機能を、全て機器の中に積み込む――。そのやり方はコストでもサイズでも限界がある、とNTTドコモビジネスは言う。同社が打ち出したのは、フィジカルAIの機能を通信網の側へ「オフロード」する発想だ。IoTで培った基盤は、フィジカルAIへどう進化するのか。同社の取り組みから探る。",
+      "summary": "NTTドコモビジネスはロボットや自動運転に必要なフィジカルAI機能を、機器内ではなく通信網側へオフロードする方式を提案している。IoT基盤をフィジカルAI時代へ進化させるアプローチを示す。",
+      "category": "プロダクト",
+      "tags": [
+        "フィジカルAI",
+        "IoT",
+        "オフロード"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ad806bde317e",
+      "title": "AIサービス、AIソフトウェアを上回る「最大のAI支出分野」とは？ ガートナー調査",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/05/news025.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-05T04:30:00.000Z",
+      "description": "生成AIが「幻滅期」に入っても、AI関連市場全体の成長は続いている。中でも、AIサービスの2倍以上の額が投じられる分野がある。AI関連で最大の支出分野とは何か。",
+      "summary": "ガートナー調査によると、生成AI幻滅期でもAI関連市場は成長継続。AIソフトウェアの2倍以上の支出がされるAIサービスが最大の支出分野である。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI市場",
+        "支出分析",
+        "ガートナー"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "89ef428cefea",
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "description": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields. Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches…",
+      "summary": "Google Research副社長がAIが生物学、インフラ、製造、科学など複数分野で変化をもたらしており、他分野との交差点での影響が最大となる可能性を指摘する。",
+      "category": "その他",
+      "tags": [
+        "AI",
+        "Google",
+        "学際融合"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "509d98eded27",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-04T20:31:07.000Z",
+      "description": "AI slop seems to be overwhelming bug bounty programs.",
+      "summary": "Googleがバグ報奨金プログラムを一時凍結した。AIが生成した低品質の報告が急増しているためとされている。",
+      "category": "プロダクト",
+      "tags": [
+        "Google",
+        "バグ報奨",
+        "AI品質"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "566b4826349a",
+      "title": "Supabase、1サーバあたり数百万ものSQLiteをホストする「Turso」買収を発表。AIエージェントで加速するDB需要に対応",
+      "url": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-04T15:56:27.000Z",
+      "description": "PostgreSQLをベースにしたデータベースサービス「Supabase」などを提供しているSupabaseは、SQLiteをベースとしたデータベースサービスを提供する「Turso」を買収したことを発表しました。 Turso is joining @supabase.Together, we're building the database platform for the agentic era: everything agents need, from light……",
+      "summary": "Supabaseは複数のSQLiteデータベースをホストする「Turso」を買収した。AIエージェント時代におけるデータベース需要の増加に対応する戦略的な買収とみられる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Supabase",
+        "買収",
+        "データベース"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b168ee455d92",
+      "title": "Trump unveils his new Super Intelligence Force",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-04T15:15:10.000Z",
+      "description": "This new task force is Trump's latest response to the debate over AI safety.",
+      "summary": "トランプ大統領がAI安全性に関する議論への対応として、新たな「Super Intelligence Force」(超知能タスクフォース)を発表した。AI安全保障における政策的な動きとみられる。",
+      "category": "規制/政策",
+      "tags": [
+        "Super Intelligence",
+        "AI安全",
+        "政策"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "69dc73abd392",
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-05T18:54:30.000Z",
+      "description": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+      "summary": "InstinctがグループチャットにAIエージェント機能を導入し、アカウント未所有者も含めて旅行計画やカープール調整などの共同作業に利用可能にした。個人アカウントは独立性を保ち、情報共有には事前許可が必要。",
+      "category": "プロダクト",
+      "tags": [
+        "AI",
+        "グループチャット",
+        "エージェント"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "eff887facd1a",
+      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-05T18:29:00.000Z",
+      "description": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+      "summary": "TikTokが会話型AIショッピングアシスタントとワンクリック決済機能をロールアウトした。このアシスタントはユーザーが商品発見と購入を効率的に行えるよう支援する設計となっている。",
+      "category": "プロダクト",
+      "tags": [
+        "TikTok",
+        "AI",
+        "eコマース"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "cad4153dbc99",
+      "title": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-05T16:55:42.000Z",
+      "description": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came shortly after Guiducci asked Altman if he knew who Laura …",
+      "summary": "OpenAIの広報担当者がサム・アルトマンとのVanity Fairのインタビュー中、ChatGPT利用者の自殺事件について質問した編集者に話題を変えるよう促した。",
+      "category": "その他",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "倫理"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "e4dd212a6c29",
+      "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-05T16:44:21.000Z",
+      "description": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, without elaborating on the potential benefits. His comments come as OpenAI pushe…",
+      "summary": "OpenAI CEOのサム・アルトマンは、AIもたらす利益が非常に大きいため、その過程で発生する「悪いこと」を社会は受け入れるべきだと述べた。ハッキングや詐欺などをコストとして認識している。",
+      "category": "その他",
+      "tags": [
+        "OpenAI",
+        "Sam Altman",
+        "AI倫理"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "b533d799b23b",
+      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+      "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-05T16:43:35.000Z",
+      "description": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+      "summary": "HackerRankが開発したAI面接官は既に50万件以上の面接を実施。Snowflake、Snorkel、Capgeminiなど大手企業が初期導入者として利用している。",
+      "category": "プロダクト",
+      "tags": [
+        "HackerRank",
+        "採用",
+        "AI面接"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "e6595d1260c6",
+      "title": "Cloudflare ContainersがAIエージェント向けに刷新。起動が6倍速、ファイルシステムのスナップショット機能など",
+      "url": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-05T15:29:53.000Z",
+      "description": "Cloudflareは、同社のエッジロケーションでコンテナ型仮想マシンを実行可能にする「Cloudflare Containers」をAIエージェント向けに刷新したことを発表しました。 これまでよりも起動速度が6倍となり、環境構築が容易になるようにファイルのスナップショット機能などが追加されました。 Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and……",
+      "summary": "CloudflareがAIエージェント向けにCloudflare Containersを刷新し、起動速度が6倍に高速化。ファイルシステムのスナップショット機能などが追加され、環境構築が容易になった。",
+      "category": "開発ツール",
+      "tags": [
+        "Cloudflare",
+        "AIエージェント",
+        "コンテナ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6158860d24bb",
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-05T15:14:24.000Z",
+      "description": "OpenAI said the new visual ads will show up after your image generation results appear in the U.S. only for now.",
+      "summary": "OpenAIが画像生成結果に並んで表示されるビジュアル広告を展開した。現在は米国のみの提供。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "広告",
+        "収益化"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "79b0a4d0a42a",
+      "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-05T14:30:00.000Z",
+      "description": "Today, I’m talking with Sen. Adam Schiff, a Democrat from California. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about how we might regulate anything related to the tech industry at this moment in time. Verge subscribers, don’t forget you get exclusive access to ad-free…",
+      "summary": "カリフォルニア州の民主党上院議員が、テクノロジーとAI関連の複数の委員会に所属し、知的財産、独占禁止法、プライバシーなどの監視権を持っている。現在のテクノロジー業界の規制について意見を述べている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "政策",
+        "上院議員"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "890db64ac27b",
+      "title": "OpenAI is sticking more ads in ChatGPT",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-05T13:09:48.000Z",
+      "description": "OpenAI's latest ad format will put images of sponsored products and services on your screen. The ads, which OpenAI will begin testing in the US later this month, will \"initially\" appear when you generate images with ChatGPT, according to an announcement on Monday. The company first brought ads to ChatGPT in February. Until now, ChatGPT's ads only showed a company's name, logo, and a link to its pr…",
+      "summary": "OpenAIがChatGPTに新しい広告フォーマットを導入する。スポンサー製品やサービスの画像広告が、画像生成時に表示されるテストが米国で開始される。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "ChatGPT",
+        "広告",
+        "マネタイズ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "9f8262bd37e3",
+      "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+      "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-05T12:00:00.000Z",
+      "description": "Safeworld is building digital humans to make sure robots don't hurt the real ones.",
+      "summary": "デジタル人間を開発するSafeworldが、ロボット技術の安全性に対する人間の懸念を払拭することを目指している。",
+      "category": "プロダクト",
+      "tags": [
+        "ロボット安全",
+        "ジェネレーティブAI",
+        "スタートアップ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "0990bc219b73",
+      "title": "Our minds aren’t equipped to handle AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "description": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google's Demis Hassabis calls the brain \"a biological approximation to a Turing machine.\" Elon Musk puts it more bluntly, declaring that \"people should just think of the brain as …",
+      "summary": "AIの思考方法と人間の認知能力の相違について言及された記事。AIの発展に伴い、人間の思考能力では対応しきれない課題が生じている可能性が指摘されている。",
+      "category": "その他",
+      "tags": [
+        "認知科学",
+        "AI哲学",
+        "脳"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "1bd2c642c3d2",
+      "title": "People really hate AI, so why can’t they get enough?",
+      "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-05T08:00:00.000Z",
+      "description": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…",
+      "summary": "LLM開発企業のSpringboardsのCEOが、主流製品よりも多様な応答を生成するAIについて「自己嫌悪的なAI」と表現した。AIに対する社会的評価と利用の矛盾について論じられている。",
+      "category": "その他",
+      "tags": [
+        "LLM",
+        "応答多様性",
+        "社会評価"
+      ],
+      "importance": 2
+    }
+  ]
+}
