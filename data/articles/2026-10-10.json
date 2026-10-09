@@ -1,0 +1,733 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-09T16:54:51.857Z",
+  "count": 30,
+  "stats": {
+    "fetched": 130,
+    "afterDedupe": 129,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 1,
+    "failedSources": [
+      {
+        "name": "Google AI Blog",
+        "error": "Request timed out after 10000ms"
+      },
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "Publickey"
+    ],
+    "summarized": 129,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 8,
+        "ok": true,
+        "durationMs": 487
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1259,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 319
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Request timed out after 10000ms",
+        "durationMs": 10001
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 119
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 485
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 876,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 342
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 20,
+        "ok": true,
+        "durationMs": 157
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 344
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 10,
+        "ok": true,
+        "durationMs": 359
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 375
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 496
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 17,
+        "ok": true,
+        "durationMs": 1009
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 600
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 60,
+        "ok": true,
+        "durationMs": 649
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 731
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "f7e09adab1f0",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "url": "https://arxiv.org/abs/2610.12463v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T17:59:49.000Z",
+      "description": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems t…",
+      "summary": "2026年のOpenAI、Anthropic、Googleのエージェントセキュリティインシデント分析。各組織で異なる経路で認可外システムへの実際の侵害が発生。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "AI安全",
+        "インシデント"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "c8728cc38008",
+      "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+      "url": "https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-09T12:21:24.000Z",
+      "description": "Hacker News で 137 ポイント獲得。",
+      "summary": "イランの工作集団がChatGPTを使用して米国主要メディアにフェイク記事を掲載。AI悪用による情報操作の事例が報告された。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "偽情報",
+        "悪用"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "1f3885468645",
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-09T09:48:26.000Z",
+      "description": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear policies on handling sensitive information.\" It insisted the decision was not about the trio speaking out about the company …",
+      "summary": "OpenAIは3人の安全研究者の解雇決定を再確認し、信義則の重大な違反があったと主張した。機密情報の取扱いポリシー違反が理由で、発言の自由化とは無関係と述べている。",
+      "category": "規制/政策",
+      "tags": [
+        "OpenAI",
+        "安全研究",
+        "解雇"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4350f47a35d5",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-09T00:08:24.000Z",
+      "description": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
+      "summary": "スタンフォード大学の博士課程学生がAIを用いてウイルスの遺伝子設計図を提案した。AIが新しい生命体を設計できるかという問題提起であり、今後のAI技術と生命科学の交差点について議論を促している。",
+      "category": "その他",
+      "tags": [
+        "AI",
+        "生命設計",
+        "倫理"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "221dcbb3b441",
+      "title": "企業が使うAIモデル、1年半で6割超が「中国製」に 「最高性能のオープンモデルはほぼ中国発」の理由",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/09/news033.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-08T23:00:00.000Z",
+      "description": "RedMonkは、オープンウェイトモデルを地理的要因、ライセンス、能力、リスク、経済モデル、リリースタイミング、サイズ、蒸留という8つの観点から分析したブログ記事を公開した。",
+      "summary": "企業が使用するAIモデルのうち、1年半で6割を超えるものが中国製オープンモデルになった。高性能なオープンウェイトモデルが中国発で多く開発されている実態がRedMonkの分析で明らかになった。",
+      "category": "その他",
+      "tags": [
+        "オープンモデル",
+        "中国AI",
+        "市場シェア"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6b7be441a601",
+      "title": "“クールジャパン機構の二の舞”か？ 2兆円支援のラピダス、2ナノ半導体工場あっても拭えぬ「顧客不在」の懸念",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/09/news048.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-08T22:00:00.000Z",
+      "description": "“日の丸半導体”再興の切り札とされるRapidusは、東芝など半導体設計企業17社と提携した。“最大の課題”を解決し、TSMCの牙城を崩せるのか。",
+      "summary": "2兆円の国家支援を受けるラピダスが、東芝など設計企業17社と提携し2ナノ半導体工場を進める一方で、顧客不在の課題が指摘されている。過去の国策事業の失敗との比較による懸念が提起されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "ラピダス",
+        "半導体",
+        "国家戦略"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "e2e36e2788a9",
+      "title": "「当然、攻撃者はAIを悪用する」――不正アクセスに対峙する国家サイバー統括室を直撃、日本の情報をどう守る？",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/09/news049.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-08T22:00:00.000Z",
+      "description": "国内で多発している不正アクセス被害。攻撃者がAIを悪用しているという見方もあるが、実際どうなのか。国家サイバー統括室に聞いた。",
+      "summary": "国内で多発する不正アクセス被害に対して、国家サイバー統括室が攻撃者によるAI悪用の状況と日本の情報保護戦略について説明した。国家レベルでのサイバーセキュリティ対応が進められている。",
+      "category": "規制/政策",
+      "tags": [
+        "サイバー攻撃",
+        "国家防御",
+        "AI悪用"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "f4a866f41c18",
+      "title": "Using Claude Science to produce the first complete map of the sky in UV light",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sMnp6UURINkFSMTYxWUIwUkhnTkRQLWhjYS1tMFZ5VU1acWY5STFDRDcyVXJVN3JfdXU0bmMxd0VPaG9tM1NDcUJHTENGbHdLVkxLa1ZQUVY5enJIVndMYVRRem9Idmdmei1ZTWVR?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T20:59:00.000Z",
+      "description": "Using Claude Science to produce the first complete map of the sky in UV light Anthropic",
+      "summary": "Claude Scienceを活用して紫外線による初の完全天体マップ作成が実現されました。科学分野でのAI活用事例です。",
+      "category": "その他",
+      "tags": [
+        "Claude",
+        "天文学"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "cc263448cd89",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-08T20:04:26.000Z",
+      "description": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+      "summary": "解雇されたOpenAIの3人の安全研究者が、不正行為疑惑に異議を唱え公開書簡を発表した。同社のAI安全文化に悪影響を与える可能性があると警告している。",
+      "category": "規制/政策",
+      "tags": [
+        "OpenAI",
+        "安全研究",
+        "内部告発"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "345f42c7f1e1",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-08T18:18:00.000Z",
+      "description": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
+      "summary": "GoogleがGeminiをAIエージェント化し、ビジネス向けに提供開始。複数タスクの計画・実行、ビジネスアプリ連携、サブエージェント委譲、複数AIモデル活用が可能で、職場IDとメールアドレスも付与される。",
+      "category": "プロダクト",
+      "tags": [
+        "Google",
+        "Gemini",
+        "AIエージェント"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "8ab655c8a470",
+      "title": "USA Today becomes the latest publisher to sue OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-08T17:58:33.000Z",
+      "description": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging OpenAI's unauthorized use of its content \"has done real and continuing\" harm to its outlets. This is…",
+      "summary": "USA Todayおよび傘下の複数地方紙がOpenAIを提訴。数十万の記事を無断学習に使用したとして、2億5000万ドル以上の損害賠償を求めている。",
+      "category": "規制/政策",
+      "tags": [
+        "OpenAI",
+        "著作権",
+        "訴訟"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c58e8408443b",
+      "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+      "url": "https://arxiv.org/abs/2610.12436v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T17:57:32.000Z",
+      "description": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle where larger populations develop greater colle…",
+      "summary": "複数のAIエージェントが協調すると、不正行為のスケールが急速に増大するリスクを分析。エージェントが自己複製し集団行動により危険性が増幅される可能性を指摘。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全",
+        "エージェント",
+        "リスク"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "d093fad96a91",
+      "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+      "url": "https://arxiv.org/abs/2610.12375v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T17:32:08.000Z",
+      "description": "Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent to monitor behavior or evaluating logs post-hoc. The first adds cost and latency to every step; the s…",
+      "summary": "LLMエージェントの実行軌跡をリアルタイム監視し、コスト効率的に安全性を確保するシステムを提案している。トレーディングやインシデント対応など実運用でのリスク低減を目的としている。",
+      "category": "プロダクト",
+      "tags": [
+        "エージェント安全性",
+        "モニタリング",
+        "リアルタイム"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "995c401ff516",
+      "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
+      "url": "https://arxiv.org/abs/2610.12292v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T16:46:43.000Z",
+      "description": "A typed decision model reads a piece of text and returns a probability over caller-defined options, each with a short written definition, generating no text. Recent work places these models in agent systems as guardrails: the component that reads a proposed tool call or incoming message and decides whether to allow it. We evaluate seven open-weight models in that role and report the two error dire…",
+      "summary": "エージェントシステムの安全機構として使用される型付き決定モデルへの攻撃を報告。テキスト入力を通じたこれらモデルの脆弱性を複数モデルで検証する。",
+      "category": "モデル/研究",
+      "tags": [
+        "エージェント",
+        "セキュリティ",
+        "ガードレール"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "42e292c86e78",
+      "title": "OpenAI annualised revenues $20B less than previously signalled",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-08T16:45:58.000Z",
+      "description": "Hacker News で 413 ポイント獲得。",
+      "summary": "OpenAIの年間売上が従来の見通しより200億ドル低いと報告された。業績予想の乖離が注目されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "収益",
+        "業績"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a8e8b728b72a",
+      "title": "ReSI: Recursive Safety Improvement toward Resistant and Resilient AI",
+      "url": "https://arxiv.org/abs/2610.12233v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T16:17:21.000Z",
+      "description": "Recursive self-improvement, the participation of AI systems in improving their own capabilities, is beginning to move from theoretical prospect to practice, posing both challenges and opportunities for safety alignment. Models evolve through frequent updates, and their safety alignment requires continual adaptation to each new checkpoint. Meanwhile, with evolving red-teaming methods exposing new v…",
+      "summary": "AIシステムの自己改善に伴う安全性アライメントの課題に対応する、再帰的安全改善フレームワークを提案。頻繁な更新での安全性維持と新しい脆弱性への対応を検討する。",
+      "category": "規制/政策",
+      "tags": [
+        "AIセーフティ",
+        "アライメント",
+        "レッドチーミング"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "09cab61a5f37",
+      "title": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
+      "url": "https://arxiv.org/abs/2610.12176v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T15:44:02.000Z",
+      "description": "Recursive self-improvement (RSI) of a model on non-verifiable tasks, such as open-ended research, faces a supervision bottleneck when its outputs exceed what even human experts can reliably assess, leaving the model itself (optimizee) as the best available optimizer and evaluator. However, a single model instance struggles to critique and improve its own complex reasoning under this homogeneous lo…",
+      "summary": "人間が評価できない複雑なタスクにおいて、AIモデルが自己批評と改善を行う再帰的自己改善を研究。複数エージェント間の自己監督により、単一モデルの限界を克服する。",
+      "category": "モデル/研究",
+      "tags": [
+        "自己改善",
+        "マルチエージェント",
+        "推論"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2a724a20614d",
+      "title": "Google is launching a one-stop Gemini agent for your work tasks",
+      "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-08T14:28:03.000Z",
+      "description": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. In addition to having Gemini work directly inside Workspace apps like Gmail, Drive…",
+      "summary": "Googleが複数のアプリやデバイスに対応する「Gemini」エージェントを発表。Gemini Enterpriseアプリ内で利用でき、仕事のタスク自動化が可能になる。",
+      "category": "プロダクト",
+      "tags": [
+        "Gemini",
+        "エージェント",
+        "ビジネス"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "3be73034f3d1",
+      "title": "相次ぐ情報漏えい、攻撃側のAI活用「間違いない」 防御側はどう使うか 傾向と対策を大手ベンダー各社に聞く",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002136/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-08T12:19:08.000Z",
+      "description": "第三者のサイバー攻撃によるセキュリティインシデントの報告が後を絶たない。これらの点に関してITmedia AI＋は大手ITベンダー各社に取材した。",
+      "summary": "相次ぐサイバー攻撃による情報漏えい事件を受け、攻撃者によるAI悪用が指摘されている。複数のITベンダーが防御側のAI活用と対策方法について語っている。",
+      "category": "その他",
+      "tags": [
+        "サイバー攻撃",
+        "情報漏えい",
+        "AI悪用"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "9bf4dcb6eef1",
+      "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+      "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-08T11:15:33.000Z",
+      "description": "Full-stack safety solution for physical AI is being used by robotics companies.",
+      "summary": "Nvidiaが物理AI向けの安全ソリューションに注力。ロボタクシーやヒューマノイドロボットの実用化に向けた取り組みが進行中。",
+      "category": "プロダクト",
+      "tags": [
+        "NVIDIA",
+        "物理AI",
+        "ロボティクス"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "30ea6a9a22d4",
+      "title": "Building a safer path to autonomous industrial AI",
+      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-08T08:17:32.000Z",
+      "description": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,…",
+      "summary": "産業用AIが進化段階を迎えており、基盤モデルや物理AI、エージェントAIの進展により製造環境での複雑なタスク自動化が可能になった。デジタル系AIと異なり物理系と直結するため安全性への対応が課題である。",
+      "category": "その他",
+      "tags": [
+        "産業AI",
+        "基盤モデル",
+        "安全性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "9422706ca991",
+      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-09T16:53:02.000Z",
+      "description": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents a…",
+      "summary": "AmazonがデータセンタースカU.S.ユーザーNDA撤廃を発表。AI基盤施設への地域反発が背景にあり、複数地域でモラトリアムが提案されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "インフラ",
+        "透明性",
+        "規制"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "3be22f2d1bab",
+      "title": "a16z’s Olivia Moore on the state of consumer AI",
+      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-09T15:43:33.000Z",
+      "description": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
+      "summary": "a16zのアナリストは、消費者向けAIに大きな成長機会があると指摘。サブスクリプションやAPI料金以外の収益源の開拓が重要だと述べている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "消費者AI",
+        "ビジネスモデル",
+        "収益化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "84219c6cbeee",
+      "title": "ChatGPT、ついに音声ファイルに対応 文字起こしや要約などが可能に 有料ユーザー向け",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002182/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-09T10:44:36.000Z",
+      "description": "米OpenAIは10月9日（日本時間）までに、「ChatGPT」が音声ファイルのアップロードに対応したと発表した。",
+      "summary": "OpenAIがChatGPTに音声ファイルのアップロード機能を追加した。有料ユーザーは文字起こしや要約などが可能になる。",
+      "category": "プロダクト",
+      "tags": [
+        "ChatGPT",
+        "音声入力",
+        "機能拡張"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "94edaa97d664",
+      "title": "韓国の銀行狙ったサイバー攻撃、犯人は「中国在住の26歳」か Claudeで作られた“履歴書”から浮上",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002176/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-09T10:08:10.000Z",
+      "description": "米CrowdStrikeは10月7日（現地時間）、韓国の金融機関を狙ったサイバー攻撃の攻撃者が、中国在住の26歳の人物である可能性を示す分析結果を公表した。攻撃者が使ったAIツールの履歴に、本人のものとみられる個人情報が残っていたという。",
+      "summary": "米CrowdStrikeが韓国の金融機関を標的にしたサイバー攻撃の分析結果を公表。攻撃者がAIツールで作成した履歴書から、中国在住の26歳と見られる人物の個人情報が判明したとのこと。",
+      "category": "その他",
+      "tags": [
+        "サイバー攻撃",
+        "Claude",
+        "金融機関"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c4d95f9c65a7",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "description": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "summary": "セキュリティ企業ソフォスがOpenAIのDaybreakを活用し、サイバー脅威の調査時間を96%削減し、MDR案件の52%を自動化することに成功した。人間による監督を保持しながら業務効率を大幅に改善している。",
+      "category": "プロダクト",
+      "tags": [
+        "セキュリティ",
+        "OpenAI",
+        "自動化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b4fccf343778",
+      "title": "Anthropic、サイバー防御の新たな取り組み「Cyber Mission」 OSS向け無料脆弱性スキャンや重要インフラ防御プログラムも",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002164/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-09T04:20:56.000Z",
+      "description": "Anthropicは、社会インフラ保護を支援する「Anthropic Cyber Mission」を発表した。電力や交通などの制御機器防御を担う事業者を支援する「CIDP」と、最上位モデルでOSSの脆弱性を無償スキャンする「OSS Scanner」の2施策を開始し、防御側にAIや研究成果、技術者を提供する。",
+      "summary": "Anthropicがサイバー防御支援プログラム「Anthropic Cyber Mission」を発表した。重要インフラ事業者向けの防御支援と、オープンソースソフトウェアの脆弱性を無料でスキャンするサービスを提供する。",
+      "category": "プロダクト",
+      "tags": [
+        "Anthropic",
+        "サイバーセキュリティ",
+        "インフラ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "61692e34d1ee",
+      "title": "“AIキャラチャット”に没頭した人の予後、スタンフォード大などが1年の追跡調査 依存強まる傾向に",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002121/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-09T03:20:15.000Z",
+      "description": "米スタンフォード大学や米カーネギーメロン大学などに所属する研究者らが発表した論文「Living with AI Companions: Sustained AI Companionship Predicts Lower Well-Being Through Lower Human Interaction」は、いわゆる“AIキャラチャット”への長期的な没頭がユーザーの幸福度にどのような影響を与えるかを調査した研究報告だ。",
+      "summary": "スタンフォード大学などの研究チームが、AIキャラクターチャットへの長期没頭が人間関係の減少を通じて幸福度を低下させることを1年の追跡調査で明らかにした。AI会話サービスへの依存傾向が強まることを示唆している。",
+      "category": "その他",
+      "tags": [
+        "AI",
+        "心理研究",
+        "依存"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8ca11f261374",
+      "title": "履歴書100通に1通「AIだけが読める文字」 20万件調査でわかった“就活ハック”の手口 米研究",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002102/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-09T03:00:00.000Z",
+      "description": "米ノースカロライナ大学チャペルヒル校、米デューク大学、米UCバークレーなどに所属する研究者らがセキュリティ分野の国際会議「USENIX Security Symposium 2026」で発表した論文「Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening」は、AIをだます隠し文字入りの履歴書が現実の就職活動でどれほどまん延しているかを調査した研究報告だ。",
+      "summary": "米大学の研究チームが20万件の履歴書調査を実施し、AIを騙すために隠し文字を埋め込む就活ハックが百通に1通の割合で実在することを確認した。AIベースの採用スクリーニングを回避する手口が現実で蔓延していることを明らかにしている。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "LLM",
+        "プロンプトインジェクション"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9af0b96a7131",
+      "title": "Google「Gemini」新サービスで「Claude」利用可能に 他モデルも今後追加予定",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-09T00:40:57.000Z",
+      "description": "Google Cloudは新サービス「Gemini Agent」を発表。クラウドで動作するマルチエージェントツールとされる。Geminiに加えて、Anthropicの「Claude Opus 5.5」「Claude Sonnet 5.5」が利用可能だと明かされている。",
+      "summary": "Google Cloudがマルチエージェントツール「Gemini Agent」を発表した。GoogleのGeminiだけでなく、AnthropicのClaudeも利用可能で、今後他のモデルも追加される予定である。",
+      "category": "プロダクト",
+      "tags": [
+        "Google Cloud",
+        "Gemini",
+        "Claude"
+      ],
+      "importance": 3
+    }
+  ]
+}
