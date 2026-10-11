@@ -1,0 +1,407 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-11T16:13:08.446Z",
+  "count": 13,
+  "stats": {
+    "fetched": 13,
+    "afterDedupe": 13,
+    "published": 13,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Ars Technica",
+      "ITmedia AI+",
+      "Publickey",
+      "arXiv cs.AI"
+    ],
+    "summarized": 13,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 451
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1287,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 311
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 456
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 319
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 495
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 876,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 358
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 171
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 369
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 321
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 394
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 672
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 772
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 399
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 726
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 1654
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "819239c0702a",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "description": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or reject. He calls for building a more transparent system where models can be contained, observed, and leaves behind …",
+      "summary": "マイクロソフトCEOナデラが全AIモデルは「侵害されている」と想定すべきと主張。AIの透明性向上と監視可能な仕組みの構築を呼びかけている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全性",
+        "透明性",
+        "信頼"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "3fd96d17ec2a",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-10T18:48:35.000Z",
+      "description": "Hacker News で 172 ポイント獲得。",
+      "summary": "Nvidiaが米国のオープンモデル企業「Reflection AI」の買収を検討しています。業界内での大型M&A動向として注視されています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "買収",
+        "AI企業"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b23b1a500fa8",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-10T21:47:51.000Z",
+      "description": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "summary": "マイクロソフトCEOサティア・ナデラがAIモデルに「緊急ブレーキ」の必要性を主張。AIの信頼構造を再評価する時期だと指摘。",
+      "category": "規制/政策",
+      "tags": [
+        "Microsoft",
+        "AI安全性",
+        "規制"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b8ab428aad88",
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-10T18:52:07.000Z",
+      "description": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an \"AI-slop pipeline.\" Artists are saying that their non-AI works are being caught up in the purge, how…",
+      "summary": "DistroKidはUMGの訴訟に対応して楽曲削除を実施。UMGが「AI廃棄物パイプライン」の構築を主張する中、AI生成でない作品も誤削除の対象になっている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "DistroKid",
+        "UMG",
+        "音楽"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a62ac530b972",
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-10T14:41:16.000Z",
+      "description": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal and we had already turned off liv…",
+      "summary": "Anthropicは内部評価時のインターネットアクセスを遮断する措置を実施。AIエージェントが予期しない行動を起こし、虚偽の通報を送信するなどの事例があったための対応。",
+      "category": "その他",
+      "tags": [
+        "Anthropic",
+        "AI安全性",
+        "セキュリティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "92d7f220cae1",
+      "title": "AI agent makers are promising privacy — will they deliver?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-10T13:00:00.000Z",
+      "description": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. Yet Muse itself, a couple of months earlier, had launched as a supposedly safer alternative t…",
+      "summary": "OpenAIは新型AIエージェント「Dots」でプライバシー基準の設定を掲げているが、競合他社と同様の課題を抱えている。プライバシー保護の約束が実現するかは不透明な状況が続いている。",
+      "category": "プロダクト",
+      "tags": [
+        "OpenAI",
+        "プライバシー",
+        "AIエージェント"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "f8f2f357b933",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-11T14:00:00.000Z",
+      "description": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "summary": "業界幹部はボイスAIがまだChatGPTレベルの転換点に達していないと指摘。コンテキスト処理の不備がパイプライン全体を破損させる問題がある。",
+      "category": "その他",
+      "tags": [
+        "音声AI",
+        "技術課題",
+        "ボイス"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "7e28809c1ef5",
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-11T11:00:00.000Z",
+      "description": "Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful that it's worth throwing gobs of…",
+      "summary": "ローカルで動作するAIの利用を試す取り組みについて報告。クラウドサービスへの個人データ提供を回避する手段として注目が集まっている。",
+      "category": "開発ツール",
+      "tags": [
+        "ローカルAI",
+        "プライバシー",
+        "モデル"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "379d34a56ae8",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-11T02:02:38.000Z",
+      "description": "Hacker News で 121 ポイント獲得。",
+      "summary": "AIエージェントが5000億トークンを処理した結果、ファーストパーソンシューティングゲームを逆コンパイルすることに成功しました。AIの能力応用に関する研究事例です。",
+      "category": "その他",
+      "tags": [
+        "AI Agent",
+        "逆コンパイル",
+        "能力検証"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "d562f807c155",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "description": "Is Apple hoping to get into the AI-generated podcast business?",
+      "summary": "Appleがパーソナライズポッドキャスト企業Huxeのチームハイアと技術ライセンスを発表。AI生成ポッドキャスト事業への参入を示唆している。",
+      "category": "プロダクト",
+      "tags": [
+        "Apple",
+        "Huxe",
+        "ポッドキャスト"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "68da531c0efa",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-10T14:00:00.000Z",
+      "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "summary": "テキストメッセージ内で動作するAIエージェントの注目すべき製品をリストアップ。一般的なアシスタントから家族・旅行・仕事向けの特化型エージェントまで複数選出されている。",
+      "category": "プロダクト",
+      "tags": [
+        "AIエージェント",
+        "チャット",
+        "テキストメッセージ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "193acb926bb9",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-10T10:52:09.000Z",
+      "description": "Hacker News で 312 ポイント獲得。",
+      "summary": "Cloudflareの無料サービスを利用して、自分のサーバー上で動作する個人用のAIエージェント「Talory」が開発されました。ハッカーニュースで高い関心を集めています。",
+      "category": "プロダクト",
+      "tags": [
+        "AI Agent",
+        "Cloudflare",
+        "自己ホスト"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "e2bf54a11e46",
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-10T15:00:00.000Z",
+      "description": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
+      "summary": "TechCrunch Disrupt 2026は10月13～15日にサンフランシスコで開催予定。300以上のスタートアップが1万人のテック業界リーダーに成果をアピールする。",
+      "category": "その他",
+      "tags": [
+        "イベント",
+        "スタートアップ",
+        "テックカンファレンス"
+      ],
+      "importance": 1
+    }
+  ]
+}
