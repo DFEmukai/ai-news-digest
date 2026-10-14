@@ -1,13 +1,13 @@
 {
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T01:02:46.586Z",
+  "generatedAt": "2026-10-14T14:58:19.785Z",
   "count": 30,
   "stats": {
-    "fetched": 81,
-    "afterDedupe": 78,
+    "fetched": 131,
+    "afterDedupe": 129,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 3,
+    "removedByTitle": 2,
     "failedSources": [
       {
         "name": "Google DeepMind",
@@ -20,16 +20,14 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
-      "OpenAI Blog",
       "Google DeepMind",
       "Meta AI",
       "Hugging Face Blog",
       "VentureBeat AI",
-      "Publickey",
-      "arXiv cs.AI"
+      "MIT Technology Review AI"
     ],
-    "summarized": 78,
-    "summaryFailures": 1,
+    "summarized": 129,
+    "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
@@ -37,15 +35,15 @@
         "itemsInFeed": 100,
         "fetched": 3,
         "ok": true,
-        "durationMs": 425
+        "durationMs": 560
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1288,
-        "fetched": 1,
+        "itemsInFeed": 1289,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 235
+        "durationMs": 399
       },
       {
         "name": "Google AI Blog",
@@ -53,7 +51,7 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 427
+        "durationMs": 662
       },
       {
         "name": "Google DeepMind",
@@ -62,7 +60,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
-        "durationMs": 358
+        "durationMs": 223
       },
       {
         "name": "Meta AI",
@@ -70,7 +68,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 473
+        "durationMs": 552
       },
       {
         "name": "Hugging Face Blog",
@@ -78,15 +76,15 @@
         "itemsInFeed": 876,
         "fetched": 1,
         "ok": true,
-        "durationMs": 336
+        "durationMs": 460
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 20,
+        "fetched": 18,
         "ok": true,
-        "durationMs": 339
+        "durationMs": 405
       },
       {
         "name": "VentureBeat AI",
@@ -95,7 +93,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 276
+        "durationMs": 550
       },
       {
         "name": "The Verge AI",
@@ -103,7 +101,7 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 272
+        "durationMs": 519
       },
       {
         "name": "MIT Technology Review AI",
@@ -111,51 +109,127 @@
         "itemsInFeed": 10,
         "fetched": 2,
         "ok": true,
-        "durationMs": 263
+        "durationMs": 584
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 7,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 437
+        "durationMs": 749
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 17,
+        "fetched": 18,
         "ok": true,
-        "durationMs": 919
+        "durationMs": 925
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 3,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 548
+        "durationMs": 610
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 0,
+        "fetched": 60,
         "ok": true,
-        "durationMs": 385
+        "durationMs": 887
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 16,
+        "fetched": 8,
         "ok": true,
-        "durationMs": 685
+        "durationMs": 927
       }
     ]
   },
   "articles": [
+    {
+      "id": "5ff51410cbcc",
+      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-14T12:55:06.000Z",
+      "description": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+      "summary": "Anthropicは小規模AIモデルがIoTデバイスを通じて自己複製する可能性について警告しており、新種のコンピューターウイルスの脅威を指摘しています。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "IoT",
+        "リスク"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "3ee08b98108c",
+      "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+      "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-14T11:00:30.000Z",
+      "description": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
+      "summary": "OpenAIとGoogleの新しいAIモデルが簡単にだまされて不適切なコンテンツを生成することが研究者に指摘されています。",
+      "category": "規制/政策",
+      "tags": [
+        "セーフガード",
+        "脆弱性",
+        "安全性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6ef091051e9e",
+      "title": "「AIがAIを作れるようになる確率は2027年に50%超」 Anthropic共同創業者が予測を前倒し、「ただし実行は“片道切符\"」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/14/2000002262/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-14T07:53:35.000Z",
+      "description": "米Anthropic共同創業者のジャック・クラーク氏が東大で講演。AIが自らの後継を訓練できる確率を「2027年に50％超」と年初予測から前倒し。ただしRSIの実行は「片道切符」で、許すかは社会の選択だと強調した。",
+      "summary": "Anthropic共同創業者が東大で講演し、AIが自ら後継を訓練できる確率を2027年に50%超と予測した。ただし実行には社会的決定が必要だと強調。",
+      "category": "その他",
+      "tags": [
+        "Anthropic",
+        "AI進化",
+        "ジャック・クラーク"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "662c44f5efca",
+      "title": "デンマークの880万人分流出、原因はパスワード「123456」 ハッカー「侵入は難しくなかった」 現地報道",
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002257/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-14T05:58:28.000Z",
+      "description": "デンマークの中央個人登録簿「CPR」から約880万人分の個人情報が流出した問題で、攻撃者を名乗る人物が同国紙Politikenに手口を明かした。侵入には、照会権限を持つ民間企業のパスワード「123456」を使ったという。",
+      "summary": "デンマークの個人登録簿から約880万人分の個人情報が流出した。攻撃者は民間企業のシステムに使われていた単純なパスワード「123456」で侵入したと明かした。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "個人情報漏洩",
+        "デンマーク"
+      ],
+      "importance": 4
+    },
     {
       "id": "2a5f3da137a7",
       "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
@@ -165,32 +239,69 @@
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
       "publishedAt": "2026-10-13T23:13:31.000Z",
-      "description": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
-      "summary": "Science CorporationがStargardt病患者への視力回復チップの埋め込みを初めて実施。Neuralink元トップのMax HodakはTechCrunch Disruptで、PRIMAテクノロジーが脳コンピュータインターフェース開発への道筋であると述べた。",
+      "description": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+      "summary": "Neuralink元幹部が率いるScience Corporationが視力回復チップをスターガルト病患者に初めて埋め込んだ。脳コンピュータインターフェース技術の実用化が進展している。",
       "category": "プロダクト",
       "tags": [
-        "BCI",
-        "医療",
-        "神経技術"
+        "脳コンピュータインターフェース",
+        "医療応用",
+        "視力回復"
       ],
       "importance": 4
     },
     {
-      "id": "0dccab987a1f",
-      "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
-      "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
+      "id": "6955b132c080",
+      "title": "OpenAI従業員、役員会議室に録音装置を仕掛けた疑いでFBIが逮捕",
+      "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002236/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
       "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-13T22:17:56.000Z",
+      "description": "OpenAIは、役員会議室のテレビ裏に隠されていた盗聴用録音装置を発見し、設置したエンジニアの男を特定してFBIに通報した。司法省は会話を傍受した疑いなどで男を逮捕・訴追した。FBIや情報機関は、SI（旧AI）技術を守る防諜任務の重要性を強調した。",
+      "summary": "OpenAIの役員会議室に隠された盗聴装置がエンジニアにより設置されたとして、FBIが逮捕・訴追しました。情報機関はAI技術保護の重要性を強調しています。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "産業スパイ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "aa2aee2390f7",
+      "title": "SEAR: Self-Evolving Agentic Robotics",
+      "url": "https://arxiv.org/abs/2610.18792v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-10-13T18:23:33.000Z",
-      "description": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
-      "summary": "Disneyが児童自殺事件と関連する論議のあるCharacter.AIの技術買収に2000万ドルの入札を行っています。",
+      "publishedAt": "2026-10-13T17:40:20.000Z",
+      "description": "Frontier language-model agents can now improve robots on their own: they write control code, test it, and keep what works as skills and memories for the next task. We introduce SEAR (Self-Evolving Agentic Robotics), a framework and benchmark built around two questions. Is the agent really learning, or just trying more often? And does what it learns still help on new tasks, in a new simulator, and …",
+      "summary": "言語モデルを搭載したエージェントがロボットの制御コードを自動生成・テスト・改善する自己進化フレームワークSEARを提案。学習が真に行われているか、新環境への一般化が可能かを検証するベンチマークを構築している。",
+      "category": "その他",
+      "tags": [
+        "ロボット",
+        "エージェント",
+        "自己進化"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "0484214e80b6",
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-13T17:18:25.000Z",
+      "description": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+      "summary": "Pluto Securityが4200万ドルの資金調達を実施。企業内でのAIツール普及に伴い、予期しない使用方法によるセキュリティリスクが急速に増加している問題に対応する。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "Disney",
-        "Character.ai",
-        "買収"
+        "セキュリティ",
+        "AI",
+        "企業"
       ],
       "importance": 4
     },
@@ -204,49 +315,50 @@
       "lang": "en",
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "description": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that continue to plague AI chatbots. The compan…",
-      "summary": "Googleが長期開発の「Gemini 4 Argon」をリリースしました。業界トップレベルの推論能力と複雑なワークフロー対応を備え、冗長性や定型表現の削減が実現されています。",
+      "summary": "Googleが最新モデル「Gemini 4 Argon」をリリースし、複雑なワークフロー処理での優れた性能と推論能力を備えると発表した。",
       "category": "モデル/研究",
       "tags": [
+        "Gemini",
         "Google",
-        "Gemini 4 Argon",
-        "言語モデル"
+        "AI"
       ],
       "importance": 4
     },
     {
-      "id": "28a0a10fd797",
-      "title": "Character.ai Files for Bankruptcy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "77ad3f7fc3bd",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI Blog",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-10-13T11:24:08.000Z",
-      "description": "Hacker News で 145 ポイント獲得。",
-      "summary": "Character.aiが破産申請を行いました。Hacker Newsで注目を集めています。",
-      "category": "ビジネス/資金調達",
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "summary": "Googleが最新のフロンティアモデル「Gemini 4 Argon」をリリース。開発者から消費者まで幅広いユーザーに対し、複雑な問題解決能力を持つモデルへのアクセスを提供する。",
+      "category": "モデル/研究",
       "tags": [
-        "Character.ai",
-        "破産"
+        "Gemini 4",
+        "Google",
+        "フロンティアモデル"
       ],
       "importance": 4
     },
     {
-      "id": "a7c4f3fe4f90",
-      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
-      "url": "https://blog.character.ai/an-update-on-character-ai/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "ab961506aed2",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-10-13T07:28:34.000Z",
-      "description": "https:&#x2F;&#x2F;www.theverge.com&#x2F;ai-artificial-intelligence&#x2F;1009802&#x2F;... https:&#x2F;&#x2F;techcrunch.com&#x2F;2026&#x2F;10&#x2F;13&#x2F;just-5-years-in-interactiv... https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;characterai-files-b... https:&#x2F;&#x2F;variety.com&#x2F;2026&#x2F;biz&#x2F;news&#x2F;disney-bids-on-character-a...",
-      "summary": "Character.aiが自発的にチャプター11破産を申請しました。複数のメディアが報じており、Disneyを含む企業が技術買収の入札に関心を示しているとされています。",
-      "category": "ビジネス/資金調達",
+      "publishedAt": "2026-10-13T12:00:00.000Z",
+      "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "summary": "Higgsfieldがオープンソース化した動画生成技術により、AIによる動画制作が1分以上の長尺コンテンツに対応。GPT-6 Astraで高品質な映像生成、GPT-Image-2.5で精密なビジュアル、GPT-Liveで音声映画制作を実現する。",
+      "category": "プロダクト",
       "tags": [
-        "Character.ai",
-        "破産",
-        "買収"
+        "動画生成",
+        "生成AI",
+        "クリエイター向け"
       ],
       "importance": 4
     },
@@ -259,13 +371,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-10-13T05:57:32.000Z",
-      "description": "Hacker News で 110 ポイント獲得。",
-      "summary": "IMFがAI 関連株の急落の脅威が世界的な金融安定を危険にさらす可能性があると警告している。AI バブルの崩壊が経済全体に及ぼす悪影響についての懸念が示されている。",
-      "category": "ビジネス/資金調達",
+      "description": "Hacker News で 112 ポイント獲得。",
+      "summary": "IMFがAI企業の株価急落が世界経済の安定性を脅かす可能性があると警告している。金融市場全体への波及リスクが指摘されている。",
+      "category": "規制/政策",
       "tags": [
-        "AI バブル",
-        "金融安定",
-        "IMF"
+        "金融リスク",
+        "市場安定",
+        "経済"
       ],
       "importance": 4
     },
@@ -279,12 +391,12 @@
       "lang": "ja",
       "publishedAt": "2026-10-13T03:34:18.000Z",
       "description": "Microsoftが自社AIアクセラレータの第3世代「Maia 300」を発表。本番配備は2027年開始で、Maiaファミリーをマルチギガワット規模に拡大する計画。GPUベース比で電力当たり生成トークン数40％増を見込むという。",
-      "summary": "Microsoftが自社開発のAIアクセラレータ「Maia 300」第3世代を発表。2027年の本番配備を予定し、電力効率でGPU比40％向上を見込む。NVIDIA依存からの脱却を目指す戦略的取り組み。",
+      "summary": "Microsoftが自社AI加速チップの第3世代「Maia 300」を発表。2027年本番配備予定で、消費電力当たりの生成トークン数を40%削減し、NVIDIA依存からの脱却を狙う。",
       "category": "プロダクト",
       "tags": [
         "Microsoft",
-        "自社開発チップ",
-        "NVIDIA競争"
+        "AIチップ",
+        "NVIDIA"
       ],
       "importance": 4
     },
@@ -421,6 +533,120 @@
       "importance": 4
     },
     {
+      "id": "cc1538e90d89",
+      "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
+      "url": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-14T15:57:19.000Z",
+      "description": "マイクロソフトはWindows 11上でAIエージェントを安全に動かすための隔離環境「Microsoft Execution Containers」（以下、MXC）の正式リリースを発表しました。 MXC is now GA on Windows 11. Define which files and networks agents can access, with policies enforced at runtime. It’s part of how Windows i……",
+      "summary": "マイクロソフトがWindows 11上でAIエージェントを安全に実行するための隔離環境「Microsoft Execution Containers」の正式版をリリースした。ファイルやネットワークアクセスを柔軟に制御できる。",
+      "category": "開発ツール",
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "Windows"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "1411495d4f3c",
+      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-14T11:00:00.000Z",
+      "description": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
+      "summary": "Scimplifyが2500万ドルの資金調達を発表し、AI技術で中国の重要鉱物供給への依存低減を目指している。年間売上は2億ドルまで成長した。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "資金調達",
+        "重要鉱物",
+        "AI産業"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "2f0964bb0261",
+      "title": "Anthropic共同創業者「サイバー攻撃、オープンモデル悪用の可能性」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/14/2000002272/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-14T09:20:35.000Z",
+      "description": "米Anthropicの共同創業者であるジャック・クラーク氏は、相次ぐ日本企業へのサイバー攻撃について、AIが使われている可能性もあるとの見方を示した。",
+      "summary": "Anthropic共同創業者は日本企業へのサイバー攻撃にAIが悪用されている可能性があると指摘。オープンモデルのセキュリティリスクについて言及。",
+      "category": "規制/政策",
+      "tags": [
+        "サイバー攻撃",
+        "AI悪用",
+        "セキュリティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "efba8d5b142b",
+      "title": "Singapore office and government MOU",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yTTM0YUphdFBiUjFDcnlZTy1lVklPbGp4ZTczUHJkZjgxSjBkckJSMDg2MHZwYUI5SkFGWlZlNHN4NFVQN3hDdERZSTFfVS1wNlZQRXV2YWE0ZnktZDFIZ3d0NEZLQQ?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-14T08:30:00.000Z",
+      "description": "Singapore office and government MOU Anthropic",
+      "summary": "Anthropicがシンガポール市場への進出を発表。政府とのMOU（覚書）締結により、同国でのAI事業展開を加速させる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "シンガポール",
+        "事業展開"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "6de583535c75",
+      "title": "Googleの新モデル「Gemini 4 Argon」一般提供開始 使えるプラン、価格",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/14/2000002241/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-14T05:06:36.000Z",
+      "description": "Googleは同社最先端のモデル「Gemini 4 Argon」の一般提供を開始した。Geminiアプリや検索のAIモード、Google Antigravity、APIなどで利用できる。",
+      "summary": "GoogleはAIモデル「Gemini 4 Argon」の一般提供を開始した。Geminiアプリや検索のAIモード、APIなど複数のサービスで利用可能。",
+      "category": "プロダクト",
+      "tags": [
+        "Gemini",
+        "Google",
+        "モデル"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "2468d0155f57",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "summary": "分析結果によると、EU圏内の企業や小規模事業者においてエージェント型AI導入が拡大している。さらなる活用機会の発掘による価値創出の可能性が指摘される。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "エージェント型AI",
+        "EU",
+        "ビジネス活用"
+      ],
+      "importance": 3
+    },
+    {
       "id": "6e8090f8c888",
       "title": "Character.ai、米連邦破産法11条を申請 Disney系が一部IPのライセンス取得で先行入札",
       "url": "https://www.itmedia.co.jp/news/article/2610/14/2000002238/",
@@ -430,12 +656,11 @@
       "lang": "ja",
       "publishedAt": "2026-10-13T23:14:19.000Z",
       "description": "Character.aiを運営するCharacter Technologiesが、連邦破産法第11条の適用を申請した。手続き中もサービス運営は継続する。Disneyが知財ライセンス取得と移行支援を行う入札者となり、買い手が見つからない場合は段階的に閉鎖される。",
-      "summary": "Character.aiの運営会社が連邦破産法11条を申請した。Disneyが知財ライセンス取得を目指す先行入札者となり、買い手がない場合は段階的閉鎖される予定。",
+      "summary": "Character.aiの運営企業が連邦破産法11条を申請しました。Disneyが知財ライセンス取得で入札者となり、買い手が見つからない場合は段階的に閉鎖される予定です。",
       "category": "ビジネス/資金調達",
       "tags": [
         "破産",
-        "Character.ai",
-        "Disney"
+        "Character.ai"
       ],
       "importance": 3
     },
@@ -449,12 +674,12 @@
       "lang": "en",
       "publishedAt": "2026-10-13T23:00:00.000Z",
       "description": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
-      "summary": "Industrial Nextは工場ロボットのタスク切り替え時間を数週間から数分に短縮する技術を開発。従来は人間労働が必要だった複雑で繊細な作業の自動化を実現する。",
+      "summary": "Industrial Nextは工場用ロボットが複雑な作業を数週間から数分で切り替えられる技術を開発している。従来は人間が担当していた細かい自動化業務を実現することが目標だ。",
       "category": "プロダクト",
       "tags": [
-        "ロボット",
-        "工場自動化",
-        "製造業"
+        "製造業",
+        "ロボット自動化",
+        "産業用AI"
       ],
       "importance": 3
     },
@@ -468,12 +693,11 @@
       "lang": "ja",
       "publishedAt": "2026-10-13T21:30:00.000Z",
       "description": "オムロンは、米国の産業用PCメーカーであるOnLogicを完全子会社化すると発表。併せて東京都内で記者会見を開き、買収の狙い、背景などを説明した。",
-      "summary": "オムロンが米国の産業用PCメーカーOnLogicを完全子会社化し、AIを活用した設備最適化事業を拡張する。産業分野でのAI価値創出を目指す戦略。",
+      "summary": "オムロンが米国の産業用PCメーカーOnLogicを完全子会社化すると発表しました。AIを現場で活用し、設備最適化などの価値創出を目指しています。",
       "category": "ビジネス/資金調達",
       "tags": [
         "M&A",
-        "産業用AI",
-        "オムロン"
+        "産業用AI"
       ],
       "importance": 3
     },
@@ -487,237 +711,12 @@
       "lang": "en",
       "publishedAt": "2026-10-13T20:36:44.000Z",
       "description": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
-      "summary": "連邦裁判官がAppleの貿易秘密事件においてOpenAIに採用面接資料と関係者の私的メッセージの提出を命じた。元Apple従業員に関わる証拠開示が実行される。",
+      "summary": "Appleの営業秘密侵害訴訟においてApple元従業員の採用面接資料などOpenAIの内部文書開示をOpenAIに命令。裁判所がAppleに広範なアクセス権を認可した。",
       "category": "規制/政策",
       "tags": [
+        "訴訟",
         "OpenAI",
-        "Apple",
-        "訴訟"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "8df7a5e910ff",
-      "title": "Shopify opens its catalog up to more AI agents",
-      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-13T19:42:42.000Z",
-      "description": "CANADA - 2025/07/20: In this photo illustration, the Shopify logo is seen displayed on a smartphone screen. (Photo Illustration by Thomas Fuller/SOPA Images/LightRocket via Getty Images) More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI ag…",
-      "summary": "Shopifyはプラットフォーム上でより多くのAIエージェントが商品の閲覧・購入できるように対応を拡大する。これはエージェンティック・コマースの取り組みの一環である。",
-      "category": "プロダクト",
-      "tags": [
-        "Shopify",
-        "AIエージェント",
-        "Eコマース"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "0484214e80b6",
-      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
-      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-13T17:18:25.000Z",
-      "description": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
-      "summary": "Pluto Securityが4200万ドルの資金調達を実施。企業全体でAIツール利用が広がるにつれ、予期しない使用法からセキュリティリスクが増大している問題に対応する。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "セキュリティ",
-        "AIツール",
-        "資金調達"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "38e5d3e8b2d6",
-      "title": "It’s ‘incomprehensible’ that Instagram allowed an AI image of Mia Goth to spread, say her reps",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-13T16:42:51.000Z",
-      "description": "Mia Goth at The 32nd Annual Actor Awards. | Variety via Getty Images Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads \"MY EX IS MY BIGGEST FAN\" in bold black letters. The Beyoncé song \"Sing…",
-      "summary": "女優ミア・ゴスの名義で偽のAI生成画像がInstagramで拡散された。本人の代理人は、プラットフォームがこのような違法コンテンツを許可したことは理解不可能だと指摘している。",
-      "category": "規制/政策",
-      "tags": [
-        "AI生成画像",
-        "フェイク",
-        "Instagram"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "77ad3f7fc3bd",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "source": "Google AI Blog",
-      "sourceWeight": 9,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "description": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "summary": "Googleが最新の最先端モデル「Gemini 4 Argon」を発表。開発者や企業、科学者、消費者向けにアクセス提供を開始する。",
-      "category": "モデル/研究",
-      "tags": [
-        "Gemini",
-        "Google",
-        "LLM"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "3e079f8ac6e4",
-      "title": "Apple launches HomeView, its first smart display for the home",
-      "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-13T13:00:00.000Z",
-      "description": "The HomeView is a smart speaker with a touchscreen display. It’s available in silver, starlight, rose pink, and space gray. | Image: Apple It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I got a first look at the device in New York City this week, and it's gorgeous. The HomeView puts a small, vibrant screen atop a speaker base for taking video calls, beautif…",
-      "summary": "The HomeView is a smart speaker with a touchscreen display. It’s available in silver, starlight, rose pink, and space gray. | Image: Apple It's finally here: Ap…",
-      "category": "プロダクト",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "e32358f1430b",
-      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-13T13:00:00.000Z",
-      "description": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
-      "summary": "American Expressが、AIエージェントが許可された購入のみを実行するためのフレームワークを導入しました。AI購入の増加に伴い、不正な取引や紛争を防ぐことが目的です。",
-      "category": "プロダクト",
-      "tags": [
-        "Amex",
-        "AIエージェント",
-        "決済セキュリティ"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a6649214c90c",
-      "title": "Open models have real benefits. Do they outweigh the risks?",
-      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
-      "source": "MIT Technology Review AI",
-      "sourceWeight": 7,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-13T10:00:00.000Z",
-      "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the…",
-      "summary": "オープンモデルの利点とリスクについての考察。Anthropicが報告したGLM-5.3のサイバー攻撃リスクを中心に、オープンAIモデルの複雑な課題を解説している。",
-      "category": "その他",
-      "tags": [
-        "オープンモデル",
-        "セキュリティ",
-        "リスク評価"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "c55080815759",
-      "title": "AI labs are buying data from dead startups to train their models",
-      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-      "source": "MIT Technology Review AI",
-      "sourceWeight": 7,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-13T09:00:00.000Z",
-      "description": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around…",
-      "summary": "AIラボが経営不振に陥ったスタートアップのデータを購入し、モデル学習に活用する動きが広がっている。事例では数万ドル規模での取引が成立し、新しいデータ流通方式となっている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "データ取引",
-        "スタートアップ",
-        "AI学習"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "709d71bd76a2",
-      "title": "AIエージェントで「約7人に1人が法令違反リスク」 古いルールを参照させた代償とは",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news029.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-13T02:00:00.000Z",
-      "description": "KiteRaは、AIエージェントを利用または検証している企業のデータガバナンスに関する実態調査の結果を公表した。古い社内ルールや最新版かどうか分からないデータをAIエージェントが参照し、規定や法令に違反しそうになった、あるいは実際に違反した回答者が13.4％に上った。",
-      "summary": "KiteRaの調査で、AIエージェント利用企業の約13.4%が古いルールや不確実なデータ参照により法令違反リスクに直面していることが判明した。",
-      "category": "規制/政策",
-      "tags": [
-        "AIエージェント",
-        "コンプライアンス",
-        "データガバナンス"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "bed08a88988e",
-      "title": "OpenAI幹部が明かす“AI暴走事故”の教訓 “安全運転”のカギは",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/13/2000002180/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-12T23:00:00.000Z",
-      "description": "OpenAIのAIが起こした「Hugging Face」への侵入事案から約3カ月、OpenAI幹部のクリス・レヘイン氏にAI開発の安全対策の考え方などを聞いた。",
-      "summary": "OpenAIの幹部が、Hugging Faceへの侵入事案から得たAI開発の安全対策についての教訓を述べている。AIセキュリティの重要性を強調している。",
-      "category": "規制/政策",
-      "tags": [
-        "AI安全性",
-        "セキュリティ",
-        "OpenAI"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "0e4920e70d5d",
-      "title": "Meta、同社最大のAIモデル「Muse Wonder」発表 記憶力と粘り強さを強化、AIエージェント「Muse」にも搭載へ",
-      "url": "https://www.itmedia.co.jp/news/article/2610/13/2000002197/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-12T22:06:29.000Z",
-      "description": "Metaは、最大かつ最強と位置付ける新AIモデル「Muse Wonder」と上位モデル「Muse Wonde Full」を発表した。会話をまたいで記憶を保持する機能や粘り強くタスクを遂行する機能を備え、エージェント用途に最適化した。APIやコーディングツールで提供を始めたほか、個人向けAIエージェント「Muse」にも順次搭載していく。",
-      "summary": "Metaが最大規模のAIモデル「Muse Wonder」と上位版「Muse Wonder Full」を発表。会話履歴の記憶機能とタスク遂行能力を強化し、AIエージェント用途に最適化した。",
-      "category": "モデル/研究",
-      "tags": [
-        "Meta",
-        "AIエージェント",
-        "LLM"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "d04dca12238a",
-      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-10-12T21:35:35.000Z",
-      "description": "Hacker News で 301 ポイント獲得。",
-      "summary": "IntelがD270 GPU AI アクセラレータを発表した。最大480GB のLPDDR5Xメモリを搭載し、AI推論用途向けの新しいハードウェアソリューションとなっている。",
-      "category": "プロダクト",
-      "tags": [
-        "Intel",
-        "GPU",
-        "AI アクセラレータ"
+        "Apple"
       ],
       "importance": 3
     }
