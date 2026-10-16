@@ -1,14 +1,18 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T00:11:59.119Z",
+  "generatedAt": "2026-10-16T14:42:16.317Z",
   "count": 30,
   "stats": {
-    "fetched": 127,
-    "afterDedupe": 127,
+    "fetched": 111,
+    "afterDedupe": 111,
     "published": 30,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -17,29 +21,32 @@
     "emptySources": [],
     "absentFromDigest": [
       "Anthropic News",
+      "OpenAI Blog",
       "Google AI Blog",
+      "Google DeepMind",
       "Meta AI",
       "VentureBeat AI",
-      "MIT Technology Review AI"
+      "MIT Technology Review AI",
+      "Publickey"
     ],
-    "summarized": 127,
-    "summaryFailures": 0,
+    "summarized": 111,
+    "summaryFailures": 1,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 446
+        "durationMs": 476
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1295,
+        "itemsInFeed": 1296,
         "fetched": 2,
         "ok": true,
-        "durationMs": 259
+        "durationMs": 275
       },
       {
         "name": "Google AI Blog",
@@ -47,15 +54,16 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 548
+        "durationMs": 663
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 100,
-        "fetched": 1,
-        "ok": true,
-        "durationMs": 286
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 348
       },
       {
         "name": "Meta AI",
@@ -63,23 +71,23 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 470
+        "durationMs": 548
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
-        "itemsInFeed": 879,
-        "fetched": 4,
+        "itemsInFeed": 880,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 374
+        "durationMs": 504
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 20,
+        "fetched": 13,
         "ok": true,
-        "durationMs": 333
+        "durationMs": 327
       },
       {
         "name": "VentureBeat AI",
@@ -88,7 +96,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 319
+        "durationMs": 332
       },
       {
         "name": "The Verge AI",
@@ -96,7 +104,7 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 407
+        "durationMs": 309
       },
       {
         "name": "MIT Technology Review AI",
@@ -104,31 +112,31 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 317
+        "durationMs": 513
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 6,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 451
+        "durationMs": 742
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 11,
+        "fetched": 14,
         "ok": true,
-        "durationMs": 1085
+        "durationMs": 860
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 592
+        "durationMs": 1278
       },
       {
         "name": "arXiv cs.AI",
@@ -136,15 +144,15 @@
         "itemsInFeed": 60,
         "fetched": 60,
         "ok": true,
-        "durationMs": 483
+        "durationMs": 671
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 9,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 821
+        "durationMs": 1118
       }
     ]
   },
@@ -169,6 +177,120 @@
       "importance": 5
     },
     {
+      "id": "7191c366c9f2",
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-16T14:02:40.000Z",
+      "description": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" its AI products. The new policy applies to business accounts th…",
+      "summary": "Metaの10月30日から適用される新規約では、プラットフォームと関連するウェブサイトを無制限でスクレイプしAI訓練に利用できる可能性がある。ニュースサイトなどが影響を受ける恐れがある。",
+      "category": "規制/政策",
+      "tags": [
+        "Meta",
+        "データ利用",
+        "著作権"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "5cb7be71f0b5",
+      "title": "不正アクセス多発、Gartnerが日本企業に「7つのアクション」を緊急提言",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/16/news048.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T05:20:00.000Z",
+      "description": "不正アクセスが相次ぐ中、日本企業が講じるべき対策とは。人間が数日から数週間かけていた攻撃の作業が、AIやエージェントの悪用によって、条件によっては数分に短縮される可能性がある中で、Gartnerが早急な実施を推奨する「7つのアクション」を紹介する。",
+      "summary": "不正アクセスの多発を受け、GartnerがAI悪用時代に日本企業が講じるべき7つの緊急アクションを提言。AIエージェントの悪用により攻撃時間が大幅に短縮される可能性を指摘している。",
+      "category": "規制/政策",
+      "tags": [
+        "サイバーセキュリティ",
+        "脅威対策",
+        "企業対策"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "0499f95f520e",
+      "title": "AIエージェントに「何を指示するか」より「何をさせないか」――NVIDIAが示す設計の原則",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/16/news032.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T02:00:00.000Z",
+      "description": "AIエージェントが社内システムやデータを自律的に操作するようになるとき、どのようなセキュリティ対策が必要なのか。NVIDIAは、AIへの指示だけに頼らず、実行環境でのアクセス制御や権限管理、継続的な検証を組み合わせることの重要性を指摘する。",
+      "summary": "AIエージェントの安全運用において、指示内容の制御だけでは不十分であり、実行環境のアクセス制御や権限管理、継続的な検証を組み合わせることが重要とNVIDIAが指摘。",
+      "category": "規制/政策",
+      "tags": [
+        "AIエージェント",
+        "セキュリティ",
+        "アクセス制御"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4164493830fd",
+      "title": "TSMCが純利益68.7％増で最高益更新 魏会長「需要は極めて堅調」",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/16/news052.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T01:30:00.000Z",
+      "description": "【台北＝西見由章】半導体受託生産の世界最大手、台湾積体電路製造（TSMC）が15日発表した2026年7～9月期決算は、売上高が前年同期比50.9％増の1兆4942億台湾元（約7兆2900億円）、純利益は68.7％増の7630億台湾元だった。いずれも四半期として過去最高を更新した。",
+      "summary": "台湾半導体大手TSMCの2026年7～9月期決算で、売上高は前年同期比50.9％増、純利益は68.7％増となり、四半期ベースで過去最高を更新。AI需要の堅調さが寄与している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "TSMC",
+        "半導体",
+        "業績"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2f4cdec50dc8",
+      "title": "Anthropic、METRの評価チームを社内に常駐させ“従業員並み”のアクセス付与 公表に拒否権なし",
+      "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002315/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T00:49:28.000Z",
+      "description": "Anthropicは、AI評価団体METRに従業員並みのアクセス権を与える常駐評価を開始した。端末やオフィスを提供して社内システムへのアクセスを認め、リスクや障害の独自公表を許可する。公表拒否はできず、伏せ字要請のみ可能。OpenAIも同様の外部評価機関受け入れを準備している。",
+      "summary": "Anthropicが外部評価団体METRに従業員並みのアクセス権を付与し、社内に常駐させる評価体制を導入した。リスク評価結果の独立公表を認める一方、公表拒否は認めず伏せ字要請のみ可能。OpenAIも同様の体制を準備中。",
+      "category": "規制/政策",
+      "tags": [
+        "Anthropic",
+        "AI評価",
+        "透明性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "662356824953",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-15T19:14:26.000Z",
+      "description": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
+      "summary": "AnthropicがMETR研究者に従業員レベルのアクセス権を付与し、リスクと事例の独立した評価を可能にした。Anthropicは評価結果の非公開化する権利を放棄している。",
+      "category": "規制/政策",
+      "tags": [
+        "Anthropic",
+        "METR",
+        "透明性"
+      ],
+      "importance": 4
+    },
+    {
       "id": "8ecbe3f00698",
       "title": "Friends don’t let friends feed their data to AI agents",
       "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
@@ -178,11 +300,11 @@
       "lang": "en",
       "publishedAt": "2026-10-15T16:21:45.000Z",
       "description": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also the information of your friends, family, the person you went on a Hinge date …",
-      "summary": "Meta Museなどの個人用AI補助ツールについて、ユーザーだけでなく友人や家族など周囲の人々のデータも収集される懸念を指摘。プライバシー上の課題が浮上しています。",
+      "summary": "消費者向けAI個人アシスタントが増加する中で、ユーザーの同意なく周囲の人物のデータを収集する問題が指摘されています。プライバシーと同意に関する懸念が高まっています。",
       "category": "規制/政策",
       "tags": [
         "プライバシー",
-        "AIアシスタント",
+        "AI assistant",
         "データ収集"
       ],
       "importance": 4
@@ -197,12 +319,12 @@
       "lang": "en",
       "publishedAt": "2026-10-15T15:43:24.000Z",
       "description": "FTC may fine AI firms on par with companies that delay data breach reports.",
-      "summary": "FTCがAnthropicとOpenAIに対して調査を開始し、データ流出遅延報告企業並みの罰金を検討しています。",
+      "summary": "FTCがAnthropicとOpenAIを調査中であり、データ侵害報告遅延企業並みの罰金を科す可能性がある。",
       "category": "規制/政策",
       "tags": [
         "FTC",
         "規制",
-        "Anthropic"
+        "OpenAI"
       ],
       "importance": 4
     },
@@ -216,12 +338,12 @@
       "lang": "en",
       "publishedAt": "2026-10-15T14:03:42.000Z",
       "description": "In hindsight, the post on Instagram should have raised more red flags. The image purported to show actress Mia Goth, just days after filing for divorce from actor and filmmaker Shia LaBeouf, posing in a T-shirt with a pointed message: MY EX IS MY BIGGEST FAN. To really drive home the point, the song \"Single Ladies (Put a Ring on It)\" by Beyoncé was added to the post. It would have been out of char…",
-      "summary": "セレブリティのAIディープフェイクの脅威についての記事。Mia Gothなど著名人が不正な画像・動画の作成対象になっており、だれもが危険にさらされていることが指摘されています。",
+      "summary": "有名人のAIディープフェイク映像が広がる問題について報道しています。有名女優の顔を使用した架空の投稿がソーシャルメディアに拡散される事例が紹介されています。",
       "category": "規制/政策",
       "tags": [
-        "ディープフェイク",
-        "セレブリティ",
-        "AI悪用"
+        "deepfake",
+        "倫理",
+        "プライバシー"
       ],
       "importance": 4
     },
@@ -235,12 +357,12 @@
       "lang": "ja",
       "publishedAt": "2026-10-15T05:39:29.000Z",
       "description": "ビットフォレストが、日本企業のWebサイトへのAIエージェントによる攻撃を観測したと報告。10月14日までに3つのIPアドレスから確認し、うち1つは8時間弱にわたり10段階に攻撃を変化させたという。",
-      "summary": "国内セキュリティベンダーが日本企業のWebサイトへのAIエージェント攻撃を観測しました。3つのIPアドレスから確認され、うち1つは8時間弱にわたり段階的に攻撃を変化させたとのことです。",
+      "summary": "国内セキュリティベンダーが日本企業のWebサイトへのAIエージェント攻撃を観測したと報告した。3つのIPアドレスから確認され、うち1つは8時間以上にわたり段階的に攻撃内容を変化させていた。",
       "category": "規制/政策",
       "tags": [
         "セキュリティ",
-        "攻撃",
-        "AIエージェント"
+        "AIエージェント",
+        "攻撃観測"
       ],
       "importance": 4
     },
@@ -416,6 +538,101 @@
       "importance": 4
     },
     {
+      "id": "449a6fc1d0f2",
+      "title": "Meta、「米国製で最高性能」のオープンモデル「Muse Spark Open」発表 Apple Siliconに最適化、Mac Studio×2でローカル動作",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/16/2000002328/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T05:14:11.000Z",
+      "description": "Metaがオープンウェイトモデル「Muse Spark Open」を発表し、重みを公開。「米国製で過去最高性能」とうたい、M5 Ultra搭載のMac Studio 2台で動作するという。独自ライセンスで商用利用は条件付き。",
+      "summary": "Metaがオープンウェイトモデル「Muse Spark Open」を発表し、ウェイトを公開した。米国製で最高性能を標榜し、Mac Studio 2台でローカル実行可能。商用利用は条件付きライセンス。",
+      "category": "モデル/研究",
+      "tags": [
+        "Meta",
+        "オープンモデル",
+        "Apple Silicon"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "92a85d913929",
+      "title": "Microsoft、社内エンジニア数万人を対象に「Claude Code」「Copilot CLI」導入の影響を分析 生産性どう変わる",
+      "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002277/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T03:00:00.000Z",
+      "description": "米Microsoftに所属する研究者らが発表した論文「Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft’s Early 2026 Rollout of Claude Code and GitHub Copilot CLI」は、社内の数万人のソフトウェアエンジニアを対象に、コマンドライン上で動くAIコーディングツール（Anthropicの「Claude Code」やGitHubの「Copilot CLI」）の利用状況と、それが生産性に与える影響について調査した研究報告だ。",
+      "summary": "Microsoftが社内エンジニア数万人を対象に、Claude CodeとGitHub Copilot CLIの導入効果を調査した論文を発表。コマンドラインAIツールの利用状況と生産性への影響が分析されている。",
+      "category": "モデル/研究",
+      "tags": [
+        "Copilot",
+        "開発効率",
+        "エンジニア調査"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a021e5a5f4fd",
+      "title": "「今までが簡単すぎた」――声のAI利用に新指針、日俳連 事業者に求める対応は",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/16/2000002320/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T02:26:00.000Z",
+      "description": "声優・俳優の権利保護活動などを行う日本俳優連合は、「音声に関する生成AI利用ガイドライン」を発表した。",
+      "summary": "日本俳優連合が音声生成AIの利用に関するガイドラインを発表。声優や俳優の権利保護を目的とし、事業者に対する具体的な対応を示唆している。",
+      "category": "規制/政策",
+      "tags": [
+        "音声AI",
+        "著作権",
+        "ガイドライン"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "af14d0aa7e59",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": "Hugging Face Blog",
+      "sourceWeight": 7,
+      "sourceCategory": "開発ツール",
+      "lang": "en",
+      "publishedAt": "2026-10-16T01:44:47.000Z",
+      "description": "",
+      "summary": "インド系言語の学習用に2.8兆トークンを活用したプリトレーニングとオープンデータ生成パイプラインの実装について。具体的な詳細は提供されていない。",
+      "category": "その他",
+      "tags": [
+        "インド言語",
+        "事前学習",
+        "データセット"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "f0207c83ef12",
+      "title": "Amazon、Beeの新AIデバイス2機種発表 リストバンド型とスマホ装着型、会話を要約し「Alexa+」と連携",
+      "url": "https://www.itmedia.co.jp/news/article/2610/16/2000002316/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-16T01:27:57.000Z",
+      "description": "Amazonは、傘下BeeブランドのAIデバイス2機種を発表した。手首や衣服に着ける「Bee Frontier」とスマホ背面に貼る「Bee Eclipse」で、会話の要約やToDo作成を行う。「Alexa+」やAmazon.comとも連携し、音声や要約はNitro基盤の暗号化環境で保護される。",
+      "summary": "Amazonが傘下Beeブランドの新型AIデバイス2機種を発表。リストバンド型と貼り付け型で会話要約やタスク管理を実行し、Alexa+やAmazon.comと連携する。音声データはNitro基盤で暗号化保護される。",
+      "category": "プロダクト",
+      "tags": [
+        "Amazon",
+        "AIデバイス",
+        "音声AI"
+      ],
+      "importance": 3
+    },
+    {
       "id": "c175ac7a3c47",
       "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
       "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
@@ -424,13 +641,13 @@
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
       "publishedAt": "2026-10-15T23:44:56.000Z",
-      "description": "The company generated over $30 million in revenue in two years and was acquired by MyFitness for an undisclosed amount of money in March.",
-      "summary": "Cal AIが有料インフルエンサー施策により急速な成長を実現し、2年で3000万ドル以上の収益を生成。その後MyFitnessに買収された。",
+      "description": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+      "summary": "AI企業Cal AIはインフルエンサーマーケティングにより2年で3000万ドルを超える売上を生み出し、MyFitnessPalに買収された。ソーシャルメディア戦略が事業成長に大きく貢献した。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "Cal AI",
         "買収",
-        "インフルエンサーマーケティング"
+        "マーケティング",
+        "AI企業"
       ],
       "importance": 3
     },
@@ -444,12 +661,12 @@
       "lang": "ja",
       "publishedAt": "2026-10-15T23:00:00.000Z",
       "description": "中国では現在、ヒューマノイドロボットの開発や量産、社会実装に向けた動きが加速している。しかし、完成品の動向を追うだけでは、その競争力の源泉や本格普及に向けた課題までは見えてこない。SUGENAのセミナー「フィジカルAI解体新書」では、ヒューマノイドをAIや関節、センサー、手などに“解体”し、中国勢の強さと残された課題を解説した。本稿ではその内容を基に、日本企業が勝負できる領域を見ていく。",
-      "summary": "中国ではヒューマノイドロボット開発が加速し、社会実装へ向かっています。AI、関節、センサーなど技術を分解して分析すると、中国勢の競争力源泉と課題が見えてきます。",
-      "category": "モデル/研究",
+      "summary": "中国のヒューマノイドロボット開発が加速している。AIから関節、センサー、手などの要素を分析することで、中国勢の競争力源泉と課題を明らかにし、日本企業が勝負可能な領域を探る分析が示された。",
+      "category": "その他",
       "tags": [
         "ヒューマノイド",
-        "中国",
-        "競争分析"
+        "ロボット",
+        "中国"
       ],
       "importance": 3
     },
@@ -463,14 +680,30 @@
       "lang": "ja",
       "publishedAt": "2026-10-15T22:00:00.000Z",
       "description": "ドイツ南西部の地方都市が、首都ベルリンを凌ぐ勢いでBtoB・ディープテックの巨大ベンチャー拠点へと変貌している。大学の知財、地場産業の課題、そして強固な民間資本が結びつき、単なる出資にとどまらない「現場実装型エコシステム」を構築。東京一極集中や「資金提供のみ」に陥りがちな日本のオープンイノベーションと地方創生に対し、強力な勝ち筋と教訓を示している。",
-      "summary": "ドイツの地方都市がベルリンを凌ぐAIベンチャー拠点へと変貌しています。大学の知財と地場産業を結びつけた「現場実装型エコシステム」が構築され、日本のオープンイノベーションに対する教訓を示しています。",
+      "summary": "ドイツの地方都市がディープテック系ベンチャーの拠点に変貌している。大学の知的資産と地場産業の課題、民間資本が結合した「現場実装型エコシステム」を構築し、日本のオープンイノベーションモデルに有効な示唆を与えている。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "ドイツ",
         "ベンチャー",
-        "エコシステム"
+        "エコシステム",
+        "地方創生"
       ],
       "importance": 3
+    },
+    {
+      "id": "af1c841e21b3",
+      "title": "The tech backlash is now in theaters",
+      "url": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-15T21:39:52.000Z",
+      "description": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can See Everything paints a damning picture …",
+      "summary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon V…",
+      "category": "プロダクト",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
     },
     {
       "id": "e363184ae584",
@@ -482,240 +715,12 @@
       "lang": "en",
       "publishedAt": "2026-10-15T20:04:53.000Z",
       "description": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
-      "summary": "MetaがAppleと協業し、ローカルに実行可能な新しいオープンウェイトモデル「Muse Spark Open」をApple Siliconで動作させることを発表しました。",
-      "category": "モデル/研究",
+      "summary": "MetaとAppleが協力して、MetaのMuse Spark OpenモデルをApple Siliconで動作させるローカル実行環境を実現。新しいオープンウェイトAIモデルのプロダクト展開。",
+      "category": "プロダクト",
       "tags": [
         "Meta",
         "Apple",
-        "エッジAI"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "662356824953",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-15T19:14:26.000Z",
-      "description": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
-      "summary": "AnthropicがAI安全研究機関METRに社内アクセス権を付与し、透明性を強化しました。METRはリスク評価や事故報告を独立して公開でき、Anthropicは発表内容をブロックする権利を放棄しています。",
-      "category": "規制/政策",
-      "tags": [
-        "Anthropic",
-        "AI安全",
-        "透明性"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "edb461273095",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-15T19:00:00.000Z",
-      "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "summary": "OpenAIがRosalind Academic Planを発表し、対象となる学術研究所にGPT-Rosalindへのアクセスと生命科学研究支援ツールを提供します。",
-      "category": "プロダクト",
-      "tags": [
-        "学術利用",
-        "生命科学",
-        "GPT-Rosalind"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "55f96de6c64f",
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-15T18:15:36.000Z",
-      "description": "The new Muse Spark Open AI model can work on M5 Ultra Mac Studios. | Photo: Amelia Holowaty Krales / The Verge Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" …",
-      "summary": "MetaとAppleが協業し、新しいMuse Spark Openというオープンウェイトの大規模言語モデルを発表しました。このモデルはM5 UltraチップのMac Studioで動作させることができる、同クラスの初めてのモデルです。",
-      "category": "モデル/研究",
-      "tags": [
-        "Meta",
-        "Apple",
-        "オープンソース"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "cbc7643dde66",
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "source": "Google DeepMind",
-      "sourceWeight": 9,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-15T16:08:03.000Z",
-      "description": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "summary": "GoogleのAntigravityを活用した新規抗菌ペプチド探索の加速について発表されました。",
-      "category": "その他",
-      "tags": [
-        "抗菌ペプチド",
-        "生命科学",
-        "DeepMind"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "407139d73c2e",
-      "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
-      "url": "https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-10-15T15:21:12.000Z",
-      "description": "Anthropicが開発しているJavaScriptランタイム「Bun」は、10月10日付けで新バージョン「Bun v1.4.3」がリリースされました。 Bun v1.4.3の最大の特徴として示されたのが、Go言語で実装されたTypeScript 7よりも3倍以上高速だとするTypeScript型チェッカーです。 TypeScriptもバージョン7ではGo言語による実装で高速化がはかられましたが、Bunはそれを大きく上回るとしています。 BunはJavaScriptだけでなく……",
-      "summary": "Anthropic開発のJavaScriptランタイム「Bun」がv1.4.3をリリース。Go言語実装のTypeScript型チェッカーを搭載し、TypeScript 7比で3倍以上の高速化を実現しています。",
-      "category": "開発ツール",
-      "tags": [
-        "Bun",
-        "TypeScript",
-        "パフォーマンス"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "3970a3df813c",
-      "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-10-15T14:58:48.000Z",
-      "description": "Hacker News で 224 ポイント獲得。",
-      "summary": "Simon財団がAI時代における数学者の支援を目的として1500万ドルの初期投資を開始しました。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Simon財団",
-        "数学",
-        "AI教育"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "27b7c3035a95",
-      "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
-      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-15T14:30:00.000Z",
-      "description": "Microsoft and Nvidia held a launch party for the first wave of RTX Spark laptops last week in San Francisco, where a new wave of AI PCs took center stage amid a packed crowd and a lively hands-on area. A day after the media event, I was invited to a quieter Nvidia event to hear a lot more about the new RTX Spark computing platform. While Nvidia's new laptops might look like regular Windows machine…",
-      "summary": "MicrosoftとNvidiaが新型AI PC向けのRTX Sparkプラットフォーム発表。Windowsがこれらのノートパソコン用に最適化されており、新世代のAI搭載PCの成長を示しています。",
-      "category": "プロダクト",
-      "tags": [
-        "Nvidia RTX Spark",
-        "Windows",
-        "AI PC"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "e8d87ee355e5",
-      "title": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
-      "url": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-15T14:00:00.000Z",
-      "description": "Today, I’m talking with Benn Jordan, musician, YouTuber, researcher, and investigative journalist. You might know Benn from those first two titles — he’s got a prolific discography of experimental music dating back decades. But in the last couple of years, he’s become a high-profile face in the creator and media spaces for his work investigating Flock Safety, the maker of automatic license plate r…",
-      "summary": "音楽家であり調査ジャーナリストのBenn Jordanに関する記事。プライバシーと監視問題、特に自動ナンバープレート認識機のFlock Safetyに関する調査活動について取材しています。",
-      "category": "規制/政策",
-      "tags": [
-        "プライバシー",
-        "監視技術",
-        "Flock Safety"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "532737d91469",
-      "title": "CTOが「AI導入で生産性を1年で2倍に」掲げた企業のその後 米国が開発者802人の進捗を追跡調査",
-      "url": "https://www.itmedia.co.jp/news/article/2610/15/2000002260/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-15T03:00:00.000Z",
-      "description": "米カーネギーメロン大学や米スタンフォード大学などに所属する研究者らが発表した論文「AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate」は、AI導入を義務化したソフトウェア会社がどのような影響を受けたのかを調査した研究報告だ。",
-      "summary": "大学研究機関がAI義務化した企業への長期追跡調査を実施しました。生産性向上目標と実際の影響について802人の開発者を対象に進捗を調査した論文が発表されています。",
-      "category": "その他",
-      "tags": [
-        "生産性",
-        "企業導入",
-        "開発者調査"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "7c11ddd1960a",
-      "title": "相次ぐサイバー攻撃に「AI悪用の可能性」……初来日のAnthropic共同創業者が言及 悪用どう抑止",
-      "url": "https://www.itmedia.co.jp/news/article/2610/15/2000002286/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-15T01:55:34.000Z",
-      "description": "「おそらく、AIツールが使われている可能性はあるだろうと推測している」──米Anthropicの共同創業者のジャック・クラーク氏が初来日し、同社の日本法人が10月14日に開いたメディア説明会に登壇した。講演では、報道陣の質問に答える形でサイバー攻撃とAIの関係性についても言及する一幕も。悪用の抑止に向けて同社がどう取り組むか、現在の方針も説明した。",
-      "summary": "Anthropicの共同創業者がサイバー攻撃にAIツール悪用の可能性について言及しました。同社の悪用防止への取り組みと現在の方針が説明されています。",
-      "category": "規制/政策",
-      "tags": [
-        "Anthropic",
-        "セキュリティ",
-        "AI悪用"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "c6dfbcd0e680",
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-15T01:01:32.000Z",
-      "description": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
-      "summary": "Ricursive IntelligenceはAIを使用して半導体設計を自動化し、計算能力不足問題の解決を目指している。各イテレーションから学習し設計を改善できる。",
-      "category": "その他",
-      "tags": [
-        "AIチップ設計",
-        "半導体",
-        "自動化"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "dde8b65065e5",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source": "Hugging Face Blog",
-      "sourceWeight": 7,
-      "sourceCategory": "開発ツール",
-      "lang": "en",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "description": "",
-      "summary": "Metaがオープンウェイトのマルチモーダル混合専門家モデル「Muse Spark Open」をリリースしました。このモデルはフロンティア技術を備えた新しい基盤モデルです。",
-      "category": "モデル/研究",
-      "tags": [
-        "Meta",
-        "マルチモーダル",
-        "オープンウェイト"
+        "モデル"
       ],
       "importance": 3
     }
