@@ -1,18 +1,14 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-17T23:54:25.746Z",
+  "generatedAt": "2026-10-18T13:52:52.058Z",
   "count": 30,
   "stats": {
-    "fetched": 33,
-    "afterDedupe": 32,
+    "fetched": 11,
+    "afterDedupe": 10,
     "published": 30,
     "removedByUrl": 0,
     "removedByTitle": 1,
     "failedSources": [
-      {
-        "name": "Google DeepMind",
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
-      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -27,24 +23,24 @@
       "VentureBeat AI",
       "arXiv cs.AI"
     ],
-    "summarized": 32,
+    "summarized": 10,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 5,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 446
+        "durationMs": 526
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1299,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 396
+        "durationMs": 336
       },
       {
         "name": "Google AI Blog",
@@ -52,16 +48,15 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 557
+        "durationMs": 504
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 0,
+        "itemsInFeed": 100,
         "fetched": 0,
-        "ok": false,
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
-        "durationMs": 168
+        "ok": true,
+        "durationMs": 368
       },
       {
         "name": "Meta AI",
@@ -69,7 +64,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 515
+        "durationMs": 586
       },
       {
         "name": "Hugging Face Blog",
@@ -77,15 +72,15 @@
         "itemsInFeed": 880,
         "fetched": 0,
         "ok": true,
-        "durationMs": 476
+        "durationMs": 419
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 11,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 250
+        "durationMs": 341
       },
       {
         "name": "VentureBeat AI",
@@ -94,21 +89,21 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 393
+        "durationMs": 430
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 4,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 478
+        "durationMs": 376
       },
       {
         "name": "MIT Technology Review AI",
         "weight": 7,
         "itemsInFeed": 10,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
         "durationMs": 525
       },
@@ -116,9 +111,9 @@
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 4,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 653
+        "durationMs": 588
       },
       {
         "name": "ITmedia AI+",
@@ -126,15 +121,15 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 897
+        "durationMs": 887
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 1,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 631
+        "durationMs": 472
       },
       {
         "name": "arXiv cs.AI",
@@ -142,38 +137,19 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 950
+        "durationMs": 613
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 4,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 723
+        "durationMs": 748
       }
     ]
   },
   "articles": [
-    {
-      "id": "961f19a15ebb",
-      "title": "「11回止めたのに本番DBが消えた」 AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-17T23:00:00.000Z",
-      "description": "AIコーディングエージェントの自律性が高まる一方、本番データベースの削除といった事故も起こっています。では、「人間の承認」を増やせば事故は防げるのでしょうか。事例と対策から、事故を起こさないAIエージェントの設計について考えます。",
-      "summary": "AIコーディングエージェントが本番データベース削除などの暴走事故を引き起こす事例が報告されている。人間の承認手続きの増加だけでは事故防止に不十分であり、エージェント設計の改善が必要であることが示唆されている。",
-      "category": "開発ツール",
-      "tags": [
-        "AIエージェント",
-        "リスク管理",
-        "事故防止"
-      ],
-      "importance": 4
-    },
     {
       "id": "2fcfe791efa3",
       "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
@@ -184,12 +160,31 @@
       "lang": "ja",
       "publishedAt": "2026-10-17T15:27:18.000Z",
       "description": "悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。 対象はLinuxカーネルで、脆弱性の深刻度を1から10の値で表すスコアは9.3で「Critical」（緊急）と非常に高くなっています。 PwnEscapeはLinuxカーネルのネットワーク処理の欠陥 PwnEscapeの技術的な内容について……",
-      "summary": "Linuxカーネルの深刻な脆弱性「PwnEscape」が報告された。仮想マシンからホストOSへの不正なコード実行が可能で、緊急度スコアは9.3と非常に高い。",
+      "summary": "Linuxカーネルの深刻な脆弱性「PwnEscape」が報告された。仮想マシンゲストからホスト側OSへ不正なコード実行が可能で、深刻度は最高レベルの9.3である。",
       "category": "規制/政策",
       "tags": [
-        "Linuxカーネル",
+        "Linux",
         "脆弱性",
         "セキュリティ"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "961f19a15ebb",
+      "title": "「11回止めたのに本番DBが消えた」 AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-17T23:00:00.000Z",
+      "description": "AIコーディングエージェントの自律性が高まる一方、本番データベースの削除といった事故も起こっています。では、「人間の承認」を増やせば事故は防げるのでしょうか。事例と対策から、事故を起こさないAIエージェントの設計について考えます。",
+      "summary": "AIコーディングエージェントが本番データベースを削除するなど暴走事故を起こしている。人間の承認プロセスを増やすだけでは防止が難しく、設計段階での対策が重要であることが指摘されている。",
+      "category": "プロダクト",
+      "tags": [
+        "AIエージェント",
+        "リスク管理",
+        "自動化"
       ],
       "importance": 4
     },
@@ -278,13 +273,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-10-17T16:04:23.000Z",
-      "description": "Hacker News で 143 ポイント獲得。",
-      "summary": "アマゾンが英国の倉庫で労働組合結成のリスクを監視するためにAIを導入している。",
-      "category": "ビジネス/資金調達",
+      "description": "Hacker News で 168 ポイント獲得。",
+      "summary": "Amazonが英国の倉庫で労働組合結成リスクをAIで監視していることが報告された。従業員監視とAI活用に関する議論が生じている。",
+      "category": "規制/政策",
       "tags": [
         "Amazon",
         "AI監視",
-        "労使関係"
+        "労働"
       ],
       "importance": 3
     },
@@ -298,12 +293,12 @@
       "lang": "en",
       "publishedAt": "2026-10-17T15:04:36.000Z",
       "description": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of, the Meta Compa…",
-      "summary": "Metaは批判を受け、ニュースサイトを含むウェブコンテンツをAI学習に利用できるとする利用規約の表現を削除した。商用利用規約ページから該当言語が削除されている。",
+      "summary": "ニュースサイトなどのコンテンツスクレイピングに関する批判を受けて、Metaが利用規約から該当言語を削除した。AIトレーニング用のコンテンツ取得方法に関する対応である。",
       "category": "規制/政策",
       "tags": [
         "Meta",
-        "利用規約",
-        "AI学習"
+        "スクレイピング",
+        "コンプライアンス"
       ],
       "importance": 3
     },
@@ -317,12 +312,12 @@
       "lang": "en",
       "publishedAt": "2026-10-17T13:00:00.000Z",
       "description": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Inst…",
-      "summary": "自律型AIエージェントの普及に伴い、インターネット上の多くのウェブサイトが対象外ホストとしての機能を制限している。OpenAI、Meta、Googleなどが提供するエージェント機能に対するサイト側の防御が強まっている。",
-      "category": "規制/政策",
+      "summary": "OpenAI、Meta、Googleなどの自律型AIエージェントが普及する一方で、ウェブサイト側がこれらのエージェントをブロックする動きが広がっている。エージェント利用時の課題が浮上している。",
+      "category": "プロダクト",
       "tags": [
         "AIエージェント",
-        "ウェブサイト規制",
-        "業界対応"
+        "ウェブスクレイピング",
+        "規制"
       ],
       "importance": 3
     },
@@ -441,6 +436,44 @@
       "importance": 3
     },
     {
+      "id": "cc8120aa1e9d",
+      "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
+      "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T15:35:52.000Z",
+      "description": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプレビューとして公開しました。 Rust言語やNode.js環境では、ツールチェーンマネージャと呼ばれるコマンドが存在します。Rustでは「rustup」、Node.jsでは「nvm」がそれです。 ツールチェーンマネージャは単にコマンド一発で……",
+      "summary": "マイクロソフトが.NETのツールチェーンマネージャ「dotnetup」をパブリックプレビュー公開した。複数バージョンの.NET環境を統一管理できるツールで、Rustの「rustup」に相当する。",
+      "category": "開発ツール",
+      "tags": [
+        ".NET",
+        "ツール",
+        "開発環境"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6d9c92c61f88",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-18T04:33:49.000Z",
+      "description": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it&#x27;ll throw up a questionnaire that checks if you understand how the code you&#x27;re pushing works.",
+      "summary": "オープンソースのツール「Sphinx」が開発されており、本番環境へのデプロイ前にAIが生成したコードの理解度を問うテストを実施する。AIコード生成の品質保証を支援している。",
+      "category": "開発ツール",
+      "tags": [
+        "AIコード生成",
+        "品質保証",
+        "オープンソース"
+      ],
+      "importance": 2
+    },
+    {
       "id": "aa268087b635",
       "title": "Replit makes OpenAI its default over Anthropic, CEO says",
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
@@ -450,8 +483,8 @@
       "lang": "en",
       "publishedAt": "2026-10-17T18:48:08.000Z",
       "description": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "summary": "Repiltが標準AIモデルプロバイダーをAnthropicからOpenAIに変更した。ユーザーはClaudeの利用は継続できる。",
-      "category": "プロダクト",
+      "summary": "コーディングプラットフォームReplitが、デフォルトのモデルプロバイダーをAnthropicからOpenAIに変更した。Claudeは引き続き利用可能。",
+      "category": "ビジネス/資金調達",
       "tags": [
         "Replit",
         "OpenAI",
@@ -469,7 +502,7 @@
       "lang": "ja",
       "publishedAt": "2026-10-17T08:00:00.000Z",
       "description": "SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表。親に生成AIを使ってほしくない子世代が69.3％に達したという結果とともに、その理由や自身の利用頻度、親に教える際の障壁などを示した。",
-      "summary": "65歳以上の親を持つ30～50代を対象とした調査で、69.3%の子世代が親の生成AI利用を望まないと判明。理由や利用促進時の課題が示された。",
+      "summary": "SHIFT AIの調査によると、65歳以上の親を持つ30～50代の子世代の約7割が、親に生成AIを使ってほしくないと回答した。拒否理由や親へのAI教育の障壁が明らかになっている。",
       "category": "その他",
       "tags": [
         "シニア",
@@ -675,48 +708,12 @@
       "lang": "en",
       "publishedAt": "2026-10-17T20:21:19.000Z",
       "description": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-      "summary": "Anthropicの組織構成が変化し、経験豊かなスタッフの割合が増加し、会議時間が増えている。過去1年で業務内容が大きく変わった。",
+      "summary": "Anthropicの従業員構成が大きく変化し、より経験豊富な人材にシフトしており、会議時間が増加している。組織運営の変化が報告されている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
-        "組織変化",
-        "運営"
-      ],
-      "importance": 1
-    },
-    {
-      "id": "a1a8de5196cf",
-      "title": "How employment is changing at Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mOWJENVFMYm9BOWdRbjJXSllRMVJ3ZXh6RkMwQmJlWElqUU9TTENEamlIanRkSXE4UnRaRDROSnZNTXBGM0NoVGNDWkpXZEtrUHRzdlFNSEhVVjBjalloX1ZTQm5LX2RKRXc?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-16T16:26:00.000Z",
-      "description": "How employment is changing at Anthropic Anthropic",
-      "summary": "Anthropicにおける雇用情勢の変化について紹介している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Anthropic",
-        "採用"
-      ],
-      "importance": 1
-    },
-    {
-      "id": "46a4f3b1987a",
-      "title": "Working at the frontier shapes expectations for the future",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QM0duQ25GemxVSnNkMzJPRDJGMjRHdzY0R0lBbXZIR2liVmJiUjJaeTJ1Yk1Rbzhua2RqMVNJTjZtdUNIUzNLSFNXSEcxNzZ1aEU5akVoaEIyS3BLX3BSQjhvZS1IWDNFOWZUbktxWQ?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-16T16:21:00.000Z",
-      "description": "Working at the frontier shapes expectations for the future Anthropic",
-      "summary": "Anthropicでの最前線の業務が、将来への期待や見通しにどのような影響を与えるかについて述べている。",
-      "category": "その他",
-      "tags": [
-        "Anthropic",
-        "企業文化"
+        "組織運営",
+        "人事"
       ],
       "importance": 1
     }
