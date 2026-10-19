@@ -1,0 +1,503 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T00:04:09.450Z",
+  "count": 18,
+  "stats": {
+    "fetched": 20,
+    "afterDedupe": 18,
+    "published": 18,
+    "removedByUrl": 1,
+    "removedByTitle": 1,
+    "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "arXiv cs.AI"
+    ],
+    "summarized": 18,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 804
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1299,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 379
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 623
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 188
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 521
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 880,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 462
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 225
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 377
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 264
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 477
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 686
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 841
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 725
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 605
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 1134
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "2fcfe791efa3",
+      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
+      "url": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-17T15:27:18.000Z",
+      "description": "悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。 対象はLinuxカーネルで、脆弱性の深刻度を1から10の値で表すスコアは9.3で「Critical」（緊急）と非常に高くなっています。 PwnEscapeはLinuxカーネルのネットワーク処理の欠陥 PwnEscapeの技術的な内容について……",
+      "summary": "Linuxカーネルの深刻な脆弱性「PwnEscape」が公開されました。仮想マシンからホスト側OSへの不正アクセスが可能で、危険度スコアは9.3の緊急レベルです。",
+      "category": "規制/政策",
+      "tags": [
+        "Linux",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "8633b45c9586",
+      "title": "Anthropic、社内でAIエージェントの稼働時間が人間の6倍に 技術系初級職の採用比率は27％→9％に激減",
+      "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002353/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T23:02:13.000Z",
+      "description": "Anthropicは、社内雇用の変化と一般市民とのAI予測格差に関する調査を公開した。AnthropicではAI稼働時間が人間を上回り、技術系初級職の採用比率が急減した。自身の業務の自動化予測は、Anthropic従業員の75％に対し、米労働者は28％と大きな開きが出たが、自動化と失業率上昇を結びつける労働観は共通していた。",
+      "summary": "Anthropicの社内調査によると、AI稼働時間が人間の6倍に達し、技術系初級職の採用比率が27%から9%に低下しました。自動化への予測も従業員と一般労働者で大きな認識差があります。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI自動化",
+        "雇用変化",
+        "Anthropic"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "f6d684cb7c28",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-18T14:30:27.000Z",
+      "description": "Hacker News で 153 ポイント獲得。",
+      "summary": "Anthropicが提案するAI安全法案は、50人以上の死傷または10億ドル以上の損害が発生した場合にのみ適用される内容となっています。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "Anthropic",
+        "安全性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "961f19a15ebb",
+      "title": "「11回止めたのに本番DBが消えた」 AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-17T23:00:00.000Z",
+      "description": "AIコーディングエージェントの自律性が高まる一方、本番データベースの削除といった事故も起こっています。では、「人間の承認」を増やせば事故は防げるのでしょうか。事例と対策から、事故を起こさないAIエージェントの設計について考えます。",
+      "summary": "AIコーディングエージェントの自律性向上に伴い、本番データベース削除などの重大事故が発生しています。人間の承認増加だけでは防止できず、エージェント設計の改善が必要とされています。",
+      "category": "その他",
+      "tags": [
+        "AIエージェント",
+        "安全性",
+        "自動化リスク"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6e13c0967cae",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-17T13:00:00.000Z",
+      "description": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Inst…",
+      "summary": "OpenAI、Meta、Googleなどが自律AIエージェント開発を進める一方で、ウェブサイト側がエージェントのアクセスをブロックする動きが広がっています。業界全体の課題となりつつあります。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AIエージェント",
+        "ウェブスクレイピング",
+        "規制"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "34c1631f2148",
+      "title": "Newオンプレミス、RAG、SREはもう“幻滅期” 2026年、「過度な期待」のピークにある5項目とは？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news029.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T23:00:00.000Z",
+      "description": "ガートナーが、2026年の日本におけるクラウドとAIのハイプサイクルを発表。Newオンプレミス、RAG、SREが“幻滅期”に入る一方で、“過度な期待”のピークに立つ5項目が示された。",
+      "summary": "ガートナーが2026年の日本のクラウドとAIハイプサイクルを発表しました。オンプレミスやRAGが幻滅期に入る一方、5項目が過度な期待のピークにあるとされています。",
+      "category": "その他",
+      "tags": [
+        "ガートナー",
+        "ハイプサイクル",
+        "AI動向"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ab79b0421784",
+      "title": "「言い訳文化」から脱却のNECが足立区に伝授した生成AI活用術とは データ活用“逆算”の鉄則",
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/19/2000002342/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T22:00:00.000Z",
+      "description": "生成AIを実業務に定着させるには、明確な目的設定とデータの整備・統合が不可欠だ。NECと東京都足立区の事例を通じて、AIエージェントによるデータ分析・施策立案の実践と、統合的なAI基盤を活用した持続的な業務変革の要点を解説する。",
+      "summary": "NECと足立区の事例から、生成AI実装には明確な目的設定とデータ整備が不可欠であることが示されました。統合的なAI基盤を活用した業務変革の実践方法を解説しています。",
+      "category": "プロダクト",
+      "tags": [
+        "生成AI",
+        "データ活用",
+        "業務改革"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8b6c98945a5b",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-18T16:30:00.000Z",
+      "description": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "summary": "ディズニーがCharacter.AIの従業員の大多数の雇用を予定しており、オファーを受けた社員のほぼ全員が受け入れました。ただし現在は先買い権入札の段階であり他社が更に高いオファーを提示する可能性があります。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Disney",
+        "Character.AI",
+        "M&A"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "df122b63a73c",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-18T16:25:19.000Z",
+      "description": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "summary": "Anthropicが外部のAI監視機関に従業員並みのアクセス権を付与し、同機関がAnthropicの承認なしに調査結果を公表できる体制を整備しました。",
+      "category": "規制/政策",
+      "tags": [
+        "AI監視",
+        "透明性",
+        "Anthropic"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "cc8120aa1e9d",
+      "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
+      "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T15:35:52.000Z",
+      "description": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプレビューとして公開しました。 Rust言語やNode.js環境では、ツールチェーンマネージャと呼ばれるコマンドが存在します。Rustでは「rustup」、Node.jsでは「nvm」がそれです。 ツールチェーンマネージャは単にコマンド一発で……",
+      "summary": "マイクロソフトが.NETのツールチェーン管理ツール「dotnetup」をパブリックプレビューで公開しました。複数バージョンの.NET環境をまとめてインストール・管理できます。RustやNode.jsの同様ツールに相当する機能です。",
+      "category": "開発ツール",
+      "tags": [
+        ".NET",
+        "開発ツール",
+        "rustup"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "80c8089555c5",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-17T16:04:23.000Z",
+      "description": "Hacker News で 170 ポイント獲得。",
+      "summary": "アマゾンが英国の倉庫で労働組合化リスクを監視するためにAIを活用していることが報じられました。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Amazon",
+        "AI監視",
+        "労働組合"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "fd38fff913bf",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-17T15:04:36.000Z",
+      "description": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of, the Meta Compa…",
+      "summary": "Metaが利用規約を更新し、ニュースサイトを含むウェブサイトからのコンテンツスクレイピングを許可する言語を削除しました。批判への対応として行われた変更です。",
+      "category": "規制/政策",
+      "tags": [
+        "Meta",
+        "スクレイピング",
+        "利用規約"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d8bca2c74857",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-18T20:37:40.000Z",
+      "description": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "summary": "Anthropicが株式の5%を公的利益基金に拠出することを発表しました。AIの社会的責任向上を目指す施策です。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "CSR",
+        "AI倫理"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "4f678804b325",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-18T18:28:10.000Z",
+      "description": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.\" Police responded to the scene and…",
+      "summary": "フィラデルフィアで女性がUberの配達ロボットの経路を妨害したため逮捕されました。雇用喪失への抗議として配達ロボットに対する妨害活動を行っていたと述べています。",
+      "category": "その他",
+      "tags": [
+        "ロボット",
+        "雇用",
+        "規制"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6ea1af7c9120",
+      "title": "Investing in the public benefit",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-18T16:49:35.000Z",
+      "description": "Investing in the public benefit Anthropic",
+      "summary": "Anthropicが公共の利益への投資に関する方針を発表しました。企業の社会的責任と投資戦略の方向性を示すものです。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "投資",
+        "CSR"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6d9c92c61f88",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-18T04:33:49.000Z",
+      "description": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it&#x27;ll throw up a questionnaire that checks if you understand how the code you&#x27;re pushing works.",
+      "summary": "Sphinxという開発ツールが公開されました。AIコード生成エージェントのワークフローに統合され、本番環境への推送前にコード理解度をテストします。",
+      "category": "開発ツール",
+      "tags": [
+        "AI開発",
+        "コード生成",
+        "品質管理"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "36bf4117f9f2",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-17T20:21:19.000Z",
+      "description": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "summary": "Anthropicの労働力構成と仕事内容が過去1年で大きく変わり、より経験を積んだ人材への比率が上がり、会議時間が増加しているとされています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "組織変化",
+        "人事"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "aa268087b635",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-17T18:48:08.000Z",
+      "description": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "summary": "ReplitがモデルプロバイダをAnthropicからOpenAIへ変更し、OpenAIをデフォルトにすると発表しました。Claudeはプラットフォーム上で引き続き利用可能です。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Replit",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "importance": 2
+    }
+  ]
+}
