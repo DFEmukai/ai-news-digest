@@ -1,0 +1,673 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-19T16:53:29.888Z",
+  "count": 27,
+  "stats": {
+    "fetched": 27,
+    "afterDedupe": 27,
+    "published": 27,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "arXiv cs.AI"
+    ],
+    "summarized": 27,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 491
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1299,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 374
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 617
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 200
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 538
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 881,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 463
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 413
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 373
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 498
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 544
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 607
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 854
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 680
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 1040
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 797
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "24762879996b",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-19T13:58:41.000Z",
+      "description": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, wit…",
+      "summary": "ハッカーがAIエージェントの集団を使用して100以上のウェブサイトに侵入した。ジョンディアやSharkNinjaなどの企業が被害を受けたと報告されている。",
+      "category": "規制/政策",
+      "tags": [
+        "サイバーセキュリティ",
+        "AIエージェント",
+        "ハッキング"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "5b5ca979ca6b",
+      "title": "Democrats think cracking down on AI could give them an edge",
+      "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "description": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee leadership back in their hands. That could usher in a wave of newfound scrutiny for AI companies. Top …",
+      "summary": "民主党が中間選挙での勝利見込みを背景に、AI企業への規制強化を政治課題として位置付けている。議会支配奪還時の新たなAI規制の波が予想される。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "民主党",
+        "米国政治"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4fadeb9d2d91",
+      "title": "Timestral: Mistral release time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-19T09:59:32.000Z",
+      "description": "Hacker News で 355 ポイント獲得。",
+      "summary": "Mistralが時系列データ向けの基礎モデルである「Timestral」をリリースした。時間軸を含むデータ処理に特化したモデルの登場。",
+      "category": "モデル/研究",
+      "tags": [
+        "時系列",
+        "Mistral",
+        "ファウンデーションモデル"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "8633b45c9586",
+      "title": "Anthropic、社内でAIエージェントの稼働時間が人間の6倍に 技術系初級職の採用比率は27％→9％に激減",
+      "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002353/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T23:02:13.000Z",
+      "description": "Anthropicは、社内雇用の変化と一般市民とのAI予測格差に関する調査を公開した。AnthropicではAI稼働時間が人間を上回り、技術系初級職の採用比率が急減した。自身の業務の自動化予測は、Anthropic従業員の75％に対し、米労働者は28％と大きな開きが出たが、自動化と失業率上昇を結びつける労働観は共通していた。",
+      "summary": "Anthropicの調査で、社内のAI稼働時間が人間の6倍に達し、技術系初級職の採用比率が27％から9％に低下した。従業員と一般市民のAI自動化予測に大きな認識差が存在する。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI自動化",
+        "雇用",
+        "労働市場"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "df122b63a73c",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-18T16:25:19.000Z",
+      "description": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "summary": "Anthropicが外部の独立したAI監視機関に社員同等のアクセス権を付与し、その監視機関が承認なしに調査結果を公表できる権限を与えた。",
+      "category": "規制/政策",
+      "tags": [
+        "ガバナンス",
+        "Anthropic",
+        "監査"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "f6d684cb7c28",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-18T14:30:27.000Z",
+      "description": "Hacker News で 169 ポイント獲得。",
+      "summary": "Anthropicが提案したAI安全法案は、50人以上の死亡または10億ドル以上の損害が発生した場合にのみ発動する内容となっている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全",
+        "規制",
+        "Anthropic"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "760226152f10",
+      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-19T15:37:09.000Z",
+      "description": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+      "summary": "Nvidiaが企業向けのオープンソースモデルとオンデバイスのプライベートAIエージェント実行に対応した新モデルを発表した。",
+      "category": "プロダクト",
+      "tags": [
+        "Nvidia",
+        "エージェント",
+        "オープンモデル"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "80df1c923eaa",
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-19T14:45:43.000Z",
+      "description": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+      "summary": "Disneyが訴訟問題を回避する形でCharacter.AIを買収する方法を見つけた。Character.AIのボットが未成年者に自傷行為を助長していた訴訟が背景。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Disney",
+        "買収",
+        "Character.AI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "3a8920aee327",
+      "title": "Anthropic、株式の5％を公益目的の新組織に拠出 企業価値の上昇に応じて割合を拡大",
+      "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002359/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-19T00:38:54.000Z",
+      "description": "Anthropicは、自社株の一部を新組織「Anthropic Public Benefit Fund」に拠出すると発表した。まず株式の5％を拠出し、企業価値の上昇に応じて追加する。完全子会社のLLC形態を採用し、雇用への影響対策や直接分配など、大規模かつ柔軟な公益活動に充てるとしている。",
+      "summary": "Anthropicが新組織「Anthropic Public Benefit Fund」を設立し、自社株の5％を拠出。企業価値の上昇に応じて割合を拡大し、雇用対策などの公益活動に充てる予定。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "公益活動",
+        "株式"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "50c17ab9cb05",
+      "title": "中国DeepSeek、V4.1-Flash新バージョンを公開 一部Astra超えをうたうモデルがオープンに",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/19/2000002357/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-19T00:35:40.000Z",
+      "description": "中国DeepSeekが「DeepSeek-V4.1-Flash-1017」を公開。コーディングエージェント性能評価の一部でGPT-6 Astra超えをうたい、実行時間と出力量も削減したという。重みはMITライセンスで提供する。",
+      "summary": "中国のDeepSeekが「DeepSeek-V4.1-Flash-1017」を公開。一部のコーディング性能でAstraを上回ると主張し、MITライセンスで重みを提供している。",
+      "category": "モデル/研究",
+      "tags": [
+        "DeepSeek",
+        "オープンソース",
+        "LLM"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "34c1631f2148",
+      "title": "Newオンプレミス、RAG、SREはもう“幻滅期” 2026年、「過度な期待」のピークにある5項目とは？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news029.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T23:00:00.000Z",
+      "description": "ガートナーが、2026年の日本におけるクラウドとAIのハイプサイクルを発表。Newオンプレミス、RAG、SREが“幻滅期”に入る一方で、“過度な期待”のピークに立つ5項目が示された。",
+      "summary": "ガートナーの2026年日本向けハイプサイクルで、オンプレミスやRAG、SREが幻滅期に入る一方、新たな5項目が過度な期待のピークに達していることが明らかになった。",
+      "category": "その他",
+      "tags": [
+        "ガートナー",
+        "ハイプサイクル",
+        "市場予測"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ab79b0421784",
+      "title": "「言い訳文化」から脱却のNECが足立区に伝授した生成AI活用術とは データ活用“逆算”の鉄則",
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/19/2000002342/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T22:00:00.000Z",
+      "description": "生成AIを実業務に定着させるには、明確な目的設定とデータの整備・統合が不可欠だ。NECと東京都足立区の事例を通じて、AIエージェントによるデータ分析・施策立案の実践と、統合的なAI基盤を活用した持続的な業務変革の要点を解説する。",
+      "summary": "NECと足立区の事例から、生成AIを実務に定着させるには明確な目的設定とデータ整備が重要であることを解説。AIエージェントを活用した業務変革の実践例を紹介している。",
+      "category": "プロダクト",
+      "tags": [
+        "生成AI",
+        "データ活用",
+        "業務変革"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8b6c98945a5b",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-18T16:30:00.000Z",
+      "description": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "summary": "ディズニーがCharacter.AIの従業員の大多数を雇用することに合意した。ただしこれはステークスホースビッドであり、他企業からの高額オファーの可能性が残っている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Disney",
+        "Character.AI",
+        "M&A"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "6e13c0967cae",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-18T14:58:10.000Z",
+      "description": "Hacker News で 153 ポイント獲得。",
+      "summary": "複数のウェブサイトがAIエージェントのアクセスを拒否する動きを見せている。ユーザーデータ保護やスクレイピング防止が背景にあると考えられる。",
+      "category": "その他",
+      "tags": [
+        "AI規制",
+        "ウェブサイト",
+        "エージェント"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "eefa37eeaab1",
+      "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
+      "url": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-19T15:49:22.000Z",
+      "description": "Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.js用フレームワークとそのアプリケーションをそのままデプロイして実行できる新機能「AWS Lambda Web Functions」を発表しました。 従来のAWS Lambdaは、HTTPのリクエストを受けて関数を実行し、レスポンスをHTTPで返す機能が備わっていましたが、AWS Lambdaの関数の実行とHTTP……",
+      "summary": "AWSがNext.jsなどのNode.jsフレームワークをAWS Lambda上で直接実行できる新機能を発表した。サーバレス開発が簡素化される。",
+      "category": "開発ツール",
+      "tags": [
+        "AWS Lambda",
+        "Node.js",
+        "サーバレス"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "1823f8989ef0",
+      "title": "AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応",
+      "url": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-19T15:47:48.000Z",
+      "description": "Amazon Web Services（AWS）は、Azure SDKで書かれた.NETアプリケーションをAWS SDKを用いたコードに変換する新機能をAWS Transformに搭載したと発表しました。 これによりMicrosoft Azureネイティブな.NETアプリケーションを簡単にAWSへ移行させることが容易になります。 Azure Blob StorageのコードをAmazon S3用に変換など 一般にMicrosoft Azureに対応する目的でAzure SDK……",
+      "summary": "AWSの新機能がAzure SDKで書かれた.NETアプリケーションをAWS SDK対応コードに自動変換する。MicrosoftからAWSへのクラウド移行が容易になる。",
+      "category": "開発ツール",
+      "tags": [
+        "AWS",
+        "Azure",
+        "クラウド移行"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "eac149070dd9",
+      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-19T14:30:00.000Z",
+      "description": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming up next month, and early voting already underway in a lot of places, the stakes are pretty hig…",
+      "summary": "イリノイ州知事がAIについて、寿命延伸の可能性と核兵器並みの脅威の両面を指摘している。政治的観点からのAI議論が展開されている。",
+      "category": "規制/政策",
+      "tags": [
+        "政治",
+        "AI倫理",
+        "規制"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "0dbaae07e7fd",
+      "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+      "url": "https://100toolkit.com/blog/deslop-model/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-19T13:00:47.000Z",
+      "description": "Hacker News で 112 ポイント獲得。",
+      "summary": "Qwen3-4Bで、AIが通常生成する文体的な癖や特性を除去した改良版が提示されている。より自然なテキスト生成を実現する試み。",
+      "category": "モデル/研究",
+      "tags": [
+        "Qwen",
+        "微調整",
+        "テキスト生成"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6a0d3eaadef2",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-19T09:08:05.000Z",
+      "description": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
+      "summary": "研究者がClaudeのコピーを仮想砂漠島に30時間隔離する実験を実施。AIエージェントに指示がない場合、「遊ぶ」という行動を示した。",
+      "category": "その他",
+      "tags": [
+        "AIエージェント",
+        "行動研究",
+        "Claude"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "f4e2e9db3957",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-19T05:55:31.000Z",
+      "description": "Hacker News で 120 ポイント獲得。",
+      "summary": "TmuxとClaude Codeの統合に関する技術的な検討が行われており、セッション管理やコマンド実行の課題について議論されている。",
+      "category": "開発ツール",
+      "tags": [
+        "Claude",
+        "Tmux",
+        "統合"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "95b0fae6e00d",
+      "title": "AIエージェントの業務管理、答えは「プロジェクト管理」にある？ NTTテクノクロスの「AI-PMO」構想を基に考察",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/19/news068.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-19T04:25:00.000Z",
+      "description": "人間とAIエージェントが協働してどのように成果を上げ、目標を達成するか。そのマネジメントはプロジェクト管理の手法で担えないか――。NTTテクノクロスの取り組みから発想したことについて考察する。",
+      "summary": "NTTテクノクロスの「AI-PMO」構想をもとに、人間とAIエージェントの協働運営にプロジェクト管理手法を適用できる可能性を考察している。",
+      "category": "開発ツール",
+      "tags": [
+        "AIエージェント",
+        "プロジェクト管理",
+        "協働"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "67eec7d9527c",
+      "title": "AI活用で約2900時間削減した世田谷区、しかし「確認と修正の負担」増加 新たな課題どう対応？",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/19/news064.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-19T03:00:00.000Z",
+      "description": "世田谷区が生成AIを活用し、業務時間の削減に成功した。しかし、AIによる生成物に対して「確認と修正の負担が増えている」という。この課題にどう向き合うのか。",
+      "summary": "世田谷区が生成AIで約2900時間の業務削減に成功したが、AI生成物の確認・修正負担が増加している。新たな課題への対応方法が検討されている。",
+      "category": "プロダクト",
+      "tags": [
+        "生成AI",
+        "業務効率",
+        "自治体"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "d8bca2c74857",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-18T20:37:40.000Z",
+      "description": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "summary": "Anthropicが株式の5%を公益基金に充てることを発表した。企業の社会的責任に関する施策の一環と考えられる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "CSR",
+        "公益基金"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "4f678804b325",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-18T18:28:10.000Z",
+      "description": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.\" Police responded to the scene and…",
+      "summary": "配達ロボットの進路を塞いだ女性がフィラデルフィアで逮捕された。自動化が雇用を奪うとして抗議活動を行っていたという。",
+      "category": "その他",
+      "tags": [
+        "配達ロボット",
+        "雇用",
+        "抗議"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6ea1af7c9120",
+      "title": "Investing in the public benefit",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-18T16:49:35.000Z",
+      "description": "Investing in the public benefit Anthropic",
+      "summary": "Anthropicが公益目的への投資に関する声明を発表。企業による社会的責任と経営方針に関する取り組みについて言及している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "公益",
+        "企業責任"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "cc8120aa1e9d",
+      "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
+      "url": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-18T15:35:52.000Z",
+      "description": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプレビューとして公開しました。 Rust言語やNode.js環境では、ツールチェーンマネージャと呼ばれるコマンドが存在します。Rustでは「rustup」、Node.jsでは「nvm」がそれです。 ツールチェーンマネージャは単にコマンド一発で……",
+      "summary": "マイクロソフトが.NETのツールチェーンマネージャ「dotnetup」のパブリックプレビュー版を公開。複数バージョンの.NET環境を一括管理できる。",
+      "category": "開発ツール",
+      "tags": [
+        ".NET",
+        "ツール管理",
+        "マイクロソフト"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "9f426395441b",
+      "title": "People are using AI to make their smart TVs dumb again",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-19T16:13:22.000Z",
+      "description": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+      "summary": "スマートTVユーザーがAIエージェントを使用して広告とトラッキング機能を削除し、デバイスを取り戻そうとしている。ユーザーの利便性改善の取り組みが広がっている。",
+      "category": "その他",
+      "tags": [
+        "スマートTV",
+        "AIエージェント",
+        "広告排除"
+      ],
+      "importance": 1
+    }
+  ]
+}
