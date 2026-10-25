@@ -1,18 +1,14 @@
 {
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T00:09:28.597Z",
-  "count": 24,
+  "generatedAt": "2026-10-25T14:12:49.222Z",
+  "count": 30,
   "stats": {
-    "fetched": 24,
-    "afterDedupe": 24,
-    "published": 24,
+    "fetched": 14,
+    "afterDedupe": 14,
+    "published": 30,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
-      {
-        "name": "Google DeepMind",
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
-      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -25,27 +21,26 @@
       "Meta AI",
       "VentureBeat AI",
       "MIT Technology Review AI",
-      "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 24,
+    "summarized": 14,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 394
+        "durationMs": 567
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1318,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 328
+        "durationMs": 339
       },
       {
         "name": "Google AI Blog",
@@ -53,16 +48,15 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 528
+        "durationMs": 795
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 0,
+        "itemsInFeed": 100,
         "fetched": 0,
-        "ok": false,
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
-        "durationMs": 167
+        "ok": true,
+        "durationMs": 596
       },
       {
         "name": "Meta AI",
@@ -70,23 +64,23 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 477
+        "durationMs": 791
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
         "itemsInFeed": 890,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 361
+        "durationMs": 539
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 7,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 179
+        "durationMs": 387
       },
       {
         "name": "VentureBeat AI",
@@ -95,15 +89,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 255
+        "durationMs": 553
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 7,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 223
+        "durationMs": 394
       },
       {
         "name": "MIT Technology Review AI",
@@ -111,31 +105,31 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 446
+        "durationMs": 420
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 665
+        "durationMs": 548
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 3,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 735
+        "durationMs": 960
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 0,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 559
+        "durationMs": 766
       },
       {
         "name": "arXiv cs.AI",
@@ -143,35 +137,54 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 527
+        "durationMs": 672
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 2,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 796
+        "durationMs": 927
       }
     ]
   },
   "articles": [
     {
-      "id": "d49afc987040",
-      "title": "No signs of AI payoff outside the tech sector",
-      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "id": "f12e6edebe0e",
+      "title": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-25T12:00:00.000Z",
+      "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on Google for a very long time. Many outlets spent time and money optimizing their webpa…",
+      "summary": "GoogleのAI検索機能がオンライン出版業界に大きな影響を与えている。従来、出版社はGoogleの検索最適化に時間と資金を投じてきたが、AI検索がこの構図を大きく変えている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Google",
+        "検索",
+        "出版業界"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "5e8f2dd1eee9",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
       "source": "Hacker News",
       "sourceWeight": 5,
       "sourceCategory": "その他",
       "lang": "en",
-      "publishedAt": "2026-10-24T19:47:19.000Z",
-      "description": "Hacker News で 443 ポイント獲得。",
-      "summary": "テクノロジー産業外でのAI投資による利益の兆候がまだ見られていない。複数のユーザーから高い関心を集めている。",
-      "category": "ビジネス/資金調達",
+      "publishedAt": "2026-10-24T23:11:54.000Z",
+      "description": "Hacker News で 409 ポイント獲得。",
+      "summary": "メディア・映画・芸術業界で20万件の雇用が失われており、AI導入の影響度合いが検証されている。産業全体における雇用喪失の実態が問題視されている。",
+      "category": "規制/政策",
       "tags": [
-        "AI投資",
-        "ROI",
-        "産業別"
+        "雇用",
+        "AI影響",
+        "文化産業"
       ],
       "importance": 4
     },
@@ -185,11 +198,11 @@
       "lang": "en",
       "publishedAt": "2026-10-24T18:32:21.000Z",
       "description": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as the ad itself. That applies to TV commer…",
-      "summary": "ペンシルベニア州知事がAI生成広告表示法に署名し、AIで大幅に変更・生成された広告にはラベル表示が義務付けられることになりました。静止画、動画、音声、テキストなど全形式の広告が対象です。",
+      "summary": "ペンシルベニア州知事がAI生成広告の表示義務化法に署名。画像、動画、音声、テキストなど大幅に修正・生成されたAD広告には、広告と同じ形式でのラベル表記が必須となる。",
       "category": "規制/政策",
       "tags": [
         "AI規制",
-        "広告表示",
+        "広告",
         "ペンシルベニア州"
       ],
       "importance": 4
@@ -252,6 +265,44 @@
       "importance": 4
     },
     {
+      "id": "470508811885",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-25T01:33:49.000Z",
+      "description": "Hacker News で 236 ポイント獲得。",
+      "summary": "Cerebasが1兆パラメータのAIモデルを展開した。大規模言語モデルの実装が進展している。",
+      "category": "モデル/研究",
+      "tags": [
+        "大規模モデル",
+        "Cerebras",
+        "言語モデル"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d49afc987040",
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-24T19:47:19.000Z",
+      "description": "Hacker News で 577 ポイント獲得。",
+      "summary": "テック業界外でのAI投資の成果が明確に現れていない状況が指摘されている。経済全体への波及効果が限定的である可能性が示唆されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI投資",
+        "経済効果",
+        "産業応用"
+      ],
+      "importance": 3
+    },
+    {
       "id": "d58dd48e2a90",
       "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
@@ -261,12 +312,12 @@
       "lang": "en",
       "publishedAt": "2026-10-24T15:00:00.000Z",
       "description": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "summary": "新しい研究によると、GrokのAIは共和党候補を圧倒的に推奨し、OpenAIのGPTは民主党を支持する傾向があることがわかりました。約500の選挙レースで2つのモデルの意見が90%以上一致していないとのことです。",
+      "summary": "AIモデルの政治的偏向を調査した研究で、Grokが共和党候補を、OpenAIのGPTが民主党候補を圧倒的に推奨する傾向が判明。約500の選挙レースで90%以上の不一致が見られた。",
       "category": "その他",
       "tags": [
-        "政治バイアス",
-        "AI倫理",
-        "比較研究"
+        "AI偏向",
+        "政治",
+        "Grok"
       ],
       "importance": 3
     },
@@ -404,6 +455,63 @@
       "importance": 3
     },
     {
+      "id": "98e69acc5e38",
+      "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
+      "url": "https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-10-25T15:44:47.000Z",
+      "description": "DuckDB Foundationは、シングルバイナリで高速なデータ分析を実現するOLAP型データベース「DuckDB 2.0 LTS」（コード名：Cinnamon Teal）の正式リリースを発表しました。 Announcing DuckDB 2.0.0 LTS “Cinnamon Teal” We are proud to release DuckDB 2.0.0, named after the cinnamon teal (Spatula cyanoptera), a……",
+      "summary": "DuckDB Foundation が高速データ分析向けOLAPデータベース『DuckDB 2.0 LTS』をリリース。Quackプロトコルによるクライアント/サーバ機能と非同期処理による高速化が特徴。",
+      "category": "開発ツール",
+      "tags": [
+        "DuckDB",
+        "データベース",
+        "OLAP"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "c1f37a92854b",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-25T14:10:00.000Z",
+      "description": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "summary": "Muse CharmやBee、Friend、Plaudなど注目のAIウェアラブル機器やガジェット群をリストアップした記事。",
+      "category": "プロダクト",
+      "tags": [
+        "AIウェアラブル",
+        "ガジェット",
+        "デバイス"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "c7b677fb3668",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-25T13:25:32.000Z",
+      "description": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source community.\" The new rules have set off a firestorm in the comments, and even spurred th…",
+      "summary": "r/opensourceコミュニティがAI利用のプロジェクトを禁止する新規則を導入。AIで作成または対象とするプロジェクトはオープンソースコミュニティと不適合という判断。コメント欄で議論が紛糾している。",
+      "category": "その他",
+      "tags": [
+        "オープンソース",
+        "AI禁止",
+        "Reddit"
+      ],
+      "importance": 2
+    },
+    {
       "id": "5ca34425ca97",
       "title": "Blue Planet III is keeping the rough edges in the age of AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
@@ -413,12 +521,12 @@
       "lang": "en",
       "publishedAt": "2026-10-24T21:29:12.000Z",
       "description": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue Planet III goes warts and all. Executive Producer Elizabeth Whit…",
-      "summary": "BBCの自然番組「Blue Planet III」は、AI時代に本物らしさを証明するため、完璧でない映像をあえて編集に含めています。不完全性を保つことでAI生成との差別化を図っているとのことです。",
-      "category": "その他",
+      "summary": "BBC『ブルー・プラネットIII』は不完全な映像を意図的に残すことで信頼性を保証している。AIが生成するコンテンツは過度に洗練される傾向があるため、粗削りさを活かすという戦略。",
+      "category": "プロダクト",
       "tags": [
-        "メディア",
-        "AI対策",
-        "コンテンツ制作"
+        "AI",
+        "映像制作",
+        "真正性"
       ],
       "importance": 2
     },
@@ -432,12 +540,12 @@
       "lang": "en",
       "publishedAt": "2026-10-24T19:00:00.000Z",
       "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "summary": "AppleのSiri AIの遅延やOpenAIの「スーパーアプリ」など、期待に応えられなかったAIプロジェクトが一覧にまとめられました。業界全体における失敗事例の検証です。",
+      "summary": "Appleの延期されたSiri AIやOpenAIの不完全な「スーパーアプリ」ローンチなど、失敗や期待を下回ったAIプロジェクトの事例を紹介する記事。",
       "category": "その他",
       "tags": [
-        "失敗事例",
-        "AI開発",
-        "トレンド"
+        "AI失敗事例",
+        "プロジェクト",
+        "スタートアップ"
       ],
       "importance": 2
     },
@@ -450,13 +558,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-10-24T18:04:57.000Z",
-      "description": "Hacker News で 146 ポイント獲得。",
-      "summary": "AI生成言語の理解が困難である理由を探る記事。複数のユーザーから注目を集めている。",
+      "description": "Hacker News で 213 ポイント獲得。",
+      "summary": "AI生成言語が理解しにくい理由について議論されている。人間の言語とは異なる特性を持つAI言語の課題が注目を集めている。",
       "category": "その他",
       "tags": [
-        "AI生成テキスト",
-        "言語理解",
-        "NLP"
+        "AI言語",
+        "自然言語処理",
+        "理解性"
       ],
       "importance": 2
     },
@@ -470,10 +578,10 @@
       "lang": "en",
       "publishedAt": "2026-10-24T16:00:00.000Z",
       "description": "Block said that the voice model can run locally on a MacBook M4 Max",
-      "summary": "Blockがリリースした音声モデルは非常に人間らしい音声を生成でき、MacBook M4 Maxでローカル実行できるとのことです。",
-      "category": "モデル/研究",
+      "summary": "Blockが開発した音声モデルは非常に人間らしい音質を実現し、MacBook M4 Maxで局所実行が可能である。",
+      "category": "プロダクト",
       "tags": [
-        "音声AI",
+        "音声モデル",
         "Block",
         "ローカル実行"
       ],
@@ -489,12 +597,12 @@
       "lang": "en",
       "publishedAt": "2026-10-24T14:00:00.000Z",
       "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "summary": "テキストメッセージ上で動作するAIエージェントの最新ツール一覧がまとめられました。汎用アシスタントから家族向け、旅行、仕事など専門分野別のエージェントが紹介されています。",
+      "summary": "テキストメッセージ内で動作する注目のAIエージェント群をまとめた。一般的なアシスタントから家族向け、旅行、仕事向けなど様々な用途に対応したツールが紹介されている。",
       "category": "プロダクト",
       "tags": [
         "AIエージェント",
-        "メッセージング",
-        "アプリ"
+        "テキストメッセージ",
+        "アシスタント"
       ],
       "importance": 2
     },
