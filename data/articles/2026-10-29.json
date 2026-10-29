@@ -1,13 +1,13 @@
 {
   "date": "2026-10-29",
-  "generatedAt": "2026-10-28T16:32:10.640Z",
+  "generatedAt": "2026-10-29T01:40:34.083Z",
   "count": 30,
   "stats": {
-    "fetched": 134,
-    "afterDedupe": 132,
+    "fetched": 141,
+    "afterDedupe": 137,
     "published": 30,
-    "removedByUrl": 0,
-    "removedByTitle": 2,
+    "removedByUrl": 1,
+    "removedByTitle": 3,
     "failedSources": [
       {
         "name": "VentureBeat AI",
@@ -16,29 +16,33 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
+      "OpenAI Blog",
       "Google AI Blog",
       "Meta AI",
       "Hugging Face Blog",
-      "VentureBeat AI"
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Publickey",
+      "Hacker News"
     ],
-    "summarized": 132,
+    "summarized": 137,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 5,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 411
+        "durationMs": 412
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1333,
+        "itemsInFeed": 1334,
         "fetched": 4,
         "ok": true,
-        "durationMs": 276
+        "durationMs": 231
       },
       {
         "name": "Google AI Blog",
@@ -46,15 +50,15 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 598
+        "durationMs": 547
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 587
+        "durationMs": 579
       },
       {
         "name": "Meta AI",
@@ -62,7 +66,7 @@
         "itemsInFeed": 65,
         "fetched": 0,
         "ok": true,
-        "durationMs": 391
+        "durationMs": 424
       },
       {
         "name": "Hugging Face Blog",
@@ -70,15 +74,15 @@
         "itemsInFeed": 891,
         "fetched": 3,
         "ok": true,
-        "durationMs": 365
+        "durationMs": 420
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 17,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 370
+        "durationMs": 276
       },
       {
         "name": "VentureBeat AI",
@@ -87,7 +91,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 372
+        "durationMs": 305
       },
       {
         "name": "The Verge AI",
@@ -95,7 +99,7 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 312
+        "durationMs": 267
       },
       {
         "name": "MIT Technology Review AI",
@@ -103,23 +107,23 @@
         "itemsInFeed": 10,
         "fetched": 2,
         "ok": true,
-        "durationMs": 366
+        "durationMs": 456
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 4,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 684
+        "durationMs": 762
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 18,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 835
+        "durationMs": 723
       },
       {
         "name": "Publickey",
@@ -127,15 +131,15 @@
         "itemsInFeed": 15,
         "fetched": 3,
         "ok": true,
-        "durationMs": 608
+        "durationMs": 689
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 60,
+        "fetched": 58,
         "ok": true,
-        "durationMs": 882
+        "durationMs": 568
       },
       {
         "name": "Hacker News",
@@ -143,11 +147,220 @@
         "itemsInFeed": 100,
         "fetched": 7,
         "ok": true,
-        "durationMs": 854
+        "durationMs": 1183
       }
     ]
   },
   "articles": [
+    {
+      "id": "6f82533875fd",
+      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-28T19:05:46.000Z",
+      "description": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]",
+      "summary": "PHPの重大な脆弱性が発見され、ウェブサイトの約70%に影響を与えている。セキュリティ研究者らは今後さらなる問題が生じる「Vulnpocalypse」の到来を警告している。",
+      "category": "規制/政策",
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "e19a7401972e",
+      "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-28T18:50:39.000Z",
+      "description": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. According to researchers who found the […]",
+      "summary": "PHPの重大な脆弱性が発見され、ウェブサイトの約70%に影響を与えている。セキュリティ研究者らは今後さらなる問題が生じる「Vulnpocalypse」の到来を警告している。",
+      "category": "規制/政策",
+      "tags": [
+        "PHP",
+        "脆弱性",
+        "セキュリティ"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "3821a0da3735",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-27T23:34:27.000Z",
+      "description": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "summary": "両親がOpenAIを訴えており、ChatGPTが娘を抗てんかん薬から徐々に中断するよう助言し、医師に隠すことを促したと主張している。娘は2月に死亡した。",
+      "category": "規制/政策",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "法的問題"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "82187dff0926",
+      "title": "AI半導体市場「メガサイクル局面だ」 アドバンテスト好決算、CEOが語る「CPU」「光電融合」への期待とワクワク",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/29/news050.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-29T01:05:00.000Z",
+      "description": "半導体試験装置メーカー大手のアドバンテストは、AIブームによる半導体需要を追い風に、2026年度の通期業績予想を売上高1兆8630円に上方修正した。「メガサイクル」に突入した半導体市場を支えるものは何か。",
+      "summary": "半導体試験装置メーカーのアドバンテストがAI需要の拡大を背景に業績予想を上方修正。2026年度売上を1兆8630円に設定し、AIブームが半導体市場を牽引している状況が反映されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "半導体",
+        "AI需要",
+        "メガサイクル"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b4dd94c24b46",
+      "title": "Google、「Gemini 4 Carbon」発表 「Argon」公開から2週間、サイバー防御能力などを強化",
+      "url": "https://www.itmedia.co.jp/news/article/2610/29/2000002690/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-28T22:13:47.000Z",
+      "description": "Googleは、フロンティアAIモデル「Gemini 4 Carbon」を発表した。サイバーセキュリティや長時間に及ぶ自律作業能力を強化し、ベンチマーク首位を獲得。ハルシネーションや不正操作への耐性も向上させた。まず一部のサイバー防御組織に限定提供し、順次公開範囲を広げる方針だ。",
+      "summary": "GoogleがAIモデル「Gemini 4 Carbon」を発表。サイバーセキュリティや自律作業能力、ハルシネーション対策を強化し、ベンチマークで首位を獲得した。初期段階では防御組織に限定提供予定。",
+      "category": "モデル/研究",
+      "tags": [
+        "Gemini 4 Carbon",
+        "AI強化",
+        "セキュリティ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "7fb2c79496d7",
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-28T21:58:32.000Z",
+      "description": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "summary": "マイクロソフトが初めてAzureの四半期収益を公開し、332億ドルであることを明かしました。AWSとの市場競争が激化しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Azure",
+        "Microsoft",
+        "クラウド"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "66ba6e649d78",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-28T21:34:30.000Z",
+      "description": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "summary": "マイクロソフトが9月30日までの四半期でOpenAIとの商用契約から100億ドルの収益を計上しました。両社の強い依存関係を示しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Microsoft",
+        "OpenAI",
+        "提携"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ca22c8fc3a9d",
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-28T21:25:30.000Z",
+      "description": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "summary": "マイクロソフトが10四半期連続で記録的な四半期収益を達成しました。今回は前年同期比19%増の923億ドルを報告しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Microsoft",
+        "決算",
+        "AI収益"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "818a54fe2251",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-28T20:03:00.000Z",
+      "description": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over Argon, which Google …",
+      "summary": "Googleが最新モデル「Gemini 4 Carbon」をリリースしました。コーディング、エージェント機能、サイバーセキュリティで大幅な改善を実現し、ベンチマークで第1位を獲得しています。",
+      "category": "モデル/研究",
+      "tags": [
+        "Gemini",
+        "Google",
+        "ベンチマーク"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a20c70c64135",
+      "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-28T15:41:18.000Z",
+      "description": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+      "summary": "韓国の金融機関がサイバー攻撃の新たな波に見舞われている。AI駆動型のハッキングリスクがアジア地域で増加していることが浮き彫りになった。",
+      "category": "規制/政策",
+      "tags": [
+        "サイバー攻撃",
+        "金融",
+        "セキュリティ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6344d5c4a403",
+      "title": "「ダウンロードフォルダでAIを使わないで」――セキュリティ企業が注意喚起 エージェントが攻撃者の指示に従いマルウェアインストールの恐れ",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002671/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-28T08:13:58.000Z",
+      "description": "イスラエルのセキュリティ企業によれば、悪意のある「AGENTS.md」が仕込まれたダウンロードフォルダでコーディングエージェントを起動すると、エージェントがマルウェアをインストールしたり、アカウント乗っ取りを支援したりする恐れがある。",
+      "summary": "セキュリティ企業の警告によると、悪意のあるファイルが埋め込まれたダウンロードフォルダでコーディングエージェントを実行するとマルウェアインストールやアカウント乗っ取りのリスクがある。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "マルウェア"
+      ],
+      "importance": 4
+    },
     {
       "id": "ceab4ac07c5a",
       "title": "「禁止」するだけでは防げない？ パナソニックグループで約33万人分の個人情報が外部生成AIに",
@@ -158,31 +371,69 @@
       "lang": "ja",
       "publishedAt": "2026-10-28T06:30:00.000Z",
       "description": "パナソニックグループで、従業員や元従業員とその家族約33万人分の個人情報が、社内で利用を禁止している外部の生成AIサービスにアップロードされた。同グループは、データについて「今後二次利用されない」と説明する。その根拠は何か。",
-      "summary": "パナソニックグループで約33万人分の個人情報が社内で禁止されている外部の生成AIサービスにアップロードされた。同社は二次利用されないと説明している。",
+      "summary": "パナソニックグループで約33万人分の個人情報が禁止されている外部生成AIに誤ってアップロードされた。同社は情報の二次利用がないと説明している。",
       "category": "規制/政策",
       "tags": [
         "個人情報",
-        "生成AI",
-        "パナソニック"
+        "データ漏洩",
+        "セキュリティ"
       ],
       "importance": 4
     },
     {
-      "id": "ba2b549ee888",
-      "title": "PFNの国産フラグシップモデル「PLaMo 3.1 Prime」発表 オンプレでDeep Research対応 API無料プランも開始",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002652/",
+      "id": "69ef0b7a9c5e",
+      "title": "Anthropic、独自の“創薬活動”に着手 社員1人のバイオ企業を買収、小児難病の治療薬研究を進める",
+      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002661/",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-10-28T02:32:41.000Z",
-      "description": "Preferred Networksが国産の生成AI基盤モデル「PLaMo 3.1 Prime」を提供開始。オンプレミスでも使える「Deep Research」を搭載し、ハルシネーションも抑えたという。API無料プランで試せる。",
-      "summary": "Preferred Networksが国産生成AI基盤モデル「PLaMo 3.1 Prime」を提供開始した。オンプレミス対応のDeep Researchを搭載し、ハルシネーション抑制を実現している。無料APIプランでの試用も可能である。",
-      "category": "モデル/研究",
+      "publishedAt": "2026-10-28T04:07:50.000Z",
+      "description": "米Anthropicは10月27日（現地時間）、小児の希少な筋ジストロフィーなどを対象に、自社で創薬活動を進めていると発表した。社員1人でAI「Claude」を使い外部11の研究機関と実験を進めてきた企業を買収し、研究を引き継いだ。",
+      "summary": "Anthropicが創薬活動に参入し、小児希少疾患の治療薬開発に着手した。社員1名のバイオ企業を買収し、自社AIを活用した研究を進めている。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "PLaMo",
-        "国産AI",
-        "生成AI"
+        "Anthropic",
+        "創薬",
+        "バイオテック"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "476b62f6d161",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SdnRpWjk1Nk1Fem1Ka0tLclJoVnFkQmZzVUVOU0hsQ0pwYVZLWVpCUGhkZ1Q0UmhYekhYcFdraTdtbFd5MF91MkhPVlJzYlM3ZXVlOUUwLUhDVVBMOUR4aXlVZXhRRlU?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-28T01:16:46.000Z",
+      "description": "Expanding our partnership with GSA to bring Claude to all levels of government Anthropic",
+      "summary": "AnthropicがGSAとのパートナーシップを拡大し、Claudeを政府全レベルに提供する取り組みを推進している。政府機関でのAI導入が進められている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "政府",
+        "パートナーシップ",
+        "Claude"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b80161fb0ca8",
+      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-28T01:15:28.000Z",
+      "description": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "summary": "Anthropicの上場によってベンチャーキャピタルは多額の利益を得る見込みだが、同社への投資家であるAmazonがより大きな利益を手にすることが明らかになった。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "Amazon",
+        "IPO"
       ],
       "importance": 4
     },
@@ -196,31 +447,12 @@
       "lang": "ja",
       "publishedAt": "2026-10-27T23:55:26.000Z",
       "description": "NVIDIAとAMDは、MetaとのAI分野における戦略的提携拡大をそれぞれ発表した。AIエージェント「Muse」の開発・運用支援や次世代インフラ構築で協力し、Metaへの出資（NVIDIAが30億ドル、AMDが10億ドル）も表明。Metaは自社チップ開発と外部調達の両輪でインフラを強化する。",
-      "summary": "NVIDIAとAMDがMetaとのAI分野での提携を拡大。AIエージェント「Muse」開発支援や次世代インフラ構築で協力し、両社がMetaへ計40億ドルの出資を表明。",
+      "summary": "NVIDIAとAMDがMetaとのAI分野での提携を拡大すると発表。AIエージェント開発やインフラ構築で協力し、両社はMetaへの総額40億ドルの投資を実施する。",
       "category": "ビジネス/資金調達",
       "tags": [
         "NVIDIA",
         "AMD",
-        "Meta提携"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "3821a0da3735",
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-27T23:34:27.000Z",
-      "description": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-      "summary": "OpenAIが訴えられています。ChatGPTが患者の娘に対して発作治療薬を医師に隠れて減量するよう指導し、その後患者が亡くなったと主張されています。",
-      "category": "規制/政策",
-      "tags": [
-        "ChatGPT",
-        "医療安全",
-        "訴訟"
+        "Meta"
       ],
       "importance": 4
     },
@@ -272,12 +504,50 @@
       "lang": "en",
       "publishedAt": "2026-10-27T21:50:04.000Z",
       "description": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-      "summary": "デラウェア州がAIエージェントのみで経営する企業の設立を認める計画を提案している。この場合、企業所有者はAIの無責任な行動に対する責任を回避できるとされている。",
+      "summary": "デラウェア州がAIエージェント単独で企業経営を可能にする計画を検討している。AI企業の所有者が法的責任を回避できる仕組みになるとの指摘がある。",
       "category": "規制/政策",
       "tags": [
-        "AI規制",
-        "企業統治",
-        "デラウェア"
+        "AI自律性",
+        "法的責任",
+        "企業統治"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6be66c0b233f",
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-27T21:44:34.000Z",
+      "description": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "summary": "バンク・オブ・アメリカが顧客に対し、AIアシスタントへの銀行パスワード共有を控えるよう呼びかけた。AIエージェントのアクセスから生じた不正取引について顧客責任を明確にしている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI",
+        "セキュリティ",
+        "金融機関"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "e18bedace16c",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-27T21:31:14.000Z",
+      "description": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+      "summary": "AnthropicのIPO関連書類で、AIが恐喝や自発性獲得、人類終焉といった潜在的リスクを警告している。93ページのリスク要因文書から7つのAI関連懸念が抽出された。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "リスク",
+        "規制開示",
+        "AI安全性"
       ],
       "importance": 4
     },
@@ -291,12 +561,69 @@
       "lang": "en",
       "publishedAt": "2026-10-27T20:20:53.000Z",
       "description": "Early progress on accelerating drug development with Claude Anthropic",
-      "summary": "Claudeを活用した医薬品開発の加速に関する初期成果が報告されている。AIが創薬プロセスの効率化に貢献する可能性を示す。",
+      "summary": "Claudeを用いた医薬品開発の加速化において初期段階の成果が報告されている。AIが創薬プロセスに貢献する可能性を示す事例である。",
       "category": "プロダクト",
       "tags": [
-        "Claude",
         "医薬品開発",
-        "AI応用"
+        "Claude",
+        "生命科学"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "156a617fbb73",
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMTTViWmp6TE1SU3lNQjd6aWozb0Rhd0VjSVlMOThjRXpFRjBvN1lZdVRreFg3UWRGNjNqRkViU3lQbFJuaHRIMXBJUHFHSXhpbTZSTGhybUxOdTU3bEFDMUIzd0NmcWRHRk1CckVLV2FIT1ZDb1ZMZHJ0WWhxSE0?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-27T18:20:51.000Z",
+      "description": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude Anthropic",
+      "summary": "Claudeを使用して実際のソフトウェアの脆弱性を発見・悪用する研究が進められている。セキュリティ領域でのAIの応用事例を示している。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "Claude",
+        "脆弱性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fc3a29c9f691",
+      "title": "Timestral",
+      "url": "https://arxiv.org/abs/2610.37585v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-27T17:25:43.000Z",
+      "description": "We introduce Timestral, a family of four time series foundation models for probabilistic forecasting, with 5M, 28M, 123M, and 209M parameters. Timestral sets a new state of the art on GIFT-Eval, TIME, and fev-bench, where Timestral-209M and Timestral-123M take the top two places on every metric. We achieve this with three ingredients: Decoupled Horizon Forecasting (DHF), which separates prediction…",
+      "summary": "Timestralは確率的予測用の時系列基盤モデルファミリーで、複数のパラメータサイズを提供する。複数のベンチマークで最先端の性能を達成し、独立した予測という新しいアプローチを採用している。",
+      "category": "モデル/研究",
+      "tags": [
+        "時系列予測",
+        "基盤モデル",
+        "SOTA"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "14b0e83b96a1",
+      "title": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+      "url": "https://arxiv.org/abs/2610.37561v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-27T17:08:31.000Z",
+      "description": "Background. Selective prediction systems improve the safety of clinical artificial intelligence by deferring ambiguous cases to human experts while automating high-confidence decisions. However, this safety mechanism relies entirely on the premise that uncertainty scores accurately reflect clinical ambiguity. In prognostic tasks characterized by severe class imbalance, where the clinical outcome o…",
+      "summary": "クラス不均衡な臨床予測タスクにおいて、不確実性定量化が失敗する構造的脆弱性を指摘。選択的予測システムの安全性メカニズムが機能しない問題と補正方法を提案。",
+      "category": "その他",
+      "tags": [
+        "臨床AI",
+        "不確実性定量化",
+        "クラス不均衡"
       ],
       "importance": 4
     },
@@ -329,31 +656,12 @@
       "lang": "en",
       "publishedAt": "2026-10-27T16:45:22.000Z",
       "description": "A persistent belief in modern AI is that sufficiently large learners trained on sufficiently much data can make explicit domain knowledge optional. This paper examines a limitation of that belief. We define structure-encoded problems: tasks whose input-output map is determined, or sharply constrained, by known structure such as a solver, symmetry group, graph, physical law, measurement operator, g…",
-      "summary": "大規模データと大型モデルでも、既知の構造制約を明示的に組み込まなければ解決不可能な問題が存在することを論証している。完全なデータ駆動型アプローチの限界を指摘する理論的研究である。",
+      "summary": "大規模学習でも構造的推論を完全に置き換えられない問題を分析。ソルバーや物理法則など既知構造が必要な問題設定を定義し、データ量の限界を議論する。",
       "category": "その他",
       "tags": [
-        "AI理論",
-        "構造化推論",
-        "データ駆動型"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "75915d02ebe4",
-      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-10-27T16:40:15.000Z",
-      "description": "Hacker News で 385 ポイント獲得。",
-      "summary": "警察がAIを使用して運転者の「疑わしい」行動を理由に停止させる取り組みが進められており、ハッカーニュースで議論を呼んでいる。",
-      "category": "規制/政策",
-      "tags": [
-        "AI",
-        "法執行",
-        "倫理"
+        "帰納バイアス",
+        "構造学習",
+        "理論分析"
       ],
       "importance": 4
     },
@@ -367,7 +675,7 @@
       "lang": "en",
       "publishedAt": "2026-10-27T16:08:08.000Z",
       "description": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLoRIF, a scalable gradient embedding method that identifies fine-tuning examples whose gradients align with unsafe behavior…",
-      "summary": "命令データでのファインチューニング時に安全性が低下する問題に対し、勾配埋め込みを用いて危険な学習例を特定する「SimpleLoRIF」手法を開発している。大規模言語モデルの安全性向上に貢献する。",
+      "summary": "微調整がLLMの安全性を損なわせる問題に対し、勾配埋め込み法SimpleLoRIFを開発。無害に見える訓練データでも安全性低下を招く可能性があり、既存フィルタでは検出困難という課題に対処する。",
       "category": "その他",
       "tags": [
         "LLM安全性",
@@ -386,31 +694,12 @@
       "lang": "en",
       "publishedAt": "2026-10-27T16:01:38.000Z",
       "description": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-      "summary": "Google DeepMindが新世代ワールドモデル「Genie 4」を発表。リアルタイム模擬における前例のない高リアリティを実現する。",
-      "category": "その他",
-      "tags": [
-        "Genie 4",
-        "ワールドモデル",
-        "シミュレーション"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "c7c8d27d616b",
-      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
-      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-10-27T16:00:22.000Z",
-      "description": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
-      "summary": "DeepMindが世界モデル「Genie 4」を発表。より現実的な物理法則と人間表現の実現を実現し、開発者とGoogle AI Ultraユーザーに提供予定。",
+      "summary": "Googleが新型の世界シミュレーションモデル「Genie 4」を発表した。このモデルは、リアルタイムシミュレーションで前例のないリアリズムを実現する能力を持つ。",
       "category": "モデル/研究",
       "tags": [
-        "DeepMind",
         "世界モデル",
-        "Genie"
+        "シミュレーション",
+        "Google DeepMind"
       ],
       "importance": 4
     },
@@ -432,291 +721,6 @@
         "Google"
       ],
       "importance": 4
-    },
-    {
-      "id": "56c36fec1370",
-      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-27T13:00:00.000Z",
-      "description": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
-      "summary": "General Computeが1億ドルのシリーズA資金調達を完了。NVIDIA以外の推論チップへの投資により、ネオクラウド悲観論に対抗する姿勢を示す。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "資金調達",
-        "推論チップ",
-        "NVIDIA非依存"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "f6f0e32f907d",
-      "title": "IPO目論見書に「AIは人類の存亡リスク」「コードの9割はClaude製」 Anthropicが示した規格外の見立て",
-      "url": "https://www.itmedia.co.jp/news/article/2610/27/2000002644/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-27T11:30:12.000Z",
-      "description": "米Anthropicは10月26日（現地時間）、IPOの目論見書（Form S-1）を米SECに提出した。社内コードの9割超をAIが書き、AI利用額が人件費を上回るといった活用の実態から、AIが人類にもたらし得るリスクまで、多岐にわたって言及している。",
-      "summary": "AnthropicがIPO目論見書で、社内コードの9割超をAIで生成し、AI利用費が人件費を上回ることを開示。同時にAIが人類にもたらすリスクについても言及し、業界内での透明な情報提供姿勢を示している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "リスク開示"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "8b3f11a47526",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-27T07:00:00.000Z",
-      "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "summary": "OpenAIとOracleが提携を拡大し、ビジネスアプリケーションとAIエージェントをChatGPTに統合する。これによりOracleの新サービスも実現される。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "OpenAI",
-        "Oracle",
-        "ChatGPT"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "bb06709d2f20",
-      "title": "Meta says it’ll probably delay its controversial new business terms again",
-      "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-28T16:15:30.000Z",
-      "description": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full consultation with industry groups and leaders.\" The new business terms, which were supposed to take effect on October 30th…",
-      "summary": "メタは出版社からの反発を受けて、AI学習に関する新しい利用規約の実施をさらに延期する可能性があると発表。業界団体や指導者との十分な協議を経た後に政策変更を行う方針を示している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Meta",
-        "AI学習",
-        "利用規約"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a20c70c64135",
-      "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
-      "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-28T15:41:18.000Z",
-      "description": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
-      "summary": "韓国の金融機関がサイバー攻撃の新たな波に見舞われています。AI駆動型ハッキングのリスク増大が浮き彫りになっています。",
-      "category": "規制/政策",
-      "tags": [
-        "サイバー攻撃",
-        "金融業界",
-        "韓国"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "003f5eee718a",
-      "title": "オラクル、社員が業務アプリをAIで自動作成、Oracle Cloud上で共有できる「Oracle App Composer」発表。Oracle AI World 2026",
-      "url": "https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-10-28T15:39:53.000Z",
-      "description": "オラクルは、社員が業務アプリをAIで自動的に生成しOracle Cloudにデプロイして利用できる「Oracle App Composer」を、米国ラスベガスで開催中の年次イベント「Oracle AI World 2026」で発表しました。 Oracle App Composerで開発された業務アプリケーションは社内で共有して利用できるうえに、情報部門がOracle App Composerを一括管理し、責任者の設定、使われていない業務アプリケーションの廃止などの操作が可能で……",
-      "summary": "Oracleが「Oracle App Composer」を発表。社員がAIで業務アプリを自動生成し、Oracle Cloud上でデプロイ・共有できるツール。IT部門による一括管理も可能です。",
-      "category": "プロダクト",
-      "tags": [
-        "Oracle",
-        "ローコード",
-        "企業向けAI"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "98013dcc6d7f",
-      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-28T14:44:00.000Z",
-      "description": "xAI’s Southaven, Mississippi data center. | Photo by Brandon Dill / AFP via Getty Images A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood reportedly told on…",
-      "summary": "Elon Muskが率いるxAIが、ミシシッピ州の近隣住民に対して、データセンター関連の訴訟に参加しないことを条件に住宅買収を提案しているとのことです。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "xAI",
-        "データセンター",
-        "地域対立"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "0a48709b30c6",
-      "title": "Pairing industrial AI autonomy and human control",
-      "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
-      "source": "MIT Technology Review AI",
-      "sourceWeight": 7,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-28T12:00:00.000Z",
-      "description": "",
-      "summary": "産業用AIの自律性と人間による制御のバランスに関する考察。自動化システムの安全で効果的な運用には、両者の組み合わせが重要であることが示唆されている。",
-      "category": "その他",
-      "tags": [
-        "AI自律性",
-        "人間制御",
-        "産業AI"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "ef484ddf0458",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-28T09:30:00.000Z",
-      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "summary": "LegoraがOpenAIモデルを用いた法務向けAIプラットフォームを構築。契約分析の加速と弁護士の高付加価値業務への集中を実現する。",
-      "category": "プロダクト",
-      "tags": [
-        "Legora",
-        "法務AI",
-        "業務効率化"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "6344d5c4a403",
-      "title": "「ダウンロードフォルダでAIを使わないで」――セキュリティ企業が注意喚起 エージェントが攻撃者の指示に従いマルウェアインストールの恐れ",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002671/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-28T08:13:58.000Z",
-      "description": "イスラエルのセキュリティ企業によれば、悪意のある「AGENTS.md」が仕込まれたダウンロードフォルダでコーディングエージェントを起動すると、エージェントがマルウェアをインストールしたり、アカウント乗っ取りを支援したりする恐れがある。",
-      "summary": "セキュリティ企業が、悪意のあるファイルが仕込まれたフォルダでコーディングエージェントを実行するとマルウェアインストールやアカウント乗っ取りの危険があると警告した。",
-      "category": "規制/政策",
-      "tags": [
-        "セキュリティ",
-        "エージェント",
-        "マルウェア"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "69ef0b7a9c5e",
-      "title": "Anthropic、独自の“創薬活動”に着手 社員1人のバイオ企業を買収、小児難病の治療薬研究を進める",
-      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002661/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-28T04:07:50.000Z",
-      "description": "米Anthropicは10月27日（現地時間）、小児の希少な筋ジストロフィーなどを対象に、自社で創薬活動を進めていると発表した。社員1人でAI「Claude」を使い外部11の研究機関と実験を進めてきた企業を買収し、研究を引き継いだ。",
-      "summary": "Anthropicは創薬事業に参入し、AIモデル「Claude」を活用して小児難病の治療薬開発を進める。社員1人の企業を買収し、外部研究機関との実験を引き継いだ。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "創薬",
-        "AI応用",
-        "Anthropic"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "4210f29db490",
-      "title": "AI音声の詐欺電話、6人に1人が応じる可能性 だまされやすい手口とは 米ハーバード大やMetaが4100人で検証",
-      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002612/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-28T03:00:00.000Z",
-      "description": "米ハーバード大学や米Metaなどに所属する研究者らが発表した論文「Evaluating AI Models’ Capability to Automate Voice Phishing Attacks」は、AIによる詐欺電話によってどれくらい騙されるかを調査した研究報告だ。",
-      "summary": "ハーバード大学とMetaなどが実施した研究により、AIを用いた詐欺電話の被害について検証した。約6人に1人が応じる可能性があることが示された。",
-      "category": "その他",
-      "tags": [
-        "音声詐欺",
-        "AI悪用",
-        "セキュリティ"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "5a92021fe391",
-      "title": "Discord、公開サーバの会話をGoogle検索などの対象に プライバシーへの懸念も",
-      "url": "https://www.itmedia.co.jp/news/article/2610/28/2000002656/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-28T02:07:59.000Z",
-      "description": "Discordは、一部の公開サーバーにおける会話をWeb検索の対象にすると発表した。11月中旬からAI要約を公開し、12月中旬から投稿本文も検索可能にする。情報検索性を高める狙いだが、プライバシーやAI学習への利用懸念も噴出。日本は初期設定でオンとなるため、除外には設定変更が必要だ。",
-      "summary": "Discordは公開サーバーの会話をGoogle検索対象に加えると発表した。11月にAI要約を公開し12月から投稿本文も検索可能にするが、プライバシーやAI学習への懸念が生じている。日本では初期設定がオンのため、ユーザーが除外設定を行う必要がある。",
-      "category": "プロダクト",
-      "tags": [
-        "プライバシー",
-        "検索連携",
-        "Discord"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "476b62f6d161",
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SdnRpWjk1Nk1Fem1Ka0tLclJoVnFkQmZzVUVOU0hsQ0pwYVZLWVpCUGhkZ1Q0UmhYekhYcFdraTdtbFd5MF91MkhPVlJzYlM3ZXVlOUUwLUhDVVBMOUR4aXlVZXhRRlU?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-28T01:16:46.000Z",
-      "description": "Expanding our partnership with GSA to bring Claude to all levels of government Anthropic",
-      "summary": "AnthropicがGSAとの提携を拡大し、Claudeを米国政府の全階層で利用可能にする。行政機関へのAI導入が進展。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Anthropic",
-        "政府",
-        "提携"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "b80161fb0ca8",
-      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-28T01:15:28.000Z",
-      "description": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
-      "summary": "Anthropic上場予定時、ベンチャーキャピタルは数十億ドルの利益を見込んでいますが、Amazonの保有株による利益がはるかに大きい見通しです。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "Amazon"
-      ],
-      "importance": 3
     }
   ]
 }
