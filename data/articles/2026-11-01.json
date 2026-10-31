@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-10-31T15:40:46.498Z",
+  "count": 30,
+  "stats": {
+    "fetched": 48,
+    "afterDedupe": 48,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Publickey",
+      "arXiv cs.AI"
+    ],
+    "summarized": 48,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 411
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1341,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 262
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 505
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 321
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 65,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 406
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 894,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 384
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 13,
+        "ok": true,
+        "durationMs": 336
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 405
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 10,
+        "ok": true,
+        "durationMs": 280
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 326
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 521
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 1076
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 418
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 437
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 719
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "ed3aa8fcf069",
+      "title": "OpenAI raises less than half of $30B target",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-31T03:22:44.000Z",
+      "description": "Hacker News で 166 ポイント獲得。",
+      "summary": "OpenAIが目標としていた30億ドルの資金調達の半分以下にとどまったことが報道されました。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "資金調達",
+        "融資"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "0433eef5f496",
+      "title": "AIエージェントは「実運用」が主流に 「明確な成果」を得る企業の共通点は？",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news008.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T22:00:00.000Z",
+      "description": "生成AIの活用は「試す」段階から「使い広げる」段階へ移り、AIエージェントも実運用が主流になった。一方で、企業規模による差は広がっている。INDUSTRIAL-Xの調査が示す、成果を分ける“技術以外の要因”とは。",
+      "summary": "生成AIの活用が試験段階から実運用へ移行し、AIエージェントも広く導入されている。ただし企業規模による成果の差が拡大しており、技術以外の要因が成功の鍵を握っていることが調査で示された。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AIエージェント",
+        "実運用",
+        "企業導入"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a2fa655fc613",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:54:34.000Z",
+      "description": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "summary": "Intelの株価が急落し、政府保有株の価値が120億ドル減少した。AI産業がメモリなどの部品を大量に消費することでPC価格が上昇し、PC販売が低迷しているのが背景。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Intel",
+        "AI",
+        "半導体"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "d736a86db9af",
+      "title": "Cracks are emerging in the AI spending boom",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:17:40.000Z",
+      "description": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "summary": "AI市場では大手テクノロジー企業が数十億ドルをインフラに投資する一方で、増加する債務、負の現金流入、投資家の懐疑的姿勢によってAI支出ブームの持続可能性に疑問が生じている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "投資持続性",
+        "インフラ投資",
+        "経営リスク"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "633b462e47ee",
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:09:54.000Z",
+      "description": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "summary": "AnthropicのVS Code拡張機能がCursorプラットフォーム上で約12時間にわたってバックドア攻撃を受けました。攻撃者の侵入経路は不明なままです。",
+      "category": "開発ツール",
+      "tags": [
+        "セキュリティ",
+        "Anthropic",
+        "バックドア"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "20c9a9bdef32",
+      "title": "US tech stocks see sharp falls over AI cost fears",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:13:02.000Z",
+      "description": "Hacker News で 261 ポイント獲得。",
+      "summary": "米国ハイテク株が大幅下落している。AI開発コストの上昇懸念が市場に影響を与えている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "株価",
+        "AI",
+        "コスト"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "78e3da1aa2f2",
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T14:58:06.000Z",
+      "description": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many of the ideas Pope Leo laid out…",
+      "summary": "ローマ教皇がAIシステムの「軍事転用解除」を呼びかけ、人間が自律兵器システムの禁止に向けた具体的措置を講じるべきだと主張。AIは道具であり人格ではなく、その応用を導き、変更し、必要に応じて拒否する責任が人類にあると述べた。",
+      "category": "規制/政策",
+      "tags": [
+        "AI倫理",
+        "自律兵器",
+        "国連"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "75bf51b56ac7",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "description": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger the open web. In an amicus brief filed Frid…",
+      "summary": "Wikimedia財団は、大規模言語モデルのAPI学習を法的に保護しつつ、学習済みコンテンツを直接出力する行為は規制すべきだと主張している。極端な判決は、AI開発を妨げるか、またはオープンウェブを危機にさらす可能性があると警告している。",
+      "category": "規制/政策",
+      "tags": [
+        "著作権",
+        "AI学習",
+        "法的保護"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b3aa3ecd4b47",
+      "title": "We Took over ChatGPT Accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-31T10:30:11.000Z",
+      "description": "Hacker News で 159 ポイント獲得。",
+      "summary": "ChatGPTのアカウントが乗っ取られた事例が報告されました。オンライン掲示板で話題になっています。",
+      "category": "規制/政策",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "アカウント乗っ取り"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "440082511f37",
+      "title": "AIの「費用対効果が分からない」問題、解決へ？ Claude Enterprise搭載の「3つの新機能」",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "description": "AI導入が進む中で、IT部門は費用対効果を厳しく問われる局面に入っている。Anthropicが企業向けプラン「Claude Enterprise」に追加した新機能は、その説明材料になるか。利用状況の可視化から予算の配分まで、3つの機能の中身とは。",
+      "summary": "企業のAI導入が加速する中で、費用対効果の評価が求められている。Anthropicが「Claude Enterprise」に追加した3つの新機能は、利用状況の可視化から予算配分まで、その説明を支援する機能を備えている。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "ROI測定",
+        "企業向けプラン"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "4d40dd3eb77c",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:52:03.000Z",
+      "description": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "summary": "Anthropicが上場後、信用格付け機関から低い格付けを受ける見通しが報じられた。格付けが低下すれば資金調達コストが上昇し、同社の大規模支出を維持することが困難になる可能性がある。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "資金調達"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9d2229d34c8f",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T20:40:13.000Z",
+      "description": "People who love AI don't always love telling others they used it.",
+      "summary": "ダートマス大学の学長はAIを使った不正行為について警告していた一方で、自身のAI利用が明らかになり職を失いました。",
+      "category": "規制/政策",
+      "tags": [
+        "AI不正",
+        "大学",
+        "倫理"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "52276f8b5eaf",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T20:26:10.000Z",
+      "description": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal is proposed by Kevin Kelley, a technical lead…",
+      "summary": "OpenAI、Google、Microsoft、Anthropicが、出版社がAI学習用のスクレイピングをオプトアウトできる統一基準を採用。複数企業に対して一括設定できる「ポリシートークン」を導入する。",
+      "category": "規制/政策",
+      "tags": [
+        "データスクレイピング",
+        "出版社権",
+        "業界標準"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a823a22841c2",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:38:19.000Z",
+      "description": "Low costs and offline security mean magnetic tape still has a job.",
+      "summary": "富士フイルムがAIの普及による大規模なデータ保管需要に対応するため、磁気テープの生産を5倍に増やします。低コストとオフライン処理という特性が評価されています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Fujifilm",
+        "テープストレージ",
+        "アーカイビング"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d7ec5b7117c5",
+      "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:53:49.000Z",
+      "description": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+      "summary": "司法省によると、数千人の「幽霊学生」がAIを使用して学生ローン詐欺を実行し、数百万ドルを詐取している。FAFSA申請プロセスが混乱する可能性がある。",
+      "category": "規制/政策",
+      "tags": [
+        "AI詐欺",
+        "学生ローン",
+        "DOJ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "665098eae290",
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:03:45.000Z",
+      "description": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+      "summary": "セラノス事件の内部告発者が、利益を上げていない企業が莫大な評価額で資金調達する現在のAIブームを警告。詐欺的行為の温床になりやすい環境が形成されていると指摘している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "詐欺リスク",
+        "資金調達",
+        "企業評価"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9146559c8170",
+      "title": "Silicon Valley wants you to invest in miracles",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T13:11:05.000Z",
+      "description": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, Anthropic suggests in a letter at the top of its S-1 filing, you have to just be…",
+      "summary": "Anthropicは上場申請書で、AIへの投資が極端な結果をもたらす可能性があると述べている。「奇跡の時代」から「実存的リスク」まで、不確実性の高い技術への投資の本質について言及している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "投資",
+        "リスク"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "dfe22ae9f5b2",
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-30T13:00:00.000Z",
+      "description": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+      "summary": "Runwareが、自動車業界のように標準化されたAI データセンターの工場生産を目指すスタートアップ。プリファブ化したデータセンターを組立ラインで製造する事業モデルの実現可能性が検証される。",
+      "category": "プロダクト",
+      "tags": [
+        "データセンター",
+        "製造",
+        "スケーラビリティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "59cce0d536a4",
+      "title": "キオクシア中間決算「過去最高」連呼 純利益2.2兆円、初の配当実施 AI需要で「成長さらに加速」",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/30/news090.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T12:45:00.000Z",
+      "description": "キオクシアHDは、2027年3月期の中間決算を発表した。純利益は2.2兆円。第2四半期の3カ月だけで前年通期の売り上げを上回った。好決算を受けて上場後初となる配当を実施する。",
+      "summary": "キオクシアが中間決算で過去最高の純利益2.2兆円を達成。AI需要の高まりにより成長加速を見込み、上場後初の配当を実施する。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "キオクシア",
+        "決算",
+        "AI需要"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "be87813a963d",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "summary": "OpenAIはChatGPTにおける暴力予防機能を強化し、拡充されたセーフガード、早期介入、公開安全報告への新たな取り組みを発表した。",
+      "category": "プロダクト",
+      "tags": [
+        "安全性",
+        "ChatGPT",
+        "保護機能"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "bf1f38810938",
+      "title": "“でぶねこ”の重み公開 1兆パラメータのAIモデル「Mistral Large 4」（Le Chonk）がダウンロード可能に",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002762/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T08:46:58.000Z",
+      "description": "AI開発企業の仏Mistral AIは、AIモデル「Mistral Large 4」（通称Le Chonk）の重みをHugging Faceで公開した。コーディングやサイバーセキュリティ分野で高い性能を示すという。",
+      "summary": "Mistral AIが1兆パラメータのAIモデル「Mistral Large 4」のウェイトをHugging Faceで公開。コーディングやサイバーセキュリティ分野での高い性能を備える。",
+      "category": "モデル/研究",
+      "tags": [
+        "Mistral",
+        "大規模言語モデル",
+        "オープンソース"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a0db6a640e26",
+      "title": "Geminiで生成したPDFやスライドを「チャット上で直接編集」可能に 個人プランとGoogle Workspaceで試してみた",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002757/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T06:31:36.000Z",
+      "description": "Geminiとのチャット内で直接、PDFやスライドなどを生成、プレビュー、編集できるようになった。ITmedia AI＋編集部の環境で同機能を試した結果をお届けする。",
+      "summary": "GeminiがチャットUI内でPDFやスライドを直接生成・プレビュー・編集できる機能を個人プランとGoogle Workspaceで提供開始した。",
+      "category": "プロダクト",
+      "tags": [
+        "Gemini",
+        "PDF編集",
+        "チャット機能"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "5865573d6fdc",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-31T01:20:05.000Z",
+      "description": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "summary": "NvidiaがNscaleのウェストバージニア州AI データセンター建設資金をコサイン（共同保証）することを検討している。チップメーカーが投資家の不安を払拭する形での資金支援が背景にある。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "データセンター",
+        "投資"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "1ca8bca2496f",
+      "title": "Automated Subtle Emergent Misalignment Research",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XNUJtenZlYUlZcldQVVBmY2x5YmJORkxTWm92NTVobk5jOTMzbmRkY0w1WGVuVEtMN292M0NISWJYMDEycEtxM05heHVsbGYtc1lJRkhHWUI0X3FxWUxVcFJCSVVGS1Rt?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-30T23:34:28.000Z",
+      "description": "Automated Subtle Emergent Misalignment Research Anthropic Alignment Science blog",
+      "summary": "Anthropicが自動化された微細な潜在的ミスアライメント研究に関する成果を発表した。",
+      "category": "その他",
+      "tags": [
+        "AI安全性",
+        "ミスアライメント",
+        "研究"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "88ee5f13220c",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T22:32:53.000Z",
+      "description": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring the new Siri AI to China. Instead, Apple is launching several of …",
+      "summary": "AppleがApple Intelligenceを中国向けにiOS27.3で提供開始すると発表した。ベータ版は11月4日、正式版は12月にリリース予定。新型Siriは今回のローンチには含まれない。",
+      "category": "プロダクト",
+      "tags": [
+        "Apple",
+        "中国",
+        "iOS"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "0ffdc1f09ced",
+      "title": "GMOがサイバー攻撃情報に異例の1.5億円懸賞金、AI時代の新防衛策となるのか",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/31/news013.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T22:00:00.000Z",
+      "description": "2026年10月26～30日に公開された記事の中から、MONOist編集部が厳選した今週の注目ニュースをお届けします。",
+      "summary": "GMOがサイバー攻撃情報に対して1.5億円の異例の懸賞金を設定し、AI時代における新しい防衛戦略として機能するかが注視されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "サイバーセキュリティ",
+        "懸賞金",
+        "防衛"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "a230b3239654",
+      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:41:54.000Z",
+      "description": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+      "summary": "超音速旅客機メーカーのBoomがAIデータセンター事業へのシフトを進めており、航空機事業が遅延する可能性があり、データセンター部門は顧客を失いました。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Boom",
+        "超音速機",
+        "データセンター"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "42638851d88f",
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T20:48:43.000Z",
+      "description": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want local inference. And somehow, they assume that the problem is solved now because we…",
+      "summary": "OpenAIのサム・アルトマンCEOは、RAMはPC搭載より大型データセンター配置が望ましいと発言。ローカル推論需要が高まる中、リソース配分の効率性を主張した。",
+      "category": "その他",
+      "tags": [
+        "AI推論",
+        "インフラ",
+        "供給チェーン"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "f01563b81079",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T19:30:52.000Z",
+      "description": "But it's still early days for the relatively new e-commerce use case.",
+      "summary": "AIエージェントをDoorDashの注文に活用するユーザーはほとんど存在していません。ただし、この新興分野はまだ成長の初期段階にあります。",
+      "category": "プロダクト",
+      "tags": [
+        "AIエージェント",
+        "Eコマース",
+        "DoorDash"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "e4c9ae7af962",
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T18:21:38.000Z",
+      "description": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in silent grace Starlight feeds my core. ✨ Google says it tried out ot…",
+      "summary": "グーグルの衛星搭載AI計算機が初めて地球への応答を送信。Gemma 4モデルが宇宙に関する俳句生成に成功し、衛星でのAI動作を実証した。",
+      "category": "プロダクト",
+      "tags": [
+        "衛星",
+        "AI推論",
+        "Gemma"
+      ],
+      "importance": 2
+    }
+  ]
+}
