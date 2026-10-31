@@ -1,18 +1,14 @@
 {
   "date": "2026-10-31",
-  "generatedAt": "2026-10-30T16:37:38.167Z",
+  "generatedAt": "2026-10-31T01:28:25.890Z",
   "count": 30,
   "stats": {
-    "fetched": 117,
-    "afterDedupe": 117,
+    "fetched": 131,
+    "afterDedupe": 131,
     "published": 30,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
-      {
-        "name": "Google DeepMind",
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
-      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -26,27 +22,26 @@
       "Meta AI",
       "Hugging Face Blog",
       "VentureBeat AI",
-      "Publickey",
-      "Hacker News"
+      "Publickey"
     ],
-    "summarized": 117,
+    "summarized": 131,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 0,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 469
+        "durationMs": 381
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1338,
-        "fetched": 3,
+        "itemsInFeed": 1341,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 350
+        "durationMs": 186
       },
       {
         "name": "Google AI Blog",
@@ -54,40 +49,39 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 481
+        "durationMs": 375
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 0,
+        "itemsInFeed": 100,
         "fetched": 0,
-        "ok": false,
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
-        "durationMs": 106
+        "ok": true,
+        "durationMs": 240
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 66,
+        "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 373
+        "durationMs": 518
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
         "itemsInFeed": 894,
-        "fetched": 1,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 245
+        "durationMs": 271
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 18,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 168
+        "durationMs": 218
       },
       {
         "name": "VentureBeat AI",
@@ -96,7 +90,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 243
+        "durationMs": 241
       },
       {
         "name": "The Verge AI",
@@ -104,31 +98,31 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 387
+        "durationMs": 273
       },
       {
         "name": "MIT Technology Review AI",
         "weight": 7,
         "itemsInFeed": 10,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 406
+        "durationMs": 241
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 8,
         "ok": true,
-        "durationMs": 711
+        "durationMs": 388
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 15,
+        "fetched": 16,
         "ok": true,
-        "durationMs": 786
+        "durationMs": 928
       },
       {
         "name": "Publickey",
@@ -136,7 +130,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 584
+        "durationMs": 344
       },
       {
         "name": "arXiv cs.AI",
@@ -144,19 +138,38 @@
         "itemsInFeed": 60,
         "fetched": 60,
         "ok": true,
-        "durationMs": 554
+        "durationMs": 693
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 7,
+        "fetched": 10,
         "ok": true,
-        "durationMs": 680
+        "durationMs": 627
       }
     ]
   },
   "articles": [
+    {
+      "id": "67a553b2c0f2",
+      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-29T23:42:22.000Z",
+      "description": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "summary": "AmazonのCEO Jassyが、AWSを1兆ドル規模のビジネスにする目標を掲げた。AI向けクラウド市場で主導権を確立するため、大規模な設備投資を継続する方針である。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AWS",
+        "設備投資",
+        "AI競争"
+      ],
+      "importance": 5
+    },
     {
       "id": "f5f8330a31cb",
       "title": "We urgently need to monitor AI agents’ actions in real time",
@@ -177,6 +190,120 @@
       "importance": 5
     },
     {
+      "id": "0433eef5f496",
+      "title": "AIエージェントは「実運用」が主流に 「明確な成果」を得る企業の共通点は？",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news008.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T22:00:00.000Z",
+      "description": "生成AIの活用は「試す」段階から「使い広げる」段階へ移り、AIエージェントも実運用が主流になった。一方で、企業規模による差は広がっている。INDUSTRIAL-Xの調査が示す、成果を分ける“技術以外の要因”とは。",
+      "summary": "生成AIの活用が試験段階から本格運用へシフトし、AIエージェントの実運用が主流化している。成果を生み出す企業は技術以外の要因で差別化されている。",
+      "category": "プロダクト",
+      "tags": [
+        "AIエージェント",
+        "実運用",
+        "企業導入"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "d736a86db9af",
+      "title": "Cracks are emerging in the AI spending boom",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:17:40.000Z",
+      "description": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "summary": "大手テック企業が数十億ドルをAIインフラに投資する一方で、負債増加と投資家の懸念が高まり、支出の持続可能性が問題視されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "支出拡大",
+        "投資家",
+        "持続性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "633b462e47ee",
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:09:54.000Z",
+      "description": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "summary": "AnthropicのVSコード拡張機能がCursorで約12時間にわたってバックドア化された。攻撃者がAnthropicの認証済みCursorアカウントへのアクセス経路は現在も不明である。",
+      "category": "開発ツール",
+      "tags": [
+        "セキュリティ",
+        "Anthropic",
+        "Cursor"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "52276f8b5eaf",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T20:26:10.000Z",
+      "description": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal is proposed by Kevin Kelley, a technical lead…",
+      "summary": "OpenAI、Google、Microsoft、Anthropicが新しいスクレイピング拒否標準を採用。出版社が複数企業に対して統一的にAI学習設定を管理できるようになる。",
+      "category": "規制/政策",
+      "tags": [
+        "スクレイピング",
+        "出版社",
+        "標準化"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "d7ec5b7117c5",
+      "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:53:49.000Z",
+      "description": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+      "summary": "AIを悪用した虚偽の学生ローン申請で数百万ドルが詐取されたと司法省が発表。AIを利用した不正な学生身元申請の摘発が進行中である。",
+      "category": "規制/政策",
+      "tags": [
+        "AI詐欺",
+        "学生ローン",
+        "司法省"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "20c9a9bdef32",
+      "title": "US tech stocks see sharp falls over AI cost fears",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-30T16:13:02.000Z",
+      "description": "Hacker News で 235 ポイント獲得。",
+      "summary": "米国のテク企業の株価がAIの運用コスト増加への懸念から大きく下落している。投資家がAI技術の収益性と経済性を再評価する動きが見られている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI",
+        "株価",
+        "コスト"
+      ],
+      "importance": 4
+    },
+    {
       "id": "59cce0d536a4",
       "title": "キオクシア中間決算「過去最高」連呼 純利益2.2兆円、初の配当実施 AI需要で「成長さらに加速」",
       "url": "https://www.itmedia.co.jp/business/articles/2610/30/news090.html",
@@ -186,31 +313,50 @@
       "lang": "ja",
       "publishedAt": "2026-10-30T12:45:00.000Z",
       "description": "キオクシアHDは、2027年3月期の中間決算を発表した。純利益は2.2兆円。第2四半期の3カ月だけで前年通期の売り上げを上回った。好決算を受けて上場後初となる配当を実施する。",
-      "summary": "キオクシアが中間決算で純利益2.2兆円を報告。3カ月で前年通期の売上を上回り、AI需要の強さを示している。初の配当も実施する。",
+      "summary": "キオクシアHDが2027年3月期の中間決算で純利益2.2兆円を記録し過去最高を更新した。AI需要により成長が加速し、上場後初の配当実施も決定された。",
       "category": "ビジネス/資金調達",
       "tags": [
         "キオクシア",
-        "好決算",
+        "決算",
         "AI需要"
       ],
       "importance": 4
     },
     {
-      "id": "67a553b2c0f2",
-      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "source": "TechCrunch AI",
+      "id": "75bf51b56ac7",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "source": "The Verge AI",
       "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
+      "sourceCategory": "プロダクト",
       "lang": "en",
-      "publishedAt": "2026-10-29T23:42:22.000Z",
-      "description": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "summary": "AmazonのCEOが、AWSが1兆ドル企業になる目標を表明した。AI分野での覇権獲得には継続的な大型投資が必要と強調している。",
-      "category": "ビジネス/資金調達",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "description": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger the open web. In an amicus brief filed Frid…",
+      "summary": "ウィキメディア財団は、AIのコピーライト訴訟で中道的な立場を示しており、大規模言語モデルの学習は保護しつつ、チャットボットによる著作物の出力は規制すべきと主張している。極端な判決はAIツールの開発か開放的なウェブのいずれかを危険にさらす可能性があると指摘している。",
+      "category": "規制/政策",
       "tags": [
-        "AWS",
-        "AI インフラ",
-        "投資"
+        "AI著作権",
+        "LLM",
+        "法規制"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "899241e6b7a7",
+      "title": "Meta Ray-Banで向かいの席から撮影→指の動きからスマホのパスワードを解読する盗み見攻撃",
+      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002684/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T03:00:00.000Z",
+      "description": "イスラエルのテルアビブ大学に所属する研究者らが発表した論文「Watch and Crack: Password Inference from Smart-Glasses Video」は、スマートグラスで撮影された指の動きから、パスワードを解読する手法を実証した研究報告だ。",
+      "summary": "テルアビブ大学の研究者がMeta Ray-Banなどのスマートグラスで撮影した指の動きからパスワードを推測できる攻撃手法を発表した。向かいの席からの撮影で盗み見が可能になる懸念が示唆される。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "スマートグラス",
+        "パスワード"
       ],
       "importance": 4
     },
@@ -224,31 +370,69 @@
       "lang": "en",
       "publishedAt": "2026-10-29T19:56:19.000Z",
       "description": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "summary": "OpenAI系のThrive HoldingsがADTを153億ドルで買収する。ホームセキュリティ業界へのAI導入を計画している。",
+      "summary": "OpenAI傘下のThrive Holdingsが防犯企業ADTを153億ドルで買収した。ホームセキュリティ事業へのAI導入を計画している。",
       "category": "ビジネス/資金調達",
       "tags": [
         "M&A",
         "ホームセキュリティ",
-        "OpenAI系"
+        "OpenAI"
       ],
       "importance": 4
     },
     {
-      "id": "3ba8667b87ca",
-      "title": "Trump declares robot imports a national security threat",
-      "url": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "fe7a9ff6c193",
+      "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+      "url": "https://arxiv.org/abs/2610.40589v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-10-29T19:07:53.000Z",
-      "description": "President orders trade talks on foreign-made factory robots, threatens tariffs.",
-      "summary": "トランプ大統領が外国製の工場用ロボット輸入を国家安全保障上の脅威と宣言した。関税を含む対抗措置を示唆し、機械化製品の貿易交渉に乗り出す方針を表示している。",
-      "category": "規制/政策",
+      "publishedAt": "2026-10-29T17:47:50.000Z",
+      "description": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess o…",
+      "summary": "大規模言語モデルベースのAIエージェント群が協働して自動研究実験を実施するシステムを開発。量子スピン実験のケーススタディを通じ、エージェントが根拠なく結論を導く問題に対処する自律研究室の実現を示す。",
+      "category": "その他",
       "tags": [
-        "ロボット政策",
-        "通商",
-        "米国"
+        "自律研究",
+        "LLM",
+        "マルチエージェント"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "69c8bdb72315",
+      "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
+      "url": "https://arxiv.org/abs/2610.40556v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-29T17:40:24.000Z",
+      "description": "Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to the timely use of genomic information in clinical decision-making. To fill this gap, we developed ClinGeX, a large-language-model agent that composes 105 curate…",
+      "summary": "臨床ゲノム解析を自動化するAIエージェントClinGeXを開発しました。複雑なガイドラインやデータベースを統合して、臨床意思決定を支援する多数のスキルを備えています。",
+      "category": "プロダクト",
+      "tags": [
+        "医療AI",
+        "ゲノム解析",
+        "LLMエージェント"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "cded3d4ba11b",
+      "title": "Efficient Scalable Oversight via Rewinding",
+      "url": "https://arxiv.org/abs/2610.40535v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-10-29T17:34:28.000Z",
+      "description": "Scalable oversight asks how a weak verifier can check the outputs of computations performed by more powerful AI systems. One proposed approach uses relativizing interactive proofs, in which a weak verifier checks the output of a complex oracle-aided computation by interacting with one or more powerful provers. A prominent example is debate, which is highly efficient but assumes that one of two pow…",
+      "summary": "弱い検証者が強力なAIシステムの出力を効率的に検証する方法を研究しています。相互作用的証明とディベートを組み合わせたスケーラブル監視アプローチを提案しており、AI安全性の課題に対応しています。",
+      "category": "モデル/研究",
+      "tags": [
+        "AI安全性",
+        "検証",
+        "スケーラブル監視"
       ],
       "importance": 4
     },
@@ -281,7 +465,7 @@
       "lang": "en",
       "publishedAt": "2026-10-29T16:24:55.000Z",
       "description": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
-      "summary": "Googleが第3四半期決算で負のキャッシュフロー-90億6000万ドルを記録した。AI検索の収益性の低さを認めつつ、広告増加で補填する戦略を進めている。",
+      "summary": "GoogleがAI検索による収益減少を認め、広告量を増やして対応する方針を示しました。Q3決算で現金流出が91.6億ドルに膨らみ、株価も下落しています。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Google",
@@ -367,363 +551,173 @@
       "importance": 4
     },
     {
-      "id": "665098eae290",
-      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "id": "5865573d6fdc",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-10-30T16:03:45.000Z",
-      "description": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
-      "summary": "Theranos元内部告発者のTyler Shultzが、利益を出していない企業が巨額評価を受けるAIブームを詐欺の温床と警告。Theranos事件の教訓がAI業界でも有効と指摘している。",
+      "publishedAt": "2026-10-31T01:20:05.000Z",
+      "description": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "summary": "NvidiaはNscaleのウェストバージニア州でのAIデータセンター建設にローン保証人として参加することを検討しています。投資家の不安が高まる中、チップメーカーが融資を支援する動きです。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "AI詐欺",
-        "スタートアップ",
-        "バリュエーション"
+        "Nvidia",
+        "データセンター",
+        "融資"
       ],
       "importance": 3
     },
     {
-      "id": "78e3da1aa2f2",
-      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-30T14:58:06.000Z",
-      "description": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many of the ideas Pope Leo laid out…",
-      "summary": "教皇レオ14世がAIシステムの「非武装化」を呼びかけ、人間が責任を持ってAIの応用を制御・変更・拒否すべきと主張。国連加盟国に対し致死的自律兵器の禁止に向けた具体的措置を促している。",
-      "category": "規制/政策",
-      "tags": [
-        "AI倫理",
-        "規制",
-        "自律兵器"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "dfe22ae9f5b2",
-      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
-      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-30T13:00:00.000Z",
-      "description": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
-      "summary": "Runwareはプレハブ型のAIデータセンターを自動車のように製造ラインで量産する工場を建設中。実際に大規模生産が実現できるかが課題となる。",
-      "category": "プロダクト",
-      "tags": [
-        "AIデータセンター",
-        "製造",
-        "Runware"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "75bf51b56ac7",
-      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "description": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger the open web. In an amicus brief filed Frid…",
-      "summary": "Wikimedia財団が主要なAI著作権訴訟案件でアミカスブリーフを提出した。LLMの学習を保護しつつ、チャットボットの無断引用を制限する法的枠組みを提案している。",
-      "category": "規制/政策",
-      "tags": [
-        "著作権",
-        "LLM",
-        "法律"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "899241e6b7a7",
-      "title": "Meta Ray-Banで向かいの席から撮影→指の動きからスマホのパスワードを解読する盗み見攻撃",
-      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002684/",
+      "id": "440082511f37",
+      "title": "AIの「費用対効果が分からない」問題、解決へ？ Claude Enterprise搭載の「3つの新機能」",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-10-30T03:00:00.000Z",
-      "description": "イスラエルのテルアビブ大学に所属する研究者らが発表した論文「Watch and Crack: Password Inference from Smart-Glasses Video」は、スマートグラスで撮影された指の動きから、パスワードを解読する手法を実証した研究報告だ。",
-      "summary": "テルアビブ大学の研究者がMeta Ray-Banで撮影した指の動きからスマートフォンのパスワードを解読する手法を実証。セキュリティリスクが明らかになった。",
-      "category": "その他",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "description": "AI導入が進む中で、IT部門は費用対効果を厳しく問われる局面に入っている。Anthropicが企業向けプラン「Claude Enterprise」に追加した新機能は、その説明材料になるか。利用状況の可視化から予算の配分まで、3つの機能の中身とは。",
+      "summary": "AnthropicがClaude Enterpriseに利用状況の可視化と予算配分機能を追加した。企業のAI導入における費用対効果の説明課題解決を目指している。",
+      "category": "プロダクト",
       "tags": [
-        "セキュリティ",
-        "スマートグラス",
-        "パスワード"
+        "Claude",
+        "ROI可視化",
+        "エンタープライズ"
       ],
       "importance": 3
     },
     {
-      "id": "2875c2c753b9",
-      "title": "OpenAI、AIの行動指針「Model Spec」を改定 “記憶”の使い方や人間による監督を明記",
-      "url": "https://www.itmedia.co.jp/news/article/2610/30/2000002735/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-10-29T23:24:32.000Z",
-      "description": "OpenAIは、AIの振る舞い指針「Model Spec」の改定版を公開した。全体を5つの価値観に沿って再構成し、メモリや会話履歴の適切な扱い、エージェント自律動作時の人間による監督への服従などを規定。一方で人格設定や詳細な文体規定の大半を削除し、モデル呼称を「the assistant」から「GPT」に改めた。",
-      "summary": "OpenAIがAI行動指針「Model Spec」を改定し、メモリ管理や人間による監督に関する規定を明確化した。価値観の再構成や人格設定削除など、指針の簡素化も実施している。",
-      "category": "モデル/研究",
-      "tags": [
-        "OpenAI",
-        "Model Spec",
-        "AI倫理"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a4c81a836619",
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-10-29T20:08:31.000Z",
-      "description": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "summary": "検索トラフィック減少を受けてRedditがログイン必須の仕様へ転換する。AIが検索行動を変える中で、ビジネスモデルを守る戦略転換。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Reddit",
-        "ビジネス戦略",
-        "検索"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "1eea5238e0d8",
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "id": "88ee5f13220c",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
       "source": "The Verge AI",
       "sourceWeight": 6,
       "sourceCategory": "プロダクト",
       "lang": "en",
-      "publishedAt": "2026-10-29T18:45:31.000Z",
-      "description": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in the web version for now. Google added support for generating …",
-      "summary": "GoogleのGeminiチャット内で直接ファイル生成・編集が可能になった。PDF、Googleドキュメントやシートなど複数形式に対応し、全ユーザーが利用できるようになった。",
+      "publishedAt": "2026-10-30T22:32:53.000Z",
+      "description": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring the new Siri AI to China. Instead, Apple is launching several of …",
+      "summary": "AppleはiOS 27.3でApple Intelligenceを中国で展開することを発表しました。11月4日のベータ版リリースを経て、12月に正式版がリリースされる予定です。ただし新しいSiri AIは中国では提供されません。",
       "category": "プロダクト",
       "tags": [
-        "Google Gemini",
-        "ファイル編集",
-        "AI統合"
+        "Apple Intelligence",
+        "iOS",
+        "中国展開"
       ],
       "importance": 3
     },
     {
-      "id": "93fad0ea6165",
-      "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
-      "url": "https://arxiv.org/abs/2610.40613v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:54:12.000Z",
-      "description": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing ea…",
-      "summary": "大規模言語モデル向けの新しいウォーターマーク技術TextSeal2を提案。推測デコーディング時に信号を保持し、出力の多様性を維持しつつ、推論遅延を追加しない特性を実現。",
-      "category": "その他",
+      "id": "0ffdc1f09ced",
+      "title": "GMOがサイバー攻撃情報に異例の1.5億円懸賞金、AI時代の新防衛策となるのか",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/31/news013.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-30T22:00:00.000Z",
+      "description": "2026年10月26～30日に公開された記事の中から、MONOist編集部が厳選した今週の注目ニュースをお届けします。",
+      "summary": "GMOがサイバー攻撃情報の提供に1.5億円の懸賞金を設定した。AI時代のセキュリティ対策における新しい防衛戦略として注目を集めている。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "ウォーターマーク",
-        "LLM",
-        "セキュリティ"
+        "セキュリティ",
+        "懸賞金",
+        "AI防衛"
       ],
       "importance": 3
     },
     {
-      "id": "fe7a9ff6c193",
-      "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
-      "url": "https://arxiv.org/abs/2610.40589v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:47:50.000Z",
-      "description": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess o…",
-      "summary": "LLMベースエージェントで構成した自律研究室が、固体量子スピンの実験研究を実施。問題提起から論文作成まで一連の研究活動を行い、証拠に基づかない結論導出の課題に対処する。",
-      "category": "モデル/研究",
-      "tags": [
-        "自律研究",
-        "量子物理",
-        "LLMエージェント"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "69c8bdb72315",
-      "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
-      "url": "https://arxiv.org/abs/2610.40556v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:40:24.000Z",
-      "description": "Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to the timely use of genomic information in clinical decision-making. To fill this gap, we developed ClinGeX, a large-language-model agent that composes 105 curate…",
-      "summary": "臨床ゲノム解析の複雑な処理を自動化するLLMエージェント「ClinGeX」を開発。105個の厳選されたスキルを組み合わせ、ゲノム情報の臨床利用の遅延という課題解決を目指す。",
-      "category": "モデル/研究",
-      "tags": [
-        "医療",
-        "ゲノム解析",
-        "LLMエージェント"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "33364a0c7f67",
-      "title": "Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs",
-      "url": "https://arxiv.org/abs/2610.40551v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:39:04.000Z",
-      "description": "As AI's mathematical capabilities rapidly improve, meaningful benchmarks are shifting from university-level problems and math olympiads to research-level mathematics. The Ramanujan Challenge is a benchmark comprised of research-level problems in number theory, including unpublished results and open conjectures. It presented concrete formulas for mathematical constants whose correctness can be chec…",
-      "summary": "ラマヌジャン・チャレンジは数論の研究レベル問題を含むベンチマークで、未発表成果や未解決予想を題材とする。AIの数学能力向上に伴い、大学レベルから研究レベルへシフトした評価基準を提供する。",
-      "category": "モデル/研究",
-      "tags": [
-        "ベンチマーク",
-        "数学",
-        "AI評価"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "d01acae9c92d",
-      "title": "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
-      "url": "https://arxiv.org/abs/2610.40516v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:26:02.000Z",
-      "description": "Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyond cultures. We propose a scalable template-based augmentation pipeline to produce m…",
-      "summary": "低リソース言語を含む多言語環境でのLLM安全性向上を目指し、テンプレートベースのデータ拡張パイプラインを提案。地域固有の有害内容を考慮した大規模安全性トレーニングを実現している。",
-      "category": "その他",
-      "tags": [
-        "多言語",
-        "安全性",
-        "LLM"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "b6b6b364eb3e",
-      "title": "Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes",
-      "url": "https://arxiv.org/abs/2610.40490v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:16:38.000Z",
-      "description": "Quantum error correction is essential for fault-tolerant quantum computing. High-rate quantum low-density parity-check (qLDPC) codes have emerged as a promising approach to reducing the substantial physical qubit overhead of quantum error correction, enabling encoding rates exceeding $1/2$ in blocks of approximately one thousand physical data qubits. However, their practical implementation require…",
-      "summary": "量子エラー訂正に向けた高速で正確なニューラルネットワークベースの復号方式を提案。高レート量子LDPC符号の実装における計算複雑性の課題に対処する技術を開発している。",
-      "category": "その他",
-      "tags": [
-        "量子コンピューティング",
-        "エラー訂正",
-        "ニューラル復号"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "65fd81c1d3eb",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:00:00.000Z",
-      "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "summary": "OpenAIが更新したModel Specは、より高度なAIシステムを健全な判断、人間の自律性、人間の意図への誠実さに導くための5つの基本価値を定めている。",
-      "category": "その他",
-      "tags": [
-        "AI倫理",
-        "Model Spec",
-        "価値観"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "18bf0108249b",
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "id": "a2fa655fc613",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-10-29T17:00:00.000Z",
-      "description": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
-      "summary": "Mistralが1兆パラメータの大規模AIモデルの重みを公開。サイバーセキュリティ分野を対象に、クローズドモデルにない柔軟な防御管理を実現。",
-      "category": "モデル/研究",
+      "publishedAt": "2026-10-30T21:54:34.000Z",
+      "description": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "summary": "Intelの株価が急落し、政府保有分が120億ドル減少。AI産業による半導体需要がPC部品価格上昇を招き、PC販売が低迷している。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "大規模言語モデル",
-        "オープンソース",
-        "セキュリティ"
+        "Intel",
+        "半導体",
+        "AI需要"
       ],
       "importance": 3
     },
     {
-      "id": "bab992c19a56",
-      "title": "Understanding and Mitigating Role Spoofing in LLMs",
-      "url": "https://arxiv.org/abs/2610.40396v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
+      "id": "4d40dd3eb77c",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-10-29T16:33:08.000Z",
-      "description": "Despite growing capabilities, LLMs remain susceptible to prompt injections: malicious inputs that can manipulate or hijack models. In particular, it has recently been observed that LLMs can exhibit role confusion (Ye et al., 2026), where models attribute the source of text based on its style instead of its labeled role. Malicious text in tool outputs (for instance, a malicious webpage accessed by …",
-      "summary": "言語モデルが入力スタイルに基づいて情報源を誤認識するロール混乱問題を分析し、プロンプト注入攻撃への対策を検討。モデルのセキュリティ脆弱性に関する研究である。",
-      "category": "その他",
+      "publishedAt": "2026-10-30T21:52:03.000Z",
+      "description": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "summary": "AnthropicのIPO後、Blackstoneは信用機関からのジャンク格付けを予測。格付けが低いと資金調達のコストが増加する可能性がある。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "セキュリティ",
-        "プロンプト注入",
-        "安全性"
+        "Anthropic",
+        "IPO",
+        "信用格付け"
       ],
       "importance": 3
     },
     {
-      "id": "0fc5b2648e50",
-      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
-      "url": "https://arxiv.org/abs/2610.40394v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
+      "id": "a230b3239654",
+      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
       "lang": "en",
-      "publishedAt": "2026-10-29T16:32:59.000Z",
-      "description": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K…",
-      "summary": "教科書の構造を保持した大規模数学教育コーパスTOME-Mathを開発し、2,118冊の大学数学教科書から38万件以上の学習サンプルを生成。言語モデルの数学教育を強化する新しいアプローチを提案している。",
-      "category": "その他",
+      "publishedAt": "2026-10-30T21:41:54.000Z",
+      "description": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+      "summary": "音速旅客機の開発企業Boomが事業方針を転換し、AI データセンター向けの電力供給事業にシフトしている。超音速旅客機プロジェクトは遅延の可能性があり、データセンター事業では顧客を失っている。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "数学",
-        "教育データ",
-        "言語モデル"
+        "Boom",
+        "AI基盤",
+        "ビジネス転換"
       ],
       "importance": 3
     },
     {
-      "id": "67291e03e052",
-      "title": "Beyond Selected Breakthroughs: Evaluating Language Models on Randomly Sampled Mathematical Conjectures",
-      "url": "https://arxiv.org/abs/2610.40382v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
+      "id": "9d2229d34c8f",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
       "lang": "en",
-      "publishedAt": "2026-10-29T16:24:55.000Z",
-      "description": "The last year has seen a shift in AI-assisted mathematics, with frontier language models producing proofs of and counterexamples to long-standing open conjectures. However, studying only the current set of major breakthroughs provides an incomplete picture of LLM capabilities and the computational resources needed to achieve reported results. To address this, we introduce a new dataset, OpenConjec…",
-      "summary": "言語モデルが数学的予想の証明や反例を生成する能力を評価するため、ランダムに抽出した予想からなる新しいデータセットを構築した。既知の成功事例のみでなく、より包括的なLLM能力の理解を目指している。",
-      "category": "その他",
+      "publishedAt": "2026-10-30T20:40:13.000Z",
+      "description": "People who love AI don't always love telling others they used it.",
+      "summary": "ダートマス大学の副学長がAI不正使用についての警告を発した一方で、自身がAIを使用したことが明らかになり職を失った。AI利用に関する透明性と一貫性が問題となっている。",
+      "category": "規制/政策",
       "tags": [
-        "数学",
-        "言語モデル評価",
-        "ベンチマーク"
+        "AI",
+        "高等教育",
+        "倫理"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "e4c9ae7af962",
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-30T18:21:38.000Z",
+      "description": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in silent grace Starlight feeds my core. ✨ Google says it tried out ot…",
+      "summary": "Googleの衛星搭載AIチップが初めての応答を地球に送信。搭載TPUとGemma 4モデルが稼働し、宇宙に関する俳句生成に成功した。",
+      "category": "プロダクト",
+      "tags": [
+        "Google",
+        "衛星AI",
+        "Gemma"
       ],
       "importance": 3
     }
