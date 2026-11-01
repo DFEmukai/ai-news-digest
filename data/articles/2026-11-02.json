@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-01T16:42:24.439Z",
+  "count": 9,
+  "stats": {
+    "fetched": 9,
+    "afterDedupe": 9,
+    "published": 9,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Ars Technica",
+      "Publickey",
+      "arXiv cs.AI"
+    ],
+    "summarized": 9,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 376
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1341,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 216
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 443
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 279
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 688
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 894,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 311
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 261
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 318
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 230
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 248
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 391
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 991
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 553
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 398
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 677
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "dc32b03478d0",
+      "title": "AI学習への利用拒否をrobots.txtで一括指定へ OpenAIやGoogleなどが対応表明",
+      "url": "https://www.itmedia.co.jp/news/article/2611/01/2000002776/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-10-31T23:31:07.000Z",
+      "description": "OpenAI、Google、Microsoftは、Webサイト運営者がAI学習へのコンテンツ利用に関する意向を一括で指定できる共通の仕組みへの対応を発表した。Anthropicも担当者が個人名義で実装を表明している。robots.txtに共通トークンを記述するだけで、AI各社のAIクローラーを一元管理できるようになる。",
+      "summary": "OpenAI、Google、Microsoftなど主要AI企業が、Webサイト運営者がrobots.txtでAI学習への利用可否を一括指定できる共通仕組みへの対応を発表した。各社のAIクローラーを一元管理できるようになる。",
+      "category": "規制/政策",
+      "tags": [
+        "robots.txt",
+        "AI学習",
+        "業界標準"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "63bd5a5bb2d7",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-31T14:29:03.000Z",
+      "description": "Hacker News で 251 ポイント獲得。",
+      "summary": "マルウェアが大規模言語モデルを利用して被害者を金銭的価値でランク付けしている。新しい攻撃手法としてHacker Newsで注目されている。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "LLM悪用",
+        "マルウェア"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b3aa3ecd4b47",
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-10-31T10:30:11.000Z",
+      "description": "Hacker News で 356 ポイント獲得。",
+      "summary": "ChatGPTアカウントの乗っ取り手法が公開され、Hacker Newsで高い関心を集めている。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "ChatGPT",
+        "乗っ取り"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "cca18e4c21be",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-31T21:17:03.000Z",
+      "description": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "summary": "NAACPがxAIのデータセンターによる大気汚染を理由に提起した訴訟について、裁判所が進行を認可した。SpaceX傘下のAI企業は大気浄化法違反の疑いで告発されている。",
+      "category": "規制/政策",
+      "tags": [
+        "xAI",
+        "環境問題",
+        "訴訟"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "07621200eef2",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-31T16:12:55.000Z",
+      "description": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "summary": "OpenAIの新規資金調達ラウンドが期待を下回る状況にあり、調達目標を引き下げたと報じられている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "資金調達",
+        "融資"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d6756f65c5e6",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-01T06:06:19.000Z",
+      "description": "Hacker News で 194 ポイント獲得。",
+      "summary": "JavaScriptフレームワークのAI処理コストについての議論がHacker Newsで関心を集めている。",
+      "category": "開発ツール",
+      "tags": [
+        "JavaScript",
+        "コスト",
+        "パフォーマンス"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "e22cb59fedcd",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-31T21:41:00.000Z",
+      "description": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "summary": "Apple CEOが同社のAI戦略について、AIありきのリリースではなく実用性を重視する姿勢を示した。",
+      "category": "プロダクト",
+      "tags": [
+        "Apple",
+        "AI戦略"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "793722a19be3",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-31T16:05:00.000Z",
+      "description": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It cost just $50, and I've decided the learning experience was worth it. View Link My version doesn't sport cameras or a 5G …",
+      "summary": "MetaのMuse Charmと競合する50ドルのAI Tamagotchiが開発された。カメラや5G機能は搭載されていないが、低価格で学習価値があると評価されている。",
+      "category": "プロダクト",
+      "tags": [
+        "AI Tamagotchi",
+        "Meta",
+        "ウェアラブル"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "b77b7fa19b5e",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-10-31T21:36:07.000Z",
+      "description": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "summary": "TechCrunch Founder Summitが11月4日にボストンで開催予定。スタートアップのスケーリングに役立つネットワーキングと洞察が得られるイベント。",
+      "category": "その他",
+      "tags": [
+        "イベント",
+        "ネットワーキング"
+      ],
+      "importance": 1
+    }
+  ]
+}
