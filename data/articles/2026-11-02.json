@@ -1,14 +1,18 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-01T16:42:24.439Z",
-  "count": 9,
+  "generatedAt": "2026-11-02T01:24:41.553Z",
+  "count": 20,
   "stats": {
-    "fetched": 9,
-    "afterDedupe": 9,
-    "published": 9,
+    "fetched": 19,
+    "afterDedupe": 19,
+    "published": 20,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -16,7 +20,6 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
-      "Anthropic News",
       "OpenAI Blog",
       "Google AI Blog",
       "Google DeepMind",
@@ -28,16 +31,16 @@
       "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 9,
+    "summarized": 19,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 0,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 376
+        "durationMs": 431
       },
       {
         "name": "OpenAI Blog",
@@ -45,7 +48,7 @@
         "itemsInFeed": 1341,
         "fetched": 0,
         "ok": true,
-        "durationMs": 216
+        "durationMs": 217
       },
       {
         "name": "Google AI Blog",
@@ -53,15 +56,16 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 443
+        "durationMs": 468
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 100,
+        "itemsInFeed": 0,
         "fetched": 0,
-        "ok": true,
-        "durationMs": 279
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 332
       },
       {
         "name": "Meta AI",
@@ -69,7 +73,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 688
+        "durationMs": 382
       },
       {
         "name": "Hugging Face Blog",
@@ -77,15 +81,15 @@
         "itemsInFeed": 894,
         "fetched": 0,
         "ok": true,
-        "durationMs": 311
+        "durationMs": 268
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 4,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 261
+        "durationMs": 271
       },
       {
         "name": "VentureBeat AI",
@@ -94,7 +98,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 318
+        "durationMs": 308
       },
       {
         "name": "The Verge AI",
@@ -102,7 +106,7 @@
         "itemsInFeed": 10,
         "fetched": 1,
         "ok": true,
-        "durationMs": 230
+        "durationMs": 218
       },
       {
         "name": "MIT Technology Review AI",
@@ -110,7 +114,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 248
+        "durationMs": 288
       },
       {
         "name": "Ars Technica",
@@ -118,15 +122,15 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 391
+        "durationMs": 346
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 1,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 991
+        "durationMs": 853
       },
       {
         "name": "Publickey",
@@ -134,7 +138,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 553
+        "durationMs": 356
       },
       {
         "name": "arXiv cs.AI",
@@ -142,15 +146,15 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 398
+        "durationMs": 359
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 3,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 677
+        "durationMs": 660
       }
     ]
   },
@@ -165,12 +169,12 @@
       "lang": "ja",
       "publishedAt": "2026-10-31T23:31:07.000Z",
       "description": "OpenAI、Google、Microsoftは、Webサイト運営者がAI学習へのコンテンツ利用に関する意向を一括で指定できる共通の仕組みへの対応を発表した。Anthropicも担当者が個人名義で実装を表明している。robots.txtに共通トークンを記述するだけで、AI各社のAIクローラーを一元管理できるようになる。",
-      "summary": "OpenAI、Google、Microsoftなど主要AI企業が、Webサイト運営者がrobots.txtでAI学習への利用可否を一括指定できる共通仕組みへの対応を発表した。各社のAIクローラーを一元管理できるようになる。",
+      "summary": "OpenAI、Google、Microsoftがrobots.txtにトークンを記述することでAI学習への利用拒否を一括指定できる仕組みへの対応を発表した。Anthropicも実装を表明しており、複数企業のAIクローラーを一元管理できるようになる。",
       "category": "規制/政策",
       "tags": [
-        "robots.txt",
         "AI学習",
-        "業界標準"
+        "robots.txt",
+        "データ利用"
       ],
       "importance": 4
     },
@@ -183,13 +187,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-10-31T14:29:03.000Z",
-      "description": "Hacker News で 251 ポイント獲得。",
-      "summary": "マルウェアが大規模言語モデルを利用して被害者を金銭的価値でランク付けしている。新しい攻撃手法としてHacker Newsで注目されている。",
+      "description": "Hacker News で 256 ポイント獲得。",
+      "summary": "マルウェアが大規模言語モデルを利用して、被害者の経済的価値をランク付けして狙い撃ちする手口が発見された。AIを悪用した攻撃の新たな傾向を示唆している。",
       "category": "規制/政策",
       "tags": [
-        "セキュリティ",
+        "マルウェア",
         "LLM悪用",
-        "マルウェア"
+        "セキュリティ"
       ],
       "importance": 4
     },
@@ -213,6 +217,63 @@
       "importance": 4
     },
     {
+      "id": "f7d447f93981",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-01T22:10:45.000Z",
+      "description": "Hacker News で 148 ポイント獲得。",
+      "summary": "Apollo経済学者が、ほとんどの企業にとってAIが財務的リターンをもたらしていないと指摘。AI導入の実質的成果について懐疑的な見方を示している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI投資",
+        "経済効果",
+        "実装課題"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "af15e7376777",
+      "title": "キオクシア「設備投資を急がねば……」 2027年分は完売、メモリ供給追い付くか",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/02/news031.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-01T22:00:00.000Z",
+      "description": "半導体メモリ大手のキオクシアは、2027年の生産能力が全て“完売”だと明かした。AIブームによる旺盛なメモリ需要に答えるため、年5000億円弱を投じて新工場を建設する。",
+      "summary": "キオクシアは2027年の生産能力が完売状態にあると明かし、AIブームによるメモリ需要に対応するため年5000億円弱を投じて新工場を建設する計画である。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "キオクシア",
+        "設備投資",
+        "メモリ需要"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "952759a0e524",
+      "title": "オラクルの機能がChatGPTで利用可能に 複数システムをまたぐ業務をAIで自動化",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/02/2000002740/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-01T22:00:00.000Z",
+      "description": "オラクルがOpenAIとの協業を拡大し、ChatGPTやCodex、AI技術を活用し、業務の効率化・実行からソフトウェアの脆弱性の検出、アプリケーション開発まで幅広く支援する。小規模企業には年間1万2000ドル分のクラウド利用枠を含むプランを提供する。",
+      "summary": "オラクルがOpenAIと協業を拡大し、ChatGPTをオラクル機能と連携させて業務自動化を実現する。小規模企業向けに年間クラウド利用枠を含むプランを提供開始する。",
+      "category": "プロダクト",
+      "tags": [
+        "Oracle",
+        "OpenAI",
+        "業務自動化"
+      ],
+      "importance": 3
+    },
+    {
       "id": "cca18e4c21be",
       "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
       "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
@@ -222,11 +283,11 @@
       "lang": "en",
       "publishedAt": "2026-10-31T21:17:03.000Z",
       "description": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
-      "summary": "NAACPがxAIのデータセンターによる大気汚染を理由に提起した訴訟について、裁判所が進行を認可した。SpaceX傘下のAI企業は大気浄化法違反の疑いで告発されている。",
+      "summary": "NAACPがxAIのデータセンター汚染に関する訴訟を提起し、裁判所が訴訟の進行を認めた。大気浄化法違反の疑いでSpaceX傘下のxAIが訴えられている。",
       "category": "規制/政策",
       "tags": [
         "xAI",
-        "環境問題",
+        "環境汚染",
         "訴訟"
       ],
       "importance": 3
@@ -241,14 +302,128 @@
       "lang": "en",
       "publishedAt": "2026-10-31T16:12:55.000Z",
       "description": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
-      "summary": "OpenAIの新規資金調達ラウンドが期待を下回る状況にあり、調達目標を引き下げたと報じられている。",
+      "summary": "OpenAIの最新資金調達ラウンドが予想を下回る結果になっている可能性が報じられている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "OpenAI",
         "資金調達",
-        "融資"
+        "ラウンド"
       ],
       "importance": 3
+    },
+    {
+      "id": "a7c24290b2ab",
+      "title": "Anthropic Residency: applications open for established technical leaders",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RZThRbzhUdFJTZGszLUcwT29wNFdIZ29fVjJTUTB4SkJFRlZRekpOOVlpM1F6eGVSN2RENmpjWUl3QWU5YWNwRHZNaF9EdlNNMTY1TUtfaTJHOHk3S2s3SXJVc3BWSVVa?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-01T23:04:01.000Z",
+      "description": "Anthropic Residency: applications open for established technical leaders Anthropic Alignment Science blog",
+      "summary": "Anthropicが技術リーダー向けのレジデンシープログラムの応募受付を開始した。本プログラムはAI分野の確立された専門家を対象としている。",
+      "category": "プロダクト",
+      "tags": [
+        "Anthropic",
+        "採用",
+        "レジデンシー"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "b9b5cbf3aebe",
+      "title": "Anthropic、「Claude」の「Max 20x」を「Ultra」に名称変更 月200ドルで5時間ごとの利用制限を撤廃",
+      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002777/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-01T22:00:23.000Z",
+      "description": "Anthropicは、「Claude」の個人向け有料プランの名称を変更し、月額100ドルの「Max 5x」を「Max」に、月額200ドルの「Max 20x」を「Ultra」にした。料金は据え置き。Ultraでは確認済みアカウントを対象に、5時間ごとの利用制限を撤廃した。週ごとの制限は変わらない。",
+      "summary": "AnthropicがClaudeの有料プラン名を変更し、月額200ドルの上位プランを「Ultra」に改称した。Ultraでは確認済みアカウントの5時間ごとの利用制限が撤廃される。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "価格改定",
+        "プラン"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "5a0cf2e3b254",
+      "title": "「保安検査の長い列」と「人手不足」をどう解消する？ フランクフルト空港におけるAI時代の空港DX",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/02/news003.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-01T22:00:00.000Z",
+      "description": "4月に開業したフランクフルト空港の第3ターミナル。IT技術やAIを導入し、顧客体験の向上や業務効率化を行っている。どのような技術を導入し、「止まらない空港」を実現しようとしているのか？",
+      "summary": "フランクフルト空港の第3ターミナルがAIやIT技術を導入し、保安検査の効率化と顧客体験向上を実現している。空港のデジタル変革について紹介している。",
+      "category": "プロダクト",
+      "tags": [
+        "空港",
+        "DX",
+        "AI導入"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "ce5891315c5f",
+      "title": "その日、メルカリは「業務を止めた」――上司と部下が対立も、AI利用率100％をかなえたCAIOの奮闘記",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/02/news032.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-01T22:00:00.000Z",
+      "description": "AIツールの利用率100％を達成したメルカリ。しかし「AIエージェント構築に時間を割きたい部下と、それを止めたい上司」など一筋縄ではいかなかった。試行錯誤の裏側をCAIOが語る。",
+      "summary": "メルカリのCAIOがAIツール利用率100％達成までの試行錯誤を語った。組織内の意見対立を乗り越え、AIエージェント構築と運用の両立を実現させた経験を紹介している。",
+      "category": "プロダクト",
+      "tags": [
+        "メルカリ",
+        "AI活用",
+        "組織導入"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "be9408722e8f",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-01T21:55:23.000Z",
+      "description": "Data centers are deeply unpopular. But what if we called them something else?",
+      "summary": "OpenAIがデータセンターを『AI計算キャンパス』として名称変更する可能性がある。不人気なデータセンターのイメージを改善する戦略と考えられる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "インフラ",
+        "ブランディング"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "2fd614976915",
+      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-01T13:47:24.000Z",
+      "description": "Hacker News で 149 ポイント獲得。",
+      "summary": "Minecraft内でAIエージェント群が文明構築に失敗し、官僚制度に溺れた実験結果。AIシステムの複雑な問題解決能力の限界が示された。",
+      "category": "その他",
+      "tags": [
+        "AIエージェント",
+        "Minecraft",
+        "実験"
+      ],
+      "importance": 2
     },
     {
       "id": "d6756f65c5e6",
@@ -259,12 +434,12 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-01T06:06:19.000Z",
-      "description": "Hacker News で 194 ポイント獲得。",
-      "summary": "JavaScriptフレームワークのAI処理コストについての議論がHacker Newsで関心を集めている。",
+      "description": "Hacker News で 293 ポイント獲得。",
+      "summary": "JavaScriptフレームワークがAIに与えるコスト面での影響について論じた記事。開発ツールとAIの関連性を検討している。",
       "category": "開発ツール",
       "tags": [
         "JavaScript",
-        "コスト",
+        "AI",
         "パフォーマンス"
       ],
       "importance": 2
@@ -279,32 +454,52 @@
       "lang": "en",
       "publishedAt": "2026-10-31T21:41:00.000Z",
       "description": "Apple's new CEO defended the company's current position in the AI landscape.",
-      "summary": "Apple CEOが同社のAI戦略について、AIありきのリリースではなく実用性を重視する姿勢を示した。",
-      "category": "プロダクト",
+      "summary": "AppleのCEOが、同社はAIそのもののために製品を投入することを望まないと述べた。AIランドスケープにおける同社の立場を防御している。",
+      "category": "ビジネス/資金調達",
       "tags": [
         "Apple",
-        "AI戦略"
+        "AI戦略",
+        "CEO"
       ],
       "importance": 2
     },
     {
-      "id": "793722a19be3",
-      "title": "I built an AI Tamagotchi before Meta could",
-      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-      "source": "The Verge AI",
+      "id": "910dcbe6cdc1",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "TechCrunch AI",
       "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
+      "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-10-31T16:05:00.000Z",
-      "description": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It cost just $50, and I've decided the learning experience was worth it. View Link My version doesn't sport cameras or a 5G …",
-      "summary": "MetaのMuse Charmと競合する50ドルのAI Tamagotchiが開発された。カメラや5G機能は搭載されていないが、低価格で学習価値があると評価されている。",
-      "category": "プロダクト",
+      "publishedAt": "2026-11-01T20:57:58.000Z",
+      "description": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "summary": "テック企業のCEOによる声明が社会的に浮き彫りになることについて、Equityポッドキャストで議論。AIが経営層の生活を簡素化する一方で、その影響を検討している。",
+      "category": "その他",
       "tags": [
-        "AI Tamagotchi",
-        "Meta",
-        "ウェアラブル"
+        "CEO",
+        "AI",
+        "社会論"
       ],
-      "importance": 2
+      "importance": 1
+    },
+    {
+      "id": "815086c57532",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-01T18:53:55.000Z",
+      "description": "Hacker News で 141 ポイント獲得。",
+      "summary": "プロトンの電荷反転がAIではなく別の要因によるものだったことが判明。科学研究におけるAI帰属の誤りについての事例。",
+      "category": "その他",
+      "tags": [
+        "プロトン",
+        "研究",
+        "誤解"
+      ],
+      "importance": 1
     },
     {
       "id": "b77b7fa19b5e",
@@ -316,11 +511,31 @@
       "lang": "en",
       "publishedAt": "2026-10-31T21:36:07.000Z",
       "description": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
-      "summary": "TechCrunch Founder Summitが11月4日にボストンで開催予定。スタートアップのスケーリングに役立つネットワーキングと洞察が得られるイベント。",
+      "summary": "TechCrunchが11月4日にボストンでファウンダーサミットを開催予定。ネットワーキング機会やビジネスインサイトを得られるイベントで、早期登録を呼びかけている。",
       "category": "その他",
       "tags": [
         "イベント",
-        "ネットワーキング"
+        "ネットワーキング",
+        "TechCrunch"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "793722a19be3",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-10-31T16:05:00.000Z",
+      "description": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It cost just $50, and I've decided the learning experience was worth it. View Link My version doesn't sport cameras or a 5G …",
+      "summary": "メタのAIウェアラブルデバイスに対抗して、50ドルで自作のAIタマゴッチを製作した事例を紹介している。個人でのAI開発の可能性と学習価値を示している。",
+      "category": "その他",
+      "tags": [
+        "AIウェアラブル",
+        "DIY",
+        "タマゴッチ"
       ],
       "importance": 1
     }
