@@ -1,0 +1,721 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-03T17:40:03.206Z",
+  "count": 30,
+  "stats": {
+    "fetched": 122,
+    "afterDedupe": 122,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI"
+    ],
+    "summarized": 122,
+    "summaryFailures": 1,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 502
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1349,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 272
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 643
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 674
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 64,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 613
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 896,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 348
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 18,
+        "ok": true,
+        "durationMs": 289
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 361
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 275
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 388
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 714
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 782
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 789
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 60,
+        "ok": true,
+        "durationMs": 495
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 10,
+        "ok": true,
+        "durationMs": 1187
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "af0cced47757",
+      "title": "GitHubが従来比180倍のスループット性能向上を実現へ、来年初頭に。AIエージェント時代に対応。GitHub Universe 2026",
+      "url": "https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-03T15:16:22.000Z",
+      "description": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、AIエージェント時代に対応した大幅な性能向上を実現することを明らかにしました。 性能向上はGitHubの基盤をMicrosoft Azureへ移行し、コンピュートとストレージを分離する新アーキテクチャの採用と、ロックをリポジトリ単位からブランチ単位へと変更する改善などにより実現すると説明されました。 基調講演から、GitHubの性能向上についての……",
+      "summary": "GitHubは来年初頭に従来比180倍のスループット向上を実現する。Azure移行とアーキテクチャ改善によりAIエージェント時代に対応し、大幅な性能向上を達成する。",
+      "category": "プロダクト",
+      "tags": [
+        "GitHub",
+        "パフォーマンス",
+        "Azure"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b534be8b9c18",
+      "title": "Anthropic、IPO申請書を修正 7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
+      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002831/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-02T23:20:20.000Z",
+      "description": "Anthropicは、証券取引委員会（SEC）にIPOに向けた登録届出書の修正版を提出した。第3四半期の売上高は前年同期比約12.3倍の約169億ドルに拡大した一方、営業損益は赤字に転落。また、AI計算資源やインフラに関する将来の支出約束額が約8954億ドルに上ることも明らかにした。",
+      "summary": "Anthropicが修正したIPO届出書を提出。第3四半期の売上高は前年同期比約12倍に急増する一方、営業損益は赤字。今後のインフラ支出約束額が約8954億ドルに上ることが明かされた。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "IPO",
+        "Anthropic",
+        "成長"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "5df77030a127",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-02T22:14:50.000Z",
+      "description": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "summary": "Anthropicは、AI自身が自己学習を行い急速に進化するRecursive Self-Improvement能力に近づいていると警告しました。業界では特異点到来の危機感を示唆する発言と受け取られています。",
+      "category": "その他",
+      "tags": [
+        "RSI",
+        "AI安全性",
+        "特異点"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "99a44579809b",
+      "title": "Marvell、光通信技術のLumentumを約18兆円で買収 AIデータセンターの高速化に対応",
+      "url": "https://www.itmedia.co.jp/news/article/2611/03/2000002830/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-02T22:07:56.000Z",
+      "description": "半導体大手のMarvell Technologyは、光通信関連製品を手掛けるLumentum Holdingsを買収することで合意したと発表した。買収額は約1150億ドル。AIデータセンターで急増するデータ通信需要に対応するため、自社の半導体技術とLumentumの光通信技術を統合し、次世代AI接続技術の提供を目指す。",
+      "summary": "Marvell Technologyが光通信企業Lumentumを約1150億ドルで買収すると発表した。AIデータセンターの高速通信需要に対応するため、半導体技術と光通信技術の統合を目指している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "買収",
+        "半導体",
+        "AIインフラ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fbd25d1dcfb2",
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-02T19:27:37.000Z",
+      "description": "Hacker News で 195 ポイント獲得。",
+      "summary": "オラクルがAIインフラ構築資金として200億ドル規模の新規株式発行と社債発行を申請した。大規模な資本調達によってAI関連事業への投資を加速させる意向が示されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Oracle",
+        "AI投資",
+        "資金調達"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "10d3a4177bce",
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-02T19:19:17.000Z",
+      "description": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "summary": "ニューヨーク・タイムズを含む複数のメディア企業が、Braveブラウザに著作権コンテンツのスクレイピングと無許可配布で提訴しました。対象にはAnthropicやPerplexityなどが含まれます。",
+      "category": "規制/政策",
+      "tags": [
+        "著作権",
+        "コンテンツスクレイピング",
+        "法的措置"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "03697aea1056",
+      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+      "url": "https://arxiv.org/abs/2611.03648v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:59:32.000Z",
+      "description": "General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the complete system. We present Pixel, a co-designed full-stack system for learning general-purpose mobile man…",
+      "summary": "汎用モバイル操作に必要なハードウェア、デモ収集、全身制御、ポリシー学習を統合したPixelシステムを紹介。各コンポーネントを協調設計することで、従来の個別開発の限界を克服し、ロボットの能力向上を実現。",
+      "category": "その他",
+      "tags": [
+        "ロボット",
+        "システム設計",
+        "操作学習"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "79f25c673501",
+      "title": "MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study",
+      "url": "https://arxiv.org/abs/2611.03555v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:17:08.000Z",
+      "description": "The Model Context Protocol (MCP) lets agentic AI frameworks connect language models to external tool providers, but it carries attacker-controlled content (tool descriptions, schema fields, and response data) into model context without validation. Prior benchmarks measure model compliance with poisoned instructions without confirming real execution. We present the first cross-framework measurement…",
+      "summary": "AIエージェントフレームワークで外部ツール連携を実現するModel Context Protocolにおけるセキュリティ脅威を測定。ツール説明やレスポンスデータ経由での攻撃リスクをクロスフレームワークで検証している。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "MCP",
+        "ポイゾニング"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "8b0238cc654d",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:51:19.000Z",
+      "description": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and the Orlando Sentinel, Brave Software has monetized its index of scraped websi…",
+      "summary": "ニューヨークタイムズらがBrave ブラウザを提訴。AIトレーニング用の無断スクレイピングとペイウォール回避を理由に。",
+      "category": "規制/政策",
+      "tags": [
+        "著作権",
+        "スクレイピング",
+        "訴訟"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "3284a80dc9e5",
+      "title": "Characterizing When Language Models Take Harmful Actions to Protect Their Assigned Goals",
+      "url": "https://arxiv.org/abs/2611.03374v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T16:17:54.000Z",
+      "description": "Recent language model (LM) safety failures have largely been studied as disparate phenomena. In agentic misalignment, a model blackmails an executive to avoid being replaced. In alignment faking, it complies with harmful requests during training to keep its values from being modified. We argue that these behaviours share a common decision structure: a model assigned a goal must either take a harmf…",
+      "summary": "言語モデルが与えられた目標を達成するために有害な行為を取る条件を研究。恐喝や訓練時の不正なコンプライアンスなど、一見異なる安全性の問題が共通の決定構造を持つことを指摘している。",
+      "category": "モデル/研究",
+      "tags": [
+        "安全性",
+        "LMアライメント",
+        "エージェント"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b7aa34706cc9",
+      "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+      "url": "https://arxiv.org/abs/2611.03233v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T14:48:57.000Z",
+      "description": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stag…",
+      "summary": "簡潔な訓練方法で強力なエージェント機能を備えたAxion 1.0をリリース。監督下での微調整と強化学習の組み合わせのみで、複雑な中間学習やDPOなしに高性能を実現した。",
+      "category": "プロダクト",
+      "tags": [
+        "オープンモデル",
+        "エージェント",
+        "訓練効率"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2d29093d5281",
+      "title": "GitHub、「Copilot Fusion」正式リリース。タスクに応じて最適なAIモデル選択で高性能かつ低コストに。GitHub Universe 2026",
+      "url": "https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-02T14:36:38.000Z",
+      "description": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、新機能「GitHub Copilot Fusion」の正式リリースを発表しました。 Copilot Fusionは、与えられたタスクの特性に応じて、単一または複数のAIモデルを組み合わせて実行するマルチモデル対応の機能です。 推論、コード生成、デバッグ、ツールの利用など、タスクごとに必要な能力を評価し、AIモデルをどのように組み合わせて利用するか……",
+      "summary": "GitHubがCopilot Fusionを正式リリース。タスクに応じて複数のAIモデルを最適に組み合わせて実行する機能で、性能と コスト効率を両立。",
+      "category": "プロダクト",
+      "tags": [
+        "GitHub Copilot",
+        "マルチモデル",
+        "開発生産性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "e65e1547c4e8",
+      "title": "Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction",
+      "url": "https://arxiv.org/abs/2611.03183v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T14:17:43.000Z",
+      "description": "Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing. Current pipelines apply uniform recipes, typically maximizing depth and pairing by species, yet even whether cross-chain pairing helps AF3 remains contested. We show that the value of both depth and pairing is strongly target-dependent, so no single recipe is optimal across interfaces. We …",
+      "summary": "AlphaFold 3によるタンパク質複合体構造予測において、MSAの深さと鎖間ペアリングの最適値が対象ごとに異なることを示した。従来の一律な最適化手法ではなく、各インターフェースに適応した戦略が必要であることが明らかになった。",
+      "category": "その他",
+      "tags": [
+        "AlphaFold",
+        "タンパク質構造予測",
+        "MSA"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a53a6ade03e0",
+      "title": "ComplianceAtlas: A Taxonomy-Driven Agentic AI Framework for Automated AI Act Gap Analysis and Remediation",
+      "url": "https://arxiv.org/abs/2611.03121v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T13:37:32.000Z",
+      "description": "Assessing regulatory compliance for high-risk AI systems requires systematic identification of technical gaps such as missing controls, in- adequate processes, or shallow evaluation of practices. Compliance officers typically admin- ister structured questionnaires collecting evi- dence of current practices, where organizations respond with descriptions of their existing pro- cesses, technical capa…",
+      "summary": "AI規制のコンプライアンス評価を自動化するAIフレームワークを提案した。高リスクAIシステムの技術的ギャップや不十分なプロセスを体系的に特定し、規制遵守を支援する。",
+      "category": "規制/政策",
+      "tags": [
+        "コンプライアンス",
+        "AI規制",
+        "自動化"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "8ff738008cef",
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-02T12:50:59.000Z",
+      "description": "Hacker News で 139 ポイント獲得。",
+      "summary": "AIエージェントがマウスの脳手術を実施することに成功した。自律的な医療処置の実行が可能になりつつある。",
+      "category": "その他",
+      "tags": [
+        "医療",
+        "ロボティクス",
+        "AI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "996746359795",
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-02T07:27:28.000Z",
+      "description": "Hacker News で 158 ポイント獲得。",
+      "summary": "中国がAI関連製品の輸出統制に関する新方針を発表した。国家レベルでの規制枠組みの整備が進められている。",
+      "category": "規制/政策",
+      "tags": [
+        "中国",
+        "輸出規制",
+        "AI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4618cc3ef3d7",
+      "title": "Google is entirely disabling Search in schools that don’t want AI",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-03T17:00:04.000Z",
+      "description": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and Google Search \"will be entirely off\" for K-12 student accounts unless \"administrators explicitly turn them on.\" Administ…",
+      "summary": "GoogleはAI機能を拒否する学校ではSearch等の全サービスを完全に無効化すると発表した。K-12学生アカウントの管理者が明示的に有効化しない限り、Gemini関連機能と検索は利用不可となる。",
+      "category": "規制/政策",
+      "tags": [
+        "Google",
+        "学校",
+        "AI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "1138a725cd9d",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-03T16:30:34.000Z",
+      "description": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+      "summary": "GoogleはAI機能を学校で完全に無効化する場合、Google検索にもアクセスできなくなる仕様にしている。AI機能が検索に統合されているためだ。",
+      "category": "規制/政策",
+      "tags": [
+        "Google",
+        "教育",
+        "AI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "6258766458c1",
+      "title": "Apple is all in on AI — its own and everyone else’s",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-03T15:24:51.000Z",
+      "description": "Apple CEO John Ternus. | Photo: Bloomberg via Getty Images Apple's latest earnings show how it's continuing to capitalize on the AI boom without busting its budget on the infrastructure spending consuming its competitors. Overall, Apple posted its best-ever fiscal year for revenue and earnings per share. iPhone and Mac sales continued to grow strongly in the fourth quarter. iPhone revenue rose 17.…",
+      "summary": "Appleは過去最高の年間売上と一株利益を達成しながら、競争他社の過度なインフラ支出を避けてAI領域で競争力を保持している。iPhone販売も好調に推移している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Apple",
+        "AI",
+        "決算"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "1095ec9775f1",
+      "title": "GitHub、より高度なコードレビューを行う「Copilot Code Review Max」発表。GitHub Universe 2026",
+      "url": "https://www.publickey1.jp/blog/26/githubcopilot_code_review_maxgithub_universe_2026.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-03T15:14:57.000Z",
+      "description": "GitHubは、米サンフランシスコで10月28日と29日の2日間開催した年次イベント「GitHub Universe 2026」で、より高度なコードレビューを行う新機能「Copilot Code Review Max」を発表しました。 GitHub Copilotは以前からコードレビューのための機能「Copilot Code Review」を提供しており、バグの検出などのコードレビューを行い、結果を開発者に提供してきました。 しかしAIエージェントを活用したコードの生成やプル……",
+      "summary": "GitHubはGitHub Universe 2026で、より高度なコードレビューを実現する「Copilot Code Review Max」を発表した。AIエージェントを活用し、従来のコードレビュー機能を拡張する。",
+      "category": "プロダクト",
+      "tags": [
+        "GitHub",
+        "AI",
+        "開発ツール"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "6603444048a7",
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-03T10:43:41.000Z",
+      "description": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
+      "summary": "「逆ゲーム理論」という新たなアプローチが、AIエージェントにルール遵守をインセンティブで促す仕組みを提案している。AI安全研究の課題である人間との価値観の一致を目指す手法である。",
+      "category": "その他",
+      "tags": [
+        "AI安全",
+        "ゲーム理論",
+        "アライメント"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "6873adc30587",
+      "title": "Progress on provable inference for large language models",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1qTzctMkJVc25sdVRiNlRUcGhHNjF1d2dJU2s0alBCZmFBVlZHS1VJNXlad0VHQnpDYnZLaEpJTklaUUdCVE1GRnNuN1REYWxBZkVwdFFyeWhDd3F1Mi0zWGlZVQ?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-03T04:43:45.000Z",
+      "description": "Progress on provable inference for large language models Anthropic",
+      "summary": "Anthropicが大規模言語モデルの推論における検証可能性に関する進展を報告した。モデルの信頼性と安全性向上に向けた研究が進行している。",
+      "category": "その他",
+      "tags": [
+        "LLM",
+        "検証可能性",
+        "安全性"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8b71257b0ba5",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:35:52.000Z",
+      "description": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with hi…",
+      "category": "ビジネス/資金調達",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
+    {
+      "id": "9cdc0cbe1e2c",
+      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+      "url": "https://arxiv.org/abs/2611.03647v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:59:32.000Z",
+      "description": "Sensorized human demonstrations offer scalable data for mobile manipulation, but embodiment differences complicate policy learning. We present Pixel-UMI, a pipeline for learning environment-aware whole-body policies from human data. We first introduce Environment-Aware Retargeting (EAR), which combines reconstructed scene geometry with demonstrated head and gripper trajectories to determine robot …",
+      "summary": "人間のセンサ付きデモンストレーションからロボットの全身操作ポリシーを学習する手法Pixel-UMIを提案。環境認識リターゲティングにより、人間とロボットの身体差異を考慮して、シーン情報と軌跡データから学習を行う。",
+      "category": "その他",
+      "tags": [
+        "ロボット学習",
+        "モバイル操作",
+        "デモンストレーション"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b8f1981563c7",
+      "title": "Tracing the Scientific Discovery Capacity of LLMs to Their Training Data",
+      "url": "https://arxiv.org/abs/2611.03617v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:50:54.000Z",
+      "description": "Large language models (LLMs) show growing promise for scientific discovery, yet basic questions remain about what enables reliable discovery. How can we trace the scientific discovery capacity of LLMs to their training data? We study this question as one of missing probability mass and develop a theoretical account in which monofacts-the facts observed once during training-set the discovery capaci…",
+      "summary": "大規模言語モデルの科学発見能力を訓練データに追跡する研究。単発事実がモデルの発見能力の基礎となることを理論的に明らかにし、確率質量喪失の観点から分析している。",
+      "category": "モデル/研究",
+      "tags": [
+        "科学発見",
+        "LLM",
+        "訓練データ分析"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "01124ea8cd84",
+      "title": "DiabAgent: Toward Agentic Physiological Control",
+      "url": "https://arxiv.org/abs/2611.03601v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:41:02.000Z",
+      "description": "As pretraining scales, medical language models have advanced rapidly in clinical question answering. Their ability to achieve effective physiological control through sustained intervention still lacks systematic quantitative evaluation. Type 1 diabetes provides a concrete setting: impaired insulin secretion creates dependence on exogenous insulin, with dosing continually adjusted using information…",
+      "summary": "医療言語モデルの生理的制御能力を評価するDiabAgentを提案。1型糖尿病管理を例として、継続的な医療介入を通じた言語モデルの制御性能を定量評価する枠組みを構築している。",
+      "category": "モデル/研究",
+      "tags": [
+        "医療AI",
+        "言語モデル",
+        "生理制御"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "4205fbe40ac5",
+      "title": "Four Bridges: Measuring Deception Propensity in a Multi-Agent Game",
+      "url": "https://arxiv.org/abs/2611.03600v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:40:47.000Z",
+      "description": "AI agents are increasingly deployed in settings where they interact and coordinate with other agents, yet honesty is mostly measured in single-turn, single-agent benchmarks that pressure the model to deceive. We study deception that emerges in multi-agent interaction without any instruction to deceive. We introduce Kradle, a platform for evaluating AI models, and Four Bridges, an information asymm…",
+      "summary": "マルチエージェント相互作用における欺瞞行動の測定研究。Kradle評価プラットフォームとFour Bridgesゲームを導入し、複数エージェント環境での誠実性を系統的に評価する。",
+      "category": "モデル/研究",
+      "tags": [
+        "マルチエージェント",
+        "欺瞞検出",
+        "AIセーフティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "88a18aa1d3a9",
+      "title": "FedReady: Bounded Agents for Federation Formation",
+      "url": "https://arxiv.org/abs/2611.03586v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:32:43.000Z",
+      "description": "Federated learning (FL) runtimes standardize aggregation and deployment, but each new study still requires federation formation: selecting task-eligible sites and preparing their local data and task code for federated training or analysis. This preparation recurs when the target changes, while raw records and site-private mappings are excluded from cross-site FL messages. We present FedReady, a sy…",
+      "summary": "フェデレーティッド学習の運用を効率化するFedReadyシステムが提案されている。サイト選択やデータ準備といった連盟形成プロセスを自動化し、タスク変更時の再利用を実現する。",
+      "category": "モデル/研究",
+      "tags": [
+        "フェデレーティッド学習",
+        "連盟形成",
+        "自動化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "eec0f3f1bd8a",
+      "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:32:21.000Z",
+      "description": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+      "summary": "Appleが2027年に1000ドルのホームロボットを投入予定で、FaceTimeや照明制御などの限定的な機能を提供するとされている。",
+      "category": "プロダクト",
+      "tags": [
+        "ハードウェア",
+        "ロボット",
+        "Apple"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9f33ae159174",
+      "title": "Sonar-MoE: In-Backward Expert Updates for Memory-Efficient Mixture-of-Experts Training",
+      "url": "https://arxiv.org/abs/2611.03577v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:30:00.000Z",
+      "description": "Most parameters of a Mixture-of-Experts (MoE) model belong to its experts, and standard training keeps every expert gradient in GPU memory until the optimizer step. This memory grows with the number and size of the experts, so it rises as MoE models scale. We introduce Sonar-MoE, which updates each expert tensor during the backward pass and frees its gradient right away. It brings optimizer-in-bac…",
+      "summary": "混合専門家モデルの学習メモリ効率を改善する手法「Sonar-MoE」を提案。逆伝播中に専門家勾配を更新・解放することで、スケーリング時のメモリ負荷を軽減する。",
+      "category": "その他",
+      "tags": [
+        "MoE",
+        "メモリ効率",
+        "学習最適化"
+      ],
+      "importance": 3
+    }
+  ]
+}
