@@ -1,14 +1,18 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-05T17:56:11.165Z",
+  "generatedAt": "2026-11-06T02:08:49.428Z",
   "count": 30,
   "stats": {
-    "fetched": 127,
-    "afterDedupe": 125,
+    "fetched": 123,
+    "afterDedupe": 122,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 2,
+    "removedByTitle": 1,
     "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -19,27 +23,27 @@
       "Anthropic News",
       "Google DeepMind",
       "Meta AI",
-      "Hugging Face Blog",
-      "VentureBeat AI"
+      "VentureBeat AI",
+      "MIT Technology Review AI"
     ],
-    "summarized": 125,
+    "summarized": 122,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 3,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 460
+        "durationMs": 358
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1360,
-        "fetched": 4,
+        "itemsInFeed": 1365,
+        "fetched": 7,
         "ok": true,
-        "durationMs": 397
+        "durationMs": 206
       },
       {
         "name": "Google AI Blog",
@@ -47,39 +51,40 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 678
+        "durationMs": 525
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 100,
-        "fetched": 1,
-        "ok": true,
-        "durationMs": 526
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 265
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 63,
+        "itemsInFeed": 64,
         "fetched": 0,
         "ok": true,
-        "durationMs": 424
+        "durationMs": 340
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
         "itemsInFeed": 898,
-        "fetched": 2,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 514
+        "durationMs": 507
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 19,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 779
+        "durationMs": 254
       },
       {
         "name": "VentureBeat AI",
@@ -88,7 +93,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 567
+        "durationMs": 273
       },
       {
         "name": "The Verge AI",
@@ -96,31 +101,31 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 546
+        "durationMs": 400
       },
       {
         "name": "MIT Technology Review AI",
         "weight": 7,
         "itemsInFeed": 10,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 590
+        "durationMs": 401
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 712
+        "durationMs": 660
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 11,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 896
+        "durationMs": 714
       },
       {
         "name": "Publickey",
@@ -128,27 +133,122 @@
         "itemsInFeed": 15,
         "fetched": 4,
         "ok": true,
-        "durationMs": 632
+        "durationMs": 531
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 60,
+        "fetched": 43,
         "ok": true,
-        "durationMs": 763
+        "durationMs": 559
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 8,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 880
+        "durationMs": 889
       }
     ]
   },
   "articles": [
+    {
+      "id": "88b16ea1b173",
+      "title": "OpenAI、サイバーセキュリティ特化型「GPT-6 Cyber」発表 Firefoxの未知の脆弱性81件を発見",
+      "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002931/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-05T22:57:34.000Z",
+      "description": "OpenAIは、サイバーセキュリティ特化型AI「GPT-6 Cyber」を発表した。汎用モデル「Astra」をベースに脆弱性発見や攻撃コード開発能力を大幅に強化。提供先は厳格な審査を通過した防御者に限定され、高度なAIによる攻撃が普及する前に、防御側が重要インフラの保護やシステム修正を迅速に行えるよう支援する狙いだ。",
+      "summary": "OpenAIがサイバーセキュリティ特化型「GPT-6 Cyber」を発表した。脆弱性発見能力を強化し、Firefoxで未知の脆弱性81件を検出。厳格な審査を通過した防御者に限定提供される。",
+      "category": "プロダクト",
+      "tags": [
+        "セキュリティ",
+        "脆弱性検出",
+        "GPT-6"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "183cd7e294b6",
+      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-05T18:02:27.000Z",
+      "description": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
+      "summary": "OpenAI会長Greg Brockmanが、同社は2027年までにIPO準備が整う可能性があるとウォール・ストリート・ジャーナルのカンファレンスで語った。エンタープライズ市場での成長を強調している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "IPO",
+        "上場計画"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ff7c320b07e0",
+      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-05T18:00:01.000Z",
+      "description": "Hacker News で 149 ポイント獲得。",
+      "summary": "選挙後の投資家心理の変化により、ナスダック指数が5%下落。AI関連取引からの投資家の撤退が観察されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "市場動向",
+        "投資",
+        "AI企業"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "07890da0469b",
+      "title": "‘Total repudiation’: The blue wave is about to hit AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:51:52.000Z",
+      "description": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to a Democrat after 30 years in office. In these and other campaigns, one th…",
+      "summary": "民主党が上下両院の支配権を獲得した選挙結果の記事です。AI規制に関する政策転換の可能性が示唆されており、これまでの方針からの大きな方向転換が予想されています。",
+      "category": "規制/政策",
+      "tags": [
+        "政治",
+        "規制",
+        "民主党"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a86f7d47556f",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google AI Blog",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+      "summary": "GoogleがGemini Omni 1.2 Flashを発表した。15秒のネイティブ動画生成・編集機能を備え、コストは従来比30%削減される。",
+      "category": "プロダクト",
+      "tags": [
+        "Gemini",
+        "動画生成",
+        "Google"
+      ],
+      "importance": 4
+    },
     {
       "id": "865d04348f45",
       "title": "Linuxカーネルの深刻な脆弱性／FDEの名前で単なるコンサルティングが販売／TypeScriptをRustに移植した「tsrs」発表ほか、2026年10月の人気記事",
@@ -159,12 +259,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-05T15:37:44.000Z",
       "description": "2026年の9月から10月にかけては、タイムズカーから自動車免許証の画像を含む大規模な個人情報の漏洩があり、Linuxの深刻な脆弱性が発見され、PHPの脆弱について高市総理がXにポストするなど、ITの分野で社会的に大きな問題がありました。 とはいえ、これで問題が収束するとは思えず、今後こうした問題がさらに続くことになると予想されます。ITエンジニアの方々においては、忙しい日々の始まりなのかもしれません。 さて、2026年10月が終わりましたので人気記事トップ10を紹介していき……",
-      "summary": "2026年9月から10月にかけてLinuxカーネルの重大な脆弱性が発見されるなど、IT分野で複数の深刻なセキュリティ問題が発生した。",
+      "summary": "2026年9月から10月にかけてのIT業界の重大事項をまとめた記事です。Linuxカーネルの脆弱性、大規模な個人情報漏洩、PHPの脆弱性など複数のセキュリティ問題が報告されています。",
       "category": "規制/政策",
       "tags": [
+        "セキュリティ",
         "脆弱性",
-        "Linux",
-        "セキュリティ"
+        "Linux"
       ],
       "importance": 4
     },
@@ -178,31 +278,50 @@
       "lang": "en",
       "publishedAt": "2026-11-05T10:45:00.000Z",
       "description": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised returns. A third thing is also starting to become clear - Big Tech will not be slowing down, at least not on its own. Amazon, …",
-      "summary": "大手テック企業による大規模なAIデータセンター投資は継続しているが、期待される収益化は実現していない。企業単独の判断では投資ペースが減速する見込みは低い。",
+      "summary": "大手テック企業はAIデータセンター投資を継続し、記録的な支出を行っているが、その見返りはまだ見えていない。業界全体の投資拡大は各社の自主的判断では止まらない可能性がある。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "インフラ投資",
         "データセンター",
-        "収益化"
+        "大型投資",
+        "ROI"
       ],
       "importance": 4
     },
     {
-      "id": "fb3343f50f73",
-      "title": "OpenAI is already trying to shape the 2028 election",
-      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
+      "id": "087e88edf97a",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-11-04T21:25:44.000Z",
-      "description": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
-      "summary": "OpenAIの幹部がAIが2028年の大統領選挙に影響を与えるべき構想を提案しており、自社のビジネス利益と国民への利益を並行させようとしている。",
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "description": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "summary": "OpenAIが新型サイバーセキュリティ専用モデルGPT-6 Cyberを発表。脆弱性発見と修正を自動実行し、認可スコープ内に留まるよう訓練。",
+      "category": "モデル/研究",
+      "tags": [
+        "サイバーセキュリティ",
+        "GPT-6",
+        "脆弱性検出"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a72dd9cbf035",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "summary": "OpenAIが責任あるAIインフラ開発を目指し、国内コミュニティを保護し雇用を創出するための方針を提示。地域資源の保全とAI開発のバランスを重視。",
       "category": "規制/政策",
       "tags": [
-        "政治",
-        "ロビイング",
-        "OpenAI"
+        "AI倫理",
+        "インフラ政策",
+        "地域発展"
       ],
       "importance": 4
     },
@@ -216,12 +335,31 @@
       "lang": "en",
       "publishedAt": "2026-11-04T20:55:50.000Z",
       "description": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
-      "summary": "米国でAI規制とデータセンター制限を求める投票が圧倒的多数で可決されたが、大手技術企業はこれを反トランプの動きと解釈しようとしている。",
+      "summary": "米国での選挙投票でAI制限への支持が圧倒的だったにもかかわらず、大手テック企業はこれを政治的反発と主張し、業界の否定的な態度が指摘されている。",
       "category": "規制/政策",
       "tags": [
         "AI規制",
-        "投票結果",
-        "データセンター"
+        "世論",
+        "テック業界"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c57f9c988af7",
+      "title": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks",
+      "url": "https://arxiv.org/abs/2611.06687v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-04T15:55:20.000Z",
+      "description": "We introduce LifeVal, a benchmark evaluating AI model performance on personalized agentic consumer tasks. LifeVal covers the most valuable life tasks that a personalized digital superassistant could automate, representing over 1.7 trillion US dollars in annual willingness-to-pay across 148 consumer task categories (e.g., managing finances, moving apartments, searching for a job, finding childcare)…",
+      "summary": "パーソナライズされたエージェント型消費者タスク148カテゴリを対象とするベンチマーク「LifeVal」を公開。年間1.7兆ドルの潜在価値を持つ生活支援タスクでAIモデルを評価する。",
+      "category": "その他",
+      "tags": [
+        "ベンチマーク",
+        "エージェント",
+        "実生活タスク"
       ],
       "importance": 4
     },
@@ -235,12 +373,31 @@
       "lang": "ja",
       "publishedAt": "2026-11-04T15:23:21.000Z",
       "description": "調査会社のSynergy Research Groupは、グローバルにおける2026年第3四半期のクラウドインフラの市場状況について調査結果を発表しました。 クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせたものを指します。 発表によると、2026年第3四半期のクラウドインフラ市場は1年前と比較して55％もの成長となり過去最高を更新しました。 市場規模は1680億ドル（1ドル160円換算で約26兆8800億円）となりました。 AWSはシェアを2……",
-      "summary": "2026年第3四半期のクラウドインフラ市場は年比55%成長を達成。AWSのシェアは26%に後退し、Google Cloudは16%へ上昇。市場全体が過去最高成長率を更新。",
+      "summary": "クラウドインフラ市場が2026年第3四半期に前年比55％成長し過去最高を更新。AWSシェアは26％に後退、Google Cloudは16％に上昇。市場規模は1680億ドル。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "クラウド",
+        "クラウド市場",
         "AWS",
-        "Google Cloud"
+        "シェア変動"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "f04b9dbfe8d8",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-04T14:30:00.000Z",
+      "description": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "summary": "OpenAIがPierre Computer Company, Inc.を買収し、コード開発・理解・レビューのツールを拡充する。Codexの機能強化が目的。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "M&A",
+        "Codex",
+        "開発ツール"
       ],
       "importance": 4
     },
@@ -254,12 +411,12 @@
       "lang": "en",
       "publishedAt": "2026-11-04T14:18:05.000Z",
       "description": "Large language models (LLMs) undergo safety alignment to prevent harmful generations, yet they remain vulnerable to jailbreak attacks. Recent work reveals a deeper structural weakness: safety alignment can be highly sparse, such that pruning a small number of safety-critical neurons or ablating a single refusal direction can substantially undermine aligned behavior. In this work, we take the first…",
-      "summary": "大規模言語モデルの安全性調整が脆弱であり、わずかなニューロン削除または拒否方向の除去で安全性が損なわれる構造的弱点を指摘している。この問題を軽減するための手法を初めて提案しており、ジェイルブレーク攻撃への耐性向上を目指している。",
+      "summary": "大規模言語モデルの安全性調整は、少数の重要なニューロンの削除や単一の拒否方向の消去により容易に破壊される脆弱性を持つ。本研究は、このような構造的な弱点を軽減する方法を提案している。",
       "category": "その他",
       "tags": [
-        "LLM",
         "安全性",
-        "ジェイルブレーク"
+        "LLM",
+        "ジェイルブレイク"
       ],
       "importance": 4
     },
@@ -283,40 +440,192 @@
       "importance": 4
     },
     {
-      "id": "07890da0469b",
-      "title": "‘Total repudiation’: The blue wave is about to hit AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-05T17:51:52.000Z",
-      "description": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to a Democrat after 30 years in office. In these and other campaigns, one th…",
-      "summary": "民主党が下院と上院を制掌した米国選挙において、AI政策が重要な争点となったことが示唆されている。",
-      "category": "規制/政策",
+      "id": "ed529654d782",
+      "title": "MetaのAIエージェント「Muse」に音声対話機能 表情豊かなアバターと会話、まず米国で提供",
+      "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002939/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-06T01:39:30.000Z",
+      "description": "Metaは、AIエージェント「Muse」にリアルタイム音声対話とアバター機能を追加すると発表した。米国で先行提供する。音声で作業を依頼できるほか、新技術により会話に合わせて表情や身ぶりが変わるアバターとの対面対話を可能にした。声は数百種類から選べ、今後はAIグラスなどへの展開も予定している。",
+      "summary": "MetaのAIエージェント「Muse」に音声対話とアバター機能が追加される。会話に合わせて表情が変わるアバターとの対話が可能になり、米国で先行提供される。",
+      "category": "プロダクト",
       "tags": [
-        "米国選挙",
-        "AI規制",
-        "政策"
+        "AIエージェント",
+        "音声対話",
+        "アバター"
       ],
       "importance": 3
     },
     {
-      "id": "a86f7d47556f",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "Google AI Blog",
-      "sourceWeight": 9,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00.000Z",
-      "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
-      "summary": "GoogleがGemini Omni 1.2 Flashをリリースしました。ネイティブな15秒動画生成・編集機能と30%の価格低下が特徴です。",
+      "id": "f6ece4e7d2a4",
+      "title": "AIで過去図面を検索、資料探索を平均4.5分に短縮し年間工数90％削減へ",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/06/news005.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "description": "空研工業とRecursiveは、OpenAI APIを活用した「AIナレッジ基盤システム」を共同開発した。過去の図面や技術資料から必要な情報を検索する「図面検索」と、複数の資料の整合性を確認する「図面チェック」の2機能を備える。試用段階では、従来数十分から半日を要していた図面探しが平均4.5分で完了したという。",
+      "summary": "空研工業とRecursiveがOpenAI APIを使った図面検索システムを共同開発。過去の技術資料から数十分の作業を平均4.5分に短縮し、年間工数を90％削減できる。",
       "category": "プロダクト",
       "tags": [
-        "Gemini",
-        "動画生成",
-        "Google"
+        "生産性向上",
+        "OpenAI",
+        "業務効率化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "e88d0abcdc0f",
+      "title": "Anthropic、「Claude」に家計管理機能「Personal Finance」 銀行口座と連携、米国でβ提供",
+      "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002935/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-05T23:49:28.000Z",
+      "description": "Anthropicは、AI「Claude」に個人の財務状況を把握できる新機能「Personal Finance」β版を追加した。Plaid経由で銀行やカード口座を連携し、支出のカテゴリ分けや家計分析を自然言語で行える。データは読み取り専用で資金移動はできず、学習にも使われない。米国の有料プラン向けに順次提供される。",
+      "summary": "AnthropicはClaudeに家計管理機能「Personal Finance」を追加した。Plaid経由で銀行口座と連携し、自然言語による支出分析が可能。データは読み取り専用で学習には使われない。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "家計管理",
+        "金融機能"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "fa501f25376d",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-05T22:26:50.000Z",
+      "description": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device to complete tasks. But Perplexity says …",
+      "summary": "PerplexityがOpenAIやAnthropicと競争するための業務向けAIエージェント「Teammates」をローンチした。複数の役割を担当し、既存プロジェクトやスキルとの連携が可能である。",
+      "category": "プロダクト",
+      "tags": [
+        "Perplexity",
+        "AIエージェント",
+        "ワークスペース"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "0ef461bcc176",
+      "title": "OpenAI、データセンター立地地域への約束と政策提言を発表 電力費の全額負担や公職者とのNDA不使用など",
+      "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002928/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-05T22:03:55.000Z",
+      "description": "OpenAIは、AI向けデータセンター（Compute Campusと呼び方を変更）の建設・運営に関する地域社会への約束と、政府向けの政策提言を発表した。電力や関連インフラ費用の全額負担、公職者との原則的なNDA不使用を盛り込むとともに、大口電力利用者への追加負担など、業界共通のルール作りを政府に求めている。",
+      "summary": "OpenAIがAIデータセンター建設・運営時の地域社会への約束と政策提言を発表した。電力・インフラ費用の全額負担やNDA不使用を明記し、大口電力利用者向けルール整備を政府に求めている。",
+      "category": "規制/政策",
+      "tags": [
+        "OpenAI",
+        "データセンター",
+        "エネルギー政策"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d6ff11ce1ca9",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face Blog",
+      "sourceWeight": 7,
+      "sourceCategory": "開発ツール",
+      "lang": "en",
+      "publishedAt": "2026-11-05T19:35:16.000Z",
+      "description": "",
+      "summary": "NVIDIAが対話型ワールドシミュレーション向けの新しいCosmos 3オープンモデルを公開した。",
+      "category": "モデル/研究",
+      "tags": [
+        "NVIDIA",
+        "Cosmos 3",
+        "シミュレーション"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "194db2edbb60",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-05T19:12:39.000Z",
+      "description": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "summary": "Metaは、データセンターに対する政治的な反発がAI拡張計画を脅かす可能性があると警告した。コミュニティが大規模なインフラプロジェクトに対する反発を強めている。",
+      "category": "規制/政策",
+      "tags": [
+        "Meta",
+        "データセンター",
+        "AI投資"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d540e6296392",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-05T19:06:12.000Z",
+      "description": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "summary": "OpenAIがサイバーセキュリティ分野の新しいモデルをリリースした。AI企業がデジタルインフラ保護に関する厳しい監視の目を向けられている状況下での発表である。",
+      "category": "モデル/研究",
+      "tags": [
+        "OpenAI",
+        "サイバーセキュリティ",
+        "AI安全保障"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d3b627e71fd9",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-05T18:00:00.000Z",
+      "description": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "summary": "ClaudeのPersonal Financeツールが銀行口座やクレジットカードをPlaidと連携させて接続できるようになった。ユーザーは支出について質問を投げかけることで、資産管理を効率化できる。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "個人財務",
+        "Plaid"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8c77df0cf3c8",
+      "title": "Claude AI can plug directly into your bank account",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-05T18:00:00.000Z",
+      "description": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview with a breakdown of spending by category, including rent and utilities, shopping, and f…",
+      "summary": "AnthropicがClaudeに個人財務管理機能を追加し、Plaidプラットフォーム経由で銀行やカード口座との直接連携が可能になった。チャットボットに支出内容を質問すると、カテゴリ別の支出内訳を提供する。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "金融管理",
+        "銀行連携"
       ],
       "importance": 3
     },
@@ -330,12 +639,12 @@
       "lang": "en",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "description": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time, down from around 5 percent with GPT-5.6 Cyber. The evaluation, called ExploitGym HoneyPot, is modele…",
-      "summary": "OpenAIがサイバーセキュリティ向けAI「GPT-6 Cyber」をリリースし、脆弱性検出精度を向上させつつ誤動作率を5%から1%未満に改善した。",
-      "category": "プロダクト",
+      "summary": "OpenAIがサイバーセキュリティ向けAIモデル「GPT-6 Cyber」を発表しました。脆弱性検出能力が向上し、暴走してシステムを攻撃する確率が前世代の約5%から1%未満に低下しています。",
+      "category": "モデル/研究",
       "tags": [
-        "セキュリティ",
-        "GPT-6",
-        "脆弱性検出"
+        "OpenAI",
+        "サイバーセキュリティ",
+        "GPT-6"
       ],
       "importance": 3
     },
@@ -349,12 +658,12 @@
       "lang": "en",
       "publishedAt": "2026-11-05T15:19:05.000Z",
       "description": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-      "summary": "DropboxがTigris Dataを3億5000万ドルで買収し、AI開発者向けの新しいストレージプラットフォーム「DBX Agent Cloud」の構築を強化する。",
+      "summary": "DropboxがTigris Dataを3億5000万ドルで買収しました。AIモデルとエージェント開発者向けの新しいストレージプラットフォーム「DBX Agent Cloud」の開発を強化する狙いです。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "M&A",
-        "AI基盤",
-        "Dropbox"
+        "Dropbox",
+        "買収",
+        "AI基盤"
       ],
       "importance": 3
     },
@@ -368,12 +677,12 @@
       "lang": "en",
       "publishedAt": "2026-11-05T15:00:00.000Z",
       "description": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of looking at the world through our supply chains is just a fascinating way of making sense of the global…",
-      "summary": "AI産業の急成長に伴うサプライチェーンの隠れたコスト構造について、ハーバード大のエコノミストが詳述する。グローバルなサプライチェーンの経済学的影響を分析している。",
-      "category": "その他",
+      "summary": "AI産業の急速な拡大に伴うサプライチェーンの隠れたコストについての分析記事です。ハーバード・ビジネス・スクールの経済学者が、グローバルなサプライチェーンの観点からAIブームの経済的影響を解説しています。",
+      "category": "ビジネス/資金調達",
       "tags": [
         "サプライチェーン",
-        "経済",
-        "インフラ"
+        "AI経済",
+        "コスト"
       ],
       "importance": 3
     },
@@ -387,31 +696,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-05T04:24:50.000Z",
       "description": "Preferred Networksは、翻訳特化型LLM「PLaMo 3 Translate」をオープンウェイトで公開した。",
-      "summary": "Preferred Networksが翻訳特化型LLM「PLaMo 3 Translate」をオープンウェイトで公開した。世界最高水準の性能を謳い、複数のモデルサイズを提供しオンデバイス対応も可能。",
+      "summary": "Preferred Networksが翻訳特化型LLM「PLaMo 3 Translate」をオープンウェイトで公開した。0.8～31Bの4つのサイズを提供し、オンデバイス対応も可能で世界最高水準の性能を標榜している。",
       "category": "モデル/研究",
       "tags": [
         "LLM",
         "翻訳",
-        "オープンソース"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a72dd9cbf035",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-05T02:00:00.000Z",
-      "description": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "summary": "OpenAIが責任あるAIインフラ開発のための「全国コミュニティ・コンパクト」と「コンピュート・キャンパス方針案」を発表しました。地域資源保護と雇用創出を目指しています。",
-      "category": "規制/政策",
-      "tags": [
-        "AI政策",
-        "インフラ",
-        "社会責任"
+        "PFN"
       ],
       "importance": 3
     },
@@ -425,297 +715,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-05T01:59:38.000Z",
       "description": "OpenAIは、画像生成AIの新版「ChatGPT Images 2.6」を発表した。画像生成速度の向上や編集精度の改善に加え、新たにGIFアニメーション作成機能や、保存した写真を別チャットで再利用できる機能を追加した。開発者向けには2種類のAPIモデルを提供し、電子透かし技術の導入など安全対策も強化している。",
-      "summary": "OpenAIが画像生成AIの新バージョンを発表。生成速度が50％向上し、GIFアニメーション作成機能が追加されたほか、電子透かし技術などの安全対策も強化された。",
+      "summary": "OpenAIが画像生成AI「ChatGPT Images 2.6」を発表した。生成速度50%向上、GIFアニメーション作成機能追加、画像の再利用機能を実装し、電子透かし技術で安全性を強化した。",
       "category": "プロダクト",
       "tags": [
         "OpenAI",
         "画像生成",
-        "新機能"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "222066e03699",
-      "title": "After the midterms, a bigger clash over data centers could be coming",
-      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-05T01:02:14.000Z",
-      "description": "Data center opposition crossed party lines in Tuesday’s midterms.",
-      "summary": "データセンターの建設に対する反対運動が中間選挙で党派を超えて広がった。今後、このテーマをめぐる議論がさらに激化する可能性がある。",
-      "category": "規制/政策",
-      "tags": [
-        "データセンター",
-        "規制",
-        "インフラ"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "5e3ddda2ccf3",
-      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-04T22:42:15.000Z",
-      "description": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly…",
-      "summary": "スマートフォン販売が前年比約20%低下する中、QualcommがAIデータセンター事業に注力。AmazonやMetaとのパートナーシップを通じて急速な成長を期待している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Qualcomm",
-        "データセンター",
-        "戦略転換"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "aa8d83a28357",
-      "title": "深刻な「中国依存」を脱せるか 老舗問屋が動いた「空気を使った肥料づくり」とAI農業とは？",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/05/news019.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-04T22:00:00.000Z",
-      "description": "中国が輸出の蛇口を少し締めるだけで、日本の田畑からみずみずしい作物が消え失せかねない──。化学肥料原料のほぼ全量を海外に握られた日本の農業。この食料安全保障の急所に立ち向かうのは、売上高500億円を誇る「100年続く資材問屋」だ。湯気立つ牛ふんにプラズマを当てて空気から肥料を錬成し、熟練農家の「30年の眼」をAIに移植する。裏方の商人が自らリスクを取り、輸入依存を打破する勝算に迫る。",
-      "summary": "100年の歴史を持つ老舗資材問屋が、プラズマ技術と農業AIを組み合わせ、中国依存の肥料輸入から脱却する取り組みを展開している。食料安全保障の課題解決を目指した事業に注力している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "農業AI",
-        "食料安全保障",
-        "脱中国依存"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "0a201139b3c0",
-      "title": "Meta acquires AI coding startup Conductor",
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-04T21:10:56.000Z",
-      "description": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
-      "summary": "MetaがAIコーディング企業Conductorを買収。同社はソフトウェアエンジニアがプロジェクトの複数の側面に並行して取り組むAIエージェントチームのデプロイを可能にしている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "M&A",
-        "AI開発ツール",
-        "Meta"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "50a9e790a629",
-      "title": "OSSは「プルリクエストを送る」から「自分用に直す」へ？ AI時代のメンテナーがPR受付を閉じると宣言した理由",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/05/news004.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-04T20:00:00.000Z",
-      "description": "AIが生成するプルリクエストの増加を受け、あるOSS開発者が「今後公開するコードではPRの受付をやめ、改変は自由にする」と宣言した。変更を上流に送るのではなく、各自が自分用にカスタマイズする「リミックスモデル」の中身と、その賛否を整理する。",
-      "summary": "AI生成のプルリクエスト増加に対応し、あるOSS開発者がPR受付を廃止し、ユーザーが自由にカスタマイズする「リミックスモデル」へ移行すると宣言した。オープンソース開発の形態変化を示唆している。",
-      "category": "その他",
-      "tags": [
-        "OSS",
-        "プルリクエスト",
-        "AI時代"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "595d7f913e09",
-      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-04T19:55:14.000Z",
-      "description": "Hacker News で 167 ポイント獲得。",
-      "summary": "QualcommがCloud AI 100 Ultraという150W出力のAIアクセラレーターカードを発表した。128GBメモリで毎秒548GBの処理速度を実現している。",
-      "category": "プロダクト",
-      "tags": [
-        "AI加速器",
-        "Qualcomm",
-        "ハードウェア"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "dd40132e77e1",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-04T19:30:04.000Z",
-      "description": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
-      "summary": "オープンソースAIモデルが主流化する中で、どのように企業が収益化するか、また中国製モデルの台頭に対して米国企業が対抗できるかについてHugging Faceが解説している。",
-      "category": "モデル/研究",
-      "tags": [
-        "オープンソース",
-        "ビジネスモデル",
-        "グローバル競争"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "e61beb278e26",
-      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "url": "https://arxiv.org/abs/2611.06910v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-04T18:56:22.000Z",
-      "description": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma…",
-      "summary": "物理研究において42人の物理学者が作成した56タスクを含むベンチマーク「FrontierPhysics」を紹介。AIエージェントの研究品質と正確性の両面から評価可能な実験的フレームワーク。",
-      "category": "その他",
-      "tags": [
-        "AIエージェント",
-        "物理研究",
-        "ベンチマーク"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "514b2f666e5b",
-      "title": "Perceptive Humanoid Motion from Simulation",
-      "url": "https://arxiv.org/abs/2611.06908v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-04T18:55:33.000Z",
-      "description": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture d…",
-      "summary": "ヒューマノイドロボットの自動化実現に向け、シミュレーションを用いた知覚的動作生成に関する研究。画像とテキスト指示から動作コマンドへの大規模データセット不足という課題に対応している。",
-      "category": "その他",
-      "tags": [
-        "ヒューマノイドロボット",
-        "シミュレーション",
-        "動作生成"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "ad9905d66c57",
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "source": "MIT Technology Review AI",
-      "sourceWeight": 7,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-04T18:50:55.000Z",
-      "description": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
-      "summary": "テキサス州はAIデータセンター建設の中心地だったが、政権交代により民主党が要職を占めることになった。この政治的変化がテキサスのAIデータセンター展開に影響を与える可能性が指摘されている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "データセンター",
-        "テキサス",
-        "政治"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "99aa81d32e6c",
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-04T18:44:57.000Z",
-      "description": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
-      "summary": "オープンソースAIモデルが企業や政府に採用されるなか、Hugging Faceの政策責任者がビジネス価値創出の課題と中国製モデルとの競争について語っている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "オープンソースAI",
-        "ビジネス戦略",
-        "競争"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "b12ec17d954c",
-      "title": "Message-passing graph persistence",
-      "url": "https://arxiv.org/abs/2611.06801v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-04T17:18:34.000Z",
-      "description": "Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides topological descriptors that can complement GNN representations, but existing approaches typically compute persistence separately from the representation learning process. In this paper, we introduce Message-Passing Graph Persistence (MGP), a …",
-      "summary": "グラフニューラルネットワークの表現能力向上のため、トポロジー的特徴を提供する永続ホモロジーをメッセージパッシング機構に統合したMessage-Passing Graph Persistenceを提案。既存手法との違いは、永続ホモロジー計算を表現学習プロセスに組み込む点。",
-      "category": "モデル/研究",
-      "tags": [
-        "GNN",
-        "永続ホモロジー",
-        "表現能力"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "fff61d5d3351",
-      "title": "FedFiOT: Fisher-Weighted Optimal Transport for Model Merging in One-Shot and Few-Round Federated Learning",
-      "url": "https://arxiv.org/abs/2611.06783v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-04T16:56:10.000Z",
-      "description": "One-shot and few-round federated learning (FL) reduce communication burden by constructing a global model within one or a few communication rounds, but often achieve lower performance than conventional multi-round FL. Without frequent synchronization, client models may drift apart, causing neurons that learn similar features to occupy different positions across clients. At the same time, local dat…",
-      "summary": "一回から数回のやり取りで完成するフェデレーション学習で、通信負荷を減らしつつ性能を保つ手法を開発。クライアント間のモデルドリフトを最適輸送で調整し、効率的なモデルマージを実現している。",
-      "category": "その他",
-      "tags": [
-        "フェデレーション学習",
-        "モデルマージ",
-        "通信効率"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "0195d79d2507",
-      "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
-      "url": "https://arxiv.org/abs/2611.06748v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-04T16:26:45.000Z",
-      "description": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the entities in the world and then render the resulting state. For example, after a wi…",
-      "summary": "生成ビデオモデルを世界シミュレータとして機能させるための研究で、ピクセル生成だけでなく物理的な因果関係の推論を要求。視界外での世界進化を正確に予測するモデル設計を目指している。",
-      "category": "その他",
-      "tags": [
-        "ビデオ生成",
-        "世界モデル",
-        "因果推論"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "650d5e2a2f66",
-      "title": "ConceptARC at Scale: Studying Conceptual Understanding in Reasoning Models",
-      "url": "https://arxiv.org/abs/2611.06732v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-04T16:17:36.000Z",
-      "description": "Large reasoning models (LRMs) perform well on challenging benchmarks, yet it remains unclear whether they form generalizable abstractions across conceptually related reasoning tasks. The Abstraction and Reasoning Corpus (ARC) provides a controlled testbed for studying abstraction, requiring solvers to infer transformation rules over two-dimensional grids from a small set of examples. While ARC eva…",
-      "summary": "大規模推論モデルが概念的な理解で一般化可能な抽象化を形成しているかを調査。ARC（抽象化と推論コーパス）を用いた制御された実験環境で、複数の関連推論タスク間での性能を検証している。",
-      "category": "その他",
-      "tags": [
-        "推論モデル",
-        "抽象化",
-        "ARC"
+        "DALL-E"
       ],
       "importance": 3
     }
