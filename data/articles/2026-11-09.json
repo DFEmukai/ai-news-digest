@@ -1,14 +1,18 @@
 {
   "date": "2026-11-09",
-  "generatedAt": "2026-11-08T16:35:04.652Z",
-  "count": 11,
+  "generatedAt": "2026-11-09T01:34:10.873Z",
+  "count": 23,
   "stats": {
-    "fetched": 11,
-    "afterDedupe": 11,
-    "published": 11,
+    "fetched": 23,
+    "afterDedupe": 22,
+    "published": 23,
     "removedByUrl": 0,
-    "removedByTitle": 0,
+    "removedByTitle": 1,
     "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -27,7 +31,7 @@
       "Ars Technica",
       "arXiv cs.AI"
     ],
-    "summarized": 11,
+    "summarized": 22,
     "summaryFailures": 0,
     "sources": [
       {
@@ -36,7 +40,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 421
+        "durationMs": 452
       },
       {
         "name": "OpenAI Blog",
@@ -44,7 +48,7 @@
         "itemsInFeed": 1368,
         "fetched": 0,
         "ok": true,
-        "durationMs": 261
+        "durationMs": 245
       },
       {
         "name": "Google AI Blog",
@@ -52,15 +56,16 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 506
+        "durationMs": 548
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 100,
+        "itemsInFeed": 0,
         "fetched": 0,
-        "ok": true,
-        "durationMs": 349
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 247
       },
       {
         "name": "Meta AI",
@@ -68,7 +73,7 @@
         "itemsInFeed": 63,
         "fetched": 0,
         "ok": true,
-        "durationMs": 339
+        "durationMs": 408
       },
       {
         "name": "Hugging Face Blog",
@@ -76,15 +81,15 @@
         "itemsInFeed": 899,
         "fetched": 0,
         "ok": true,
-        "durationMs": 327
+        "durationMs": 316
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 366
+        "durationMs": 320
       },
       {
         "name": "VentureBeat AI",
@@ -93,15 +98,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 353
+        "durationMs": 364
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 4,
+        "fetched": 7,
         "ok": true,
-        "durationMs": 391
+        "durationMs": 363
       },
       {
         "name": "MIT Technology Review AI",
@@ -109,7 +114,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 408
+        "durationMs": 382
       },
       {
         "name": "Ars Technica",
@@ -117,15 +122,15 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 691
+        "durationMs": 481
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 1,
+        "fetched": 8,
         "ok": true,
-        "durationMs": 760
+        "durationMs": 866
       },
       {
         "name": "Publickey",
@@ -133,7 +138,7 @@
         "itemsInFeed": 15,
         "fetched": 3,
         "ok": true,
-        "durationMs": 483
+        "durationMs": 907
       },
       {
         "name": "arXiv cs.AI",
@@ -141,19 +146,95 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 829
+        "durationMs": 700
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 741
+        "durationMs": 785
       }
     ]
   },
   "articles": [
+    {
+      "id": "bde77d56286e",
+      "title": "情報漏えい続出でフィッシングに変化？ “その人専用詐欺メール”登場の懸念",
+      "url": "https://www.itmedia.co.jp/news/article/2611/09/2000002926/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T23:00:00.000Z",
+      "description": "9月末から企業を標的とした不正アクセスが相次いでおり、ユーザーなどの個人情報がそこかしこで漏えいしている。詐欺メールの報告件数などに動きはあるのか。推移を監視する企業や組織に聞いてみた。",
+      "summary": "企業への不正アクセスが相次ぎ、個人情報漏えいが増加しています。漏えいした情報を悪用した個別性の高い詐欺メールの出現が懸念されています。",
+      "category": "規制/政策",
+      "tags": [
+        "情報漏えい",
+        "フィッシング",
+        "セキュリティ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "5eef3820a243",
+      "title": "AIに業務を任せる大企業は6割へ 人材育成に投資しない企業はどうなる？",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/06/news023.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T23:00:00.000Z",
+      "description": "AI予算を何に投資すべきか。IDCは、ある分野への投資を2029年までに怠った企業は、投資した企業に比べて収益成長率が50％低くなると予測する。収益成長率に直結する投資分野は何か。",
+      "summary": "IDCの予測によれば、2029年までにAI人材育成に投資しない企業は投資企業と比べて収益成長率が50%低下するとのことです。AI投資の優先順位の重要性が指摘されています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "人材育成",
+        "AI投資",
+        "経営戦略"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "086ac75ea63c",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-08T20:22:39.000Z",
+      "description": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Hua…",
+      "summary": "Nvidiaが最高経営責任者ジェンセン・フアンと、中国の国家安全保障省によるスパイ活動に関わるメガスピード女性幹部との関係について独立調査を開始すると発表した。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "調査",
+        "スパイ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "bbc05d99862f",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-08T17:23:19.000Z",
+      "description": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's Ensuring Likeness Voice and Image Security (ELVIS) Act, which makes it…",
+      "summary": "エルビス・プレスリーとエミネムの音楽著作権者らがAI音楽企業Sunoを訴訟。これらのアーティストの音楽とリリックを違法に生成していると主張し、テネシー州のELVIS法違反を含む法的措置を取っている。",
+      "category": "規制/政策",
+      "tags": [
+        "Suno",
+        "著作権",
+        "AI音楽"
+      ],
+      "importance": 4
+    },
     {
       "id": "37502628954e",
       "title": "【図解あり】マルチエージェント設計「15のパターン」 GitHub、Google、Siemensの知見を一気に整理",
@@ -164,12 +245,50 @@
       "lang": "ja",
       "publishedAt": "2026-11-07T23:00:00.000Z",
       "description": "AIエージェントの一般化に伴い、複数のAIエージェントを連携させるマルチエージェントシステムが注目されています。GitHub、Google、Siemensが紹介した15のデザインパターンを、設計上の課題や具体的な活用場面とともに解説します。",
-      "summary": "複数のAIエージェントを連携させるマルチエージェントシステムが注目される中、GitHub、Google、Siemensの事例から15のデザインパターンが整理されました。設計上の課題と具体的な活用場面が解説されています。",
-      "category": "その他",
+      "summary": "複数のAIエージェントを連携させるマルチエージェントシステムが注目を集めています。GitHub、Google、Siemensが提示した15のデザインパターンを、設計上の課題と活用場面を交えて解説する記事です。",
+      "category": "モデル/研究",
       "tags": [
         "マルチエージェント",
-        "AIデザインパターン",
-        "エージェント設計"
+        "設計パターン",
+        "AIエージェント"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2a1f753cca0a",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "description": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "summary": "米国情報機関のメモによると、中国の国家安全保障省がメガスピード社の女性技術者を採用し、Nvidia最高経営責任者のスパイとして機能させていたと報告されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "スパイ",
+        "中国",
+        "Nvidia"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c521d7c10507",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "description": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell with wires dangling from the ceiling where lights should be.\" In fact, the paper cou…",
+      "summary": "米国がNvidiaのH200チップの販売をめぐり、中国の空きビルオフィスに登録された企業に対しても許可していることが指摘されています。商務省とNividiaの審査体制に懸念が生じています。",
+      "category": "規制/政策",
+      "tags": [
+        "AI チップ規制",
+        "中国",
+        "ガバナンス"
       ],
       "importance": 4
     },
@@ -183,12 +302,12 @@
       "lang": "en",
       "publishedAt": "2026-11-07T15:00:00.000Z",
       "description": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say that the multibillion-dollar cybersecurity industry as we’ve known it is essenti…",
-      "summary": "AIの登場がサイバーセキュリティ業界に大きな混乱をもたらしており、業界専門家からは現在のサイバーセキュリティ産業構造の本質的な転換が必要との指摘がされています。",
-      "category": "その他",
+      "summary": "Cognition のセキュリティチーフとの対談で、AIがサイバーセキュリティ業界に与えた混乱と今後の方向性について論じています。既存の数十億ドル規模のセキュリティ産業の本質的な変化を指摘しています。",
+      "category": "規制/政策",
       "tags": [
         "サイバーセキュリティ",
-        "AI影響",
-        "業界転換"
+        "AI",
+        "業界動向"
       ],
       "importance": 4
     },
@@ -212,21 +331,59 @@
       "importance": 4
     },
     {
-      "id": "2a1f753cca0a",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "source": "TechCrunch AI",
+      "id": "0b6a094db082",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge AI",
       "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
+      "sourceCategory": "プロダクト",
       "lang": "en",
-      "publishedAt": "2026-11-07T21:17:08.000Z",
-      "description": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "summary": "米国の情報機関のメモによると、中国の国家安全保障部がNvidiaのCEOをスパイするため、女性テクノロジー経営者を採用したとの報告がされています。",
-      "category": "規制/政策",
+      "publishedAt": "2026-11-08T22:54:50.000Z",
+      "description": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Su…",
+      "summary": "Nvidiaのジェンセン・フアンCEOがメモを発表。日本が次世代ルービンチップ27,500個をロボット用ファウンデーショナルモデル構築のために購入する計画に関する内容が含まれている。",
+      "category": "ビジネス/資金調達",
       "tags": [
         "Nvidia",
-        "スパイ活動",
-        "中国"
+        "Japan",
+        "AI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "3abc2ae1e548",
+      "title": "「勝手に社外AIを使う」エース社員に困っています……どうすべき？",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/09/news038.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T22:00:00.000Z",
+      "description": "「会社の“公認AI”では物足りない」――社員が「シャドーAI」を使っている場合、“禁止令”を出すだけで解決する問題なのか。AI活用を推進するために企業はどう対応すればよいのか。",
+      "summary": "社員が勝手に公式外のAIツールを利用する「シャドーAI」問題について取り上げています。単なる禁止ではなく、企業がAI活用を推進するための対応方法を検討する必要があります。",
+      "category": "規制/政策",
+      "tags": [
+        "シャドーAI",
+        "ガバナンス",
+        "セキュリティ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "0ff686e8a4d8",
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-08T19:18:19.000Z",
+      "description": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's keeping pace with its rivals. Two significant improvements are expec…",
+      "summary": "AppleのCEOがAI責任者に対してSiriの高度化を加速するよう圧力をかけている。OpenAIやMetaのAIアシスタントに対抗できる高性能なAIエージェント実現を目指している。",
+      "category": "プロダクト",
+      "tags": [
+        "Siri",
+        "Apple",
+        "AI"
       ],
       "importance": 3
     },
@@ -240,33 +397,90 @@
       "lang": "en",
       "publishedAt": "2026-11-07T18:02:17.000Z",
       "description": "https:&#x2F;&#x2F;archive.is&#x2F;AaY5O https:&#x2F;&#x2F;businessexaminer.ca&#x2F;victoria-articles&#x2F;item&#x2F;microsoft...",
-      "summary": "マイクロソフト研究所のAI Frontiersグループが終了することが報じられた。同グループは先端的なAI研究を推進していた部門であり、組織変更の一環として廃止されることになった。",
-      "category": "その他",
+      "summary": "マイクロソフト研究所のAIフロンティアグループが終了することが明らかになった。同グループは生成AIなど最先端のAI研究を手がけていた部門である。",
+      "category": "ビジネス/資金調達",
       "tags": [
         "Microsoft",
         "AI研究",
-        "組織変更"
+        "組織再編"
       ],
       "importance": 3
     },
     {
-      "id": "c521d7c10507",
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-07T15:43:45.000Z",
-      "description": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell with wires dangling from the ceiling where lights should be.\" In fact, the paper cou…",
-      "summary": "米国がNvidiaのH200 AIチップ販売承認先を十分に審査していない懸念が生じており、中国の承認企業の中に空のオフィスのみの実体を持つ企業が存在することが報道されました。",
-      "category": "規制/政策",
+      "id": "dd8bfc65d689",
+      "title": "ローカルLLM利用のクリニックを受診してみた PCマニアの院長が自力で構築、その導入効果は？",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000002916/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T23:00:00.000Z",
+      "description": "院内のローカルLLMで診療情報を処理していると話題になった本郷真砂ハートクリニック。院長が「Claude Code」で自作したシステムは、受付から次回予約までの流れをどう変えたのか。患者役として模擬受診し、導入効果を聞いた。",
+      "summary": "院長が独力でClaude Codeを使用してローカルLLMシステムを構築したクリニックを取材しています。診療情報処理の自動化による受付から予約までの業務改善の実際を報告しています。",
+      "category": "プロダクト",
       "tags": [
-        "Nvidia",
-        "AI規制",
-        "中国"
+        "ローカルLLM",
+        "医療",
+        "業務自動化"
       ],
-      "importance": 3
+      "importance": 2
+    },
+    {
+      "id": "ca526760766b",
+      "title": "“おいしい魚”を届けられないかも──スシロー、漁業の危機にどう挑む？ 富士通とタッグ、AIで「海を解剖」するワケ",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/09/news039.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T22:00:00.000Z",
+      "description": "スシロー、クロシオ水産、富士通などが手を組み、海洋テックを生かした養殖に挑戦している。舞台は、高知県の宿毛湾。異業種連携で、水産業の課題を解決できるのか。",
+      "summary": "スシロー、クロシオ水産、富士通が海洋テック活用による養殖事業に挑んでいます。高知県の宿毛湾を舞台に、異業種連携で水産業の課題解決を目指しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "海洋テック",
+        "養殖",
+        "異業種連携"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "f9b1b3d031c7",
+      "title": "意思疎通に難？ 技術が分かるから強い？――研究者に事業開発させるべきか否か、NEC・イビデンの回答は……",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/09/news040.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T22:00:00.000Z",
+      "description": "技術はあるのに「事業化の壁」を越えられない……。この課題に直面したNECとイビデンは、独自の取り組みで成長領域を模索している。AIをどう生かすか。研究者に事業開発を任せるべきか。両社のキーパーソンが語り合った。",
+      "summary": "NEC とイビデンが技術から事業化への課題に取り組んでいます。研究者に事業開発を任せるべきかについて、両社のキーパーソンが独自の取り組みと見解を語っています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "事業化",
+        "研究開発",
+        "組織運営"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "973ee6a537bd",
+      "title": "コクヨが開発部門の「資料散乱」をAIでゼロに 「Notion」をどう使ったか？",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/09/2000002973/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T21:00:00.000Z",
+      "description": "社内に情報は蓄積されているのに、必要な資料が見つからない、十分に活用できない。こうした課題は開発組織でも起こりがちだ。コクヨはNotionとAIエージェントを組み合わせ、情報管理から文書レビューまでを効率化する仕組みづくりに取り組んだ。",
+      "summary": "コクヨが社内の情報散乱問題をNotionとAIエージェントの組み合わせで解決を試みています。情報管理から文書レビューまでの業務を効率化する仕組みの構築に取り組んでいます。",
+      "category": "プロダクト",
+      "tags": [
+        "Notion",
+        "AIエージェント",
+        "情報管理"
+      ],
+      "importance": 2
     },
     {
       "id": "0fad9143ebad",
@@ -278,12 +492,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-08T15:12:29.000Z",
       "description": "Linux Foundation傘下でMCP（Model Context Protocol）の仕様策定を行っている「Agentic AI Foundation（AAIF）」は、MCP公式のRuby SDKがMCP仕様を完全にサポートした「MCP SDK Tier 1」に到達したことを明らかにしました。 これによりRubyからMCPの最新機能であるステートレスな接続などを含む全機能を利用することが可能となり、Ruby開発者はMCPを活用したアプリケーションを安心して本番環境に投……",
-      "summary": "Linux Foundation傘下のAgentic AI FoundationがMCP公式Ruby SDKが完全サポートのTier 1達成を発表し、Ruby開発者がMCPの全機能を本番環境で利用できるようになりました。",
+      "summary": "MCP公式のRuby SDKがMCP仕様の完全サポート「Tier 1」に到達した。Ruby開発者は最新機能を含むMCP全機能を本番環境で安心して利用できるようになった。",
       "category": "開発ツール",
       "tags": [
         "MCP",
-        "Ruby SDK",
-        "エージェント"
+        "Ruby",
+        "SDK"
       ],
       "importance": 2
     },
@@ -297,12 +511,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-08T15:09:07.000Z",
       "description": "ターミナルエミュレータ「Ghostty」のコア部分を汎用ライブラリ化した「Libghostty 1.0」正式版がリリースされました。 「Libghostty」は、HashiCorpの共同創業者であり、同社を退社後は個人開発者としてターミナルエミュレータ「Ghostty」の開発を進めていたミッチェル・ハシモト氏が開発を主導してきたソフトウェアです。 その名前から分かる通り、LibghosttyはGhosttyのコア部分をC言語による汎用ライブラリとしたものです。これを利用するこ……",
-      "summary": "ターミナルエミュレータ「Ghostty」のコア機能をライブラリ化した「Libghostty 1.0」が正式リリースされ、Windows版マルチプレクサ「Rex」の登場も予定されています。",
+      "summary": "ターミナルエミュレータ「Ghostty」のコア機能をライブラリ化した「Libghostty 1.0」が正式リリースされた。開発者ミッチェル・ハシモト氏によって進められ、Windows版マルチプレクサ「Rex」の登場も予定されている。",
       "category": "開発ツール",
       "tags": [
         "Ghostty",
-        "ターミナル",
-        "Libghostty"
+        "ライブラリ",
+        "ターミナル"
       ],
       "importance": 2
     },
@@ -316,33 +530,14 @@
       "lang": "en",
       "publishedAt": "2026-11-07T22:07:22.000Z",
       "description": "On Equity, we unpacked what the midterms mean for the tech industry.",
-      "summary": "米国の中間選挙の結果が技術産業に与える影響について分析され、特にイーロン・マスクとデータセンター事業への影響が検討されました。",
-      "category": "ビジネス/資金調達",
+      "summary": "中期選挙の結果がテック産業に影響を与える可能性があり、特にイーロン・マスクとデータセンター業界にとって課題が生じているとの分析が出されている。",
+      "category": "規制/政策",
       "tags": [
-        "Elon Musk",
-        "データセンター",
-        "政策"
+        "選挙",
+        "Musk",
+        "データセンター"
       ],
       "importance": 2
-    },
-    {
-      "id": "e2096d8efd81",
-      "title": "Excelで帳票レイアウトを作成、CSVデータから簡単に単票や明細付きの帳票を生成できる「AS-DataReport」が新登場［PR］",
-      "url": "https://www.publickey1.jp/blog/26/excelcsvas-datareportpr.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-11-08T15:16:44.000Z",
-      "description": "年度の切り替え時に取引先に提出する見積書のフォーマットが変わる、取引先から納品書のフォーマットを指定されたなど、ビジネスにおいて帳票のレイアウトに新たな要求が寄せられることは珍しくありません。 しかし業務システムをそのたびに作り変えるのは一般に高コストですし時間もかかります。 すると結局、現場担当者がExcelシートで帳票を自作して、業務システムが出力するデータを見ながら手作業や独自マクロなどでコピー＆ペーストして取引先に提出する、といった手間が毎月のように発生することになり……",
-      "summary": "Excelで帳票レイアウトを作成し、CSVデータから帳票を自動生成するツール「AS-DataReport」が登場し、定型業務における帳票作成の手間削減が実現できるようになります。",
-      "category": "プロダクト",
-      "tags": [
-        "帳票自動化",
-        "Excel",
-        "業務効率化"
-      ],
-      "importance": 1
     },
     {
       "id": "bc40d7940096",
@@ -354,12 +549,50 @@
       "lang": "en",
       "publishedAt": "2026-11-07T15:50:00.000Z",
       "description": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my …",
-      "summary": "ニューヨークタイムズの料理アプリに搭載されたAIアシスタントは日常の食事準備では有用でしたが、ケーキ作りではうまくいかず、用途によって精度にばらつきがあることが実例を通じて示されました。",
+      "summary": "ニューヨークタイムズの料理アプリにAIアシスタント機能が統合された。実際の使用例では、鶏肉料理では有用だったが、ケーキ作りではうまくいかなかったケースが報告されている。",
       "category": "プロダクト",
       "tags": [
-        "NYT Cooking",
-        "AIアシスタント",
-        "料理"
+        "AI",
+        "料理",
+        "NYT"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "52d8fafff6cb",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "description": "Hacker News で 149 ポイント獲得。",
+      "summary": "AIの集中力低下（ブレインフライ）に対抗する方法についての記事。Hacker Newsで高い関心を集めており、AI利用時の疲労対策に関するコンテンツと考えられる。",
+      "category": "その他",
+      "tags": [
+        "AI疲労",
+        "生産性",
+        "ウェルネス"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "e2096d8efd81",
+      "title": "Excelで帳票レイアウトを作成、CSVデータから簡単に単票や明細付きの帳票を生成できる「AS-DataReport」が新登場［PR］",
+      "url": "https://www.publickey1.jp/blog/26/excelcsvas-datareportpr.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-08T15:16:44.000Z",
+      "description": "年度の切り替え時に取引先に提出する見積書のフォーマットが変わる、取引先から納品書のフォーマットを指定されたなど、ビジネスにおいて帳票のレイアウトに新たな要求が寄せられることは珍しくありません。 しかし業務システムをそのたびに作り変えるのは一般に高コストですし時間もかかります。 すると結局、現場担当者がExcelシートで帳票を自作して、業務システムが出力するデータを見ながら手作業や独自マクロなどでコピー＆ペーストして取引先に提出する、といった手間が毎月のように発生することになり……",
+      "summary": "Excelで帳票レイアウト作成でき、CSVデータから単票や明細付き帳票を生成できる「AS-DataReport」がリリースされた。ビジネス帳票の作成効率化を実現する新ツールである。",
+      "category": "プロダクト",
+      "tags": [
+        "Excel",
+        "帳票",
+        "業務効率化"
       ],
       "importance": 1
     }
