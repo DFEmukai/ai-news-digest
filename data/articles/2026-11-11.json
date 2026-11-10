@@ -1,0 +1,720 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-10T17:37:19.401Z",
+  "count": 30,
+  "stats": {
+    "fetched": 140,
+    "afterDedupe": 139,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 1,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Publickey"
+    ],
+    "summarized": 139,
+    "summaryFailures": 1,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 510
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1375,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 315
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 577
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 645
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 64,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 476
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 902,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 373
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 20,
+        "ok": true,
+        "durationMs": 375
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 373
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 10,
+        "ok": true,
+        "durationMs": 332
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 320
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 516
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 15,
+        "ok": true,
+        "durationMs": 855
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 445
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 60,
+        "ok": true,
+        "durationMs": 483
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 876
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "1cf4f2cf2e0d",
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-09T22:23:42.000Z",
+      "description": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "summary": "Nvidiaの株価が4%以上低下し、取締役会がジェンセン・ファンと中国スパイ容疑者との関係を調査することになりました。過去の「通常の関係」との説明が訴訟リスクに発展する可能性があります。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "株価下落",
+        "法的リスク"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "23a66b5dcf1e",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-09T18:09:52.000Z",
+      "description": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "summary": "ジェンセン・ファンCEOが中国のスパイ容疑者との不倫疑惑が浮上し、Nvidiaの米国による対中チップ輸出規制の緩和ロビーと中国市場へのアクセス維持に支障が生じる可能性があります。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "スパイ疑惑",
+        "米中関係"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "6d1645123251",
+      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:00:00.000Z",
+      "description": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropic and OpenAI. Google says Gemini 4 Carbon \"pushes the frontier even further\" than Argon, referring to the company's other…",
+      "summary": "GoogleがGemini 4 Carbonを一般公開。AIエージェント群の機能を搭載し、同社が最強のモデルと称する。AnthropicやOpenAIのシステムと競争できる性能を持つ。",
+      "category": "モデル/研究",
+      "tags": [
+        "Google",
+        "Gemini",
+        "AIモデル"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "e0c8743f81ce",
+      "title": "Anthropic targets $1.4 trillion IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-10T14:06:54.000Z",
+      "description": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the The New York Times. The Wall Street Journal reports that according to its sources, Anthropic is \"aiming for its shares to start t…",
+      "summary": "Anthropicが過去最大級のIPOを検討しており、株価1株当たり70〜78ドルの想定により企業価値1.4兆ドルに達する見通し。ウォール街での大型上場が実現する可能性がある。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "資金調達"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "9cb9806067b4",
+      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-10T14:01:39.000Z",
+      "description": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+      "summary": "Anthropicが株式公開の価格設定を1株70～78ドルの範囲で決定し、完全希薄化ベースで1兆4040億ドルの評価額を実現する可能性があります。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "企業評価"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "68ecada325b5",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI Blog",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-10T13:00:00.000Z",
+      "description": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "summary": "Google CloudがGeminiを医療向けに展開します。臨床データの統一と業務フロー自動化により、事務作業の負担軽減を実現します。",
+      "category": "プロダクト",
+      "tags": [
+        "Gemini",
+        "医療",
+        "業務自動化"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4133c672faa8",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:02:28.000Z",
+      "description": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "summary": "AlphaProof Codeはソフトウェアの複雑な検証を実現するAIエージェントです。Signalの暗号化コア検証で300万行のLean証明を自動生成しました。",
+      "category": "モデル/研究",
+      "tags": [
+        "形式検証",
+        "AlphaProof",
+        "プログラミング"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "166bf91138b6",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51YVF6eThycm5nblZRV2ZpeDRhWUtVRi03bmxZMGNuX0pJMzUzRDFWSHh5clR6VVN1R3ZzaTNFWHNvYjRwUTNCUERQbFQ3WmFyMkxVcGpFTUpjQQ?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-10T11:44:40.000Z",
+      "description": "Anthropic launches roadshow for proposed initial public offering Anthropic",
+      "summary": "Anthropicが予定されている新規株式公開に向けてロードショーを開始しました。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "資金調達"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "bde77d56286e",
+      "title": "情報漏えい続出でフィッシングに変化？ “その人専用詐欺メール”登場の懸念",
+      "url": "https://www.itmedia.co.jp/news/article/2611/09/2000002926/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-10T07:23:08.000Z",
+      "description": "9月末から企業を標的とした不正アクセスが相次いでおり、ユーザーなどの個人情報がそこかしこで漏えいしている。詐欺メールの報告件数などに動きはあるのか。推移を監視する企業や組織に聞いてみた。",
+      "summary": "9月末以降、企業への不正アクセスが増加し個人情報漏えいが頻発。これに伴い個人情報を利用した詐欺メールの高度化が懸念されており、複数の組織が動向を監視している。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "情報漏えい",
+        "詐欺"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c612c9566c2a",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-10T07:19:38.000Z",
+      "description": "Hacker News で 143 ポイント獲得。",
+      "summary": "AI企業Fireworks AIのセキュリティ侵害が発生し、Notionおよびその顧客に影響を与えている。",
+      "category": "プロダクト",
+      "tags": [
+        "セキュリティ侵害",
+        "Fireworks AI",
+        "Notion"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b6afda8c3c18",
+      "title": "AdobeとDisneyが戦略的提携 「Firefly Foundry」でDisney専用の生成AIモデル開発へ",
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003050/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-10T02:10:07.000Z",
+      "description": "AdobeとWalt Disneyは、複数年にわたる戦略的提携を発表した。Adobeは公式AIパートナーとして、生成AI「Firefly Foundry」などの技術を提供。両社は共同でDisneyの作風に特化した安全なカスタムAIモデルを開発し、映像制作からテーマパーク開発まで幅広いクリエイティブ工程を支援していく。",
+      "summary": "AdobeとWalt Disneyが複数年の戦略的提携を発表。Adobeが公式AIパートナーとして「Firefly Foundry」などの技術を供給し、Disney専用のカスタムAIモデルを共同開発。映像制作からテーマパーク開発まで幅広い業務に活用される。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "提携",
+        "生成AI",
+        "Disney"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "f3eb9f5db244",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-10T01:27:12.000Z",
+      "description": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "summary": "Anthropicが新規株式公開に向けて株式の評価範囲を決定する予定です。この週内に関連の決定が行われると報じられています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "資金調達"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "829a6a18c49b",
+      "title": "Meta、最小・低コストのAIモデル「Muse Ember」発表 「Muse Spark 1.3」に迫る性能を約17分の1のコストで",
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003044/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-10T00:06:40.000Z",
+      "description": "Metaは、AIモデル「Muse」ファミリーの最小モデル「Muse Ember」を発表した。AIエージェントの反復タスクに特化しており、上位モデル「Muse Spark 1.3」に迫る性能を約17分の1のコストで実現している。同日から開発者向けAPI等で提供を開始しており、大量の反復処理を低コストで担う。",
+      "summary": "Metaが軽量モデル「Muse Ember」を発表し、上位モデル並みの性能を約17分の1のコストで実現しました。AIエージェントの反復タスク処理に特化し、開発者向けに提供されます。",
+      "category": "プロダクト",
+      "tags": [
+        "Muse",
+        "軽量モデル",
+        "コスト効率"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c26d0f91ede4",
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-09T23:51:58.000Z",
+      "description": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about $99 billion worth of equity investments in frontier AI labs, n…",
+      "summary": "NvidiaはAI産業において極めて重要な立場にあり、チップが米国のAI技術の基盤となっています。同社は99億ドル以上の株式投資を通じて多くのAI企業に影響力を持っています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "業界支配力",
+        "投資影響力"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c22c8f41278a",
+      "title": "Google、第8世代TPUに「8tx」と「8i Max」を追加 機密データ処理と大規模AIエージェントに特化",
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003043/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-09T22:26:48.000Z",
+      "description": "Googleは、第8世代TPUに機密データ処理向けの「TPU 8tx」と長大コンテキスト処理向けの「TPU 8i Max」を追加した。自律的なAIエージェントの普及に伴うセキュリティとメモリ性能の課題に対処する。TPU向けソフトウェアのオープンソース化や、計算資源の無駄を省く機能の強化も併せて発表した。",
+      "summary": "GoogleはTPU第8世代に機密データ処理向け「TPU 8tx」と大規模コンテキスト処理向け「TPU 8i Max」を追加しました。AIエージェント普及に伴うセキュリティとメモリ性能の課題に対応する施策です。",
+      "category": "プロダクト",
+      "tags": [
+        "TPU",
+        "インフラ",
+        "セキュリティ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "5064309b3f47",
+      "title": "Anthropic、「Claude Fable 5.2」と「Claude Mythos 5.2」発表 API料金2割下げ、出力は最大30％高速化",
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003042/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-09T22:03:56.000Z",
+      "description": "Anthropicは、最上位AIモデルの新版「Claude Fable 5.2」および審査制の「Claude Mythos 5.2」を発表した。出力速度は最大30％向上し、API料金は2割値下げされている。長時間の複雑な推論やエージェント型コーディングに特化しており、同日より主要クラウドや各種アプリで提供が開始された。",
+      "summary": "AnthropicがClaudeの最新版を発表し、API料金を20%引き下げながら出力速度を最大30%向上させました。複雑な推論やエージェント型コーディングに対応し、主要クラウドやアプリで提供が開始されています。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "LLM",
+        "価格戦略"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "afb2963597a4",
+      "title": "「MCPはもう特別な存在ではない」――その普及と“仕様改訂”がもたらした転換点",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-09T20:00:00.000Z",
+      "description": "AIエージェントと外部のツールをつなぐ「MCP」が、大きな転換点を迎えています。2026年7月の仕様改訂では、サーバ側で通信の状態を保持しない「ステートレス化」が進められました。この変更は、企業がMCPを導入、運用する上で何を意味するのか。まずはMCPの普及状況を振り返りながら、仕様改訂の背景や影響を整理します。",
+      "summary": "AIエージェントと外部ツールを連携させるMCP技術が普及段階を迎えています。2026年7月の仕様改訂では通信状態を保持しないステートレス化が進められ、企業の導入・運用に大きな影響を与えようとしています。",
+      "category": "開発ツール",
+      "tags": [
+        "MCP",
+        "API仕様",
+        "AIエージェント"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "9b9db002d7e9",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-09T19:51:47.000Z",
+      "description": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "summary": "Gemini Robotics 2.5はロボットの器用さと信頼性を向上させるビジョン言語行動モデルです。実世界での汎用的な操作タスクの性能を高めます。",
+      "category": "モデル/研究",
+      "tags": [
+        "ロボティクス",
+        "Gemini",
+        "マルチモーダル"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b02731e370f5",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-09T17:24:26.000Z",
+      "description": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+      "summary": "Claude Codeの「再度確認しない」プロンプト機能に欠陥があり、GitHubで誤ってパスワードやAPIキーなどの機密情報が公開される問題が発生している。",
+      "category": "プロダクト",
+      "tags": [
+        "セキュリティ",
+        "Claude Code",
+        "機密情報漏洩"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "88fbd3656232",
+      "title": "Detecting Shadow AI: Unsanctioned LLM Agents on Enterprise Endpoints: A Taxonomy, an Open Detector and a Controlled Evaluation",
+      "url": "https://arxiv.org/abs/2611.12377v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-09T13:19:45.000Z",
+      "description": "Shadow IT, the use of technology that the IT organisation has not approved, is a long-standing governance problem. We argue that autonomous AI agents can make it grow much faster: agents make building tools nearly free, act with their user's privileges, and leave behind scripts, automations and MCP servers that are themselves unsanctioned. A simple compounding model shows that, under its assumptio…",
+      "summary": "企業内で未認可のLLMエージェントが使用される「Shadow AI」の問題が指摘されている。LLMエージェントは普及速度が速く、自動化スクリプトを残すため、検出と分類の枠組みが提案されている。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "ガバナンス",
+        "エージェント"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "f7c3d6b59a96",
+      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-10T17:04:19.000Z",
+      "description": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "summary": "Nvdiaの最高経営責任者ジェンセン・フアンが中国系スパイとの不倫疑惑が浮上。米中のAIインフラ開発競争が激化する中での国家安全保障問題として注目される。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "安全保障",
+        "スキャンダル"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "6dd7a66c833e",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-10T15:54:08.000Z",
+      "description": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "summary": "Googleがテンソルプロセッシングユニット（TPU）の新型2種を発表。秘密計算モデル訓練とメモリ容量拡大に対応し、チップポートフォリオを拡大する。",
+      "category": "モデル/研究",
+      "tags": [
+        "Google",
+        "TPU",
+        "ハードウェア"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "548158e65d29",
+      "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-10T15:00:39.000Z",
+      "description": "The new model is up to twice as successful at some tasks.",
+      "summary": "DeepMindが新モデル「Gemini Robotics 2.5」と安全ベンチマーク「ASIMOV-jailbreak」を発表。新モデルは特定タスクで従来の2倍の成功率を達成している。",
+      "category": "モデル/研究",
+      "tags": [
+        "DeepMind",
+        "ロボティクス",
+        "安全性"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "f3edfb8a31e1",
+      "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-10T14:05:10.000Z",
+      "description": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+      "summary": "AdobeはFirefly、Photoshop、Premiereに新たなAIエージェント機能と創作ツールを搭載する。Figmaに対抗する新型プロトタイプビルダーツールもFireflyに統合される。",
+      "category": "プロダクト",
+      "tags": [
+        "Adobe",
+        "AIエージェント",
+        "クリエイティブ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c153c1744a5e",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI Blog",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "description": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "summary": "GoogleとAdobeが創作・生産性ツールを統合します。GoogleドライブのPDF編集やGeminiでのAdobe AI活用が可能になります。",
+      "category": "プロダクト",
+      "tags": [
+        "提携",
+        "Adobe",
+        "統合"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ee169dac2876",
+      "title": "Adobe is going all in on agentic AI",
+      "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "description": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include allowing your preferred third-party AI agents to access and change Creative Cloud projects, new capabilities for Adobe's …",
+      "summary": "Adobeはエージェント型AIへの投資を進め、AIチャットボットがデザインアシスタントや創造的ワークフロー自動化の役割を果たす方向に注力しています。Max conferenceで関連ツールが発表されました。",
+      "category": "プロダクト",
+      "tags": [
+        "Adobe",
+        "エージェントAI",
+        "クリエイティブ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "75627218b8d2",
+      "title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-10T13:00:00.000Z",
+      "description": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open-source communities valuable to developers worldwide.",
+      "summary": "Hugging Faceの幹部は、オープンソースAIプラットフォームへのサイバー攻撃の増加により、セキュリティ規制が強化される懸念を表明しました。これによってオープンソースコミュニティの利便性が損なわれる可能性があります。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "オープンソース",
+        "サイバー攻撃"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "f33913900e34",
+      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+      "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:15:32.000Z",
+      "description": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+      "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+      "category": "その他",
+      "tags": [],
+      "importance": 3,
+      "summaryFailed": true
+    },
+    {
+      "id": "1f81bf923bcd",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-10T07:00:00.000Z",
+      "description": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "summary": "OpenAIとUpworkの共同研究により、フリーランス労働市場においてAI関連プロジェクトへの需要が増加し、必要なスキル組み合わせも変化していることが明らかになりました。",
+      "category": "その他",
+      "tags": [
+        "労働市場",
+        "AI活用",
+        "フリーランス"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "55c9d0a9cf84",
+      "title": "Instagram、年齢を偽った10代もAIで検出 日本でも保護機能の適用を開始",
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003056/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-10T03:27:51.000Z",
+      "description": "Metaは、Instagramで成人として年齢登録していても、AIが10代と推定したユーザーには「ティーンアカウント」の保護機能を強制適用する取り組みを日本を含む世界各国に拡大すると発表した。日本では同月10日より導入する。年齢詐称による制限回避を防ぐ狙いで、今後Threadsなどにも順次展開していく予定だ。",
+      "summary": "MetaはInstagramにおいて、成人登録していても年齢詐称を検出するAI機能を日本を含む世界で導入。10代と推定されたユーザーにティーンアカウント保護機能を強制適用する。今後Threadsなどにも展開予定。",
+      "category": "規制/政策",
+      "tags": [
+        "年齢検証",
+        "Instagram",
+        "AI活用"
+      ],
+      "importance": 3
+    }
+  ]
+}
