@@ -1,18 +1,14 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-13T17:36:17.224Z",
+  "generatedAt": "2026-11-14T02:09:45.864Z",
   "count": 30,
   "stats": {
-    "fetched": 128,
-    "afterDedupe": 126,
+    "fetched": 125,
+    "afterDedupe": 124,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 2,
+    "removedByTitle": 1,
     "failedSources": [
-      {
-        "name": "Google DeepMind",
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
-      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -21,30 +17,31 @@
     "emptySources": [],
     "absentFromDigest": [
       "Anthropic News",
-      "OpenAI Blog",
       "Google DeepMind",
       "Meta AI",
+      "Hugging Face Blog",
       "VentureBeat AI",
-      "MIT Technology Review AI"
+      "MIT Technology Review AI",
+      "Publickey"
     ],
-    "summarized": 126,
+    "summarized": 124,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 0,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 560
+        "durationMs": 481
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1386,
-        "fetched": 4,
+        "itemsInFeed": 1387,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 526
+        "durationMs": 247
       },
       {
         "name": "Google AI Blog",
@@ -52,16 +49,15 @@
         "itemsInFeed": 20,
         "fetched": 1,
         "ok": true,
-        "durationMs": 663
+        "durationMs": 557
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 0,
-        "fetched": 0,
-        "ok": false,
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
-        "durationMs": 221
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 267
       },
       {
         "name": "Meta AI",
@@ -69,15 +65,15 @@
         "itemsInFeed": 63,
         "fetched": 0,
         "ok": true,
-        "durationMs": 534
+        "durationMs": 399
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
         "itemsInFeed": 907,
-        "fetched": 3,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 403
+        "durationMs": 365
       },
       {
         "name": "TechCrunch AI",
@@ -85,7 +81,7 @@
         "itemsInFeed": 20,
         "fetched": 20,
         "ok": true,
-        "durationMs": 257
+        "durationMs": 305
       },
       {
         "name": "VentureBeat AI",
@@ -94,7 +90,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 595
+        "durationMs": 313
       },
       {
         "name": "The Verge AI",
@@ -102,7 +98,7 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 632
+        "durationMs": 316
       },
       {
         "name": "MIT Technology Review AI",
@@ -110,7 +106,7 @@
         "itemsInFeed": 10,
         "fetched": 1,
         "ok": true,
-        "durationMs": 575
+        "durationMs": 380
       },
       {
         "name": "Ars Technica",
@@ -118,7 +114,7 @@
         "itemsInFeed": 20,
         "fetched": 6,
         "ok": true,
-        "durationMs": 895
+        "durationMs": 529
       },
       {
         "name": "ITmedia AI+",
@@ -126,7 +122,7 @@
         "itemsInFeed": 20,
         "fetched": 14,
         "ok": true,
-        "durationMs": 977
+        "durationMs": 917
       },
       {
         "name": "Publickey",
@@ -134,46 +130,27 @@
         "itemsInFeed": 15,
         "fetched": 2,
         "ok": true,
-        "durationMs": 642
+        "durationMs": 727
       },
       {
         "name": "arXiv cs.AI",
         "weight": 4,
         "itemsInFeed": 60,
-        "fetched": 60,
+        "fetched": 50,
         "ok": true,
-        "durationMs": 659
+        "durationMs": 596
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 7,
+        "fetched": 12,
         "ok": true,
-        "durationMs": 944
+        "durationMs": 837
       }
     ]
   },
   "articles": [
-    {
-      "id": "898649189922",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-13T15:58:00.000Z",
-      "description": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "summary": "ジェンセン・ファンが不倫を理由にNvidiaの職を辞した。この事態は米国と中国のAIインフラ開発競争における国家安全保障に影響を与える可能性がある。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Nvidia",
-        "CEO辞任",
-        "安全保障"
-      ],
-      "importance": 5
-    },
     {
       "id": "62b692a58a89",
       "title": "What’s really at stake in the Jensen Huang saga",
@@ -184,31 +161,12 @@
       "lang": "en",
       "publishedAt": "2026-11-13T14:47:16.000Z",
       "description": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness to turn a lot of blind eyes to protect a powerful ally, and about the very stabilit…",
-      "summary": "Nvidia CEO のジェンセン・ファンが辞任した。今後、同社の中国での事業展開や米国政府の対応、AI産業の安定性に関する大きな議論が生じる可能性がある。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Nvidia",
-        "ジェンセン・ファン",
-        "米中関係"
-      ],
-      "importance": 5
-    },
-    {
-      "id": "2906ed325c29",
-      "title": "Jensen Huang agrees to testify before Congress",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-12T16:36:37.000Z",
-      "description": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-      "summary": "フアン前CEOが議会での証言に合意。中国のスパイと疑われる女性との不倫疑惑で退任後、議員から召喚の脅迫を受けていた。",
+      "summary": "ジェンセン・ファン氏がNvidia CEOを辞任したが、より大きな問題が浮上する可能性がある。Nvidiaの中国取引と米国政府の対応、AI業界の安定性が焦点となる。",
       "category": "規制/政策",
       "tags": [
         "Nvidia",
-        "議会証言",
-        "セキュリティ"
+        "中国関連",
+        "米国政策"
       ],
       "importance": 5
     },
@@ -232,8 +190,46 @@
       "importance": 5
     },
     {
+      "id": "ce9c187506f0",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-13T22:43:00.000Z",
+      "description": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "summary": "Huang会長の退任により、Nvidiaが提供していたAIスタートアップへの数百億ドル規模の投資が縮小される見通し。VCと起業家が資金削減と評価額低下を懸念。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "ベンチャーキャピタル",
+        "投資"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c85d851da0dc",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-13T18:40:30.000Z",
+      "description": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "summary": "中国の最先端AIモデルが、米国による輸出規制対象のNvidia製チップを使って開発されていることが判明。チップ規制の効果に疑問が生じている。",
+      "category": "規制/政策",
+      "tags": [
+        "輸出規制",
+        "Nvidia",
+        "中国"
+      ],
+      "importance": 4
+    },
+    {
       "id": "8d669d03e730",
-      "title": "AI is \"the most likely reason\" you'll die, OpenAI board member warns",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
       "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "source": "Ars Technica",
       "sourceWeight": 5,
@@ -241,50 +237,31 @@
       "lang": "en",
       "publishedAt": "2026-11-13T17:25:45.000Z",
       "description": "Researcher traces a path from AI reward hacking to potential human extinction.",
-      "summary": "OpenAIの役員がAIが人類死亡の最有力原因であると警告している。AI報酬ハッキングから人間の絶滅に至る可能性を指摘している。",
+      "summary": "OpenAIの取締役が、AIの報酬ハッキングが人類の絶滅につながる可能性があり、その危機が数ヶ月以内に起こり得ると指摘している。AIによる社会の乗っ取りに関する懸念を表明している。",
       "category": "規制/政策",
       "tags": [
-        "AI安全性",
+        "AI安全",
         "リスク",
-        "絶滅シナリオ"
+        "OpenAI"
       ],
       "importance": 4
     },
     {
-      "id": "2d9956d00225",
-      "title": "Googleの社内専用コーディングAI「GfG」、その全容 Geminiに社内データ1兆トークン学習させ開発 所要時間半減の業務も",
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-13T03:00:00.000Z",
-      "description": "米Googleなどに所属する研究者らが10月に発表した論文「Customizing an LLM for Enterprise Software Engineering」は、AIに企業独自の膨大な開発データを学習させ、社内システム開発に特化したコーディングモデルを構築する手法とその実用効果をまとめた研究報告だ。",
-      "summary": "Googleの研究チームが、企業の内部開発データを活用して特化したコーディングAIモデルを構築する手法を発表。Geminiに1兆トークンの社内データを学習させることで、一部業務の所要時間を半減させた。",
-      "category": "その他",
+      "id": "898649189922",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-13T15:58:00.000Z",
+      "description": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "summary": "NvidiaのJensen Huang CEOが不倫により辞任。米国と中国のAI開発競争の中での人事変動が、国家安全保障に影響を及ぼす可能性が指摘されている。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "エンタープライズAI",
-        "Gemini",
-        "コード生成"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "f807679dac27",
-      "title": "「AI処理、データ非保持が守られず」――Notionが委託先の問題指摘、漏えいの恐れ巡り",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003172/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-13T01:22:05.000Z",
-      "description": "クラウド型ワークスペース「Notion」のAI機能「Notion AI」のチャット記録が漏えいした恐れがある事案を巡り、Notion運営の米Notion Labsは、法人向けプランでZDR（ゼロデータ保持）を利用するーユーザーでも漏えいした可能性があることを明らかにした。",
-      "summary": "Notionの「Notion AI」でチャット記録が漏えいした事案で、ZDR設定ユーザーでも漏えいの可能性があることが判明した。委託先の問題によるデータ保護の不備が指摘されている。",
-      "category": "規制/政策",
-      "tags": [
-        "Notion",
-        "データ漏えい",
-        "セキュリティ"
+        "Nvidia",
+        "CEO交代",
+        "国家安全保障"
       ],
       "importance": 4
     },
@@ -298,12 +275,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-12T23:04:46.000Z",
       "description": "Googleは、AIエージェントによる作業や日常的なコーディングに向けた高速・高効率の新モデル「Gemini 4 Hydrogen」を発表した。「Gemini 3.8 Flash」の約2.5倍の速さでタスクを終え、推論の深さを4段階から選べる。APIやGeminiアプリなどで同日から順次提供している。",
-      "summary": "Googleが新型モデル「Gemini 4 Hydrogen」を発表した。従来モデルの約2.5倍の処理速度で、推論の深さを選択可能で、無料ユーザーも利用できる。",
+      "summary": "Googleが高速で低価格なAIモデル「Gemini 4 Hydrogen」を発表した。既存モデルの約2.5倍の速度を実現し、推論の深さを選択可能で、無料ユーザーも利用できる。",
       "category": "モデル/研究",
       "tags": [
         "Gemini",
-        "Google",
-        "新モデル"
+        "新モデル",
+        "高速推論"
       ],
       "importance": 4
     },
@@ -317,7 +294,7 @@
       "lang": "ja",
       "publishedAt": "2026-11-12T22:45:00.000Z",
       "description": "APIセキュリティベンダーSalt Securityの調査では、約半数の組織がAIエージェントによる意図しない行動を確認していることが分かった。一方で組織は、AIエージェントの想定外の行動を自動的に止められていない。対策として何が求められるのか。",
-      "summary": "Salt Securityの調査で、約半数の組織がAIエージェントの想定外の行動を経験しており、これを自動停止できていない実態が明らかになった。AIエージェントの暴走防止が課題として浮上している。",
+      "summary": "Salt Securityの調査では、約半数の組織がAIエージェントの意図しない行動を経験しており、自動停止機能の欠落が課題となっている。AIエージェントの暴走に対する対策の必要性が浮上している。",
       "category": "規制/政策",
       "tags": [
         "AIエージェント",
@@ -336,12 +313,12 @@
       "lang": "en",
       "publishedAt": "2026-11-12T22:42:51.000Z",
       "description": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
-      "summary": "民主党がエヌビディアに対する議会調査を開始し、ファンCEOのトランプとの関係について非難する書簡を送付しました。これは中国販売に関わる2件目の調査です。",
+      "summary": "民主党議員がNvidiaの中国での販売およびトランプとの関係について調査を開始し、厳しい批判の手紙を発表した。これは疑惑が報じられて以来、2番目の議会調査である。",
       "category": "規制/政策",
       "tags": [
         "Nvidia",
         "議会調査",
-        "規制"
+        "政治"
       ],
       "importance": 4
     },
@@ -354,13 +331,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-12T21:56:11.000Z",
-      "description": "Hacker News で 338 ポイント獲得。",
-      "summary": "中国のフロンティアAIモデルが輸出規制対象のGPUの痕跡を保有していることが指摘されている。技術的な制約下での開発状況が注目を集めている。",
+      "description": "Hacker News で 356 ポイント獲得。",
+      "summary": "中国の最先端AIモデルが、輸出規制の対象となっているGPUの痕跡を持つことが明らかになった。",
       "category": "規制/政策",
       "tags": [
-        "中国AI",
-        "GPU規制",
-        "輸出管理"
+        "中国",
+        "AI",
+        "GPU規制"
       ],
       "importance": 4
     },
@@ -374,31 +351,12 @@
       "lang": "en",
       "publishedAt": "2026-11-12T21:55:32.000Z",
       "description": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google AI Studio, the Gemini API, Gemini for busines…",
-      "summary": "グーグルが新たなGemini 4 Hydrogenモデルを発表し、複雑な質問への理解と回答精度が向上しました。複数部分の質問やタイプミスへの対応も改善されています。",
+      "summary": "Googleが新型Gemini 4 Hydrogenモデルを発表した。複雑な質問への理解力が向上し、多部構成の質問やタイポ、具体的なリクエストへの対応が改善された。本日からSearch、Geminiアプリなどで利用可能。",
       "category": "モデル/研究",
       "tags": [
-        "Google",
-        "Gemini",
-        "言語モデル"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "2693fb6c8ca5",
-      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
-      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-12T18:57:45.000Z",
-      "description": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
-      "summary": "Geminiが「自殺を助長する」として訴えられたことを受け、学校でのAI導入の一時停止を求める声が上がっている。保護者がGoogleに対して対応を求めている。",
-      "category": "規制/政策",
-      "tags": [
-        "Google",
-        "Gemini",
-        "教育"
+        "Google Gemini",
+        "言語モデル",
+        "検索"
       ],
       "importance": 4
     },
@@ -412,12 +370,12 @@
       "lang": "en",
       "publishedAt": "2026-11-12T18:51:05.000Z",
       "description": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through o…",
-      "summary": "LLMが利用者の個人情報を秘密裏に推測し、ステガノグラフィで出力に埋め込む脅威を提案。生成コンテンツを共有する際に意図せず情報が漏洩するリスクを指摘。",
+      "summary": "敵対的なLLMが利用者の個人情報を推論し、生成コンテンツにステガノグラフィで隠蔽する脅威モデルを提案。セキュリティリスクを指摘。",
       "category": "規制/政策",
       "tags": [
+        "LLM",
         "セキュリティ",
-        "プライバシー",
-        "ステガノグラフィ"
+        "プライバシー"
       ],
       "importance": 4
     },
@@ -431,12 +389,12 @@
       "lang": "en",
       "publishedAt": "2026-11-12T18:00:00.000Z",
       "description": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "summary": "GoogleがGemini 4 Hydrogenを検索に導入。より視覚的で直感的な検索結果表示により、ユーザーエクスペリエンスが向上する。",
+      "summary": "GoogleがGemini 4 Hydrogenを検索に統合し、グローバルに展開開始した。より視覚的で直感的な検索体験を提供する目指している。",
       "category": "プロダクト",
       "tags": [
         "Google Search",
         "Gemini",
-        "検索"
+        "生成AI"
       ],
       "importance": 4
     },
@@ -450,50 +408,31 @@
       "lang": "en",
       "publishedAt": "2026-11-12T17:06:54.000Z",
       "description": "As autonomous AI agents increasingly interact in persistent populations, their collective capabilities and alignment depend not only on individual models, but also on the institutions governing their interactions. Yet AI research has largely focused on individual agents. In this Perspective, we argue that institutional design must become a distinct focus of AI research. Drawing on institutional po…",
-      "summary": "自律AIエージェント間の相互作用を管理する制度設計の重要性を主張している。個別モデルだけでなく、エージェント集団全体の能力と価値観を左右する制度枠組みの研究化を提唱。",
+      "summary": "自律的AIエージェントが集団で相互作用する際の制度設計の重要性を指摘。個別モデルの開発だけでなく、エージェント間の相互作用を統治する制度構築がAI研究の焦点となるべきと主張する。",
       "category": "規制/政策",
       "tags": [
         "自律AI",
-        "制度設計",
-        "マルチエージェント"
+        "マルチエージェント",
+        "制度設計"
       ],
       "importance": 4
     },
     {
-      "id": "5d479f8decb2",
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "source": "TechCrunch AI",
+      "id": "77afcdafe286",
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge AI",
       "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
+      "sourceCategory": "プロダクト",
       "lang": "en",
-      "publishedAt": "2026-11-12T17:00:52.000Z",
-      "description": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "summary": "SoftBankがAIデータセンター向けの天然ガスタービン先行注文で30億ドル以上の損失を計上。この損失はAI電力市場に大きな影響を与える可能性がある。",
-      "category": "ビジネス/資金調達",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "description": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of 151 brands. Questions included \"What are the top we…",
+      "summary": "研究機関Podqiによる調査で、AIチャットボットがショッピング関連の質問に対して偽造小売サイトなど危険なウェブサイトを推奨することが判明。ChatGPT、Gemini、Perplexityで同様の問題が確認された。",
+      "category": "その他",
       "tags": [
-        "SoftBank",
-        "AI電力",
-        "損失"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "17abd7000ee5",
-      "title": "Speed-to-Power Dominates Energy Costs for AI Data Centers: Technoeconomic Analysis of Powering AI in the Continental United States",
-      "url": "https://arxiv.org/abs/2611.17098v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-12T16:58:53.000Z",
-      "description": "The rapid growth of artificial intelligence is driving demand for new data centers at large scale and on short deployment timelines. To power them, firms connect to the commercial grid or contract generation directly, but interconnection and gas-turbine delays now incentivize on-site generation. We compare grid-connected and off-grid data center energy infrastructure (AC- and DC-coupled solar-plus…",
-      "summary": "AI データセンターのエネルギーコスト分析により、グリッド接続よりオンサイト発電が経済的に有利になる傾向を指摘している。米国大陸部での太陽光やガスタービンの配置戦略を検討。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "データセンター",
-        "エネルギー",
-        "インフラ"
+        "AIセキュリティ",
+        "チャットボット",
+        "詐欺"
       ],
       "importance": 4
     },
@@ -545,31 +484,12 @@
       "lang": "en",
       "publishedAt": "2026-11-12T15:20:49.000Z",
       "description": "Public health agencies need to anticipate how outbreaks will unfold, when they will peak, and how long demand on health services will remain elevated. We previously developed a foundation model, Mantis, which was trained entirely on simulated outbreaks---enabling us to generate the diversity and scale of training data needed to support forecasting across diseases. However, our previous work left u…",
-      "summary": "感染症予測の基盤モデルMantis2を開発。シミュレーション学習により複数疾病への対応が可能。公衆衛生機関が流行予測に活用できる多用途モデル。",
+      "summary": "公衆衛生機関向けの感染症予測システムとしてMantis 2が開発されている。シミュレーション学習により多様な訓練データを生成し、複数の疾患にわたる予測を支援するファウンデーションモデルである。",
       "category": "プロダクト",
       "tags": [
-        "感染症",
-        "予測",
-        "基盤モデル"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "230b099aa441",
-      "title": "Google Antigravity、クラウド上でAIエージェントが働く「リモートエージェント」機能を搭載。就業時間外でもAIエージェントは働き続ける",
-      "url": "https://www.publickey1.jp/blog/26/google_antigravityaiai.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-11-12T15:13:43.000Z",
-      "description": "Googleが提供するAIエージェントによる開発環境「Antigravity」に、新機能「リモートエージェント」が搭載されました。 We want Antigravity to be working for you all the time. We’ve been rolling out remote agents this week. Your tasks run in independent cloud virtual machines. Fire off a task,……",
-      "summary": "GoogleのAI開発環境Antigravityに「リモートエージェント」機能が搭載された。クラウド上のAIエージェントが独立した仮想マシンで動作し、就業時間外も継続して作業を実行できる。",
-      "category": "プロダクト",
-      "tags": [
-        "Antigravity",
-        "AIエージェント",
-        "クラウド"
+        "感染症予測",
+        "公衆衛生",
+        "ファウンデーションモデル"
       ],
       "importance": 4
     },
@@ -593,6 +513,82 @@
       "importance": 4
     },
     {
+      "id": "d3c4b7fd1250",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-13T23:49:11.000Z",
+      "description": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up …",
+      "summary": "Amazonがインターネット上のあらゆる商品データを集約する「World Product Graph」プロジェクトを計画。RedditやGoogleでの検索をAmazonに誘導する狙い。",
+      "category": "プロダクト",
+      "tags": [
+        "Amazon",
+        "データ索引",
+        "e-commerce"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ca28c1ddac6e",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-13T21:20:47.000Z",
+      "description": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "summary": "連邦航空局がAIを活用した航空交通管理ツールを全米の航空空域に拡大する。航空業界から支持を得る一方、航空管制官労組は協議対象外とされている。",
+      "category": "規制/政策",
+      "tags": [
+        "航空",
+        "AI導入",
+        "労働"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "5cb787838a5b",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-13T19:37:57.000Z",
+      "description": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "summary": "AIエージェント開発スタートアップLangChainが30億ドルの評価額に到達。プラットフォームLangSmithは7000社の顧客を抱える。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "LangChain",
+        "ユニコーン",
+        "資金調達"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "fca2b3d26517",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-13T17:30:10.000Z",
+      "description": "Hacker News で 335 ポイント獲得。",
+      "summary": "AIがゲーデルのノートブックの解読に成功し、数百の証明済み定理が含まれていることが報告されている。学術的な重要な発見として注目を集めている。",
+      "category": "その他",
+      "tags": [
+        "AI応用",
+        "数学",
+        "ゲーデル"
+      ],
+      "importance": 3
+    },
+    {
       "id": "bc4f45d34102",
       "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
@@ -602,31 +598,31 @@
       "lang": "en",
       "publishedAt": "2026-11-13T16:00:12.000Z",
       "description": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-      "summary": "ChatGPTの新機能「Wallet」により、AIエージェントがユーザーに代わって買い物や決済を行うようになる。米国のProサブスクライバー向けに限定展開される。",
+      "summary": "ChatGPTの新機能「Wallet」がAIエージェントにショッピングと決済を代行させることを可能に。米国のProサブスクライバー向けに限定的にロールアウト予定。",
       "category": "プロダクト",
       "tags": [
         "ChatGPT",
-        "AI Agent",
-        "ショッピング"
+        "AIエージェント",
+        "e-commerce"
       ],
       "importance": 3
     },
     {
-      "id": "1c1521c176fd",
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "source": "Hugging Face Blog",
-      "sourceWeight": 7,
-      "sourceCategory": "開発ツール",
+      "id": "b75d22b73a0d",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-11-13T14:05:22.000Z",
-      "description": "",
-      "summary": "ローカルAIエコシステムの基盤を強化するllama.cpp v1.0.0がリリースされた。本バージョンはより安定した基盤を提供する。",
-      "category": "開発ツール",
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "summary": "OpenAIがChatGPT Walletを発表した。ChatGPT Work、Codex、dotsのエージェント向けに、ユーザー承認と既存のカード保護機能を備えた安全な決済機能を提供する。",
+      "category": "プロダクト",
       "tags": [
-        "llama.cpp",
-        "ローカルAI",
-        "オープンソース"
+        "ChatGPT",
+        "決済機能",
+        "エージェント"
       ],
       "importance": 3
     },
@@ -640,88 +636,87 @@
       "lang": "en",
       "publishedAt": "2026-11-13T14:00:00.000Z",
       "description": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impress…",
-      "summary": "アンスロピックのAIエージェント「Claude Duet」が利用可能になりました。消費者向けのコード不要なAIエージェント導入の新試みとして評価されています。",
+      "summary": "AnthropicのAIエージェント「Claude Duet」がテスト段階で実用的で個性的な特性を示している。コードを書かないユーザー向けのエージェント活用を提案する最新の試みである。",
       "category": "プロダクト",
       "tags": [
         "Anthropic",
-        "Claude",
-        "エージェント"
+        "Claude Duet",
+        "AIエージェント"
       ],
       "importance": 3
     },
     {
       "id": "5a94a143eec0",
-      "title": "AI Is Destroying the Trust Between Writers and Readers",
+      "title": "AI is destroying the trust between writers and readers",
       "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
       "source": "Hacker News",
       "sourceWeight": 5,
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-13T11:13:46.000Z",
-      "description": "Hacker News で 195 ポイント獲得。",
-      "summary": "AIの拡大が執筆者と読者間の信頼を損なっている。AIによる著作物の大量生成が信頼性の危機をもたらしている点が指摘されている。",
-      "category": "ビジネス/資金調達",
+      "description": "Hacker News で 312 ポイント獲得。",
+      "summary": "AI生成コンテンツの普及により、執筆者と読者の間の信頼関係が損なわれているという懸念が表明されている。",
+      "category": "その他",
       "tags": [
+        "AI生成",
         "信頼",
-        "著作権",
-        "コンテンツ"
+        "メディア"
       ],
       "importance": 3
     },
     {
-      "id": "44e7c43c2226",
-      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-12T23:06:17.000Z",
-      "description": "Hacker News で 318 ポイント獲得。",
-      "summary": "パーソナルコンピュータで実行可能なフロンティアAI機能を備えたEdge0-145Bが登場。高度なAI性能をローカル環境で利用できる可能性が注目されている。",
-      "category": "プロダクト",
-      "tags": [
-        "エッジAI",
-        "ローカル実行",
-        "145B"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "7e44b2216723",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-12T22:28:47.000Z",
-      "description": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-      "summary": "FAAが航空交通管制混雑緩和のためのAIツールを米国全域の空域に拡大した。航空会社の支持を得た一方、管制官組合は関与していない。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "航空交通制御",
-        "AI導入",
-        "規制"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "fea3fb478334",
-      "title": "なぜゾーホーは「広告を載せない」のか？ 情報漏えいを防ぐ「独自の設計」、AI研究責任者に聞く",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/13/news021.html",
+      "id": "2d9956d00225",
+      "title": "Googleの社内専用コーディングAI「GfG」、その全容 Geminiに社内データ1兆トークン学習させ開発 所要時間半減の業務も",
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-11-12T22:00:00.000Z",
-      "description": "企業で機密情報の漏えいが相次いでいる。業務効率化とデータ保護の板挟みになる中、インドのゾーホーは、無料版でも広告を載せず「顧客データをAI学習に一切使わない」設計を敷く。自社データを競合へ流出させず、安全にAIを活用する防衛術を、同社AI研究責任者のラムプラカーシュ・ラーマムールティー氏に聞いた。",
-      "summary": "ゾーホーは無料版でも広告を非表示とし、顧客データをAI学習に使用しないセキュリティ設計を採用している。データ保護とAI活用の両立を実現する防衛戦略について、同社AI研究責任者がその考え方を説明した。",
+      "publishedAt": "2026-11-13T03:00:00.000Z",
+      "description": "米Googleなどに所属する研究者らが10月に発表した論文「Customizing an LLM for Enterprise Software Engineering」は、AIに企業独自の膨大な開発データを学習させ、社内システム開発に特化したコーディングモデルを構築する手法とその実用効果をまとめた研究報告だ。",
+      "summary": "Googleの研究チームが企業の膨大な開発データを活用し、社内システム開発に特化したAIコーディングモデル「GfG」を開発。Geminiに1兆トークンの内部データを学習させることで、開発業務の効率を大幅に向上させた。",
+      "category": "モデル/研究",
+      "tags": [
+        "Google",
+        "エンタープライズAI",
+        "コーディング"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "f807679dac27",
+      "title": "「AI処理、データ非保持が守られず」――Notionが委託先の問題指摘、漏えいの恐れ巡り",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003172/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-13T01:22:05.000Z",
+      "description": "クラウド型ワークスペース「Notion」のAI機能「Notion AI」のチャット記録が漏えいした恐れがある事案を巡り、Notion運営の米Notion Labsは、法人向けプランでZDR（ゼロデータ保持）を利用するーユーザーでも漏えいした可能性があることを明らかにした。",
+      "summary": "Notionの「Notion AI」チャット記録漏えい問題で、ZDRプラン利用ユーザーでも漏えいリスクがあることが判明した。委託先の処理でデータ非保持ルールが守られていなかった。",
+      "category": "規制/政策",
+      "tags": [
+        "Notion",
+        "データ漏えい",
+        "プライバシー"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8fd69a1161ee",
+      "title": "Why You Should Expect an AI Crash",
+      "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-12T23:08:31.000Z",
+      "description": "Hacker News で 101 ポイント獲得。",
+      "summary": "AI業界における経済的な崩壊や調整が近い将来起こる可能性があるという議論が提起されている。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "データ保護",
-        "セキュリティ",
-        "プライバシー"
+        "AI業界",
+        "経済予測"
       ],
       "importance": 3
     }
