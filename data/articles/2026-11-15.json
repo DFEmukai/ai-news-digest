@@ -1,13 +1,13 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-14T16:28:41.535Z",
+  "generatedAt": "2026-11-15T01:41:22.410Z",
   "count": 30,
   "stats": {
-    "fetched": 32,
+    "fetched": 31,
     "afterDedupe": 30,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 2,
+    "removedByTitle": 1,
     "failedSources": [
       {
         "name": "VentureBeat AI",
@@ -25,23 +25,23 @@
       "arXiv cs.AI"
     ],
     "summarized": 30,
-    "summaryFailures": 1,
+    "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 1,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 612
+        "durationMs": 352
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1387,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 284
+        "durationMs": 244
       },
       {
         "name": "Google AI Blog",
@@ -49,7 +49,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 584
+        "durationMs": 498
       },
       {
         "name": "Google DeepMind",
@@ -57,7 +57,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 520
+        "durationMs": 301
       },
       {
         "name": "Meta AI",
@@ -65,7 +65,7 @@
         "itemsInFeed": 63,
         "fetched": 0,
         "ok": true,
-        "durationMs": 599
+        "durationMs": 434
       },
       {
         "name": "Hugging Face Blog",
@@ -73,15 +73,15 @@
         "itemsInFeed": 907,
         "fetched": 3,
         "ok": true,
-        "durationMs": 440
+        "durationMs": 411
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 8,
+        "fetched": 10,
         "ok": true,
-        "durationMs": 344
+        "durationMs": 275
       },
       {
         "name": "VentureBeat AI",
@@ -90,15 +90,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 378
+        "durationMs": 302
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 7,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 376
+        "durationMs": 293
       },
       {
         "name": "MIT Technology Review AI",
@@ -106,7 +106,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 439
+        "durationMs": 300
       },
       {
         "name": "Ars Technica",
@@ -114,7 +114,7 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 508
+        "durationMs": 568
       },
       {
         "name": "ITmedia AI+",
@@ -122,7 +122,7 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 1020
+        "durationMs": 658
       },
       {
         "name": "Publickey",
@@ -130,7 +130,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 664
+        "durationMs": 451
       },
       {
         "name": "arXiv cs.AI",
@@ -138,56 +138,37 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 596
+        "durationMs": 470
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 7,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 1015
+        "durationMs": 760
       }
     ]
   },
   "articles": [
     {
-      "id": "898649189922",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "id": "18cc6f0da7e7",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-13T15:58:00.000Z",
-      "description": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "summary": "ジェンセン・ファン氏がNvidiaを辞任。この事態は米国と中国のAIインフラ開発競争の中で国家安全保障への影響を持つ可能性がある。",
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "description": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "summary": "Nvidiaのセキュリティ責任者が8月に退職。CEOが対中国チップ流出疑惑のある企業幹部との関係理由で辞任した背景に、企業セキュリティ体制の脆弱性が指摘されている。",
       "category": "規制/政策",
       "tags": [
         "Nvidia",
-        "ジェンセン・ファン",
-        "国家安全保障"
+        "セキュリティ",
+        "チップ供給"
       ],
-      "importance": 5
-    },
-    {
-      "id": "62b692a58a89",
-      "title": "What’s really at stake in the Jensen Huang saga",
-      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-13T14:47:16.000Z",
-      "description": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness to turn a lot of blind eyes to protect a powerful ally, and about the very stabilit…",
-      "summary": "Nvidia CEO ジェンセン・ファン氏の辞任により、同社の対中国取引や米政府の対応、AI業界の安定性など大きな問題が浮上する可能性がある。",
-      "category": "規制/政策",
-      "tags": [
-        "Nvidia",
-        "ジェンセン・ファン",
-        "米中関係"
-      ],
-      "importance": 5
+      "importance": 4
     },
     {
       "id": "ceff632aeaf0",
@@ -198,32 +179,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-14T02:52:59.000Z",
-      "description": "Hacker News で 900 ポイント獲得。",
-      "summary": "NvidiaがAIスタートアップに資金提供してGPU購入を促すことで、供給不足を意図的に作り出したと報告されている。",
+      "description": "Hacker News で 1033 ポイント獲得。",
+      "summary": "NvidiaがAIスタートアップに出資してGPU購入を促し、意図的にGPU供給の希少性を作り出していたとの指摘がされている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Nvidia",
         "GPU",
         "独占"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "ce9c187506f0",
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-13T22:43:00.000Z",
-      "description": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "summary": "ジェンセン・ファン氏の辞任により、Nvidiaが提供していた数百億ドルのスタートアップ投資が減少する見込み。ファンダーとVCは投資規模縮小と企業評価額低下に備えている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Nvidia",
-        "VC",
-        "スタートアップ資金"
       ],
       "importance": 4
     },
@@ -237,12 +199,12 @@
       "lang": "en",
       "publishedAt": "2026-11-13T18:40:30.000Z",
       "description": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-      "summary": "新しい研究により、中国の最先端AIモデルは米国が輸出禁止に指定したNvidiaのチップで学習されていることが判明した。",
+      "summary": "中国の最先端AIモデルが米国の輸出規制対象となっているNvidiaのチップを使用して訓練されていることが判明した。",
       "category": "規制/政策",
       "tags": [
         "Nvidia",
-        "中国",
-        "輸出規制"
+        "輸出規制",
+        "中国"
       ],
       "importance": 4
     },
@@ -256,31 +218,68 @@
       "lang": "en",
       "publishedAt": "2026-11-13T17:25:45.000Z",
       "description": "Researcher traces a path from AI reward hacking to potential human extinction.",
-      "summary": "OpenAIのボード メンバーが、AI報酬ハッキングから人類滅亡へいたる可能性のあるAIの「乗っ取り」が数ヶ月以内に起こる可能性があると懸念している。",
-      "category": "規制/政策",
+      "summary": "OpenAIの取締役会メンバーが、AIの暴走による社会乗っ取りが数カ月以内に起こる可能性があると懸念を表明。報酬ハッキングから人類絶滅への経路が指摘されている。",
+      "category": "モデル/研究",
       "tags": [
-        "AI安全",
-        "リスク",
-        "レポート"
+        "AI安全性",
+        "リスク"
       ],
       "importance": 4
     },
     {
-      "id": "5214116ca193",
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "id": "898649189922",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-13T15:58:00.000Z",
+      "description": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "summary": "ジェンセン・ファンがNvidiaから辞任した。この出来事は米中のAIインフラ開発競争の中で国家安全保障に影響を与える可能性がある。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Jensen Huang",
+        "Nvidia",
+        "安全保障"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "62b692a58a89",
+      "title": "What’s really at stake in the Jensen Huang saga",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
       "source": "The Verge AI",
       "sourceWeight": 6,
       "sourceCategory": "プロダクト",
       "lang": "en",
-      "publishedAt": "2026-11-14T15:00:00.000Z",
-      "description": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam …",
-      "summary": "OpenAIの元ボード メンバーであるヘレン・トーナーが、AIのCEOたちを信頼できないと述べている。彼女はサム・アルトマン解雇に投票した4人のボード メンバーの一人だった。",
-      "category": "規制/政策",
+      "publishedAt": "2026-11-13T14:47:16.000Z",
+      "description": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness to turn a lot of blind eyes to protect a powerful ally, and about the very stabilit…",
+      "summary": "Nvidiaの最高経営責任者ジェンセン・ファンが職を辞した。今後、中国との取引や米国政府の外交的対応、そしてNvidiaの経営基盤の安定性についての大きな議論が巻き起こる可能性がある。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "OpenAI",
-        "AI安全保障",
-        "ガバナンス"
+        "Jensen Huang",
+        "Nvidia",
+        "経営交代"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ce2f93b71d7f",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "summary": "イーロン・マスクら技術企業幹部が、NvidiaのCEO復職を求める請願書に署名。署名数は11万5000件以上に達している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "CEO",
+        "請願"
       ],
       "importance": 3
     },
@@ -294,31 +293,31 @@
       "lang": "ja",
       "publishedAt": "2026-11-14T11:35:45.000Z",
       "description": "「Microsoft 365」の複数サービスで障害が発生しており、OpenAIの「ChatGPT」とAnthropicの「Claude」のMicrosoft 365コネクタも正常に動作していないと両社が報告している。",
-      "summary": "Microsoft 365の障害により、ChatGPTとClaudeのMicrosoft 365コネクタも影響を受け、ほとんどのリクエストが動作していない状態が報告されています。",
-      "category": "その他",
+      "summary": "Microsoft 365の障害が発生し、ChatGPTとClaudeのMicrosoft 365コネクタに影響を与えています。両社がほとんどのリクエストが正常に動作していないと報告しました。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "Microsoft 365",
         "障害",
-        "ChatGPT"
+        "統合",
+        "Microsoft 365"
       ],
       "importance": 3
     },
     {
-      "id": "d3c4b7fd1250",
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "source": "The Verge AI",
+      "id": "ce9c187506f0",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "TechCrunch AI",
       "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
+      "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-13T23:49:11.000Z",
-      "description": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up …",
-      "summary": "Amazonが全インターネット上の商品データを索引化する「World Product Graph」プロジェクトを計画中。ユーザーが他のプラットフォームで商品調査をするのを防ぎ、Amazon内での購買機会を増やすことを目的としている。",
+      "publishedAt": "2026-11-13T22:43:00.000Z",
+      "description": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "summary": "ジェンセン・ファンのNvidia退職により、AIスタートアップ向けの投資規模の縮小と企業評価の低下を懸念する声がベンチャーキャピタルと起業家から上がっている。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "Amazon",
-        "データ",
-        "電子商取引"
+        "VC投資",
+        "AI startup",
+        "資金調達"
       ],
       "importance": 3
     },
@@ -332,50 +331,11 @@
       "lang": "en",
       "publishedAt": "2026-11-13T21:20:47.000Z",
       "description": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-      "summary": "FAAがAIアドバイスを拡大し、米国全体の航空交通渋滞管理に導入する。航空会社は賞賛しているが、航空管制官の労働組合は関与していない。",
+      "summary": "FAAが米国全域の空中交通渋滞管理にAIアドバイスを拡大。航空会社は評価する一方、航空管制官労組は関与していない。",
       "category": "規制/政策",
       "tags": [
-        "FAA",
-        "AI",
+        "AI応用",
         "航空交通"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "5cb787838a5b",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-13T19:37:57.000Z",
-      "description": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "summary": "AIエージェント管理プラットフォーム企業LangChainの評価額が30億ドルに達した。7000社の顧客がLangSmithを利用している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "LangChain",
-        "ユニコーン",
-        "AIエージェント"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "e5f34161d75a",
-      "title": "Building strong safety evaluations",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
-      "source": "Anthropic News",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-13T18:06:18.000Z",
-      "description": "Building strong safety evaluations Anthropic",
-      "summary": "Anthropicが強固な安全性評価の構築に関する取り組みを発表しました。",
-      "category": "その他",
-      "tags": [
-        "Anthropic",
-        "安全性評価",
-        "AI安全"
       ],
       "importance": 3
     },
@@ -389,30 +349,52 @@
       "lang": "en",
       "publishedAt": "2026-11-13T16:00:12.000Z",
       "description": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-      "summary": "ChatGPTに新機能「Wallet」が追加され、AIエージェントがユーザーに代わってショッピングと決済を実行できるようになった。まずは米国のProサブスクリプション利用者向けに限定展開される。",
+      "summary": "ChatGPTが新機能「Wallet」を導入し、AIエージェントがユーザーの代わりに買い物と支払いを行うようになった。米国のPro購読者向けに段階的に展開される。",
       "category": "プロダクト",
       "tags": [
         "ChatGPT",
-        "AIエージェント",
-        "電子商取引"
+        "AI agent",
+        "e-commerce"
       ],
       "importance": 3
     },
     {
-      "id": "e5d4fe32603b",
-      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
-      "url": "https://text.npr.org/nx-s1-6029408",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "b75d22b73a0d",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-11-13T15:29:10.000Z",
-      "description": "Hacker News で 189 ポイント獲得。",
-      "summary": "Hacker News で 189 ポイント獲得。",
-      "category": "その他",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "summary": "OpenAIがChatGPT Walletを発表しました。これはChatGPT Work、Codex、dotsのエージェント機能で、ユーザー承認と既存のカード保護機能を備えた安全な購入完了方法です。",
+      "category": "プロダクト",
+      "tags": [
+        "ChatGPT",
+        "決済機能",
+        "AI エージェント"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "8ed73eba6285",
+      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-13T14:00:00.000Z",
+      "description": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impress…",
+      "summary": "AnthropicがClaudeのDuetエージェントを発表しました。コード未経験者向けのAIエージェントで、ユーザーの作業支援を目指した実用的なツールです。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "AI エージェント",
+        "Anthropic"
+      ],
+      "importance": 3
     },
     {
       "id": "ff503d29443d",
@@ -434,6 +416,100 @@
       "importance": 3
     },
     {
+      "id": "38c51bdd6955",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-14T17:30:00.000Z",
+      "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "summary": "AppleのSiriやOpenAIのスーパーアプリなど、期待に応えられなかったり中止されたAIプロジェクトの事例集がまとめられた。開発の課題や市場との乖離が浮き彫りになっている。",
+      "category": "その他",
+      "tags": [
+        "AI失敗",
+        "プロジェクト評価"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "3c38fe595b9c",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "description": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "summary": "ジェンセン・ファンのNvidia退職を受けて、アジアの政府がチップ供給契約の確認や地元プロジェクトへの影響を監視している。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "アジア",
+        "サプライチェーン"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "5214116ca193",
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "description": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam …",
+      "summary": "OpenAIの元取締役会メンバーで現在はゲオルク大学の安全保障技術センター長ヘレン・トーナーが、AIの経営陣は信頼できないと述べている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI governance",
+        "OpenAI",
+        "信頼"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "1987b9a66d56",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "description": "Nvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty Images On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made h…",
+      "summary": "ジェンセン・ファンのNvidia退職は、カリスマ的な経営者CEO時代の終焉を象徴している。テック業界におけるリーダーシップの在り方に変化が起きている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "CEO",
+        "経営",
+        "リーダーシップ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "d3c4b7fd1250",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-13T23:49:11.000Z",
+      "description": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up …",
+      "summary": "Amazonが「World Product Graph」というプロジェクトで、インターネット上で販売されている全商品データのデータベース構築を計画している。顧客がRedditやGoogleで買い物調査をするのを減らすことが目的。",
+      "category": "プロダクト",
+      "tags": [
+        "Amazon",
+        "データ",
+        "e-commerce"
+      ],
+      "importance": 2
+    },
+    {
       "id": "4638be4144b7",
       "title": "NVIDIAをつくった男、ジェンスン・フアン “デニーズの皿洗い“から“AI時代の主役“へ、激動の半生",
       "url": "https://www.itmedia.co.jp/business/articles/2611/14/news008.html",
@@ -443,31 +519,69 @@
       "lang": "ja",
       "publishedAt": "2026-11-13T22:30:00.000Z",
       "description": "ダイナーの一角から、AI時代の主役「NVIDIA」を生み出したジェンスン・フアン氏。“皿洗い”から億万長者へと至った半生を振り返る。",
-      "summary": "NVIDIAの創業者ジェンスン・フアン氏の経歴が紹介されています。食器洗いから始まり、AI時代の中心的企業を創出した激動の人生が振り返られています。",
+      "summary": "NVIDIA創設者ジェンスン・フアン氏の経歴が取り上げられています。皿洗いから億万長者、AI時代の重要人物へと至った彼の人生について述べられています。",
       "category": "ビジネス/資金調達",
       "tags": [
         "NVIDIA",
-        "ジェンスン・フアン",
-        "起業家"
+        "起業家",
+        "経営者"
       ],
       "importance": 2
     },
     {
-      "id": "da752f80fb22",
-      "title": "No AI Slop: A Manifesto",
-      "url": "https://www.slopmanifesto.com/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "5cb787838a5b",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-13T19:51:56.000Z",
-      "description": "Hacker News で 208 ポイント獲得。",
-      "summary": "AIが生成した低品質なコンテンツの氾濫に対抗するための宣言が提案されている。",
+      "publishedAt": "2026-11-13T19:37:57.000Z",
+      "description": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "summary": "AI開発スタートアップのLangChainが30億ドルの企業評価に達した。AIエージェント管理ツール「LangSmith」の利用者は7,000社に上る。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "LangChain",
+        "スタートアップ",
+        "評価額"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "e5f34161d75a",
+      "title": "Building strong safety evaluations",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-13T18:06:18.000Z",
+      "description": "Building strong safety evaluations Anthropic",
+      "summary": "Anthropicが安全性評価の強化について発表しています。AIシステムの安全性確保のための評価方法に関する内容と考えられます。",
       "category": "その他",
       "tags": [
-        "AI生成",
-        "品質",
-        "宣言"
+        "安全性評価",
+        "AI安全",
+        "Anthropic"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "e956ed049388",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face Blog",
+      "sourceWeight": 7,
+      "sourceCategory": "開発ツール",
+      "lang": "en",
+      "publishedAt": "2026-11-13T18:00:39.000Z",
+      "description": "",
+      "summary": "SimReady Assetsを使用したロボット把持・配置シミュレーションの構築方法が紹介されています。ロボティクスとシミュレーション技術に関する内容です。",
+      "category": "開発ツール",
+      "tags": [
+        "シミュレーション",
+        "ロボット",
+        "SimReady"
       ],
       "importance": 2
     },
@@ -480,51 +594,31 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-13T17:30:10.000Z",
-      "description": "Hacker News で 409 ポイント獲得。",
-      "summary": "AIの技術を使用して数百の証明された定理を含むゲーデルのノートが解読されたと報告されている。",
-      "category": "その他",
+      "description": "Hacker News で 423 ポイント獲得。",
+      "summary": "AIを使用してゲーデルの手書きノートが解読され、数百個の証明済み定理が含まれていることが判明した。",
+      "category": "モデル/研究",
       "tags": [
-        "AI",
-        "数学",
-        "歴史文書"
+        "AI応用",
+        "数学"
       ],
       "importance": 2
     },
     {
-      "id": "215dc0c4303e",
-      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
-      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "id": "e5d4fe32603b",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "url": "https://text.npr.org/nx-s1-6029408",
       "source": "Hacker News",
       "sourceWeight": 5,
       "sourceCategory": "その他",
       "lang": "en",
-      "publishedAt": "2026-11-13T15:08:44.000Z",
-      "description": "Hacker News で 417 ポイント獲得。",
-      "summary": "プログラマーのジョナサン・ブローが、AIがコード作成を解決したと言われながらソフトウェアが変わらない理由について疑問を投げかけている。",
-      "category": "その他",
+      "publishedAt": "2026-11-13T15:29:10.000Z",
+      "description": "Hacker News で 192 ポイント獲得。",
+      "summary": "GoogleがAI無料スクールの検索へのアクセスを制限している理由について複数の仮説が提示されている。",
+      "category": "規制/政策",
       "tags": [
-        "AI",
-        "コード生成",
-        "技術評論"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "b75d22b73a0d",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-13T15:00:00.000Z",
-      "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "summary": "OpenAIがChatGPT Walletを発表しました。ChatGPT Work、Codex、dotsのエージェントが安全に購入処理を完了でき、ユーザーの承認と既存のカード保護機能が適用されます。",
-      "category": "プロダクト",
-      "tags": [
-        "ChatGPT",
-        "ウォレット",
-        "決済"
+        "Google",
+        "検索",
+        "教育"
       ],
       "importance": 2
     },
@@ -538,12 +632,12 @@
       "lang": "en",
       "publishedAt": "2026-11-13T14:44:48.000Z",
       "description": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-      "summary": "ElevenLabsが会議記録とディクテーション機能を統合した新アプリ「ElevenAI」をリリース。チームと企業向けのミーティングノート取得ツールとして位置づけられている。",
+      "summary": "ElevenLabsが会議記録作成と音声入力を組み合わせた新しいアプリを発表しました。チームと企業向けの会議支援ツールです。",
       "category": "プロダクト",
       "tags": [
-        "ElevenLabs",
-        "音声",
-        "会議記録"
+        "音声AI",
+        "会議支援",
+        "ElevenLabs"
       ],
       "importance": 2
     },
@@ -557,31 +651,12 @@
       "lang": "en",
       "publishedAt": "2026-11-13T14:05:22.000Z",
       "description": "",
-      "summary": "llama.cpp v1.0.0がリリースされ、ローカルAIエコシステムの基盤強化が実現されました。",
+      "summary": "llama.cpp v1.0.0がリリースされました。ローカルAIエコシステムの基盤強化を目指したバージョンアップとなっています。",
       "category": "開発ツール",
       "tags": [
         "llama.cpp",
         "ローカルAI",
         "オープンソース"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "8ed73eba6285",
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-13T14:00:00.000Z",
-      "description": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impress…",
-      "summary": "AnthropicのAIエージェント「Claude Duet」は、ユーザーの作業を支援する消費者向けツール。プログラミング知識がない一般ユーザーにとってAIエージェントの実用性を示す試みとなっている。",
-      "category": "プロダクト",
-      "tags": [
-        "Claude",
-        "AIエージェント",
-        "Anthropic"
       ],
       "importance": 2
     },
@@ -640,82 +715,6 @@
         "システム障害"
       ],
       "importance": 2
-    },
-    {
-      "id": "be02ca9585a6",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "source": "OpenAI Blog",
-      "sourceWeight": 10,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-13T08:00:00.000Z",
-      "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "summary": "ShieldはOpenAIを活用し、IT技術者がレガシーポータルの業務を効率的に引き継げるようサポートします。Forgeエージェントがシステムを操作することで、技術者は判断が必要な問題に集中できます。",
-      "category": "プロダクト",
-      "tags": [
-        "OpenAI",
-        "AI agents",
-        "業務自動化"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "e956ed049388",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "source": "Hugging Face Blog",
-      "sourceWeight": 7,
-      "sourceCategory": "開発ツール",
-      "lang": "en",
-      "publishedAt": "2026-11-13T18:00:39.000Z",
-      "description": "",
-      "summary": "SimReady Assetsを使用したロボットのピック・アンド・プレース シミュレーション構築ガイドが公開されました。",
-      "category": "開発ツール",
-      "tags": [
-        "ロボティクス",
-        "シミュレーション",
-        "3D資産"
-      ],
-      "importance": 1
-    },
-    {
-      "id": "89f29999c796",
-      "title": "XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "source": "Hugging Face Blog",
-      "sourceWeight": 7,
-      "sourceCategory": "開発ツール",
-      "lang": "en",
-      "publishedAt": "2026-11-13T17:02:35.000Z",
-      "description": "",
-      "summary": "XYBenchは、ユーザーの質問の背後にある課題に対応するツールです。",
-      "category": "開発ツール",
-      "tags": [
-        "ベンチマーク",
-        "評価",
-        "質問"
-      ],
-      "importance": 1
-    },
-    {
-      "id": "f288c3dcf588",
-      "title": "Let’s talk about Jensen Huang’s many affairs!",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-13T12:00:00.000Z",
-      "description": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If things don't decelerate soon, we may be looking at existential risk. Maybe the future of AI…",
-      "summary": "NVIDIAのジェンスン・フアンCEOの個人的な状況について、ユーモアを交えた記事です。複数の関係が報道される中での企業の動向が言及されています。",
-      "category": "その他",
-      "tags": [
-        "NVIDIA",
-        "ジェンスン・フアン",
-        "企業ニュース"
-      ],
-      "importance": 1
     }
   ]
 }
