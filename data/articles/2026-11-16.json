@@ -1,0 +1,367 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-15T16:54:31.911Z",
+  "count": 11,
+  "stats": {
+    "fetched": 11,
+    "afterDedupe": 11,
+    "published": 11,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Ars Technica",
+      "arXiv cs.AI"
+    ],
+    "summarized": 11,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 435
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1387,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 214
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 371
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 303
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 62,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 316
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 907,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 265
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 288
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 316
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 336
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 276
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 401
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 921
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 517
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 345
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 936
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "dc4c77b1f1a2",
+      "title": "An overview of Jensen Huang’s messy days",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-15T13:00:00.000Z",
+      "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October 29th, The New York Times reported that Nvidia co-founder and sho…",
+      "summary": "Nvidiaの経営危機に関する詳細な背景と経過をまとめたニュースレター。Jensen Huang氏の辞任と企業内の混乱について解説している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "経営危機"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "18cc6f0da7e7",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "description": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "summary": "Nvidiaのセキュリティチーフが8月に退職しており、Huang氏の交友関係に関する情報流出は企業セキュリティの脆弱性を示していると指摘されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "セキュリティ",
+        "情報流出"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "3c38fe595b9c",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-14T16:34:15.000Z",
+      "description": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "summary": "Jensen Huang氏の退任に対し、アジア各国政府がチップ供給確保の確認や地域プロジェクトへの影響監視などの対応を取っている。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "チップ供給",
+        "アジア"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "f50cd2cc02e1",
+      "title": "【追記あり】M365障害、ChatGPT／Claudeのコネクタにも影響 「ほとんどのリクエストで動作しない」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-14T11:35:45.000Z",
+      "description": "「Microsoft 365」の複数サービスで障害が発生しており、OpenAIの「ChatGPT」とAnthropicの「Claude」のMicrosoft 365コネクタも正常に動作していないと両社が報告している。",
+      "summary": "Microsoft 365で障害が発生し、ChatGPTとClaudeのMicrosoft 365コネクタも影響を受けている。両社が大多数のリクエストで機能していないことを報告している。",
+      "category": "その他",
+      "tags": [
+        "Microsoft 365",
+        "ChatGPT",
+        "Claude"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "418373cb0ef5",
+      "title": "PostgreSQL 19リリース延期の背景。β4で多くの新機能取り下げが発生、原因はAIによるコードレビューか",
+      "url": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T15:31:49.000Z",
+      "description": "オープンソースのリレーショナルデータベース「PostgreSQL」は、先週木曜日（2026年11月12日）に最終リリース候補版となるPostgreSQL 19 RC2が公開され、予定では今週の11月19日に正式リリースとなる見通しです。 そもそもPostgreSQLは毎年9月もしくは10月にメジャーバージョンアップしてきました。 PostgreSQL 14：2021年9月30日リリース PostgreSQL 15：2022年10月13日リリース PostgreSQL 16……",
+      "summary": "PostgreSQL 19のリリースが延期され、β4で多くの新機能が取り下げられている。AIによるコードレビューが原因の可能性が指摘されている。",
+      "category": "開発ツール",
+      "tags": [
+        "PostgreSQL",
+        "AI",
+        "コードレビュー"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "15e1a4aa359e",
+      "title": "Cloudflare、AI専用でタブやテーマや拡張などない軽量ヘッドレスブラウザ「Kitesurf」、オープンソースで公開",
+      "url": "https://www.publickey1.jp/blog/26/cloudflareaikitesurf.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T15:30:19.000Z",
+      "description": "Cloudflareは、AIエージェントが操作することを想定した軽量のヘッドレスブラウザ「Kitesurf」をオープンソースで公開したと発表しました。 Kitesurf is now open source on GitHub under the Apache 2.0 license. Fork the repo, run it locally with Wrangler, or deploy a custom instance to Cloudflare. https://……",
+      "summary": "CloudflareがAIエージェント向けの軽量ヘッドレスブラウザ「Kitesurf」をオープンソースで公開した。Apache 2.0ライセンスの下で提供されている。",
+      "category": "開発ツール",
+      "tags": [
+        "Cloudflare",
+        "Kitesurf",
+        "ヘッドレスブラウザ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "60acde86d78c",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-15T14:46:58.000Z",
+      "description": "Hacker News で 322 ポイント獲得。",
+      "summary": "AI生成コードはオープンソース化すべきという議論がハッカーニュースで注目を集めた。322ポイントを獲得し、コード生成AIの知的財産権や公開性に関する関心の高さを示している。",
+      "category": "規制/政策",
+      "tags": [
+        "AI生成コード",
+        "オープンソース",
+        "知的財産権"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "ce2f93b71d7f",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "summary": "Elon Muskを含む複数のテック業界幹部がJensen Huangの復職を求める署名活動を展開している。土曜午後時点で11万5千以上の署名が集まっている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Jensen Huang",
+        "Elon Musk",
+        "請願"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "38c51bdd6955",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-14T17:30:00.000Z",
+      "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "summary": "AppleのSiri AIやOpenAIの「スーパーアプリ」など、期待値を下回ったり廃止されたAIプロジェクトと企業の事例を整理している。",
+      "category": "プロダクト",
+      "tags": [
+        "AI失敗事例",
+        "Apple",
+        "OpenAI"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "5214116ca193",
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "description": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam …",
+      "summary": "OpenAIの元取締役会メンバーで、Sam Altmanの解任に投票したHelen Tonerがインタビューに応じている。AI企業の経営体制と信頼性について言及している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "OpenAI",
+        "Sam Altman",
+        "AI安全保障"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "1987b9a66d56",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "description": "Nvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty Images On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made h…",
+      "summary": "NvidiaのJensen Huang CEOが2025年のCESでステージに登壇した。カリスマ的な起業家CEOの時代的変化を象徴する出来事として論じられている。",
+      "category": "その他",
+      "tags": [
+        "Jensen Huang",
+        "Nvidia",
+        "CES"
+      ],
+      "importance": 2
+    }
+  ]
+}
