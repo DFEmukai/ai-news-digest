@@ -1,11 +1,11 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-15T16:54:31.911Z",
-  "count": 11,
+  "generatedAt": "2026-11-16T01:45:00.357Z",
+  "count": 29,
   "stats": {
-    "fetched": 11,
-    "afterDedupe": 11,
-    "published": 11,
+    "fetched": 27,
+    "afterDedupe": 27,
+    "published": 29,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
@@ -17,7 +17,6 @@
     "emptySources": [],
     "absentFromDigest": [
       "Anthropic News",
-      "OpenAI Blog",
       "Google AI Blog",
       "Google DeepMind",
       "Meta AI",
@@ -27,7 +26,7 @@
       "Ars Technica",
       "arXiv cs.AI"
     ],
-    "summarized": 11,
+    "summarized": 27,
     "summaryFailures": 0,
     "sources": [
       {
@@ -36,15 +35,15 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 435
+        "durationMs": 356
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1387,
-        "fetched": 0,
+        "itemsInFeed": 1389,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 214
+        "durationMs": 219
       },
       {
         "name": "Google AI Blog",
@@ -52,7 +51,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 371
+        "durationMs": 394
       },
       {
         "name": "Google DeepMind",
@@ -60,15 +59,15 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 303
+        "durationMs": 532
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 62,
+        "itemsInFeed": 63,
         "fetched": 0,
         "ok": true,
-        "durationMs": 316
+        "durationMs": 282
       },
       {
         "name": "Hugging Face Blog",
@@ -76,15 +75,15 @@
         "itemsInFeed": 907,
         "fetched": 0,
         "ok": true,
-        "durationMs": 265
+        "durationMs": 254
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 4,
+        "fetched": 7,
         "ok": true,
-        "durationMs": 288
+        "durationMs": 90
       },
       {
         "name": "VentureBeat AI",
@@ -93,15 +92,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 316
+        "durationMs": 90
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 3,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 336
+        "durationMs": 113
       },
       {
         "name": "MIT Technology Review AI",
@@ -109,7 +108,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 276
+        "durationMs": 346
       },
       {
         "name": "Ars Technica",
@@ -117,15 +116,15 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 401
+        "durationMs": 466
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 1,
+        "fetched": 10,
         "ok": true,
-        "durationMs": 921
+        "durationMs": 514
       },
       {
         "name": "Publickey",
@@ -133,7 +132,7 @@
         "itemsInFeed": 15,
         "fetched": 2,
         "ok": true,
-        "durationMs": 517
+        "durationMs": 359
       },
       {
         "name": "arXiv cs.AI",
@@ -141,7 +140,7 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 345
+        "durationMs": 368
       },
       {
         "name": "Hacker News",
@@ -149,11 +148,30 @@
         "itemsInFeed": 100,
         "fetched": 1,
         "ok": true,
-        "durationMs": 936
+        "durationMs": 1028
       }
     ]
   },
   "articles": [
+    {
+      "id": "71970c2f8a51",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-15T19:15:43.000Z",
+      "description": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority Leader Chuck Schumer has …",
+      "summary": "Nvidia前CEOジェンソン・ファン氏の中国スパイ疑惑をきっかけに、米国議会はAIチップの輸出規制を強化する動きを加速させている。民主党と共和党の両党がこれを支持し、ファン氏を含むNvidia幹部の議会証言を求めている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "チップ輸出",
+        "Nvidia"
+      ],
+      "importance": 4
+    },
     {
       "id": "dc4c77b1f1a2",
       "title": "An overview of Jensen Huang’s messy days",
@@ -164,11 +182,11 @@
       "lang": "en",
       "publishedAt": "2026-11-15T13:00:00.000Z",
       "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October 29th, The New York Times reported that Nvidia co-founder and sho…",
-      "summary": "Nvidiaの経営危機に関する詳細な背景と経過をまとめたニュースレター。Jensen Huang氏の辞任と企業内の混乱について解説している。",
+      "summary": "Jensen Huang辞任と関連する人間関係の問題、Nvidiaの経営危機の経過を解説した記事。10月29日のNew York Times報道から始まった一連の事態をまとめている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Nvidia",
-        "Jensen Huang",
+        "CEO",
         "経営危機"
       ],
       "importance": 4
@@ -183,14 +201,14 @@
       "lang": "en",
       "publishedAt": "2026-11-15T00:08:07.000Z",
       "description": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
-      "summary": "Nvidiaのセキュリティチーフが8月に退職しており、Huang氏の交友関係に関する情報流出は企業セキュリティの脆弱性を示していると指摘されている。",
-      "category": "ビジネス/資金調達",
+      "summary": "Nvidiaのセキュリティ責任者が8月に静かに退職。CEOのJensen Huang退職の背景にセキュリティ体制の脆弱さが指摘されている。中国へのチップ流出疑惑も絡む。",
+      "category": "規制/政策",
       "tags": [
-        "Nvidia",
         "セキュリティ",
-        "情報流出"
+        "チップ流出",
+        "Nvidia"
       ],
-      "importance": 3
+      "importance": 4
     },
     {
       "id": "3c38fe595b9c",
@@ -202,12 +220,145 @@
       "lang": "en",
       "publishedAt": "2026-11-14T16:34:15.000Z",
       "description": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-      "summary": "Jensen Huang氏の退任に対し、アジア各国政府がチップ供給確保の確認や地域プロジェクトへの影響監視などの対応を取っている。",
-      "category": "規制/政策",
+      "summary": "Nvidia CEOのJensen Huang退職に対し、アジア各国の政府が対応を取っている。チップ供給コミットメントの確認や地域プロジェクトへの影響を監視する動き。",
+      "category": "ビジネス/資金調達",
       "tags": [
         "Nvidia",
         "チップ供給",
-        "アジア"
+        "政府"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "2378f50fd775",
+      "title": "OpenAI、AIエージェントが代わりに支払う「ChatGPT Wallet」 カード番号は渡さず、購入ごとに生体認証",
+      "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003208/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-16T00:49:03.000Z",
+      "description": "OpenAIは、AIエージェント「dot」による決済機能「ChatGPT Wallet」を発表した。実際のカード情報を店舗に渡さず、購入ごとに生体認証を求める仕組みで安全性を確保する。米国のChatGPT Pro加入者向けに提供を開始した。将来は事前承認に基づく自律決済にも対応する計画。",
+      "summary": "OpenAIのAIエージェント「dot」による決済機能「ChatGPT Wallet」が米国のChatGPT Pro加入者向けに提供開始。購入ごとに生体認証を実施し、実カード情報は開示しない安全設計。将来は自律決済にも対応予定。",
+      "category": "プロダクト",
+      "tags": [
+        "決済",
+        "セキュリティ",
+        "生体認証"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "60b0435717c6",
+      "title": "エージェントが「安全に支払いを代行」する「ChatGPT Wallet」登場 OpenAIが決済大手と提携し開発 提供は米国から",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/16/2000003211/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-16T00:44:05.000Z",
+      "description": "OpenAIはエージェントがユーザーのカード情報にアクセスせずに支払いを代行する機能「ChatGPT Wallet」を発表した。",
+      "summary": "OpenAIがAIエージェント向けの決済機能「ChatGPT Wallet」を発表した。ユーザーのカード情報を店舗に渡さず、エージェントが代わりに支払いを処理する仕組みで、米国から提供開始予定。",
+      "category": "プロダクト",
+      "tags": [
+        "ChatGPT",
+        "決済",
+        "AI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "34fba2275443",
+      "title": "ガートナーが考えるフィジカルAI実装のロードマップと人の役割",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news050.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T23:00:00.000Z",
+      "description": "製造業でも多くの業務でAIが活用される中、注目を集めるフィジカルAIだが、製造業での使用状況はどうなっているのだろうか。フィジカルAIの現在地と共にAI時代の人の役割について、ガートナージャパン アナリストの鹿内健太郎氏に話を聞いた。",
+      "summary": "ガートナーがフィジカルAIの製造業での実装ロードマップと人的役割の変化を分析している。製造現場でのAI活用の現状と今後の展望を示唆している。",
+      "category": "その他",
+      "tags": [
+        "フィジカルAI",
+        "製造業",
+        "人的役割"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a0bfa3d07038",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-15T22:00:01.000Z",
+      "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "summary": "GPT-6 Astraが標準模型の格子定義に関する証明の構築を支援した。AIを用いた物理学の理論的アプローチの実例を示している。",
+      "category": "その他",
+      "tags": [
+        "GPT-6",
+        "物理学",
+        "格子定義"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b1b68f1ba184",
+      "title": "メルカリ、アプリ開発「2日→数十分」へ 直面したAI時代の“意外な課題”とは？",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/16/news031.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "description": "生成AIの導入により、1～2日かかっていたアプリの画面や試作品の制作が数十分へ短縮されたメルカリ。専門ごとの縦割りを解き、1～3人の少人数で画面から裏側の仕組みまで一気に作り上げる体制へ移行した。一方、200～300画面に及ぶアプリではAIが生み出す大量の変更案に対し、人間の最終チェックが追いつかない新たな課題が発生している。品質担保の仕組みと人の役割を、開発・デザイン両統括者に聞いた。",
+      "summary": "メルカリが生成AI導入によりアプリ開発を1～2日から数十分に短縮した。一方で数百画面に及ぶアプリではAI提案の検証が人的負荷となる課題に直面している。",
+      "category": "プロダクト",
+      "tags": [
+        "生成AI",
+        "開発効率",
+        "品質管理"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a684c8caa021",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-15T21:56:35.000Z",
+      "description": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "summary": "Nvidia内の経営危機が業界全体のAI経済に与える影響について検討。ファン氏の個人的な問題とNvidiaの経営状況が密接に関わっているとの指摘。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "AI経済",
+        "経営危機"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ce2f93b71d7f",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "summary": "Elon Muskら技術経営者がJensen Huangの復帰を求める署名活動を開始。署名数は11万件を超えた。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "請願",
+        "リーダーシップ"
       ],
       "importance": 3
     },
@@ -231,6 +382,177 @@
       "importance": 3
     },
     {
+      "id": "90fffa6b887a",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-16T01:26:56.000Z",
+      "description": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical information from sources like The New…",
+      "summary": "Appleがヘルスケア向けAIツールの有効性を向上させることを目指した調査研究を発表。OpenEvidenceと協力し、会話型AIツールとの利用者の相互作用を分析している。",
+      "category": "プロダクト",
+      "tags": [
+        "Apple",
+        "AI健康管理",
+        "研究"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "b4e1b39b0fb4",
+      "title": "AIが設計データの分析からCAD操作まで支援する「SOLIDWORKS 2027」",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news037.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T23:30:00.000Z",
+      "description": "ダッソー・システムズは、3D設計開発ソリューション「SOLIDWORKS」の最新バージョン「SOLIDWORKS 2027」を発表した。製品バリエーションの検討やボルト締結解析、データ管理に関する機能強化に加え、AIによるアセンブリのパフォーマンス分析やモデルの軽量化、設計変更に伴う影響範囲の確認など、設計業務を支援する機能を拡充した。",
+      "summary": "ダッソー・システムズが「SOLIDWORKS 2027」を発表。AIが設計データ分析やモデルの最適化、影響範囲確認などを支援し、設計業務を強化する。",
+      "category": "開発ツール",
+      "tags": [
+        "SOLIDWORKS",
+        "CAD",
+        "AI支援"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "3ed890ebdfd2",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-15T23:30:00.000Z",
+      "description": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "summary": "インドのチップスタートアップ企業Bharat Semiが2400万ドルのシード資金調達に成功。AI対応センサー技術で General Atomicsなどと設計提携を進めている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "スタートアップ",
+        "AIチップ",
+        "資金調達"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "519f440d592e",
+      "title": "自信がなければ「分かりません」──足立区が議会答弁AIにかけた“ガード” 「情報間違えれば区民に影響」の思い",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/16/2000003196/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T23:00:00.000Z",
+      "description": "東京都足立区は2025年にグーグル・クラウド・ジャパンと包括連携協定を結び、議会答弁や区民の声への対応でAIエージェントの実証実験を進めてきた。同社イベントに登壇した担当者が、その仕組みと運用のコツを紹介した。",
+      "summary": "足立区がGoogleクラウドと包括連携し、議会答弁や区民対応でAIエージェントの実証実験を進めている。不確実な回答を控える仕組みで信頼性を確保している。",
+      "category": "規制/政策",
+      "tags": [
+        "自治体",
+        "AIエージェント",
+        "信頼性"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "987fb57418e1",
+      "title": "DMG森精機が進める工作機械部品へのAM活用、自社イベントで最新5軸機も展示",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news012.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T22:45:00.000Z",
+      "description": "DMG森精機は、東京グローバルヘッドクォータにおいて自社イベント「東京テクノロジーウィーク」を開催した。国内初披露を含む最新の5軸加工機や複合加工機、金属積層造形機など17台の機械に加え、DXソリューションなどを展示した。",
+      "summary": "DMG森精機が自社イベント「東京テクノロジーウィーク」で最新の工作機械やDXソリューションを展示した。加工機の高度化と企業のデジタル化を推進している。",
+      "category": "プロダクト",
+      "tags": [
+        "製造機械",
+        "加工機",
+        "DX"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "8110ba64280a",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "summary": "OpenAIが科学ブログを新たに開設した。研究者による新知見や実践的手法、AIを活用した科学発見の事例などを共有する。",
+      "category": "その他",
+      "tags": [
+        "OpenAI",
+        "科学研究",
+        "ブログ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "2c8285cf6bae",
+      "title": "ライセンス更新を機に「脱マクロ」 オートバックスセブンがGeminiで目指す売上高5000億円",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/16/2000003181/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "description": "オートバックスセブンは2032年度の売上高5000億円を目指してGoogle WorkspaceとGeminiを導入した。従来の表計算ソフトからの移行とAI活用の全社展開を図る。",
+      "summary": "オートバックスセブンが2032年度の売上5000億円達成を目指し、Google WorkspaceとGeminiを導入した。全社的なAI活用と業務効率化に取り組んでいる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Gemini",
+        "デジタル変革",
+        "小売業"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "4fb6925660cd",
+      "title": "AIモデリングもできる無償3D CAD「SolidCraft」を試してみた！",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news011.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "description": "無償で利用できるオープンソースのパラメトリック3D CAD「SolidCraft」を紹介する。Webブラウザとデスクトップアプリに対応し、後者では生成AIとの対話によるモデリングも可能だ。筆者が実際に操作して分かった基本機能の使い勝手や、AI連携の可能性と課題を探る。",
+      "summary": "無償のオープンソース3D CADツール「SolidCraft」が登場。ブラウザとデスクトップで利用でき、生成AIとの対話によるモデリング機能も備えている。",
+      "category": "開発ツール",
+      "tags": [
+        "CAD",
+        "3D設計",
+        "生成AI"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "52b448cfaa27",
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-15T20:43:49.000Z",
+      "description": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, and a statement from Megaspeed claiming that Alice Huang hasn't worked for the com…",
+      "summary": "Nvidia創業者兼前CEO、ジェンソン・ファン氏のCEO復帰の噂や妻アリス・ファン氏の就業状況など、同社を巡る最新動向が次々と報じられている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "経営陣",
+        "ドラマ"
+      ],
+      "importance": 2
+    },
+    {
       "id": "418373cb0ef5",
       "title": "PostgreSQL 19リリース延期の背景。β4で多くの新機能取り下げが発生、原因はAIによるコードレビューか",
       "url": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
@@ -240,12 +562,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-15T15:31:49.000Z",
       "description": "オープンソースのリレーショナルデータベース「PostgreSQL」は、先週木曜日（2026年11月12日）に最終リリース候補版となるPostgreSQL 19 RC2が公開され、予定では今週の11月19日に正式リリースとなる見通しです。 そもそもPostgreSQLは毎年9月もしくは10月にメジャーバージョンアップしてきました。 PostgreSQL 14：2021年9月30日リリース PostgreSQL 15：2022年10月13日リリース PostgreSQL 16……",
-      "summary": "PostgreSQL 19のリリースが延期され、β4で多くの新機能が取り下げられている。AIによるコードレビューが原因の可能性が指摘されている。",
+      "summary": "PostgreSQL 19のリリース延期は、β4段階で多くの新機能が取り下げられたことが原因。AIによるコード審査の影響が指摘されている。",
       "category": "開発ツール",
       "tags": [
         "PostgreSQL",
         "AI",
-        "コードレビュー"
+        "バグ"
       ],
       "importance": 2
     },
@@ -259,50 +581,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-15T15:30:19.000Z",
       "description": "Cloudflareは、AIエージェントが操作することを想定した軽量のヘッドレスブラウザ「Kitesurf」をオープンソースで公開したと発表しました。 Kitesurf is now open source on GitHub under the Apache 2.0 license. Fork the repo, run it locally with Wrangler, or deploy a custom instance to Cloudflare. https://……",
-      "summary": "CloudflareがAIエージェント向けの軽量ヘッドレスブラウザ「Kitesurf」をオープンソースで公開した。Apache 2.0ライセンスの下で提供されている。",
+      "summary": "CloudflareがAIエージェント操作を想定した軽量ヘッドレスブラウザ「Kitesurf」をオープンソースで公開。タブやテーマなど不要な機能を削減した設計。",
       "category": "開発ツール",
       "tags": [
-        "Cloudflare",
-        "Kitesurf",
-        "ヘッドレスブラウザ"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "60acde86d78c",
-      "title": "All AI-generated code should be Open Source",
-      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-15T14:46:58.000Z",
-      "description": "Hacker News で 322 ポイント獲得。",
-      "summary": "AI生成コードはオープンソース化すべきという議論がハッカーニュースで注目を集めた。322ポイントを獲得し、コード生成AIの知的財産権や公開性に関する関心の高さを示している。",
-      "category": "規制/政策",
-      "tags": [
-        "AI生成コード",
+        "ブラウザ",
         "オープンソース",
-        "知的財産権"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "ce2f93b71d7f",
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-14T21:41:22.000Z",
-      "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-      "summary": "Elon Muskを含む複数のテック業界幹部がJensen Huangの復職を求める署名活動を展開している。土曜午後時点で11万5千以上の署名が集まっている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Jensen Huang",
-        "Elon Musk",
-        "請願"
+        "AI"
       ],
       "importance": 2
     },
@@ -316,12 +600,12 @@
       "lang": "en",
       "publishedAt": "2026-11-14T17:30:00.000Z",
       "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "summary": "AppleのSiri AIやOpenAIの「スーパーアプリ」など、期待値を下回ったり廃止されたAIプロジェクトと企業の事例を整理している。",
-      "category": "プロダクト",
+      "summary": "AppleのSiri AIやOpenAI「super app」など、期待を下回ったAIプロジェクトをまとめた記事。多くのAI関連事業が失敗に終わった実例を紹介。",
+      "category": "その他",
       "tags": [
-        "AI失敗事例",
-        "Apple",
-        "OpenAI"
+        "失敗事例",
+        "AI",
+        "プロダクト"
       ],
       "importance": 2
     },
@@ -335,12 +619,12 @@
       "lang": "en",
       "publishedAt": "2026-11-14T15:00:00.000Z",
       "description": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam …",
-      "summary": "OpenAIの元取締役会メンバーで、Sam Altmanの解任に投票したHelen Tonerがインタビューに応じている。AI企業の経営体制と信頼性について言及している。",
-      "category": "ビジネス/資金調達",
+      "summary": "OpenAIの前取締役会メンバーが、AI企業のCEOに対する信頼の課題について言及している。同メンバーはSam Altman解任の投票に参加した人物。",
+      "category": "その他",
       "tags": [
         "OpenAI",
-        "Sam Altman",
-        "AI安全保障"
+        "AI安全",
+        "リーダーシップ"
       ],
       "importance": 2
     },
@@ -362,6 +646,63 @@
         "CES"
       ],
       "importance": 2
+    },
+    {
+      "id": "121d1875583e",
+      "title": "CAD図面内の品名や注記をAIで検索、DWG／DXF形式に対応",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news016.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "description": "StockはAIナレッジツール「ナレカン」において、DWG／DXF形式のCADファイルをキーワード検索とAI検索の対象に追加した。図面内に記載された品名や仕様、注記などのテキストを基に目的の図面を探せる他、AIによる要約記事の自動作成も可能になった。",
+      "summary": "Stockが「ナレカン」でCADファイル形式のDWG/DXFに対応。AI検索で図面内のテキストから目的の図面を効率的に検索できるようになった。",
+      "category": "開発ツール",
+      "tags": [
+        "CAD検索",
+        "AI検索",
+        "ナレカン"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "74f6925064bb",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-15T20:20:57.000Z",
+      "description": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "summary": "SNLがテック業界の著名人を集めた特集を放映し、恋愛やスパイ行為をテーマにしたスケッチを展開。テック経営者のキャラクターが番組の定番ネタとなっている。",
+      "category": "その他",
+      "tags": [
+        "SNL",
+        "テック業界",
+        "エンタメ"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "60acde86d78c",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-15T14:46:58.000Z",
+      "description": "Hacker News で 1084 ポイント獲得。",
+      "summary": "AI生成コード全般をオープンソースとすべきという議論がHacker Newsで注目を集め、1000ポイント以上の支持を獲得。",
+      "category": "その他",
+      "tags": [
+        "AI生成コード",
+        "オープンソース",
+        "ポリシー"
+      ],
+      "importance": 1
     }
   ]
 }
