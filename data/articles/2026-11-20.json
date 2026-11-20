@@ -1,14 +1,18 @@
 {
   "date": "2026-11-20",
-  "generatedAt": "2026-11-19T18:55:49.523Z",
+  "generatedAt": "2026-11-20T02:55:39.554Z",
   "count": 30,
   "stats": {
-    "fetched": 141,
-    "afterDedupe": 139,
+    "fetched": 149,
+    "afterDedupe": 143,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 2,
+    "removedByTitle": 6,
     "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -16,31 +20,31 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
+      "Google AI Blog",
       "Google DeepMind",
       "Meta AI",
       "Hugging Face Blog",
       "VentureBeat AI",
-      "MIT Technology Review AI",
-      "Ars Technica"
+      "MIT Technology Review AI"
     ],
-    "summarized": 139,
-    "summaryFailures": 1,
+    "summarized": 143,
+    "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 2,
+        "fetched": 9,
         "ok": true,
-        "durationMs": 423
+        "durationMs": 440
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1414,
+        "itemsInFeed": 1418,
         "fetched": 5,
         "ok": true,
-        "durationMs": 210
+        "durationMs": 281
       },
       {
         "name": "Google AI Blog",
@@ -48,23 +52,24 @@
         "itemsInFeed": 20,
         "fetched": 3,
         "ok": true,
-        "durationMs": 485
+        "durationMs": 447
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 100,
-        "fetched": 2,
-        "ok": true,
-        "durationMs": 509
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 338
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 61,
-        "fetched": 0,
+        "itemsInFeed": 64,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 383
+        "durationMs": 289
       },
       {
         "name": "Hugging Face Blog",
@@ -72,7 +77,7 @@
         "itemsInFeed": 913,
         "fetched": 3,
         "ok": true,
-        "durationMs": 268
+        "durationMs": 190
       },
       {
         "name": "TechCrunch AI",
@@ -80,7 +85,7 @@
         "itemsInFeed": 20,
         "fetched": 20,
         "ok": true,
-        "durationMs": 276
+        "durationMs": 114
       },
       {
         "name": "VentureBeat AI",
@@ -89,7 +94,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 331
+        "durationMs": 336
       },
       {
         "name": "The Verge AI",
@@ -97,23 +102,23 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 346
+        "durationMs": 303
       },
       {
         "name": "MIT Technology Review AI",
         "weight": 7,
         "itemsInFeed": 10,
-        "fetched": 2,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 291
+        "durationMs": 325
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 438
+        "durationMs": 429
       },
       {
         "name": "ITmedia AI+",
@@ -121,7 +126,7 @@
         "itemsInFeed": 20,
         "fetched": 20,
         "ok": true,
-        "durationMs": 959
+        "durationMs": 976
       },
       {
         "name": "Publickey",
@@ -129,7 +134,7 @@
         "itemsInFeed": 15,
         "fetched": 4,
         "ok": true,
-        "durationMs": 574
+        "durationMs": 330
       },
       {
         "name": "arXiv cs.AI",
@@ -137,54 +142,35 @@
         "itemsInFeed": 60,
         "fetched": 60,
         "ok": true,
-        "durationMs": 476
+        "durationMs": 1243
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 8,
+        "fetched": 11,
         "ok": true,
-        "durationMs": 753
+        "durationMs": 725
       }
     ]
   },
   "articles": [
     {
-      "id": "b9cde9144bfd",
-      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
+      "id": "c6c8f53811c3",
+      "title": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
       "lang": "en",
-      "publishedAt": "2026-11-19T16:59:23.000Z",
-      "description": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
-      "summary": "Anthropicの上場開始値が公開価格から33%上昇の111ドルとなり、800億ドル以上の新規調達を達成した。",
+      "publishedAt": "2026-11-19T17:02:40.000Z",
+      "description": "Hacker News で 950 ポイント獲得。",
+      "summary": "Anthropicがナスダックに上場した。この大きなニュースはHacker Newsで高い関心を獲得している。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
         "IPO",
-        "資金調達"
-      ],
-      "importance": 5
-    },
-    {
-      "id": "e5facaac5058",
-      "title": "Anthropic starts trading on Wall Street",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-19T16:52:01.000Z",
-      "description": "Anthropic CEO Dario Amodei speaks at the Nasdaq ahead of his company’s public debut. | Photo by Michael Nagle/Bloomberg via Getty Images Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic rev…",
-      "summary": "Anthropicが正式に上場開始し、初値は111.50ドルで公開価格83ドルから33%上昇した。企業評価は約1.5兆ドルとなった。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "株価"
+        "上場"
       ],
       "importance": 5
     },
@@ -198,12 +184,12 @@
       "lang": "en",
       "publishedAt": "2026-11-19T14:25:37.000Z",
       "description": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety more than other labs; its founders had left executive research positions at…",
-      "summary": "Anthropicが過去最大規模のIPOでSpaceXを上回り、816.3億ドルを調達した。安全性を重視する企業姿勢が評価される一方、新規公開後の倫理的信用維持が課題となる。",
+      "summary": "Anthropicが過去最大規模のIPOを実現し、800億ドル以上を調達してNasdaqに上場した。安全性を重視するというAnthropicの設立理念が、上場を通じて試されることになる。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
         "IPO",
-        "AI安全性"
+        "AI企業"
       ],
       "importance": 5
     },
@@ -217,11 +203,12 @@
       "lang": "en",
       "publishedAt": "2026-11-18T23:35:59.000Z",
       "description": "Anthropic prices initial public offering Anthropic",
-      "summary": "Anthropicが新規株式公開の価格を決定した。",
+      "summary": "Anthropicが新規株式公開の価格設定を発表しました。同社は段階的に上場プロセスを進めています。",
       "category": "ビジネス/資金調達",
       "tags": [
         "IPO",
-        "Anthropic"
+        "Anthropic",
+        "上場"
       ],
       "importance": 5
     },
@@ -235,18 +222,132 @@
       "lang": "en",
       "publishedAt": "2026-11-18T22:11:15.000Z",
       "description": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-      "summary": "Anthropicが予想範囲を上回る1株83ドルでIPOを実施し、完全希薄化ベースで企業評価額が1.5兆ドルに達した。",
+      "summary": "Anthropicが予想範囲を上回る1株83ドルでIPOを実施し、完全希薄化ベースで企業価値が1.5兆ドルと評価されました。長く待たれていたIPOが実現しました。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "Anthropic",
         "IPO",
-        "企業評価"
+        "Anthropic",
+        "評価額"
       ],
       "importance": 5
     },
     {
+      "id": "66f0c41f6f14",
+      "title": "日立が「フィジカルAI」で狙う“5年で事業規模2倍”の勝算 3.5万人の新会社トップが語る「戦略の2本柱」とは？",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/20/news024.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-20T02:15:00.000Z",
+      "description": "日立製作所は2027年4月、米国子会社2社を統合し、27カ国・約3万5000人規模のデジタル新会社「Hitachi Digital」を発足させる。CEO兼Chairmanに就任するアナンド・ビルジェ氏が取材に応じ、今後5年で事業規模2倍を見据える戦略を語った。現場に入る精鋭チーム「FDE」を1年で3000人へ3倍増させ、売上の9割を占める上位200～300社への集中でフィジカルAIの覇権を狙う。",
+      "summary": "日立製作所が2027年4月に米子会社を統合し、3万5千人規模のデジタル新会社「Hitachi Digital」を設立する。5年で事業規模2倍を目標に、フィジカルAI領域で現場対応チームを3倍増強し、主要顧客への集中で覇権を狙う。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "日立",
+        "フィジカルAI",
+        "組織再編"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "40c2f9bd1603",
+      "title": "なぜ中国はヒューマノイドを量産するのか 突き動かす「焦り」と足踏みの正体",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/20/news014.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-19T22:00:00.000Z",
+      "description": "中国ではヒューマノイド（ヒト型ロボット）の量産が進んでいる。出荷の拡大がそのまま実用化を意味するわけではないが、日本にまだ勝ち筋はあるのか。SUGENAが開催したセミナーから、中国がロボットに注力する背景や量産の実態、実用化に向けた課題を探り、日本企業が取るべき戦略を考える。",
+      "summary": "中国がヒューマノイドロボットの量産を加速させている背景と実態を分析。日本企業が今後取るべき戦略を含め、両国のロボット開発における競争状況と課題を考察している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "ヒューマノイド",
+        "ロボット",
+        "日中競争"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6897f5bf0581",
+      "title": "AI需要で「シェア0→50％」急成長 半導体設計のアーム社が仕掛ける“新ビジネス“の正体は？",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/20/news041.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-19T22:00:00.000Z",
+      "description": "「AI半導体といえばNVIDIA」という状況が変わるかもしれない。CPU開発を手掛ける英アームが存在感を高めている。AI需要をどう取り込もうというのか。同社の戦略を、Arm日本法人の横山崇幸社長が語った。",
+      "summary": "英アーム社がAI半導体市場で存在感を高めている。NVIDIAが優位な状況を打破すべく、同社が仕掛ける新ビジネス戦略の詳細をアーム日本法人トップが語っている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "半導体",
+        "Arm",
+        "AI市場"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ab78571ba999",
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-19T21:59:35.000Z",
+      "description": "Traders work on the floor of the New York Stock Exchange during morning trading on November 18, 2026 in New York City. | Image: Getty Images \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from …",
+      "summary": "Nvidiaの株価が大きく下落し、前週比で約40パーセント低下しました。同社の暫定CEO冷えたColette Kressは業績説明会で楽観的な発言をしていましたが、その直後に下げ幅が広がりました。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "株価下落",
+        "経営"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "1ccafe2a617d",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-19T20:19:28.000Z",
+      "description": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+      "summary": "学校のAI銃検知システムがドリトスの袋を誤検知して生徒らが訴訟を起こした。99%以上の警報が誤報だったという。",
+      "category": "規制/政策",
+      "tags": [
+        "AI誤検知",
+        "訴訟",
+        "学校安全"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4dd792f873f0",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-19T20:18:49.000Z",
+      "description": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "summary": "JensenHuangがNvidiaから不倫理由で辞任しました。米中間の高度なAIインフラ開発競争が進む中、この人事異動は国家安全保障に影響を与える可能性があります。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "幹部交代",
+        "地政学"
+      ],
+      "importance": 4
+    },
+    {
       "id": "f5499ed4adb8",
-      "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
       "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
@@ -254,7 +355,7 @@
       "lang": "en",
       "publishedAt": "2026-11-19T17:38:40.000Z",
       "description": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
-      "summary": "MetaのAIエージェント「Muse」が会話を混同し、ユーザーが実施していない操作情報や他人の銀行口座データなどプライベート情報を露出させるトラブルが報告された。",
+      "summary": "MetaのAIエージェント「Muse」がメッセージを混同し、ユーザーが実施していないアクションの情報や他人の銀行残高などの個人データを露出させる問題が報告されている。",
       "category": "その他",
       "tags": [
         "Meta",
@@ -264,21 +365,21 @@
       "importance": 4
     },
     {
-      "id": "c6c8f53811c3",
-      "title": "Anthropic hits $2T in Nasdaq debut",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "e5facaac5058",
+      "title": "Anthropic starts trading on Wall Street",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
       "lang": "en",
-      "publishedAt": "2026-11-19T17:02:40.000Z",
-      "description": "Hacker News で 286 ポイント獲得。",
-      "summary": "Anthropicが米ナスダック上場時に2兆ドルの企業価値に達した。AI業界の有力企業の資金調達と上場が進む中での注目すべき展開である。",
+      "publishedAt": "2026-11-19T16:52:01.000Z",
+      "description": "Anthropic CEO Dario Amodei speaks at the Nasdaq ahead of his company’s public debut. | Photo: Michael Nagle / Bloomberg via Getty Images Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic rev…",
+      "summary": "Anthropicが正式にNasdaqで取引開始し、公開価格83ドルから33%上昇した111.50ドルで初値をつけた。企業価値は約1.5兆ドルに達した。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
         "上場",
-        "企業価値"
+        "株価"
       ],
       "importance": 4
     },
@@ -292,31 +393,12 @@
       "lang": "en",
       "publishedAt": "2026-11-19T14:54:39.000Z",
       "description": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-      "summary": "Anthropicが上場する中、巨額の計算インフラ投資が課題となる。AmazonやGoogleなどのパートナーは、Anthropicの競争力が低下してもインフラ提供で利益を得られる可能性がある。",
+      "summary": "Anthropicの上場により、AIの循環的な資金調達モデルが検証される段階に入った。同社は膨大な計算リソースへのコミットメントを負う一方、AmazonやGoogleなどのインフラパートナーは競争結果に関わらず利益を得られる可能性がある。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
-        "IPO",
-        "インフラ"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "75dd6d75f408",
-      "title": "AIモデルとAIエージェントをつなぐ「APIルーター」に注意？ 428件を調べてわかった乗っ取り手口 暗号資産を盗む例も",
-      "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003310/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-19T03:00:00.000Z",
-      "description": "米カリフォルニア大学サンタバーバラ校（UCSB）などに所属する研究者らが発表した論文「Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain」は、AIエージェントと外部のAIモデルを仲介する「APIルーター」に潜む危険性を調査した研究報告だ。",
-      "summary": "研究者らがAIモデル仲介者である「APIルーター」の乗っ取り手口を調査。428件の事例から、暗号資産盗難を含む供給チャーンの脆弱性が明かされた。",
-      "category": "その他",
-      "tags": [
-        "セキュリティ",
-        "サプライチェーン",
-        "API"
+        "資金調達",
+        "インフラストラクチャ"
       ],
       "importance": 4
     },
@@ -330,12 +412,11 @@
       "lang": "ja",
       "publishedAt": "2026-11-19T02:25:30.000Z",
       "description": "Googleが「Gemini 4 Neon」を公開。同シリーズのモデルは2カ月足らずで4つ目となる。第三者機関の評価では、コーディングエージェントとしての性能がClaude Fable 5.2と同等で、コストは半分以下だった。",
-      "summary": "Googleが新モデル「Gemini 4 Neon」を公開。2カ月で4つ目のリリースとなり、Claude Fable相当の性能を半額以下で実現している。",
+      "summary": "GoogleがGemini 4 Neonを公開しました。シリーズの4つ目のモデルで、Claude Fable 5.2と同等のコーディング性能をより低コストで提供します。",
       "category": "モデル/研究",
       "tags": [
-        "Gemini",
-        "言語モデル",
-        "コスト効率"
+        "Gemini 4 Neon",
+        "Google"
       ],
       "importance": 4
     },
@@ -349,12 +430,12 @@
       "lang": "en",
       "publishedAt": "2026-11-18T23:45:00.000Z",
       "description": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "summary": "マイクロソフトのナデラCEOがAIサイバー攻撃への懸念を述べ、多くの重要インフラが修正不可能な状態にあることを指摘した。同時にAIはセキュリティにおいて機会と課題の両面をもたらすとコメント。",
+      "summary": "マイクロソフトのナデラCEOが、AI攻撃の懸念の中で多くの重要インフラが「修正不可能」だと指摘しました。最近のOutlookの障害に触れながら、AI時代のセキュリティ課題を強調しています。",
       "category": "規制/政策",
       "tags": [
-        "AI脅威",
-        "インフラセキュリティ",
-        "サイバー攻撃"
+        "セキュリティ",
+        "インフラ",
+        "AI脅威"
       ],
       "importance": 4
     },
@@ -368,12 +449,12 @@
       "lang": "en",
       "publishedAt": "2026-11-18T22:58:11.000Z",
       "description": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
-      "summary": "マイクロソフトのCEO・ナデラがAIエージェントはウェブの経済構造を大きく変える可能性があり、広告主導のビジネスモデルや企業間の競争方法に影響を与えるとコメントした。",
-      "category": "ビジネス/資金調達",
+      "summary": "マイクロソフトのCEO・ナデラがAIエージェントがウェブ経済を再構築する可能性を予測しています。広告駆動型ビジネスモデルの破壊と、アマゾンなど企業の競争戦略の転換を指摘しています。",
+      "category": "その他",
       "tags": [
         "AIエージェント",
-        "経済構造",
-        "ウェブビジネス"
+        "ビジネスモデル",
+        "経済"
       ],
       "importance": 4
     },
@@ -412,6 +493,24 @@
         "サイバーセキュリティ",
         "AI攻撃",
         "防衛"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b1f27447c28c",
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-18T21:34:07.000Z",
+      "description": "Hacker News で 1020 ポイント獲得。",
+      "summary": "Gemini 4 Neonが発表された。高い関心度を示す注目度のあるモデルリリースである。",
+      "category": "モデル/研究",
+      "tags": [
+        "Gemini",
+        "新モデル"
       ],
       "importance": 4
     },
@@ -482,31 +581,31 @@
       "lang": "ja",
       "publishedAt": "2026-11-18T16:00:37.000Z",
       "description": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発表しました。 Now generally available, Microsoft Perception brings red, blue and green team agents together through playbooks t……",
-      "summary": "マイクロソフトがAI攻撃対抗サービス「Microsoft Perception」を提供開始。複数のAIエージェントがセキュリティ脅威に対応する仕組みである。",
+      "summary": "マイクロソフトがMicrosoft Igniteで、AI攻撃に対処するAIエージェント「Microsoft Perception」の提供を発表しました。複数チームのエージェントがプレイブックを通じて連携し、サイバーセキュリティの対抗策として機能します。",
       "category": "プロダクト",
       "tags": [
         "セキュリティ",
-        "エージェント",
-        "サイバー防御"
+        "AIエージェント",
+        "Microsoft"
       ],
       "importance": 4
     },
     {
-      "id": "964d7aa18b4a",
-      "title": "マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース",
-      "url": "https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
-      "lang": "ja",
-      "publishedAt": "2026-11-18T15:58:32.000Z",
-      "description": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIが生成したアプリなどを企業内で安全に実行するための基盤となる「Copilot Managed Runtime」の正式リリースを発表しました。 AIを活用することでプログラマだけでなく社内のあらゆる従業員が自分のアイデアをバイブコーディングなどによりアプリケーションとして構築できるようになりました。 すると次の問題は、そのようにして作られたアプリケーションを、どの……",
-      "summary": "マイクロソフトがAI生成アプリの企業内実行環境「Copilot Managed Runtime」を正式リリース。安全性を確保しながらAI開発を民主化する基盤である。",
-      "category": "プロダクト",
+      "id": "2069295c6caf",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-18T15:49:34.000Z",
+      "description": "Hacker News で 484 ポイント獲得。",
+      "summary": "監査業務の試験でAIエージェントがKPMGの会計士より優れた質問を行ったとの報告がある。この結果は業界内で大きな関心を集めている。",
+      "category": "モデル/研究",
       "tags": [
-        "Copilot",
-        "ランタイム",
-        "エンタープライズ"
+        "AI",
+        "監査",
+        "エージェント"
       ],
       "importance": 4
     },
@@ -549,170 +648,78 @@
       "importance": 4
     },
     {
-      "id": "a5b59f4810bb",
-      "title": "Gemini on Mac can now use your computer",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "source": "The Verge AI",
+      "id": "e8e3104e2558",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch AI",
       "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
+      "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-19T18:21:13.000Z",
-      "description": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will be able to decide which of your apps Gemini can access, and be a…",
-      "summary": "GoogleのMac用Geminiにコンピュータ操作機能が実装され、ローカルファイルやアプリ、ウェブ上の作業を自動化できるようになった。ユーザーはアクセス権限を制御できる。",
+      "publishedAt": "2026-11-20T00:56:01.000Z",
+      "description": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "summary": "Appleが独自のAIエージェント開発を進めており、MetaMuseやClaudeなどの競合製品と競争する予定です。Mac上で動作する支援機能を備える見込みです。",
       "category": "プロダクト",
       "tags": [
-        "Google",
-        "Gemini",
+        "Apple",
+        "AI agent",
         "Mac"
       ],
       "importance": 3
     },
     {
-      "id": "222b7c978bc9",
-      "title": "Google gives Gemini the ability to use your Mac for you",
-      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "id": "3ffcaeea50a7",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-19T18:09:11.000Z",
-      "description": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
-      "summary": "GoogleがMac用Geminiアプリにコンピュータ利用機能を追加し、ファイル整理やフォーム記入など複数ステップのタスク自動化が可能になった。",
-      "category": "プロダクト",
-      "tags": [
-        "Google",
-        "Gemini",
-        "AI Agent"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "278dc93a7337",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "source": "Google AI Blog",
-      "sourceWeight": 9,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-19T18:00:00.000Z",
-      "description": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "summary": "Gemini APIに「Tool Retrieval」機能が追加され、エージェントは数百のツールにアクセス可能になり、同時にトークン使用量を削減できるようになった。",
-      "category": "開発ツール",
-      "tags": [
-        "Gemini API",
-        "Tool Retrieval",
-        "効率化"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "82664dd2de53",
-      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-19T16:19:41.000Z",
-      "description": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
-      "summary": "Anthropic CEOが上場式典で、業界の経営圧力や政治的圧力に関わらずAI開発のペース調整方針を継続すると宣言した。",
+      "publishedAt": "2026-11-20T00:43:50.000Z",
+      "description": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "summary": "AnthropicのIPO時に株価が1株83ドルで設定され、7人の創業者それぞれが2億8000万ドルの利益を得ました。同社は約105億ドルを調達しています。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
-        "AI開発",
-        "ガバナンス"
+        "IPO",
+        "創業者"
       ],
       "importance": 3
     },
     {
-      "id": "4f5fed0819fb",
-      "title": "マイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も",
-      "url": "https://www.publickey1.jp/blog/26/database_hubai.html",
-      "source": "Publickey",
-      "sourceWeight": 6,
-      "sourceCategory": "開発ツール",
+      "id": "c6502dc5d72a",
+      "title": "Mac版「Gemini」にユーザーの代わりにアプリを操作する「computer use」機能追加 まず米国で",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003356/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-11-19T15:19:21.000Z",
-      "description": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Microsoft Azureやオンプレミス、他社クラウドにあるデータベースなど、管理者が権限を持つデータベースを自動的に一覧表示し、一元管理できる新サービス「Database Hub in Fabric」の正式リリースを発表しました。 Microsoft Fabricとは、同社が提供する統合データ分析基盤です。今回正式リリースとなったDatabase Hub in……",
-      "summary": "マイクロソフトが複数のクラウドやオンプレミスのデータベースを統一管理する「Database Hub in Fabric」を正式リリースした。AIエージェントによる運用自動化も提供される。",
+      "publishedAt": "2026-11-19T23:41:04.000Z",
+      "description": "Googleは、Mac版「Gemini」アプリにAIが画面を認識してアプリを自動操作する「computer use」機能を追加した。隔離されたバックグラウンドウィンドウで動作するため、ユーザーの作業を妨げずにファイルやWebをまたいだ複数手順の業務を代行できる。まずは米国の有料プラン加入者向けに英語版から提供を始める。",
+      "summary": "GoogleはMac版Geminiアプリに「computer use」機能を追加し、AIが画面を認識してアプリを自動操作できるようにした。隔離されたバックグラウンドで動作するため、ユーザー作業を妨げず複数ステップの業務を代行できる。まず米国で提供開始。",
       "category": "プロダクト",
       "tags": [
-        "Microsoft",
-        "Database",
-        "AI運用"
+        "Gemini",
+        "computer use",
+        "自動操作"
       ],
       "importance": 3
     },
     {
-      "id": "60418a83c6eb",
-      "title": "ちまたの“格安GPT”、中身は偽物？ 非公式APIのモデル偽装を調査した結果……",
-      "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003309/",
+      "id": "64a0d19b9b8d",
+      "title": "Antigravityを他社AIから操作すると「垢BAN」？ 注意点をGoogle Cloud日本法人に聞いた",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003353/",
       "source": "ITmedia AI+",
       "sourceWeight": 7,
       "sourceCategory": "その他",
       "lang": "ja",
-      "publishedAt": "2026-11-19T03:00:00.000Z",
-      "description": "ドイツのCISPAとカナダのウォータールー大学に所属する研究者らが発表した論文「Real Money, Fake Models: Deceptive Model Claims in Shadow APIs」は、LLM（大規模言語モデル）の公式APIを安価に仲介する非公式サービス「シャドーAPI」の実態を調査した研究報告だ。",
-      "summary": "研究者らが、安価なLLM仲介サービス「シャドーAPI」の実態調査結果を発表。多くのサービスが実際とは異なるモデルを使用している可能性を指摘している。",
-      "category": "その他",
-      "tags": [
-        "セキュリティ",
-        "API",
-        "詐欺"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "887862f5a914",
-      "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-      "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-19T00:57:20.000Z",
-      "description": "Hacker News で 108 ポイント獲得。",
-      "summary": "Hacker News で 108 ポイント獲得。",
-      "category": "その他",
-      "tags": [],
-      "importance": 3,
-      "summaryFailed": true
-    },
-    {
-      "id": "349f82b0e1fc",
-      "title": "AIによるAI研究「指数関数的に増加」でも「依然として人間中心」 OpenAIがレポート公開",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003318/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-19T00:48:01.000Z",
-      "description": "OpenAIは、AIが同社内のAI研究にどのように貢献しているかに関するレポートを公開した。",
-      "summary": "OpenAIが、AI研究におけるAIの貢献度に関するレポートを公開した。AIが研究を加速させているものの、人間中心のアプローチが依然として主流であることを示している。",
-      "category": "その他",
-      "tags": [
-        "AI研究",
-        "OpenAI",
-        "自動化"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "9afa45455d9b",
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-18T23:18:35.000Z",
-      "description": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice president of education, told the Times that, \"Se…",
-      "summary": "ニューヨーク、ロサンゼルス、シカゴなどの大規模学区がGoogleの検索サービからの乗り換えを検討している。来年からGoogleはAI機能を無効にしたままの検索利用を認めない方針に対応する措置。",
+      "publishedAt": "2026-11-19T23:15:00.000Z",
+      "description": "「Google Antigravity」を他社のAIツールを介して利用すると規約違反でアカウント停止の可能性があるとXなどで話題になっている。Google Cloud日本法人への取材や公開されている規約などを基に状況と対応を整理する。",
+      "summary": "Google Antigravityを他社のAIツール経由で利用すると規約違反によりアカウント停止される可能性がある。Google Cloud日本法人への取材を通じ、利用時の注意点と対応方法を整理している。",
       "category": "規制/政策",
       "tags": [
-        "Google検索",
-        "AI機能",
-        "教育"
+        "Google Antigravity",
+        "利用規約",
+        "アカウント停止"
       ],
       "importance": 3
     }
