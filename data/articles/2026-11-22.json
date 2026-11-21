@@ -1,0 +1,723 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-21T17:16:25.888Z",
+  "count": 30,
+  "stats": {
+    "fetched": 30,
+    "afterDedupe": 30,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "Publickey",
+      "arXiv cs.AI"
+    ],
+    "summarized": 30,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 476
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1421,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 316
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 513
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 140
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 62,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 344
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 915,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 384
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 400
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 435
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 430
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 424
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 526
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 950
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 595
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 497
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 850
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "46ceac1ba0f3",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T20:59:08.000Z",
+      "description": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "summary": "研究者がAI供給チェーンに追跡可能な秘密を含む2百万個のカナリアを挿入する実験を行い、データのプライバシーが保護されていないことを実証した。セキュリティ上の重大な問題が明らかになった。",
+      "category": "その他",
+      "tags": [
+        "プライバシー",
+        "セキュリティ",
+        "データ"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "4667689f126a",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-20T16:34:13.000Z",
+      "description": "Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematic…",
+      "summary": "Anthropicの数学者がAIアシスタントClaudeの支援を受けて、167年間未解決だったリーマン予想の証明に成功したと主張しています。事実なら数学とAIの大きな成果となります。",
+      "category": "その他",
+      "tags": [
+        "Claude",
+        "数学",
+        "AI 成果"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "d87a8ef68e88",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T21:47:10.000Z",
+      "description": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+      "summary": "Metaが2030年のカーボンニュートラル目標を再評価している。AI データセンターからの排出量増加により環境目標の見直しが迫られている。",
+      "category": "規制/政策",
+      "tags": [
+        "環境",
+        "持続可能性",
+        "データセンター"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "3dc1b91bac2d",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-20T19:32:08.000Z",
+      "description": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+      "summary": "リーマン予想の証明にAIと人間の両方が成功したと報告され、数学コミュニティが注目しています。AIが数学的難問解決で大きな役割を果たすようになった状況が浮き彫りになっています。",
+      "category": "その他",
+      "tags": [
+        "AI 数学",
+        "リーマン予想",
+        "検証"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "16df8adaf6a6",
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-20T18:50:19.000Z",
+      "description": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a press conference Friday following his summit with China President Xi Jinping a…",
+      "summary": "トランプ大統領は米国外にデータセンターを建設する企業に高い税金を課すと宣言しました。同時に国内でもデータセンター建設への規制が強化されており、AI インフラの立地戦略が大きく変わる可能性があります。",
+      "category": "規制/政策",
+      "tags": [
+        "データセンター",
+        "税制",
+        "地政学"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "54c1e2bb25e7",
+      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-20T14:55:44.000Z",
+      "description": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to […]",
+      "summary": "NvidiaのCEO交代という経営危機の最中、同社は好調な四半期決算を発表しました。一方で中国向けH200チップの販売停止を決定し、地政学的な緊張が経営に影響を与えています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "決算",
+        "貿易制限"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "30a26750a4b0",
+      "title": "The week everything fell apart",
+      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-20T14:06:59.000Z",
+      "description": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On this episode of The Vergecast, Nilay and David go through the week's many calam…",
+      "summary": "Outlook、空路制御システム、銀行サービス、iCloudなど複数のIT基盤がほぼ同時期に障害を起こし、技術システムの脆弱性が浮き彫りになりました。今後さらに大きな問題につながる可能性が指摘されています。",
+      "category": "その他",
+      "tags": [
+        "システム障害",
+        "IT インフラ",
+        "信頼性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "8d519d600cfe",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T13:29:59.000Z",
+      "description": "Hacker News で 434 ポイント獲得。",
+      "summary": "Anthropicのセカンドデイでの売却によるAI関連株の下落がナスダックの2026年の利益を帳消しにしている。AI業界における市場変動が顕在化している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "株価変動",
+        "Anthropic",
+        "市場"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "622e6abf17c6",
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pMHRici1uRTBSYVNzNnJ5UVFiS1gtRjdJNWJZNUpDV0JxdzJVWHVUVEh5dXhVcVBYWXpSQWs2N1dnclY1aXJFaDhzM21OamVwQ1E?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-20T12:45:21.000Z",
+      "description": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement Anthropic",
+      "summary": "Anthropicが新規公開買付の完了を発表した。引受人オプションの全面行使を含む同時プレイスメント取引も成立している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "IPO",
+        "Anthropic"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c68595a7dab2",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T10:01:41.000Z",
+      "description": "Hacker News で 660 ポイント獲得。",
+      "summary": "AIが設計・検証を行い発見された新しいCPUアーキテクチャであるFrostbiteが公開されている。AIによるハードウェア設計の可能性が示されている。",
+      "category": "その他",
+      "tags": [
+        "AI設計",
+        "CPU",
+        "ハードウェア"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "6c69f734e572",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "description": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "summary": "俳優が顔をマイクロドラマスタートアップにライセンス供与する動きが広がっており、特に中国で既に流行している。ハリウッドでもこの傾向が定着する場合の長期的な影響について専門家から懸念の声が上がっている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI顔認証",
+        "コンテンツ制作",
+        "知的財産権"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "42e47ba8798a",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-21T15:00:00.000Z",
+      "description": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. Th…",
+      "summary": "Anthropicは安全性を優先する経営方針を貫きながらNasdaqに上場しました。AIセーフティへの投資と企業価値のバランスについて、安全優先の戦略の持続可能性が議論されています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic IPO",
+        "AI安全性",
+        "企業価値"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ad20c8d0b471",
+      "title": "AIで成果を出す企業ほど「人を増やす」？ “通説”を否定する調査結果をIDCが発表",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "description": "「AIが普及すれば企業の人員は減る」という通説と食い違う調査結果を、IDCが発表した。AI投資で高いROIを得ている組織ほど、今後の増員を見込む割合が高い。AIで成果を出す企業が人員を増やすのはなぜか。",
+      "summary": "IDCが調査結果を発表し、AI導入で高いROIを得ている組織ほど人員増を見込む傾向を明らかにした。AI普及で人員削減が進むという通説に反する結果が示された。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI導入",
+        "人員計画",
+        "IDC"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "f5bcc128575c",
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T21:58:29.000Z",
+      "description": "Google search is making it even easier to access AI tools on the search page.",
+      "summary": "Googleが検索ホームページを新デザインに更新し、AIチャット履歴を統合して検索ボタンを削除した。検索ページでのAIツールへのアクセス利便性が向上している。",
+      "category": "プロダクト",
+      "tags": [
+        "Google検索",
+        "AI統合",
+        "UI変更"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "69e1be95443f",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-20T19:53:41.000Z",
+      "description": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "summary": "Spotifyの創業者ダニエル・エクがAI研究者が創立した核融合発電スタートアップEuropa Fusionに投資しています。エネルギー問題解決を目指す新たなプロジェクトが展開されています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "核融合",
+        "投資",
+        "エネルギー"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "12a96840525c",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "description": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+      "summary": "AI評価非営利団体METRが新報告書を発表。一部AI能力が指数関数的に改善を続ける一方、判断を要するタスクではコーディングほど高性能でないことが判明した。同団体の時間軸プロット図が大幅更新された。",
+      "category": "その他",
+      "tags": [
+        "AI評価",
+        "能力測定",
+        "METR"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d9e999d0b407",
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-20T12:30:47.000Z",
+      "description": "Signal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to l…",
+      "summary": "Signalがスクリーンショット機能を制限し、GeminiやSiriなどのAIエージェントがユーザーの画面内容を読み取れないよう防止している。OSに組み込まれたAIからユーザーデータを保護する措置を講じている。",
+      "category": "プロダクト",
+      "tags": [
+        "Signal",
+        "プライバシー",
+        "AI対策"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "bab9b9b98c77",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "summary": "OpenAIが敵対的蒸留に対抗する多層的なアプローチを発表した。モデル訓練、安全対策、検出、実行を組み合わせることで、能力抽出から保護する戦略を採っている。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "敵対的蒸留",
+        "AI安全"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9a5c17e015f9",
+      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T09:42:16.000Z",
+      "description": "Hacker News で 560 ポイント獲得。",
+      "summary": "モバイル operating systems上でAIエージェントがデータを取得することを制限するという提案が注目を集めている。プラットフォーム上でのデータ保護に関する議論が高まっている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "データ保護",
+        "モバイルOS"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b059fd35c916",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-21T14:00:00.000Z",
+      "description": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching its public beta on Saturday on the web and th…",
+      "summary": "Chess.comがポーカーサイトGambitに続き、麻雀やシャンティなど10種類のクラシックゲームを追加する新プラットフォームを立ち上げます。ゲームプラットフォームの多角化が進行しています。",
+      "category": "プロダクト",
+      "tags": [
+        "ゲーム プラットフォーム",
+        "Chess.com",
+        "拡張"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "54dccbec8193",
+      "title": "企業はAIをどう選ぶようになった？ ChatGPT、Copilot、Geminiの勢力図",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/21/2000003385/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-21T05:22:15.000Z",
+      "description": "企業が業務で利用するAIサービスの顔ぶれが変わりつつある。従来のように個別のAIサービスを選ぶだけでなく、既存の業務環境に組み込まれたAIを利用する動きも広がっているようだ。",
+      "summary": "企業のAIサービス利用が変化している。ChatGPT、Copilot、Geminiなど個別選択に加え、既存業務環境に組み込まれたAIの活用が広がっている状況を分析している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AIサービス",
+        "企業利用",
+        "市場動向"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "bea04de58b22",
+      "title": "Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-20T17:40:01.000Z",
+      "description": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+      "summary": "宇宙データセンターの資金調達において、ロケットで打ち上げられる資産を担保にしたくない融資機関の問題が浮上しています。宇宙環境でのチップ耐久性と融資戦略の課題が検討されています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "データセンター",
+        "宇宙産業",
+        "融資"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "3c812463abe1",
+      "title": "Google workers tell their employer not to punish schools that don't want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T16:59:27.000Z",
+      "description": "Hacker News で 277 ポイント獲得。",
+      "summary": "Googleの従業員がAIを望まない学校に対する報復をしないよう雇用者に要求している。教育機関へのAI導入における倫理的な懸念が表明されている。",
+      "category": "規制/政策",
+      "tags": [
+        "Google",
+        "教育",
+        "企業倫理"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "20aed472eafa",
+      "title": "AI is giving everyone the same advice",
+      "url": "https://a90.com/experiments/same-advice/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-20T16:58:05.000Z",
+      "description": "Hacker News で 108 ポイント獲得。",
+      "summary": "AIが万能なアドバイスを提供している傾向が指摘されている。個別の状況に応じた多様なアドバイスが不足している可能性がある。",
+      "category": "その他",
+      "tags": [
+        "AI助言",
+        "多様性",
+        "生成AI"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "dd59240b61bd",
+      "title": "Six AI-powered gadgets that could make your home office smarter",
+      "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-20T14:00:00.000Z",
+      "description": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+      "summary": "オフィス環境を改善するAI機能搭載のガジェット6種類が紹介されています。メモ取り機能からウェブカメラまで、ワークスペースをより効率的にするための製品が対象です。",
+      "category": "プロダクト",
+      "tags": [
+        "AI ガジェット",
+        "オフィス効率化",
+        "スマートホーム"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "710c7f290c2e",
+      "title": "京大がAI依存チェックリスト公開 「当てはまるものあれば、しばらくAI触らないで」",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003378/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-20T10:13:44.000Z",
+      "description": "京都大学の学生相談部門は「AIに悩みを相談する際に気をつけて欲しいこと」と題した文書を公開した。",
+      "summary": "京都大学がAI依存に関するチェックリストを公開した。AIに悩みを相談する際の注意点をまとめた文書により、適切な利用を促している。",
+      "category": "その他",
+      "tags": [
+        "京大",
+        "AI依存",
+        "チェックリスト"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "64a0d19b9b8d",
+      "title": "Antigravityを他社AIから操作すると「垢BAN」？ 注意点をGoogle Cloud日本法人に聞いた",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003353/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-20T08:04:35.000Z",
+      "description": "「Google Antigravity」を他社のAIツールを介して利用すると規約違反でアカウント停止の可能性があるとXなどで話題になっている。Google Cloud日本法人への取材や公開されている規約などを基に状況と対応を整理する。",
+      "summary": "他社AIツール経由でGoogle Antigravityを利用すると規約違反でアカウント停止される可能性があると話題になっている。Google Cloud日本法人に規約の詳細と対応について確認した内容を報告している。",
+      "category": "規制/政策",
+      "tags": [
+        "Google",
+        "利用規約",
+        "Antigravity"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "844e0ac644fc",
+      "title": "「Muse」専用メアド、無料で作成可能に AIが送受信を代理",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003372/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-20T07:52:48.000Z",
+      "description": "米Metaは、AIエージェント「Muse」専用のメールアドレスについて、無料ユーザーを含む全ユーザーが取得できるようになったと発表した。",
+      "summary": "MetaのAIエージェント「Muse」専用のメールアドレスが全ユーザーに無料提供されるようになった。AIが送受信を代理で処理する機能が利用可能となっている。",
+      "category": "プロダクト",
+      "tags": [
+        "Meta",
+        "AIエージェント",
+        "Muse"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "4a9964f51f63",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-21T05:38:01.000Z",
+      "description": "Hacker News で 131 ポイント獲得。",
+      "summary": "DOSおよび古いシステムのためのAIコーディングエージェントClawDOSが開発されている。レガシーシステム向けのAI開発ツールが注目を集めている。",
+      "category": "開発ツール",
+      "tags": [
+        "AI開発",
+        "DOS",
+        "レガシー"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "b0ff407c5617",
+      "title": "Stock Quote",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xQnFFY3JocmN6cXROVjFJWEtzLWhmYzFyLVJXXzU0UG5YcHpaY1I3MlVEVUxpTTYzRm96NkdoazR4c29iaFJqSVRRTmxHOEJ2OFJxaXNFVFVYMjBfeW5ueGxJS3lmR2NpZmRNdmdySklNaE13NUE?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-20T20:58:10.000Z",
+      "description": "Stock Quote Anthropic",
+      "summary": "Anthropicの株価情報に関する記事。具体的な内容は提供されていない。",
+      "category": "その他",
+      "tags": [
+        "株価",
+        "Anthropic"
+      ],
+      "importance": 1
+    }
+  ]
+}
