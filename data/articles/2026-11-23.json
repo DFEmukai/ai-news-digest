@@ -1,0 +1,449 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-22T17:42:48.547Z",
+  "count": 15,
+  "stats": {
+    "fetched": 15,
+    "afterDedupe": 15,
+    "published": 15,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "Google DeepMind",
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
+      },
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Ars Technica",
+      "Publickey",
+      "arXiv cs.AI"
+    ],
+    "summarized": 15,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 475
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1421,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 265
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 452
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
+        "durationMs": 356
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 64,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 428
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 915,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 293
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 101
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 319
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 317
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 325
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 438
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 876
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 485
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 537
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 681
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "eb5095b13600",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-22T08:57:34.000Z",
+      "description": "Hacker News で 535 ポイント獲得。",
+      "summary": "Anthropicが2028年時点で87%をガス、11%を石炭で賄う電力供給計画を発表。エネルギー調達における環境への懸念が指摘されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "エネルギー",
+        "持続可能性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "84f51f77eac6",
+      "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定",
+      "url": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-21T23:21:31.000Z",
+      "description": "Anthropicの数学者レベント・アルポーゲ氏は、「Claude」と共同で未解決問題「リーマン予想」の証明を発見したと発表した。証明支援系「Lean」で記述された1700万行の形式証明を公開しており、Leanコミュニティは複数の検証を経て「証明は正しい」と認定する共同声明を出した。",
+      "summary": "Anthropicの数学者がClaudeと協力し、未解決のリーマン予想の証明を発表した。Lean形式証明システムで記述された1700万行の証明がLeanコミュニティから正当性を認定された。",
+      "category": "その他",
+      "tags": [
+        "Claude",
+        "数学",
+        "形式証明"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "42e47ba8798a",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-21T15:00:00.000Z",
+      "description": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. Th…",
+      "summary": "ClaudeのAnthropicがNasdaqに上場し、業界で最も価値のある企業の一つとなった。同社が安全性を最優先にしながら事業成長を続けられるかが議論されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "安全性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "08bfd95ad21e",
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-22T02:14:14.000Z",
+      "description": "Hacker News で 250 ポイント獲得。",
+      "summary": "推論プロバイダーにおけるデータ処理インシデントについての報告。ユーザーデータの安全性と取り扱いに関する問題が浮き彫りになっている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "データセキュリティ",
+        "インシデント",
+        "推論"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "7ad592512cdf",
+      "title": "AIに必要なのは知識か、企業独自の判断基準か？ 管理職調査で見えたAI活用の盲点",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/22/2000003384/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-21T21:00:00.000Z",
+      "description": "管理職を対象とした勤務先でのAI活用に関する調査では、半数以上が利用されなくなったAIツールや用途があると回答した。背景には、企業独自の判断基準に関わる課題があるようだ。",
+      "summary": "企業の管理職対象の調査では、半数以上が導入したAIツールが使用されなくなった経験を報告している。企業独自の判断基準への対応不足がAI活用の課題として浮かび上がっている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI活用",
+        "企業課題",
+        "調査"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "2529f65d7292",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-21T20:47:41.000Z",
+      "description": "Hacker News で 131 ポイント獲得。",
+      "summary": "欧州におけるAIエージェント規制の公式法案「Pandex」がMCPプロトコル上での実装を想定している。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "欧州",
+        "MCP"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "0b540582c13a",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-21T20:03:37.000Z",
+      "description": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the International Committee of the Red…",
+      "summary": "ジュネーブでの国連外交官会議で、自律型兵器（キラーロボット）の規制ルール策定が議論されたが、協議は難航し「選択肢の検討を開始する」にとどまった。",
+      "category": "規制/政策",
+      "tags": [
+        "自律兵器",
+        "国連",
+        "規制"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9d9127000a29",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:25:20.000Z",
+      "description": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to the tracks on Suno's site. Creator Edmund McMillen took to X t…",
+      "summary": "ゲーム「The Binding of Isaac: Repentance Plus」がSunoで生成されたAI音楽を使用していたことが発覚し、Steamでレビュー爆撃を受けた。開発者のEdmund McMillenが対応を表明している。",
+      "category": "その他",
+      "tags": [
+        "AI音楽",
+        "ゲーム開発",
+        "Suno"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "9ed2f75e0265",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-22T13:00:00.000Z",
+      "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not that large language models opened up some wholly new capability. For as long as there…",
+      "summary": "言語モデルを活用した「バイブコーディング」があらゆるデバイスに拡がってくる動きについて解説される。AIによるプログラミング手法の進化が進行中である。",
+      "category": "開発ツール",
+      "tags": [
+        "AI開発",
+        "コーディング",
+        "言語モデル"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "8a904b1b1812",
+      "title": "The Mythology of Conscious AI",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-22T02:10:02.000Z",
+      "description": "Hacker News で 132 ポイント獲得。",
+      "summary": "意識を持つAIに関する神話的な考え方について論じた記事。AIの意識性をめぐる誤解や議論を検証している。",
+      "category": "その他",
+      "tags": [
+        "AI意識",
+        "哲学",
+        "機械学習"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "2d79660c40e2",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-21T21:37:10.000Z",
+      "description": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "summary": "Signalはスクリーンショット機能をAndroidとiOSアプリで制限する措置を講じた。AI監視の存在的脅威に対応するためのセキュリティ強化である。",
+      "category": "プロダクト",
+      "tags": [
+        "Signal",
+        "プライバシー",
+        "セキュリティ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "79ca80361205",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-21T21:07:42.000Z",
+      "description": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "summary": "Nvidiaについて、直近の決算と経営幹部の復帰要求という相反するメッセージが市場に流れている。企業への評価が分かれる状況が生じている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "決算",
+        "経営"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "d0cd2cd038d6",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-21T17:00:00.000Z",
+      "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "summary": "テキストメッセージで動作するAIエージェントをまとめたリストが公開された。汎用アシスタントから家族向け、旅行、仕事向けなど様々な用途のエージェントが紹介されている。",
+      "category": "プロダクト",
+      "tags": [
+        "AIエージェント",
+        "チャット",
+        "ツール"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6c69f734e572",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "description": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "summary": "俳優が顔をマイクロドラマスタートアップにライセンスする動きが広がり始めている。中国で既に流行しており、ハリウッドでも同様のトレンドが懸念されている。",
+      "category": "その他",
+      "tags": [
+        "AI顔利用",
+        "ハリウッド",
+        "倫理"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "b059fd35c916",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-21T14:00:00.000Z",
+      "description": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching its public beta on Saturday on the web and th…",
+      "summary": "Chess.comがチェス以外の複数のゲームに展開する新プラットフォーム「Classic Games」をベータ公開する。麻雀やスドク、バックギャモンなど10種類のゲームが追加される。",
+      "category": "プロダクト",
+      "tags": [
+        "ゲーム",
+        "Chess.com",
+        "プラットフォーム"
+      ],
+      "importance": 2
+    }
+  ]
+}
