@@ -1,14 +1,18 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-22T17:42:48.547Z",
-  "count": 15,
+  "generatedAt": "2026-11-23T02:26:03.015Z",
+  "count": 25,
   "stats": {
-    "fetched": 15,
-    "afterDedupe": 15,
-    "published": 15,
+    "fetched": 24,
+    "afterDedupe": 24,
+    "published": 25,
     "removedByUrl": 0,
     "removedByTitle": 0,
     "failedSources": [
+      {
+        "name": "Anthropic News",
+        "error": "Status code 429"
+      },
       {
         "name": "Google DeepMind",
         "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
@@ -21,7 +25,6 @@
     "emptySources": [],
     "absentFromDigest": [
       "Anthropic News",
-      "OpenAI Blog",
       "Google AI Blog",
       "Google DeepMind",
       "Meta AI",
@@ -32,24 +35,25 @@
       "Publickey",
       "arXiv cs.AI"
     ],
-    "summarized": 15,
+    "summarized": 24,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
-        "itemsInFeed": 100,
+        "itemsInFeed": 0,
         "fetched": 0,
-        "ok": true,
-        "durationMs": 475
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 474
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1421,
-        "fetched": 0,
+        "itemsInFeed": 1422,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 265
+        "durationMs": 188
       },
       {
         "name": "Google AI Blog",
@@ -57,7 +61,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 452
+        "durationMs": 320
       },
       {
         "name": "Google DeepMind",
@@ -66,15 +70,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
-        "durationMs": 356
+        "durationMs": 263
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 64,
+        "itemsInFeed": 62,
         "fetched": 0,
         "ok": true,
-        "durationMs": 428
+        "durationMs": 261
       },
       {
         "name": "Hugging Face Blog",
@@ -82,15 +86,15 @@
         "itemsInFeed": 915,
         "fetched": 0,
         "ok": true,
-        "durationMs": 293
+        "durationMs": 301
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 4,
+        "fetched": 7,
         "ok": true,
-        "durationMs": 101
+        "durationMs": 77
       },
       {
         "name": "VentureBeat AI",
@@ -99,7 +103,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 319
+        "durationMs": 77
       },
       {
         "name": "The Verge AI",
@@ -107,7 +111,7 @@
         "itemsInFeed": 10,
         "fetched": 5,
         "ok": true,
-        "durationMs": 317
+        "durationMs": 69
       },
       {
         "name": "MIT Technology Review AI",
@@ -115,7 +119,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 325
+        "durationMs": 197
       },
       {
         "name": "Ars Technica",
@@ -123,15 +127,15 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 438
+        "durationMs": 446
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 2,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 876
+        "durationMs": 501
       },
       {
         "name": "Publickey",
@@ -139,7 +143,7 @@
         "itemsInFeed": 15,
         "fetched": 0,
         "ok": true,
-        "durationMs": 485
+        "durationMs": 242
       },
       {
         "name": "arXiv cs.AI",
@@ -147,19 +151,95 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 537
+        "durationMs": 338
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 4,
+        "fetched": 7,
         "ok": true,
-        "durationMs": 681
+        "durationMs": 632
       }
     ]
   },
   "articles": [
+    {
+      "id": "4625132162e2",
+      "title": "OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案 指標は「パープレキシティ」",
+      "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003394/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-22T22:49:18.000Z",
+      "description": "OpenAIのチーフサイエンティストが、AIの予測精度を示す「パープレキシティ」を共通指標とし、開発の上限を業界で設けるよう提案する論考を公開した。GPT-3.5以降の社内モデルの推移も開示し、早ければ2027年にも事前学習が急加速する恐れがあるとして、監視技術が追いつくまでの歯止めを訴えている。",
+      "summary": "OpenAIのチーフサイエンティストがパープレキシティを共通指標として、業界全体でAI開発に上限を設けるよう提案。2027年の事前学習加速の可能性を警告している。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "パープレキシティ",
+        "業界基準"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "d8da647a6b72",
+      "title": "We haven’t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-22T22:48:02.000Z",
+      "description": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be prepared for a great deal of investment in upgrading our systems; they should be…",
+      "summary": "FAA、Outlook、JPMorgan Chaseを含む大規模なシステム障害が相次ぎ、今後も同様の障害が発生する可能性が指摘されています。システムの脆弱性が社会的な課題として浮き彫りになっています。",
+      "category": "その他",
+      "tags": [
+        "システム障害",
+        "インフラ",
+        "リスク"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "0e3ebcb6d230",
+      "title": "メルカリの情報流出、AI委託先で何が起きた？ 確認された2つの攻撃",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/23/2000003393/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-22T21:00:00.000Z",
+      "description": "メルカリグループが業務で利用する「Notion AI」で、チャット記録の一部が外部に流出した可能性があることが公表された。AI処理を委託企業では、外部クラウド事業者への侵害や認証情報の窃取、サービスの脆弱性を悪用した不正アクセスが確認された。",
+      "summary": "メルカリグループがNotionAIで業務用チャット記録が外部流出した可能性を公表。AI委託先での複数の攻撃経路が確認され、セキュリティ上の脆弱性が指摘されている。",
+      "category": "規制/政策",
+      "tags": [
+        "情報流出",
+        "セキュリティ",
+        "AI委託"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4c39dda34d13",
+      "title": "AI is becoming a disaster for the climate",
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-22T12:19:46.000Z",
+      "description": "Hacker News で 104 ポイント獲得。",
+      "summary": "AIの急速な普及が気候変動に悪影響を及ぼしているという議論が高い注目を集めた。AIのエネルギー消費と環境負荷に関する懸念が示されている。",
+      "category": "規制/政策",
+      "tags": [
+        "環境",
+        "気候変動",
+        "エネルギー消費"
+      ],
+      "importance": 4
+    },
     {
       "id": "eb5095b13600",
       "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
@@ -169,13 +249,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-22T08:57:34.000Z",
-      "description": "Hacker News で 535 ポイント獲得。",
-      "summary": "Anthropicが2028年時点で87%をガス、11%を石炭で賄う電力供給計画を発表。エネルギー調達における環境への懸念が指摘されている。",
+      "description": "Hacker News で 899 ポイント獲得。",
+      "summary": "Anthropicの2028年における電力供給が、ガスが87%、石炭が11%で構成されることが報じられた。AIインフラの大規模な電力需要の実態を示す。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
         "エネルギー",
-        "持続可能性"
+        "インフラ"
       ],
       "importance": 4
     },
@@ -189,7 +269,7 @@
       "lang": "ja",
       "publishedAt": "2026-11-21T23:21:31.000Z",
       "description": "Anthropicの数学者レベント・アルポーゲ氏は、「Claude」と共同で未解決問題「リーマン予想」の証明を発見したと発表した。証明支援系「Lean」で記述された1700万行の形式証明を公開しており、Leanコミュニティは複数の検証を経て「証明は正しい」と認定する共同声明を出した。",
-      "summary": "Anthropicの数学者がClaudeと協力し、未解決のリーマン予想の証明を発表した。Lean形式証明システムで記述された1700万行の証明がLeanコミュニティから正当性を認定された。",
+      "summary": "Anthropicの数学者がClaudeと協力してリーマン予想の証明を発見したと発表。1700万行の形式証明がLeanコミュニティにより検証され、正しいと認定された。",
       "category": "その他",
       "tags": [
         "Claude",
@@ -208,31 +288,107 @@
       "lang": "en",
       "publishedAt": "2026-11-21T15:00:00.000Z",
       "description": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. Th…",
-      "summary": "ClaudeのAnthropicがNasdaqに上場し、業界で最も価値のある企業の一つとなった。同社が安全性を最優先にしながら事業成長を続けられるかが議論されている。",
+      "summary": "Anthropicが先週Nasdaqで上場し、業界で最も価値の高い企業の一つとなった。Claude開発企業の公開に関する議論が行われている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
         "IPO",
-        "安全性"
+        "上場"
       ],
       "importance": 4
     },
     {
-      "id": "08bfd95ad21e",
-      "title": "Data Processing Incidents on Inference Providers",
-      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "6e125e50be07",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-22T02:14:14.000Z",
-      "description": "Hacker News で 250 ポイント獲得。",
-      "summary": "推論プロバイダーにおけるデータ処理インシデントについての報告。ユーザーデータの安全性と取り扱いに関する問題が浮き彫りになっている。",
+      "publishedAt": "2026-11-23T01:25:53.000Z",
+      "description": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "summary": "Notable Capital、GIC、Baillie Giffordの3社がAnthropicのIPO前に多額の投資を行いました。これらの主要投資家がAnthropicに投資する判断に至った背景が紹介されています。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "データセキュリティ",
-        "インシデント",
-        "推論"
+        "Anthropic",
+        "投資",
+        "IPO"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "5cbb7cb9bf41",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-22T21:14:07.000Z",
+      "description": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "summary": "OpenAIの最高科学責任者がAI開発の進行速度を制限する方法について見解を示しました。制限を設定するには開発速度の測定方法の合意が必要と指摘しています。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "開発速度",
+        "OpenAI"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "047a7f32ce61",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-22T18:08:43.000Z",
+      "description": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "summary": "ジャーナリストのパリス・マルクスがデータセンターとビッグテック企業の関係について新著で論じています。大規模インフラが産業界で重要な議論の中心になっているとのことです。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "データセンター",
+        "インフラ",
+        "ビッグテック"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "bd545a438b27",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "summary": "AIモデルの進歩を測定するパープレキシティという指標について説明し、開発者が新興能力を評価する際に共通アプローチを確立するのに役立つ可能性を論じている。",
+      "category": "その他",
+      "tags": [
+        "パープレキシティ",
+        "AI評価",
+        "指標"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "2d79660c40e2",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-21T21:37:10.000Z",
+      "description": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "summary": "Signalはスマートフォンのスクリーンショット機能を制限する動きを開始しました。AIによる監視の脅威に対抗する措置として、AndroidとiOSの両方のアプリで制限を実施しています。",
+      "category": "プロダクト",
+      "tags": [
+        "Signal",
+        "プライバシー",
+        "AI監視対策"
       ],
       "importance": 3
     },
@@ -246,7 +402,7 @@
       "lang": "ja",
       "publishedAt": "2026-11-21T21:00:00.000Z",
       "description": "管理職を対象とした勤務先でのAI活用に関する調査では、半数以上が利用されなくなったAIツールや用途があると回答した。背景には、企業独自の判断基準に関わる課題があるようだ。",
-      "summary": "企業の管理職対象の調査では、半数以上が導入したAIツールが使用されなくなった経験を報告している。企業独自の判断基準への対応不足がAI活用の課題として浮かび上がっている。",
+      "summary": "企業内のAI活用に関する管理職調査で、半数以上が利用されなくなったAIツールがあると回答した。企業独自の判断基準への対応が課題として浮かび上がっている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "AI活用",
@@ -264,13 +420,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-21T20:47:41.000Z",
-      "description": "Hacker News で 131 ポイント獲得。",
-      "summary": "欧州におけるAIエージェント規制の公式法案「Pandex」がMCPプロトコル上での実装を想定している。",
+      "description": "Hacker News で 139 ポイント獲得。",
+      "summary": "ヨーロッパのAIエージェントに関する公式法規がMCP上で構築されています。AIエージェントの規制枠組みに関する欧州の取り組みを示しています。",
       "category": "規制/政策",
       "tags": [
-        "AI規制",
-        "欧州",
-        "MCP"
+        "EU規制",
+        "AIエージェント",
+        "法律"
       ],
       "importance": 3
     },
@@ -284,7 +440,7 @@
       "lang": "en",
       "publishedAt": "2026-11-21T20:03:37.000Z",
       "description": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the International Committee of the Red…",
-      "summary": "ジュネーブでの国連外交官会議で、自律型兵器（キラーロボット）の規制ルール策定が議論されたが、協議は難航し「選択肢の検討を開始する」にとどまった。",
+      "summary": "ジュネーブでの国連会議で自律兵器規制に関するルール制定が議論されたが、協議は難航し「選択肢の検討を開始する」ことで合意するにとどまった。",
       "category": "規制/政策",
       "tags": [
         "自律兵器",
@@ -292,6 +448,25 @@
         "規制"
       ],
       "importance": 3
+    },
+    {
+      "id": "e22242af68a0",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-22T21:01:16.000Z",
+      "description": "Hacker News で 261 ポイント獲得。",
+      "summary": "ローカルAIの初心者向けガイドがInkling、Qwen、Unslothといったツールを取り扱っている。ローカルAIモデルの実装方法に関する教育的コンテンツ。",
+      "category": "開発ツール",
+      "tags": [
+        "ローカルAI",
+        "初心者ガイド",
+        "Qwen"
+      ],
+      "importance": 2
     },
     {
       "id": "9d9127000a29",
@@ -303,12 +478,12 @@
       "lang": "en",
       "publishedAt": "2026-11-22T17:25:20.000Z",
       "description": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to the tracks on Suno's site. Creator Edmund McMillen took to X t…",
-      "summary": "ゲーム「The Binding of Isaac: Repentance Plus」がSunoで生成されたAI音楽を使用していたことが発覚し、Steamでレビュー爆撃を受けた。開発者のEdmund McMillenが対応を表明している。",
-      "category": "その他",
+      "summary": "ゲーム「The Binding of Isaac: Repentance Plus」がAI生成音楽の使用が明らかになり、Steamでレビュー爆撃を受けました。開発者はこの問題に対応する意向を示しています。",
+      "category": "プロダクト",
       "tags": [
         "AI音楽",
-        "ゲーム開発",
-        "Suno"
+        "ゲーム",
+        "批判"
       ],
       "importance": 2
     },
@@ -322,12 +497,50 @@
       "lang": "en",
       "publishedAt": "2026-11-22T13:00:00.000Z",
       "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not that large language models opened up some wholly new capability. For as long as there…",
-      "summary": "言語モデルを活用した「バイブコーディング」があらゆるデバイスに拡がってくる動きについて解説される。AIによるプログラミング手法の進化が進行中である。",
-      "category": "開発ツール",
+      "summary": "大規模言語モデルを活用した「バイブコーディング」という新しいアプローチが広がり始めています。様々なガジェットに応用される可能性を持つトレンドについての解説記事です。",
+      "category": "その他",
       "tags": [
-        "AI開発",
-        "コーディング",
-        "言語モデル"
+        "LLM",
+        "ユーザーインターフェース",
+        "トレンド"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "92c84415df83",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-22T05:11:43.000Z",
+      "description": "Hacker News で 101 ポイント獲得。",
+      "summary": "Canary Tokenを用いたAIサプライチェーンセキュリティの調査結果が話題を集めた。セキュリティ侵害の検出と追跡に関する内容と推測される。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "サプライチェーン",
+        "Canary Token"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "08bfd95ad21e",
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-22T02:14:14.000Z",
+      "description": "Hacker News で 280 ポイント獲得。",
+      "summary": "推論プロバイダーにおけるデータ処理の問題が報告されています。推論サービス提供者側でのデータ取り扱いに関する課題について取り上げています。",
+      "category": "その他",
+      "tags": [
+        "データ処理",
+        "セキュリティ",
+        "推論"
       ],
       "importance": 2
     },
@@ -340,32 +553,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-22T02:10:02.000Z",
-      "description": "Hacker News で 132 ポイント獲得。",
-      "summary": "意識を持つAIに関する神話的な考え方について論じた記事。AIの意識性をめぐる誤解や議論を検証している。",
+      "description": "Hacker News で 170 ポイント獲得。",
+      "summary": "意識を持つAIに関する考え方の神話性について論じた記事です。AIの意識問題をめぐる議論の虚構的な側面を検討しています。",
       "category": "その他",
       "tags": [
         "AI意識",
         "哲学",
-        "機械学習"
-      ],
-      "importance": 2
-    },
-    {
-      "id": "2d79660c40e2",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-21T21:37:10.000Z",
-      "description": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "summary": "Signalはスクリーンショット機能をAndroidとiOSアプリで制限する措置を講じた。AI監視の存在的脅威に対応するためのセキュリティ強化である。",
-      "category": "プロダクト",
-      "tags": [
-        "Signal",
-        "プライバシー",
-        "セキュリティ"
+        "評論"
       ],
       "importance": 2
     },
@@ -379,7 +573,7 @@
       "lang": "en",
       "publishedAt": "2026-11-21T21:07:42.000Z",
       "description": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-      "summary": "Nvidiaについて、直近の決算と経営幹部の復帰要求という相反するメッセージが市場に流れている。企業への評価が分かれる状況が生じている。",
+      "summary": "Nvidiaの最新決算報告と経営陣の復帰を求める声から、企業に関する2つの異なる見方が浮かび上がっている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Nvidia",
@@ -398,12 +592,12 @@
       "lang": "en",
       "publishedAt": "2026-11-21T17:00:00.000Z",
       "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "summary": "テキストメッセージで動作するAIエージェントをまとめたリストが公開された。汎用アシスタントから家族向け、旅行、仕事向けなど様々な用途のエージェントが紹介されている。",
+      "summary": "テキストメッセージ内で機能するAIエージェントの注目すべきリストが作成された。汎用アシスタントから家族や旅行、仕事向けの特化型エージェントまで紹介されている。",
       "category": "プロダクト",
       "tags": [
         "AIエージェント",
-        "チャット",
-        "ツール"
+        "テキスト",
+        "アシスタント"
       ],
       "importance": 2
     },
@@ -417,11 +611,11 @@
       "lang": "en",
       "publishedAt": "2026-11-21T16:00:00.000Z",
       "description": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
-      "summary": "俳優が顔をマイクロドラマスタートアップにライセンスする動きが広がり始めている。中国で既に流行しており、ハリウッドでも同様のトレンドが懸念されている。",
+      "summary": "俳優が自分の顔をマイクロドラマスタートアップにライセンスする動きが広がっている。中国で既に人気の傾向だが、ハリウッドでも同じことが起きた場合の長期的な影響について専門家が疑問を呈している。",
       "category": "その他",
       "tags": [
-        "AI顔利用",
-        "ハリウッド",
+        "AI顔",
+        "エンタメ",
         "倫理"
       ],
       "importance": 2
