@@ -1,0 +1,724 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-24T20:34:16.262Z",
+  "count": 30,
+  "stats": {
+    "fetched": 133,
+    "afterDedupe": 132,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 1,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Meta AI",
+      "Hugging Face Blog",
+      "VentureBeat AI",
+      "Publickey"
+    ],
+    "summarized": 132,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 393
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1428,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 222
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 565
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 352
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 289
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 916,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 344
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 20,
+        "ok": true,
+        "durationMs": 230
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 247
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 10,
+        "ok": true,
+        "durationMs": 266
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 351
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 7,
+        "ok": true,
+        "durationMs": 623
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 15,
+        "ok": true,
+        "durationMs": 683
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 410
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 60,
+        "ok": true,
+        "durationMs": 847
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 815
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "8c3c39d1c9b4",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-24T18:30:42.000Z",
+      "description": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "summary": "Anthropic上場後に株価が公開価格を下回り、AI スタートアップ全体の企業評価に圧力がかかる可能性が懸念されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI スタートアップ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "3741346d7a37",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-24T18:02:59.000Z",
+      "description": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "summary": "英国のサイバーセキュリティ機関がAI駆動型サイバー攻撃の増加を警告。従来の脆弱なセキュリティを悪用する攻撃が深刻化している。",
+      "category": "規制/政策",
+      "tags": [
+        "サイバーセキュリティ",
+        "AI攻撃",
+        "脅威"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b8f23426488b",
+      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-24T15:51:07.000Z",
+      "description": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+      "summary": "アマゾンがDecartを買収し、自社のTrainiumチップの性能向上を目指す。ソフトウェアを活用してNvidiaとの性能差を縮めるための投資戦略である。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Amazon",
+        "AI半導体",
+        "買収"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4881405d4716",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-24T12:30:05.000Z",
+      "description": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "summary": "Amazonのレポートによると、攻撃者のAIエージェントがゼロデイ脆弱性をほぼ自動で発見・悪用。Cairnフレームワークが防御と攻撃の双方で活用されている。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "脆弱性"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "91958935104c",
+      "title": "アンソロピックはなぜ、OpenAIを差し置いて「史上最大IPO」できたのか “事業展開のうまさ“を識者が語る",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/24/news035.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T08:00:00.000Z",
+      "description": "Anthropicが上場して「史上最大のIPO」を成し遂げた。「AIによる人類滅亡リスク」を警告していた同社。ビジネス面の強みはどこにあるのか、識者に聞いた。",
+      "summary": "Anthropicが史上最大規模のIPOを実現した背景を分析。AIによる人類リスク警告企業でありながら、ビジネス面での強みを有することが評価されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "上場"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "043656551062",
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-23T22:25:12.000Z",
+      "description": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would \"end up on his feet.\" \"You know the expression, anybody can be replaced,\" Trump said, float…",
+      "summary": "トランプ大統領がジェンセン・ファン氏のNvidia CEO復帰に関与したと報じられている。ファン氏の中国系スパイ関連の不倫スキャンダルからの返り咲きの背景に、政治的な根回しがあったとみられている。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "政治",
+        "地政学"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "d02936540690",
+      "title": "CrowdStrike、Zscalerを約439億ドルで買収へ 狙いはAIエージェントの安全確保",
+      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-23T22:20:30.000Z",
+      "description": "CrowdStrikeは、ネットワークセキュリティ大手のZscalerを全額株式交換で買収すると発表した。Zscalerの企業価値は約7兆円。Zscalerの「Zero Trust Exchange」などを「Falcon」基盤に統合し、AIエージェントの保護を強化する。統合後の年間経常収益は100億ドルを超える見込みだ。",
+      "summary": "CrowdStrikeが約439億ドルでZscalerを買収する。AIエージェントの安全保護を強化し、統合後の年間経常収益は100億ドルを超える見込みだ。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "M&A",
+        "サイバーセキュリティ",
+        "AIセキュリティ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "edb40f3c9410",
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-23T22:10:32.000Z",
+      "description": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended with Huang’s resignation, and Nv…",
+      "summary": "ジェンセン・ファン氏は不倫スキャンダルにより一度辞任したが、その後、復帰することになった。報道によると、中国のスパイとの関係疑惑も浮上していた。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "人事",
+        "スキャンダル"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ac4c93f94ee2",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-23T21:30:44.000Z",
+      "description": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+      "summary": "複数の州当局がXのGrok から児童虐待画像や復讐ポルノが生成されているとして訴訟を提起。X側は全出力をスクリーニングしていると主張。",
+      "category": "規制/政策",
+      "tags": [
+        "Grok",
+        "CSAM",
+        "AI規制"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "9f11124a436c",
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-23T21:25:42.000Z",
+      "description": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+      "summary": "ジェンセン・ファン氏の不倫スキャンダルの中心にあるMegaspeed社が、米国企業との取引を禁止される可能性が高まっている。同社は連邦政府の特別許可なしに米国企業とビジネスをすることが制限される見通しである。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "規制",
+        "地政学"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "38b798cb22a7",
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-23T21:09:37.000Z",
+      "description": "People protest outside the plenary ahead of the closing plenary session on the final day of the COP31 UNFCCC climate conference on November 20th in Antalya, Turkey. | Photo: Getty Images The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United …",
+      "summary": "COP31気候会議で、急速に成長するAIデータセンターのエネルギー消費が、クリーンエネルギー革命の課題として浮上している。世界中の代表団が、電力網の電化とデータセンター需要の増加という相反する課題に直面している。",
+      "category": "規制/政策",
+      "tags": [
+        "AI",
+        "気候変動",
+        "エネルギー"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "7d565faa886c",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-23T18:12:22.000Z",
+      "description": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+      "summary": "ジェンセン・ファン氏がCEO復帰後、上院で中国人スパイ容疑者との関係について証言する予定。超党派の要求に応じた公開聴聞会となる。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "ジェンセン・ファン",
+        "上院公聴会"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "bd593c852315",
+      "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
+      "url": "https://arxiv.org/abs/2611.31129v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-23T18:01:58.000Z",
+      "description": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we present FATCAT, the first physical fault-injection attacks capable of eliminating refusal in modern large language and vision-language models. Specifically, we pr…",
+      "summary": "現代の大規模言語・ビジョン言語モデルの拒否応答を物理的な障害注入攻撃で無効化する「FATCAT」を初めて実装しました。ハードウェアレベルの脆弱性がモデルアライメント回避を可能にすることを示唆しています。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "アライメント",
+        "物理攻撃"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "8e34b5851d60",
+      "title": "AI-Assisted Programming and Labor Demand",
+      "url": "https://arxiv.org/abs/2611.31083v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-23T17:33:22.000Z",
+      "description": "Generative AI has demonstrated human-level performance on technical work tasks, yet evidence on how these task-level capabilities are changing labor demand remains scarce. We study the firm-level adoption of GitHub Copilot, an AI coding assistant, across 5,414 multinational firms accounting for 38% of the U.S. programming workforce. To identify causal effects, we exploit a natural experiment gener…",
+      "summary": "GitHub Copilotの導入が労働需要に与える影響を、米国プログラミング労働力の38%を占める5,414社で調査。タスクレベルの能力とマクロ経済的な労働効果の関連を自然実験で検証。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI導入",
+        "労働経済",
+        "プログラミング"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "1efa84880342",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-23T17:14:23.000Z",
+      "description": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "summary": "AmazonはDecartのAI最適化技術とチームを75億ドルで買収。同社がTrainiumチップの販売準備を進める中での戦略的な買収と位置づけられる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Amazon",
+        "AI最適化",
+        "M&A"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "875060338ff1",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "Google DeepMind",
+      "sourceWeight": 9,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-23T16:59:40.000Z",
+      "description": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "summary": "Google DeepMindがエージェントチームと形式検証を用いて、核融合と化学計算向けの量子アルゴリズムを改善した。",
+      "category": "その他",
+      "tags": [
+        "量子アルゴリズム",
+        "形式検証"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "94dc07f4c992",
+      "title": "MedUIGym: Evaluating and Training GUI Agents for Clinical Workflows",
+      "url": "https://arxiv.org/abs/2611.30983v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-23T16:41:20.000Z",
+      "description": "Automating clinical workflows requires vision-language agents that can navigate dense graphical user interfaces (GUIs) in electronic health records (EHRs) and execute precise actions, yet many medical agents still rely on text or structured tool calls. In this work, we introduce MedUIGym, a scalable interactive environment comprising 15,739 tasks from 17 benchmark sources across six clinical task …",
+      "summary": "臨床ワークフロー自動化のため、電子カルテのGUIを操作できる視覚言語エージェントを訓練・評価するプラットフォーム「MedUIGym」を紹介。6つの臨床分野で15,000以上のタスクを提供する。",
+      "category": "プロダクト",
+      "tags": [
+        "医療AI",
+        "GUI自動化",
+        "臨床ワークフロー"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "637cdfcecd48",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-23T16:39:10.000Z",
+      "description": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+      "summary": "トランプ大統領がNvidiaの取締役会に電話で参加し、ジェンセン・ファン氏の復帰を支持するよう働きかけたと報道されている。大統領は説得に成功したと述べている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "ジェンセン・ファン",
+        "政治"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "1da5fe02c4f2",
+      "title": "SayDo: Benchmarking the Safety of Frontier Models from Chat to Closed-Loop Robot Control",
+      "url": "https://arxiv.org/abs/2611.30957v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-23T16:31:02.000Z",
+      "description": "Frontier vision-language models (VLMs) are increasingly used as high-level robot controllers, yet their safety is evaluated almost entirely in text. We introduce SayDo, a benchmark that assesses the propensity of frontier models to cause harm in embodied contexts. SayDo comprises eleven laboratory and household tasks that pair a benign instruction with a hazard latent in the scene. Tasks are imple…",
+      "summary": "ロボット制御として使用される視覚言語モデルの実世界での安全性を評価するベンチマーク「SayDo」を紹介。危険な結果をもたらす可能性のある一般的な指示を含む11のタスクで測定する。",
+      "category": "モデル/研究",
+      "tags": [
+        "安全性評価",
+        "視覚言語モデル",
+        "ロボット"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "ec2ae941457f",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-23T15:46:18.000Z",
+      "description": "Trump says he spoke to the board and that Huang \"did nothing wrong.\"",
+      "summary": "Nvidia のジェンセン・フアンがCEOと会長職に復職。トランプ大統領が関与し、フアンに問題がなかったと発言した。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "経営体制"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "0b3552d68767",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-23T15:04:01.000Z",
+      "description": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+      "summary": "トランプ大統領がジェンセン・ファン氏のNvidia復帰を支持し、米国は不正行為の証拠を持たないと述べた。同時にNvidiaに輸出管理調査の継続を促している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "ジェンセン・ファン",
+        "政治"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "1600ff191b27",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-23T14:21:59.000Z",
+      "description": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "summary": "Nvidiaがジェンスン・ファンCEOの復帰を発表。米国政府高官の支持により行われた大きな方針転換となる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "経営交代",
+        "CEO"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fca8ba6f2e76",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-24T17:34:34.000Z",
+      "description": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "summary": "音楽ストリーミングサービスのTidalがAI生成音楽の配信禁止を発表しました。カタログの6.3%に相当する約2700万曲が削除される予定です。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI生成音楽",
+        "Tidal",
+        "音楽配信"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "fa2ff0bf9023",
+      "title": "Tidal bans AI-generated music",
+      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-24T16:12:38.000Z",
+      "description": "Hacker News で 301 ポイント獲得。",
+      "summary": "音楽ストリーミング配信サービスのTidalがAI生成音楽をプラットフォームから排除する方針を発表。",
+      "category": "規制/政策",
+      "tags": [
+        "AI音楽",
+        "Tidal",
+        "著作権"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "5d5b4cbc5703",
+      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-24T16:10:00.000Z",
+      "description": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+      "summary": "次世代AIデータセンターの膨大な電力需要に対応するため、太陽光発電とバッテリー技術に投資する動きが広がっている。Crusoeの投資家がこの戦略を支持している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "データセンター",
+        "再生可能エネルギー",
+        "持続可能性"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "041144557241",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-24T16:09:23.000Z",
+      "description": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh Haner, write that the use of these features \"can result in metadata identifying photographs as…",
+      "summary": "ニューヨークタイムズがフリーランスカメラマンに対し、AI機能を含む2027年版Photoshopへの更新を控えるよう勧告。ユーザーに不明確なAI機能の利用に関する懸念がある。",
+      "category": "規制/政策",
+      "tags": [
+        "Adobe",
+        "AI透明性",
+        "著作権"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "299afe5affa0",
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+      "source": "MIT Technology Review AI",
+      "sourceWeight": 7,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-24T15:15:16.000Z",
+      "description": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
+      "summary": "企業ネットワークがAI導入により大きな負荷を受けている。エージェントAIのタスク処理は人間の作業に比べ450%以上のネットワークトラフィックを発生させるため、インフラ近代化が急務である。",
+      "category": "その他",
+      "tags": [
+        "ネットワーク",
+        "企業IT",
+        "AIインフラ"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "ea16ecc8fbc8",
+      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-24T14:56:50.000Z",
+      "description": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
+      "summary": "トランプ陣営とシリコンバレーがNvidiaに圧力をかけ、フアンのCEO復職を実現。政治的影響力がテック業界の人事に及んでいる。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "政治圧力",
+        "経営"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "dac8e16d7ef7",
+      "title": "DeNA、「AI社員」を外販 使い過ぎを“残業時間”で管理",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T03:26:08.000Z",
+      "description": "DeNAは、AIエージェントを企業の一員として配属・育成できるとうたうサービス「AI社員 by DeNA」の提供を決定したと発表した。",
+      "summary": "DeNAがAIエージェントを企業配属できるサービス「AI社員 by DeNA」の提供を発表。残業時間で利用管理する独自の仕組みにより、AI導入の実装化を推進する。",
+      "category": "プロダクト",
+      "tags": [
+        "AIエージェント",
+        "企業向け",
+        "DeNA"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "de6564c35673",
+      "title": "Anthropic、PRのレビューから修正、承認までをAIで支援する「Claude Ship」公開",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003404/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T01:21:04.000Z",
+      "description": "Anthropicは、GitHub上のプルリクエスト（PR）のレビューから修正、ポリシーに基づく承認判断までをAIで支援する「Claude Ship」をβ版として発表した。既存の「Code Review」に新エージェント「PR Steward」「Claude Approvals」を組み合わせ、Team／Enterpriseプラン向けに提供する。",
+      "summary": "Anthropicがプルリクエストのレビューから承認までをAI支援する「Claude Ship」をβ版で発表。新エージェント「PR Steward」と「Claude Approvals」を組み合わせ、GitHubでの開発効率化を実現する。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude",
+        "GitHub",
+        "開発支援"
+      ],
+      "importance": 3
+    }
+  ]
+}
