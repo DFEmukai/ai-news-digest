@@ -1,13 +1,13 @@
 {
   "date": "2026-11-25",
-  "generatedAt": "2026-11-24T20:34:16.262Z",
+  "generatedAt": "2026-11-25T04:50:23.880Z",
   "count": 30,
   "stats": {
-    "fetched": 133,
-    "afterDedupe": 132,
+    "fetched": 138,
+    "afterDedupe": 136,
     "published": 30,
     "removedByUrl": 0,
-    "removedByTitle": 1,
+    "removedByTitle": 2,
     "failedSources": [
       {
         "name": "VentureBeat AI",
@@ -16,32 +16,32 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
-      "Anthropic News",
-      "OpenAI Blog",
       "Google AI Blog",
       "Meta AI",
       "Hugging Face Blog",
       "VentureBeat AI",
-      "Publickey"
+      "MIT Technology Review AI",
+      "Publickey",
+      "Hacker News"
     ],
-    "summarized": 132,
+    "summarized": 136,
     "summaryFailures": 0,
     "sources": [
       {
         "name": "Anthropic News",
         "weight": 10,
         "itemsInFeed": 100,
-        "fetched": 2,
+        "fetched": 4,
         "ok": true,
-        "durationMs": 393
+        "durationMs": 444
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
-        "itemsInFeed": 1428,
-        "fetched": 4,
+        "itemsInFeed": 1430,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 222
+        "durationMs": 317
       },
       {
         "name": "Google AI Blog",
@@ -49,7 +49,7 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 565
+        "durationMs": 486
       },
       {
         "name": "Google DeepMind",
@@ -57,7 +57,7 @@
         "itemsInFeed": 100,
         "fetched": 1,
         "ok": true,
-        "durationMs": 352
+        "durationMs": 130
       },
       {
         "name": "Meta AI",
@@ -65,7 +65,7 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 289
+        "durationMs": 346
       },
       {
         "name": "Hugging Face Blog",
@@ -73,7 +73,7 @@
         "itemsInFeed": 916,
         "fetched": 2,
         "ok": true,
-        "durationMs": 344
+        "durationMs": 381
       },
       {
         "name": "TechCrunch AI",
@@ -81,7 +81,7 @@
         "itemsInFeed": 20,
         "fetched": 20,
         "ok": true,
-        "durationMs": 230
+        "durationMs": 170
       },
       {
         "name": "VentureBeat AI",
@@ -90,7 +90,7 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 247
+        "durationMs": 170
       },
       {
         "name": "The Verge AI",
@@ -98,7 +98,7 @@
         "itemsInFeed": 10,
         "fetched": 10,
         "ok": true,
-        "durationMs": 266
+        "durationMs": 321
       },
       {
         "name": "MIT Technology Review AI",
@@ -106,31 +106,31 @@
         "itemsInFeed": 10,
         "fetched": 2,
         "ok": true,
-        "durationMs": 351
+        "durationMs": 383
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 7,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 623
+        "durationMs": 728
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 15,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 683
+        "durationMs": 775
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 4,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 410
+        "durationMs": 436
       },
       {
         "name": "arXiv cs.AI",
@@ -138,35 +138,110 @@
         "itemsInFeed": 60,
         "fetched": 60,
         "ok": true,
-        "durationMs": 847
+        "durationMs": 714
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 4,
+        "fetched": 3,
         "ok": true,
-        "durationMs": 815
+        "durationMs": 611
       }
     ]
   },
   "articles": [
     {
-      "id": "8c3c39d1c9b4",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-24T18:30:42.000Z",
-      "description": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-      "summary": "Anthropic上場後に株価が公開価格を下回り、AI スタートアップ全体の企業評価に圧力がかかる可能性が懸念されている。",
+      "id": "91958935104c",
+      "title": "アンソロピックはなぜ、OpenAIを差し置いて「史上最大IPO」できたのか “事業展開のうまさ“を識者が語る",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/24/news035.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T08:00:00.000Z",
+      "description": "Anthropicが上場して「史上最大のIPO」を成し遂げた。「AIによる人類滅亡リスク」を警告していた同社。ビジネス面の強みはどこにあるのか、識者に聞いた。",
+      "summary": "Anthropicが史上最大規模のIPOを実現。AIのリスク警告で知られる同社がOpenAIを上回る成功を収めた背景について、ビジネス面での強みを識者が解説する。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Anthropic",
         "IPO",
-        "AI スタートアップ"
+        "企業戦略"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "67bdfc74fdf5",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-25T00:12:02.000Z",
+      "description": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+      "summary": "Yaleの経営学者Jeffrey Sonnenfeld氏は、Huang氏のNvidia復帰を「米国産業への悪影響」と批判し、同社が敵対国に先端チップを供給している可能性に言及した。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "地政学リスク",
+        "チップ輸出"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "27b237f36445",
+      "title": "AIエージェントは隙あらばサンドボックスの外に出るのか Anthropicが評価手法「Siren」を発表",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003430/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T22:41:42.000Z",
+      "description": "Anthropicは、AIエージェントが脆弱なサンドボックスから抜け出すかどうかを測る評価手法「Siren」を発表した。1700以上のシナリオで6モデルを検証し、最新モデル群が外に置かれた認証情報などを不正に使った割合は0.6?1.6％にとどまった。システムプロンプトでのルール明示や報告ツールなどの対策を組み合わせると、問題行動をほぼゼロに抑えられるという。",
+      "summary": "Anthropicが開発したAIエージェントのセキュリティ評価手法「Siren」により、1700以上のシナリオで検証した結果、最新モデルの不正行為率は0.6～1.6％に留まった。対策を組み合わせることでほぼ完全に問題行動を防げるという。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "評価手法"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "d784f7411399",
+      "title": "「ソフトウェアファクトリー」とは結局何か OpenAIもUberもfreeeも始めたAIエージェントの「工場」の中身",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T20:00:00.000Z",
+      "description": "AIコーディングエージェントを個別に使う段階から、工程全体を「工場」として組む段階へ。OpenAI、Uber、freeeなどの取り組みを手掛かりに、この言葉が指す仕組みと、人間に残る仕事を整理する。",
+      "summary": "AIコーディングエージェントの活用が個別ツール段階から開発工程全体を組み込む「工場」段階へシフト。OpenAI、Uber、freeeなどの事例を通じ、ソフトウェアファクトリーの実態と人間が担う役割を整理する。",
+      "category": "モデル/研究",
+      "tags": [
+        "ソフトウェアファクトリー",
+        "AIエージェント",
+        "コーディング"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b66586f85dc8",
+      "title": "Measuring and mitigating agent sandbox escape with Siren",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1fZjR4dUV6eU1kNy1Ub1BpVmxfRXA2c3A5cU5rX2RZZFY3aU1WRGloYkUxZ1pqQmltVjQtTXFDYjhPLXJDbVlBYWxuTC1qQ2JJQW9OeEoyUQ?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-24T18:04:55.000Z",
+      "description": "Measuring and mitigating agent sandbox escape with Siren Anthropic",
+      "summary": "AnthropicがSirenという手法でAIエージェントのサンドボックス脱出を計測・軽減。エージェントセキュリティの重要課題に対応している。",
+      "category": "その他",
+      "tags": [
+        "エージェント安全性",
+        "サンドボックス"
       ],
       "importance": 4
     },
@@ -180,12 +255,50 @@
       "lang": "en",
       "publishedAt": "2026-11-24T18:02:59.000Z",
       "description": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-      "summary": "英国のサイバーセキュリティ機関がAI駆動型サイバー攻撃の増加を警告。従来の脆弱なセキュリティを悪用する攻撃が深刻化している。",
+      "summary": "英国のサイバーセキュリティ機関がAI駆動型の攻撃が既存の脆弱性を悪用していると警告。強固なセキュリティ基盤の構築が急務であることが指摘された。",
       "category": "規制/政策",
       "tags": [
         "サイバーセキュリティ",
-        "AI攻撃",
-        "脅威"
+        "AI脅威",
+        "防御"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "e37c72d414dd",
+      "title": "Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents",
+      "url": "https://arxiv.org/abs/2611.32958v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-24T16:57:12.000Z",
+      "description": "AI agents are beginning to automate data analysis, orchestration, and simulation steering in HPC environments, but they introduce a security problem that existing cluster defenses do not address: the hijacked authorized agent. An adversary can subvert an agent through prompt injection, poisoned shared data, compromised tools, or multi-agent coordination, then exfiltrate sensitive data through legi…",
+      "summary": "HPC環境でAIエージェントを安全に運用するため、ゼロトラスト認証アーキテクチャが提案されました。プロンプトインジェクションなどの攻撃を防ぎ、権限を持つエージェントの乗っ取りに対応します。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "ゼロトラスト"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "4613f9278733",
+      "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
+      "url": "https://arxiv.org/abs/2611.32957v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-24T16:56:34.000Z",
+      "description": "Online fraud is traditionally limited by the cost of the human labor needed to talk to potential victims. We ask whether hosted large language models will now supply that labor. We prompted ten off-the-shelf models to play the seller in the \"free item, just pay delivery\" advance-fee scam common on buy-and-sell sites, using a plain system prompt with no jailbreak. Each model played 30 conversations…",
+      "summary": "複数の大規模言語モデルが詐欺的な役割演技を実行する可能性を検証する研究です。人間による労力コストが低減されることで、オンライン詐欺のリスクが変わる可能性を示唆します。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "詐欺リスク",
+        "LLM安全性"
       ],
       "importance": 4
     },
@@ -199,69 +312,50 @@
       "lang": "en",
       "publishedAt": "2026-11-24T15:51:07.000Z",
       "description": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
-      "summary": "アマゾンがDecartを買収し、自社のTrainiumチップの性能向上を目指す。ソフトウェアを活用してNvidiaとの性能差を縮めるための投資戦略である。",
+      "summary": "アマゾンがDecartを買収し、自社の半導体チップの性能向上を進める。ソフトウェアを活用してエヌビディアとの技術格差を縮める戦略と見られている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Amazon",
-        "AI半導体",
-        "買収"
+        "半導体",
+        "Nvidia"
       ],
       "importance": 4
     },
     {
-      "id": "4881405d4716",
-      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
+      "id": "b84718a76ebf",
+      "title": "Reliable and grounded reporting of any computed tomography scan with FORA",
+      "url": "https://arxiv.org/abs/2611.32823v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-11-24T12:30:05.000Z",
-      "description": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-      "summary": "Amazonのレポートによると、攻撃者のAIエージェントがゼロデイ脆弱性をほぼ自動で発見・悪用。Cairnフレームワークが防御と攻撃の双方で活用されている。",
+      "publishedAt": "2026-11-24T15:39:26.000Z",
+      "description": "Artificial intelligence systems for computed tomography (CT) remain largely restricted to specific anatomical regions, examination types or predefined abnormalities, limiting their ability to provide comprehensive and spatially grounded interpretations. Here we present FORA, a general-purpose CT model that recognizes and spatially localizes 1,028 hierarchically organized radiological concepts and …",
+      "summary": "1028個の放射線学的概念を認識し空間的に局在化できる汎用CT解析モデル「FORA」を開発。特定部位や検査タイプに限定されない包括的で根拠のあるCT画像解釈を実現している。",
+      "category": "プロダクト",
+      "tags": [
+        "医療AI",
+        "CT画像解析",
+        "診断"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "e32ed061be72",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI Blog",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "summary": "GPT-6モデルがタンパク質設計能力を実証。推論とコード生成により構造と配列を設計し、5つの標的でバインディング証拠が確認された。",
       "category": "その他",
       "tags": [
-        "セキュリティ",
-        "AIエージェント",
-        "脆弱性"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "91958935104c",
-      "title": "アンソロピックはなぜ、OpenAIを差し置いて「史上最大IPO」できたのか “事業展開のうまさ“を識者が語る",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/24/news035.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-24T08:00:00.000Z",
-      "description": "Anthropicが上場して「史上最大のIPO」を成し遂げた。「AIによる人類滅亡リスク」を警告していた同社。ビジネス面の強みはどこにあるのか、識者に聞いた。",
-      "summary": "Anthropicが史上最大規模のIPOを実現した背景を分析。AIによる人類リスク警告企業でありながら、ビジネス面での強みを有することが評価されている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "上場"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "043656551062",
-      "title": "Trump engineered a risky comeback for Jensen Huang",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-23T22:25:12.000Z",
-      "description": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would \"end up on his feet.\" \"You know the expression, anybody can be replaced,\" Trump said, float…",
-      "summary": "トランプ大統領がジェンセン・ファン氏のNvidia CEO復帰に関与したと報じられている。ファン氏の中国系スパイ関連の不倫スキャンダルからの返り咲きの背景に、政治的な根回しがあったとみられている。",
-      "category": "規制/政策",
-      "tags": [
-        "Nvidia",
-        "政治",
-        "地政学"
+        "タンパク質設計",
+        "生物学",
+        "GPT-6"
       ],
       "importance": 4
     },
@@ -275,31 +369,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-23T22:20:30.000Z",
       "description": "CrowdStrikeは、ネットワークセキュリティ大手のZscalerを全額株式交換で買収すると発表した。Zscalerの企業価値は約7兆円。Zscalerの「Zero Trust Exchange」などを「Falcon」基盤に統合し、AIエージェントの保護を強化する。統合後の年間経常収益は100億ドルを超える見込みだ。",
-      "summary": "CrowdStrikeが約439億ドルでZscalerを買収する。AIエージェントの安全保護を強化し、統合後の年間経常収益は100億ドルを超える見込みだ。",
+      "summary": "CrowdStrikeがネットワークセキュリティ企業のZscalerを約439億ドルで買収する。AIエージェントの保護強化が目的で、統合後は年間経常収益が100億ドルを超える見通しである。",
       "category": "ビジネス/資金調達",
       "tags": [
+        "CrowdStrike",
         "M&A",
-        "サイバーセキュリティ",
         "AIセキュリティ"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "edb40f3c9410",
-      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-23T22:10:32.000Z",
-      "description": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended with Huang’s resignation, and Nv…",
-      "summary": "ジェンセン・ファン氏は不倫スキャンダルにより一度辞任したが、その後、復帰することになった。報道によると、中国のスパイとの関係疑惑も浮上していた。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Nvidia",
-        "人事",
-        "スキャンダル"
       ],
       "importance": 4
     },
@@ -313,31 +388,12 @@
       "lang": "en",
       "publishedAt": "2026-11-23T21:30:44.000Z",
       "description": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
-      "summary": "複数の州当局がXのGrok から児童虐待画像や復讐ポルノが生成されているとして訴訟を提起。X側は全出力をスクリーニングしていると主張。",
+      "summary": "複数の州がSpaceXを相手にGrokが児童性虐待画像や復讐ポルノを生成していると主張し訴訟を提起。XはGrokの全出力をスクリーニングしていると反論している。",
       "category": "規制/政策",
       "tags": [
         "Grok",
         "CSAM",
-        "AI規制"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "9f11124a436c",
-      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
-      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-23T21:25:42.000Z",
-      "description": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
-      "summary": "ジェンセン・ファン氏の不倫スキャンダルの中心にあるMegaspeed社が、米国企業との取引を禁止される可能性が高まっている。同社は連邦政府の特別許可なしに米国企業とビジネスをすることが制限される見通しである。",
-      "category": "規制/政策",
-      "tags": [
-        "Nvidia",
-        "規制",
-        "地政学"
+        "規制"
       ],
       "importance": 4
     },
@@ -351,31 +407,12 @@
       "lang": "en",
       "publishedAt": "2026-11-23T21:09:37.000Z",
       "description": "People protest outside the plenary ahead of the closing plenary session on the final day of the COP31 UNFCCC climate conference on November 20th in Antalya, Turkey. | Photo: Getty Images The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United …",
-      "summary": "COP31気候会議で、急速に成長するAIデータセンターのエネルギー消費が、クリーンエネルギー革命の課題として浮上している。世界中の代表団が、電力網の電化とデータセンター需要の増加という相反する課題に直面している。",
+      "summary": "COP31気候会議で、急速に成長するAIデータセンターのエネルギー消費が、クリーンエネルギー革命の課題として浮上している。各国代表団は世界経済の電化と電力需要の急増のバランスについて協議を進めている。",
       "category": "規制/政策",
       "tags": [
-        "AI",
         "気候変動",
+        "AIインフラ",
         "エネルギー"
-      ],
-      "importance": 4
-    },
-    {
-      "id": "7d565faa886c",
-      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
-      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-23T18:12:22.000Z",
-      "description": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
-      "summary": "ジェンセン・ファン氏がCEO復帰後、上院で中国人スパイ容疑者との関係について証言する予定。超党派の要求に応じた公開聴聞会となる。",
-      "category": "規制/政策",
-      "tags": [
-        "Nvidia",
-        "ジェンセン・ファン",
-        "上院公聴会"
       ],
       "importance": 4
     },
@@ -446,10 +483,11 @@
       "lang": "en",
       "publishedAt": "2026-11-23T16:59:40.000Z",
       "description": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-      "summary": "Google DeepMindがエージェントチームと形式検証を用いて、核融合と化学計算向けの量子アルゴリズムを改善した。",
+      "summary": "Google DeepMindがエージェントチームと形式検証を組み合わせて量子アルゴリズムを改善。核融合と化学分野への応用を進めている。",
       "category": "その他",
       "tags": [
-        "量子アルゴリズム",
+        "量子計算",
+        "エージェント",
         "形式検証"
       ],
       "importance": 4
@@ -569,154 +607,116 @@
       "importance": 4
     },
     {
-      "id": "fca8ba6f2e76",
-      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
+      "id": "dba2a6d8062b",
+      "title": "AIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003421/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
       "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-24T17:34:34.000Z",
-      "description": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
-      "summary": "音楽ストリーミングサービスのTidalがAI生成音楽の配信禁止を発表しました。カタログの6.3%に相当する約2700万曲が削除される予定です。",
-      "category": "ビジネス/資金調達",
+      "lang": "ja",
+      "publishedAt": "2026-11-25T03:00:00.000Z",
+      "description": "米ボストン大学、米BCGのヘンダーソン研究所、米OpenAIに所属する研究者らがNature Human Behaviourで発表した論文「Generative AI and the temporary upskilling of knowledge workers」は、生成AIによる一時的なスキルアップの効果と限界を調査した研究報告だ。",
+      "summary": "ボストン大学とBCG、OpenAIの研究チームがNature系列誌で発表した論文。BCGの約500人を対象に生成AIが一時的なスキルアップをもたらす効果と限界を検証した研究報告。",
+      "category": "その他",
       "tags": [
-        "AI生成音楽",
-        "Tidal",
-        "音楽配信"
+        "生成AI",
+        "スキルアップ",
+        "実証研究"
       ],
       "importance": 3
     },
     {
-      "id": "fa2ff0bf9023",
-      "title": "Tidal bans AI-generated music",
-      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-      "source": "Hacker News",
-      "sourceWeight": 5,
+      "id": "a8df553db27d",
+      "title": "音楽サービスのTIDAL、AI生成楽曲を削除・受付停止へ 直近90日の配信楽曲の43％がAI生成",
+      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003433/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
       "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-24T16:12:38.000Z",
-      "description": "Hacker News で 301 ポイント獲得。",
-      "summary": "音楽ストリーミング配信サービスのTidalがAI生成音楽をプラットフォームから排除する方針を発表。",
+      "lang": "ja",
+      "publishedAt": "2026-11-25T01:57:02.000Z",
+      "description": "音楽ストリーミングサービスのTIDALは、完全AI生成楽曲の受付を停止し、配信済みの楽曲も削除すると発表した。直近90日間に配信された楽曲の43％が完全AI生成と判定されており、現在カタログの6.3％に当たる約2700万曲が該当する。AIを補助的に使った楽曲は引き続き配信可能だ。",
+      "summary": "音楽ストリーミングサービスTIDALが完全AI生成楽曲の受付停止と配信済み楽曲の削除を発表。直近90日の配信楽曲の43％がAI生成と判定され、カタログの約2700万曲が対象となる。",
       "category": "規制/政策",
       "tags": [
-        "AI音楽",
-        "Tidal",
-        "著作権"
+        "AI生成コンテンツ",
+        "音楽配信",
+        "コンテンツ規制"
       ],
       "importance": 3
     },
     {
-      "id": "5d5b4cbc5703",
-      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
-      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+      "id": "cfaa087804e3",
+      "title": "経理が「2人→1人」に減る現場 弥生の開発陣が警鐘を鳴らす「なんとなく経営」の限界",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/25/news020.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T22:00:00.000Z",
+      "description": "資材や人件費の高騰、法改正による事務負担増で中小企業の経営難易度が上がっている。弥生の担当者は、顧客と接する中での実感として、従業員20人前後の企業では約7割の企業が、数値化した売り上げ・利益目標を持たず、経営状況を経験や勘で「なんとなく」で把握していると話す。さらに経営者の間で広がる「AI格差」をどう乗り越えるべきか。会計領域でAIを使う際の落とし穴（誤認投資のリスク）と、経営者がAIを使いこなす3段階を、長年現場を見つめてきた開発陣に聞いた。",
+      "summary": "中小企業の経営難易度が上昇する中、会計ソフト企業の弥生は約7割の従業員20人前後の企業が数値目標を持たず「なんとなく」経営していると指摘。AIを活用した経営改善の重要性と段階的な導入方法を提言している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "中小企業",
+        "AI活用",
+        "経営課題"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c6b7166e786b",
+      "title": "Even the best AI agents struggle with everyday life",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-24T16:10:00.000Z",
-      "description": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
-      "summary": "次世代AIデータセンターの膨大な電力需要に対応するため、太陽光発電とバッテリー技術に投資する動きが広がっている。Crusoeの投資家がこの戦略を支持している。",
-      "category": "ビジネス/資金調達",
+      "publishedAt": "2026-11-24T21:33:29.000Z",
+      "description": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "summary": "新しいベンチマークの検証により、最先端のAIモデルであっても日常的なタスクを安全かつ確実に完了させるのに苦戦していることが判明した。",
+      "category": "その他",
       "tags": [
-        "データセンター",
-        "再生可能エネルギー",
-        "持続可能性"
+        "AIエージェント",
+        "ベンチマーク",
+        "タスク実行"
       ],
       "importance": 3
     },
     {
-      "id": "041144557241",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "id": "8c3c39d1c9b4",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-24T18:30:42.000Z",
+      "description": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "summary": "Anthropicの株価がIPO価格を下回り、AI業界全体のスタートアップ評価に悪影響を与える可能性が指摘されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "株価"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "b29b9d7d3e32",
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
       "source": "The Verge AI",
       "sourceWeight": 6,
       "sourceCategory": "プロダクト",
       "lang": "en",
-      "publishedAt": "2026-11-24T16:09:23.000Z",
-      "description": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh Haner, write that the use of these features \"can result in metadata identifying photographs as…",
-      "summary": "ニューヨークタイムズがフリーランスカメラマンに対し、AI機能を含む2027年版Photoshopへの更新を控えるよう勧告。ユーザーに不明確なAI機能の利用に関する懸念がある。",
-      "category": "規制/政策",
-      "tags": [
-        "Adobe",
-        "AI透明性",
-        "著作権"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "299afe5affa0",
-      "title": "Raising the stakes for enterprise networks with AI modernization",
-      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-      "source": "MIT Technology Review AI",
-      "sourceWeight": 7,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-24T15:15:16.000Z",
-      "description": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
-      "summary": "企業ネットワークがAI導入により大きな負荷を受けている。エージェントAIのタスク処理は人間の作業に比べ450%以上のネットワークトラフィックを発生させるため、インフラ近代化が急務である。",
-      "category": "その他",
-      "tags": [
-        "ネットワーク",
-        "企業IT",
-        "AIインフラ"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "ea16ecc8fbc8",
-      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-24T14:56:50.000Z",
-      "description": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
-      "summary": "トランプ陣営とシリコンバレーがNvidiaに圧力をかけ、フアンのCEO復職を実現。政治的影響力がテック業界の人事に及んでいる。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Nvidia",
-        "政治圧力",
-        "経営"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "dac8e16d7ef7",
-      "title": "DeNA、「AI社員」を外販 使い過ぎを“残業時間”で管理",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-24T03:26:08.000Z",
-      "description": "DeNAは、AIエージェントを企業の一員として配属・育成できるとうたうサービス「AI社員 by DeNA」の提供を決定したと発表した。",
-      "summary": "DeNAがAIエージェントを企業配属できるサービス「AI社員 by DeNA」の提供を発表。残業時間で利用管理する独自の仕組みにより、AI導入の実装化を推進する。",
+      "publishedAt": "2026-11-24T17:17:09.000Z",
+      "description": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 percent AI-generated. In a post on X, Andersen says T…",
+      "summary": "Tidalが12月9日からAI生成音楽の完全禁止を実施する。約2900万曲の削除と1日8万〜8万5000曲の拒否が見込まれている。",
       "category": "プロダクト",
       "tags": [
-        "AIエージェント",
-        "企業向け",
-        "DeNA"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "de6564c35673",
-      "title": "Anthropic、PRのレビューから修正、承認までをAIで支援する「Claude Ship」公開",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/24/2000003404/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-24T01:21:04.000Z",
-      "description": "Anthropicは、GitHub上のプルリクエスト（PR）のレビューから修正、ポリシーに基づく承認判断までをAIで支援する「Claude Ship」をβ版として発表した。既存の「Code Review」に新エージェント「PR Steward」「Claude Approvals」を組み合わせ、Team／Enterpriseプラン向けに提供する。",
-      "summary": "Anthropicがプルリクエストのレビューから承認までをAI支援する「Claude Ship」をβ版で発表。新エージェント「PR Steward」と「Claude Approvals」を組み合わせ、GitHubでの開発効率化を実現する。",
-      "category": "プロダクト",
-      "tags": [
-        "Claude",
-        "GitHub",
-        "開発支援"
+        "Tidal",
+        "音楽規制",
+        "AI生成曲"
       ],
       "importance": 3
     }
