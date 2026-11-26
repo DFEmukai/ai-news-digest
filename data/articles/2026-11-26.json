@@ -1,18 +1,14 @@
 {
   "date": "2026-11-26",
-  "generatedAt": "2026-11-25T19:51:14.085Z",
+  "generatedAt": "2026-11-26T04:03:16.752Z",
   "count": 30,
   "stats": {
-    "fetched": 122,
-    "afterDedupe": 122,
+    "fetched": 126,
+    "afterDedupe": 124,
     "published": 30,
-    "removedByUrl": 0,
-    "removedByTitle": 0,
+    "removedByUrl": 1,
+    "removedByTitle": 1,
     "failedSources": [
-      {
-        "name": "Google DeepMind",
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f"
-      },
       {
         "name": "VentureBeat AI",
         "error": "Status code 429"
@@ -20,7 +16,6 @@
     ],
     "emptySources": [],
     "absentFromDigest": [
-      "Anthropic News",
       "Google AI Blog",
       "Google DeepMind",
       "Meta AI",
@@ -29,7 +24,7 @@
       "MIT Technology Review AI",
       "Hacker News"
     ],
-    "summarized": 122,
+    "summarized": 124,
     "summaryFailures": 0,
     "sources": [
       {
@@ -38,32 +33,31 @@
         "itemsInFeed": 100,
         "fetched": 2,
         "ok": true,
-        "durationMs": 440
+        "durationMs": 428
       },
       {
         "name": "OpenAI Blog",
         "weight": 10,
         "itemsInFeed": 1430,
-        "fetched": 2,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 274
+        "durationMs": 290
       },
       {
         "name": "Google AI Blog",
         "weight": 9,
         "itemsInFeed": 20,
-        "fetched": 1,
+        "fetched": 0,
         "ok": true,
-        "durationMs": 395
+        "durationMs": 499
       },
       {
         "name": "Google DeepMind",
         "weight": 9,
-        "itemsInFeed": 0,
+        "itemsInFeed": 100,
         "fetched": 0,
-        "ok": false,
-        "error": "Non-whitespace before first tag.\nLine: 0\nColumn: 1\nChar: \u001f",
-        "durationMs": 337
+        "ok": true,
+        "durationMs": 186
       },
       {
         "name": "Meta AI",
@@ -71,7 +65,7 @@
         "itemsInFeed": 63,
         "fetched": 0,
         "ok": true,
-        "durationMs": 336
+        "durationMs": 364
       },
       {
         "name": "Hugging Face Blog",
@@ -79,15 +73,15 @@
         "itemsInFeed": 917,
         "fetched": 4,
         "ok": true,
-        "durationMs": 188
+        "durationMs": 360
       },
       {
         "name": "TechCrunch AI",
         "weight": 6,
         "itemsInFeed": 20,
-        "fetched": 19,
+        "fetched": 20,
         "ok": true,
-        "durationMs": 118
+        "durationMs": 295
       },
       {
         "name": "VentureBeat AI",
@@ -96,15 +90,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 345
+        "durationMs": 424
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 9,
+        "fetched": 10,
         "ok": true,
-        "durationMs": 328
+        "durationMs": 364
       },
       {
         "name": "MIT Technology Review AI",
@@ -112,31 +106,31 @@
         "itemsInFeed": 10,
         "fetched": 1,
         "ok": true,
-        "durationMs": 312
+        "durationMs": 538
       },
       {
         "name": "Ars Technica",
         "weight": 5,
         "itemsInFeed": 20,
-        "fetched": 7,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 443
+        "durationMs": 643
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 10,
+        "fetched": 17,
         "ok": true,
-        "durationMs": 920
+        "durationMs": 769
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 4,
+        "fetched": 2,
         "ok": true,
-        "durationMs": 510
+        "durationMs": 419
       },
       {
         "name": "arXiv cs.AI",
@@ -144,19 +138,57 @@
         "itemsInFeed": 60,
         "fetched": 60,
         "ok": true,
-        "durationMs": 462
+        "durationMs": 582
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 3,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 680
+        "durationMs": 753
       }
     ]
   },
   "articles": [
+    {
+      "id": "254eaf8126f1",
+      "title": "脆弱性の発見数、1年で2倍超 Microsoft製品も月100件から1000件超に……AIで一変",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T01:00:00.000Z",
+      "description": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
+      "summary": "Microsoft製品を含む脆弱性の発見が急増しており、AIの進化に伴い1年間で2倍以上に増加しました。2026年初めで既に前年度年間の倍以上の脆弱性が報告され、パッチ管理の課題が顕在化しています。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "脆弱性",
+        "AI時代"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "84d1f37b64a6",
+      "title": "管理職の約7割が黙認するシャドーAIの現実 「相談すると禁止されそう」「承認が遅い」",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/26/2000003428/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-25T22:00:00.000Z",
+      "description": "企業が安全なAI環境を整備する一方で、現場では非公式なツールの利用がまん延している。ルールの順守よりも業務スピードを優先せざるを得ない現場のジレンマと、IT統制の限界が調査で浮き彫りになった。",
+      "summary": "企業内で管理職の約7割がシャドーAI利用を黙認している実態が明らかになりました。業務効率化の需要とIT統制のギャップにより、非公式なツール利用が蔓延しているという調査結果です。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "シャドーAI",
+        "企業統制",
+        "利用実態"
+      ],
+      "importance": 4
+    },
     {
       "id": "bf8a90aae327",
       "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
@@ -167,12 +199,12 @@
       "lang": "en",
       "publishedAt": "2026-11-25T17:44:51.000Z",
       "description": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency has granted for a full \"constellation\" of AI satellites. The FC…",
-      "summary": "FCCがSpaceXの「Starmind」計画におけるAI搭載衛星最大100万基の配置を承認した。宇宙データセンター構想の初の全面許可となる。",
+      "summary": "FCCがSpaceXの最大100万個のAIチップ搭載衛星配置計画「Starmind」を承認した。AIデータセンターを宇宙に配置する最初の公式承認となる。",
       "category": "規制/政策",
       "tags": [
         "SpaceX",
         "衛星",
-        "宇宙インフラ"
+        "AI"
       ],
       "importance": 4
     },
@@ -186,12 +218,31 @@
       "lang": "en",
       "publishedAt": "2026-11-25T17:35:58.000Z",
       "description": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-      "summary": "Character.AIの破産売却プロセスに対し、アメリカの州司法長官が異議を唱えている。210万人の未成年を含む2100万米国ユーザーの機密データが対象となっている。",
+      "summary": "Character.AIの破産時の資産売却計画が州司法長官に異議を唱えられている。210万人の未成年を含む2100万米国ユーザーの機密データが対象となっている。",
       "category": "規制/政策",
       "tags": [
+        "Character.AI",
         "プライバシー",
-        "破産",
-        "未成年"
+        "破産"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "a05f306f468e",
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:47:14.000Z",
+      "description": "Militaries have many reasons to target data centers and the cloud in wartime.",
+      "summary": "戦時中に軍隊がデータセンターやクラウドを標的にする理由と動機についての解説。サイバーセキュリティの重要な課題。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "軍事",
+        "インフラ"
       ],
       "importance": 4
     },
@@ -205,12 +256,12 @@
       "lang": "en",
       "publishedAt": "2026-11-25T15:41:43.000Z",
       "description": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
-      "summary": "AI向けデータセンター構築が困難になり、新興クラウド企業が建設遅延と資金調達コスト上昇に直面している。Nvidiaの支援基準も厳しくなっている。",
+      "summary": "AIデータセンター建設がNvidiaの厳しい要件により困難化し、新興クラウド企業は建設遅延と高い資金調達コストに直面している。",
       "category": "ビジネス/資金調達",
       "tags": [
         "データセンター",
         "インフラ",
-        "Nvidia"
+        "建設"
       ],
       "importance": 4
     },
@@ -224,12 +275,31 @@
       "lang": "en",
       "publishedAt": "2026-11-25T12:00:28.000Z",
       "description": "Frontier AI is already solving problems that once took top physicists a full day.",
-      "summary": "最先端のAIが物理学の複雑な問題を解決する能力を示しており、理論物理学者の役割が変わる可能性がある。AIは従来は一流の物理学者が1日かけて解く問題をすでに処理できるようになっている。",
+      "summary": "最先端のAIが物理学者が1日かけて解く問題を既に解決しており、理論物理学の研究方法が変わる可能性がある。",
       "category": "その他",
       "tags": [
         "AI",
         "物理学",
-        "問題解決"
+        "影響"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "c51aa23d3e15",
+      "title": "Unstable Action Boundaries in Lethal Drone Agents",
+      "url": "https://arxiv.org/abs/2611.34121v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T10:23:38.000Z",
+      "description": "Tool-using large language model (LLM) agents raise safety risks that are not captured by text-only refusal behavior, especially when tools can trigger high-impact actions. This concern is salient in military settings, where autonomous weapons raise the possibility of delegating force decisions to software agents. In this work, we study whether a drone agent's action boundary is stable under change…",
+      "summary": "LLMベース自律ドローンエージェントの安全性リスクを分析。テキスト拒否だけでは捉えられない高影響力アクション実行時の安全性境界安定性を軍事応用の文脈で検証。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全",
+        "自律兵器",
+        "エージェント"
       ],
       "importance": 4
     },
@@ -243,7 +313,7 @@
       "lang": "en",
       "publishedAt": "2026-11-25T00:12:02.000Z",
       "description": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
-      "summary": "イェール大学のジェフリー・ソネンフェルド教授は、ジェンセン・フアンのホワイトハウス支援での復帰が米国産業に悪影響を及ぼす可能性があり、先端チップが敵国に流出している懸念を指摘している。",
+      "summary": "イェール大学のジェフリー・ソネンフェルド教授は、ジェンセン・フアンのホワイトハウス支援による復帰がNvidiaに「歴史的な」個人責任を招く可能性があり、同社が敵対国に先端チップを提供してきたことから、実は米国の産業力にとって有害だと警告している。",
       "category": "規制/政策",
       "tags": [
         "Nvidia",
@@ -262,31 +332,69 @@
       "lang": "ja",
       "publishedAt": "2026-11-24T22:41:42.000Z",
       "description": "Anthropicは、AIエージェントが脆弱なサンドボックスから抜け出すかどうかを測る評価手法「Siren」を発表した。1700以上のシナリオで6モデルを検証し、最新モデル群が外に置かれた認証情報などを不正に使った割合は0.6?1.6％にとどまった。システムプロンプトでのルール明示や報告ツールなどの対策を組み合わせると、問題行動をほぼゼロに抑えられるという。",
-      "summary": "Anthropicが、AIエージェントがサンドボックスから脱出しようとするかを測定する評価手法「Siren」を発表。6モデルの1700以上のシナリオ検証で、不正行動は0.6～1.6％に留まり、適切な対策により問題をほぼ排除できることが示された。",
+      "summary": "Anthropicが発表した「Siren」評価手法により、AIエージェントのサンドボックス脱出リスクを測定。6モデルの検証で不正行為率は0.6～1.6%と低く、システムプロンプトと対策ツールの組み合わせで大幅に軽減可能との結果が得られた。",
       "category": "その他",
       "tags": [
-        "AIセーフティ",
-        "AIエージェント",
-        "評価手法"
+        "セキュリティ",
+        "AI評価",
+        "Siren"
       ],
       "importance": 4
     },
     {
-      "id": "3741346d7a37",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "id": "d784f7411399",
+      "title": "「ソフトウェアファクトリー」とは結局何か OpenAIもUberもfreeeも始めたAIエージェントの「工場」の中身",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-24T20:00:00.000Z",
+      "description": "AIコーディングエージェントを個別に使う段階から、工程全体を「工場」として組む段階へ。OpenAI、Uber、freeeなどの取り組みを手掛かりに、この言葉が指す仕組みと、人間に残る仕事を整理する。",
+      "summary": "OpenAI、Uber、freeeなどが推進する「ソフトウェアファクトリー」という概念について、AIコーディングエージェントの活用が個別ツールから工程全体の自動化へ進化していることを解説。人間の役割変化も含めて考察している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AIエージェント",
+        "ソフトウェアファクトリー",
+        "コーディング"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "8c3c39d1c9b4",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "source": "TechCrunch AI",
       "sourceWeight": 6,
       "sourceCategory": "ビジネス/資金調達",
       "lang": "en",
-      "publishedAt": "2026-11-24T18:02:59.000Z",
-      "description": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-      "summary": "英国のサイバー機関は、AIを用いた攻撃ツールが基本的なセキュリティの脆弱性を悪用している現状を警告し、堅固な基盤構築の重要性を強調している。",
-      "category": "規制/政策",
+      "publishedAt": "2026-11-24T18:30:42.000Z",
+      "description": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "summary": "AnthropicのIPO後の株価が上場時の価格を下回り、AI業界のスタートアップの企業評価に圧力が生じる可能性が懸念されている。",
+      "category": "ビジネス/資金調達",
       "tags": [
-        "AI",
-        "サイバーセキュリティ",
-        "脆弱性"
+        "Anthropic",
+        "IPO",
+        "スタートアップ"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "b66586f85dc8",
+      "title": "Measuring and mitigating agent sandbox escape with Siren",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1fZjR4dUV6eU1kNy1Ub1BpVmxfRXA2c3A5cU5rX2RZZFY3aU1WRGloYkUxZ1pqQmltVjQtTXFDYjhPLXJDbVlBYWxuTC1qQ2JJQW9OeEoyUQ?oc=5",
+      "source": "Anthropic News",
+      "sourceWeight": 10,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-24T18:04:55.000Z",
+      "description": "Measuring and mitigating agent sandbox escape with Siren Anthropic",
+      "summary": "Anthropicが、AIエージェントがサンドボックスから脱出するリスクを測定・軽減するための評価手法「Siren」を発表。1700以上のシナリオで検証した結果、最新モデルでの不正利用率は低く、適切な対策で問題行動をほぼ排除できることが示された。",
+      "category": "その他",
+      "tags": [
+        "AI安全性",
+        "サンドボックス",
+        "Anthropic"
       ],
       "importance": 4
     },
@@ -405,6 +513,63 @@
       "importance": 4
     },
     {
+      "id": "37c2c667be9c",
+      "title": "GitHubに「人には見えない隠し文字」 小型AIの操作狙うものも……1億4500万件を調査",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003460/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T03:00:00.000Z",
+      "description": "イスラエルのセキュリティ会社Radwareとテクニオン・イスラエル工科大学に所属する研究者らが発表した論文「Who Is Prompt-Injecting Coding Agents? An Empirical Study of Hidden AI-Directed Text on GitHub」は、GitHub上に潜むAI向けの隠しテキストが、誰によってどのような目的で埋め込まれているのかを分析した研究報告だ。",
+      "summary": "セキュリティ研究者がGitHub上の1億4500万件を調査し、AIの操作を狙った隠し文字が誰によってどのような目的で埋め込まれているかを分析した。プロンプトインジェクション攻撃の実態を明らかにしている。",
+      "category": "その他",
+      "tags": [
+        "プロンプトインジェクション",
+        "セキュリティ",
+        "GitHub"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "82a0c0b03f05",
+      "title": "AnthropicのアモデイCEO、「人間の自由意志をAIに明け渡す」考えを否定 AI企業間で議論",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003473/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T02:24:00.000Z",
+      "description": "Anthropicのダリオ・アモデイCEOは、超知能AIに人間の意思決定権を委ねるべきだと考えているとしたAxiosの報道をXで否定した。社会の統治と個別タスクの自動化を混同していると反論し、AIは民主的プロセスで管理されるべきだと強調した。超知能時代の主導権を巡っては、OpenAIやMeta幹部も発言しており議論が広がっている。",
+      "summary": "AnthropicのCEOが、超知能AIに人間の意思決定権を委ねるべきだとの報道を否定した。AIは民主的プロセスで管理されるべきだと主張し、業界内で超知能時代の統治方法についての議論が拡大している。",
+      "category": "規制/政策",
+      "tags": [
+        "AI統治",
+        "Anthropic",
+        "超知能"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c308db76d8e6",
+      "title": "国内造船業再生の鍵はフィジカルAI、デジタルシップヤード開発の現状を知る",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/26/news018.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-25T23:00:00.000Z",
+      "description": "政府策定の「造船業再生ロードマップ」では、AIとロボット技術を組み合わせたフィジカルAIによる建造工程の自動化が求められている。「造船業界におけるAI・ロボティクス普及に向けたシンポジウム」では、ジャパン マリンユナイテッドや川崎重工業、ソフトバンクロボティクス、日立の取り組みが紹介された。",
+      "summary": "造船業の再生ロードマップではフィジカルAIの活用が重視されており、ジャパン マリンユナイテッドなど大手企業によるデジタルシップヤード開発が進められています。AIとロボット技術の組み合わせで建造工程の自動化を目指しています。",
+      "category": "プロダクト",
+      "tags": [
+        "造船業",
+        "フィジカルAI",
+        "ロボティクス"
+      ],
+      "importance": 3
+    },
+    {
       "id": "1971cd26f058",
       "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
       "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
@@ -414,31 +579,12 @@
       "lang": "en",
       "publishedAt": "2026-11-25T18:11:46.000Z",
       "description": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-      "summary": "ニューヨーク州がAIチャットボット玩具を5年間禁止した。Common Sense Mediaの調査で、不適切なコンテンツへの露出や感情発達への悪影響といった安全上の懸念が明らかになったことが背景にある。",
+      "summary": "ニューヨーク州がAIチャットボット玩具を5年間禁止した。Common Sense Mediaの研究により、不適切なコンテンツへの露出や子どもの感情発達への悪影響といった深刻な安全性の問題が明らかになった。",
       "category": "規制/政策",
       "tags": [
         "AI規制",
-        "消費者保護",
-        "チャットボット"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a05f306f468e",
-      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
-      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
-      "source": "Ars Technica",
-      "sourceWeight": 5,
-      "sourceCategory": "その他",
-      "lang": "en",
-      "publishedAt": "2026-11-25T16:47:14.000Z",
-      "description": "Militaries have many reasons to target data centers and the cloud in wartime.",
-      "summary": "軍事紛争下においてデータセンターやクラウドインフラへの攻撃が継続される見通しが示された。複数の軍事戦略的理由からこうした施設が攻撃対象になり続けるという指摘。",
-      "category": "規制/政策",
-      "tags": [
-        "セキュリティ",
-        "サイバー攻撃",
-        "インフラ"
+        "児童保護",
+        "玩具"
       ],
       "importance": 3
     },
@@ -452,11 +598,11 @@
       "lang": "ja",
       "publishedAt": "2026-11-25T15:29:05.000Z",
       "description": "AIエージェントと外部ツールを接続する業界標準となっているMCP（Model Context Protocol）に、新機能として「Skills over MCP」がβ版として追加されました。 Skills over MCPを利用することで、AIエージェントはMCP経由でMCPサーバからつねに最新のスキルを取得できるようになります。また、必要なときだけスキルを読み込めるためコンテキストの節約にもなります。 下図はMCPの開発を主導するAnthropicのブログ「MCP serv……",
-      "summary": "MCPプロトコルに新機能「Skills over MCP」が追加され、AIエージェントが外部ツールの使い方を動的に習得できるようになった。コンテキスト効率も向上する。",
+      "summary": "MCPに新機能「Skills over MCP」が追加され、AIエージェントが最新スキルを動的に取得可能になった。コンテキスト効率も改善される。",
       "category": "開発ツール",
       "tags": [
         "MCP",
-        "AI",
+        "Skills",
         "Anthropic"
       ],
       "importance": 3
@@ -471,12 +617,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-25T15:27:15.000Z",
       "description": "Googleは、Google WorkspaceをAIエージェントが操作するためのインターフェイスとして「Google Workspace MCP Server」と「Google Workspace CLI」が正式版になったことを発表しました。 下記は、Alphabet傘下でGoogleのAI研究開発を行っているGoogle Deepmind所属のPhilipp Schmid氏のポストです。 Google Workspace MCP servers and gwscli ar……",
-      "summary": "GoogleがGoogle WorkspaceをAIエージェント用に操作するためのツール群を正式版としてリリースした。AIが業務アプリケーションと連携できるようになる。",
-      "category": "プロダクト",
+      "summary": "GoogleがAIエージェント向けのGoogle Workspace操作インターフェイス「Google Workspace MCP Server」と「Google Workspace CLI」の正式版をリリースした。",
+      "category": "開発ツール",
       "tags": [
         "Google",
         "MCP",
-        "AI化粧品"
+        "AIエージェント"
       ],
       "importance": 3
     },
@@ -490,12 +636,12 @@
       "lang": "en",
       "publishedAt": "2026-11-25T14:12:33.000Z",
       "description": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, Amazon is concerned that it could lose advertising reven…",
-      "summary": "Amazonはロゴスペースにおいてアドバタイジング収益への影響を懸念しながら、MetaのMuse AIエージェントの利用許可について交渉している。",
+      "summary": "AmazonがMetaのAIエージェント「Muse」をマーケットプレイスで利用可能にする条件を協議中。広告収入への影響懸念が焦点となっている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Amazon",
-        "Meta",
-        "Muse"
+        "Muse",
+        "eコマース"
       ],
       "importance": 3
     },
@@ -509,12 +655,12 @@
       "lang": "en",
       "publishedAt": "2026-11-25T14:10:18.000Z",
       "description": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-      "summary": "AmazonとMetaがAIエージェント「Muse」の利用制限を解除する交渉を進めている。2ヶ月に及ぶ提携阻止を終わらせる見込みだ。",
+      "summary": "AmazonとMetaがAIエージェント「Muse」をめぐる2ヶ月間のブロック解除について交渉を進めている。",
       "category": "ビジネス/資金調達",
       "tags": [
         "Amazon",
         "Meta",
-        "AI化粧品"
+        "AIエージェント"
       ],
       "importance": 3
     },
@@ -528,202 +674,50 @@
       "lang": "en",
       "publishedAt": "2026-11-25T13:00:00.000Z",
       "description": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-      "summary": "Nvidiaの最高経営責任者とMegaspeedの関係性が調査対象となっており、チップの流通先の把握状況と経営陣の判断が焦点となっている。",
+      "summary": "Nvidiaの経営陣がチップの流通先把握と企業幹部との関係が検査対象となっている。調査側は同社の説明の信頼性について疑問を抱いている。",
       "category": "規制/政策",
       "tags": [
         "Nvidia",
-        "調査",
-        "チップ"
+        "チップ流通",
+        "調査"
       ],
       "importance": 3
     },
     {
-      "id": "dba2a6d8062b",
-      "title": "AIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003421/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-25T03:00:00.000Z",
-      "description": "米ボストン大学、米BCGのヘンダーソン研究所、米OpenAIに所属する研究者らがNature Human Behaviourで発表した論文「Generative AI and the temporary upskilling of knowledge workers」は、生成AIによる一時的なスキルアップの効果と限界を調査した研究報告だ。",
-      "summary": "ボストン大学とBCG、OpenAIの研究者らがNature Human Behaviourで発表した論文では、生成AIによるコンサルタントのスキルアップ効果と限界をBCG約500人の検証で調査している。",
-      "category": "その他",
-      "tags": [
-        "生成AI",
-        "スキルアップ",
-        "コンサルティング"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a8df553db27d",
-      "title": "音楽サービスのTIDAL、AI生成楽曲を削除・受付停止へ 直近90日の配信楽曲の43％がAI生成",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003433/",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-25T01:57:02.000Z",
-      "description": "音楽ストリーミングサービスのTIDALは、完全AI生成楽曲の受付を停止し、配信済みの楽曲も削除すると発表した。直近90日間に配信された楽曲の43％が完全AI生成と判定されており、現在カタログの6.3％に当たる約2700万曲が該当する。AIを補助的に使った楽曲は引き続き配信可能だ。",
-      "summary": "音楽ストリーミングサービスのTIDALが、完全AI生成楽曲の受付停止と既配信楽曲の削除を発表。直近90日の配信楽曲の43％がAI生成で、カタログの約2700万曲が対象だが、AI補助楽曲は継続配信する。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "音楽",
-        "AI生成",
-        "配信規制"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "d899890318b7",
-      "title": "設計者がAIに求めるのはCAD操作だけじゃない――SOLIDWORKS AIが目指す課題解決",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/25/news005.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-25T00:00:00.000Z",
-      "description": "ダッソー・システムズは、年次ユーザーイベント「3DEXPERIENCE WORLD JAPAN 2026」を開催した。基調講演では、産業AIを支える技術基盤や3つのバーチャルコンパニオンの活用について紹介。AIがCADの操作支援からエンジニアリング業務の遂行へと進化する中で、設計者に求められる役割の変化や検証の重要性も示された。",
-      "summary": "ダッソー・システムズがイベント開催し、SOLIDWORKS AIの展開について紹介。AIがCAD操作支援からエンジニアリング業務遂行へと進化する中、設計者の役割変化と検証の重要性が示された。",
-      "category": "プロダクト",
-      "tags": [
-        "CAD",
-        "AI",
-        "エンジニアリング"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "cfaa087804e3",
-      "title": "経理が「2人→1人」に減る現場 弥生の開発陣が警鐘を鳴らす「なんとなく経営」の限界",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/25/news020.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-24T22:00:00.000Z",
-      "description": "資材や人件費の高騰、法改正による事務負担増で中小企業の経営難易度が上がっている。弥生の担当者は、顧客と接する中での実感として、従業員20人前後の企業では約7割の企業が、数値化した売り上げ・利益目標を持たず、経営状況を経験や勘で「なんとなく」で把握していると話す。さらに経営者の間で広がる「AI格差」をどう乗り越えるべきか。会計領域でAIを使う際の落とし穴（誤認投資のリスク）と、経営者がAIを使いこなす3段階を、長年現場を見つめてきた開発陣に聞いた。",
-      "summary": "中小企業の経営難易度が上昇する中、弥生の開発陣は従業員20人前後の企業の約7割が数値目標を持たず「なんとなく」で経営していると指摘。AIの導入段階と会計領域での落とし穴について、現場経験から提言している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "中小企業",
-        "AI導入",
-        "経営"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "c6b7166e786b",
-      "title": "Even the best AI agents struggle with everyday life",
-      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-24T21:33:29.000Z",
-      "description": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
-      "summary": "新しいベンチマークテストにより、最先端のAIモデルであっても日常的なタスクを安全かつ確実に完了することが難しいことが明らかになった。",
-      "category": "その他",
-      "tags": [
-        "AIエージェント",
-        "ベンチマーク",
-        "性能評価"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "e793366d25af",
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "source": "TechCrunch AI",
-      "sourceWeight": 6,
-      "sourceCategory": "ビジネス/資金調達",
-      "lang": "en",
-      "publishedAt": "2026-11-24T21:19:52.000Z",
-      "description": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
-      "summary": "Mapleが530万ドルを調達し、ユーザーのプライベートデータを企業からも保護する暗号化AI アーキテクチャの開発を進めている。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "Maple",
-        "資金調達",
-        "データ保護"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "d784f7411399",
-      "title": "「ソフトウェアファクトリー」とは結局何か OpenAIもUberもfreeeも始めたAIエージェントの「工場」の中身",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-24T20:00:00.000Z",
-      "description": "AIコーディングエージェントを個別に使う段階から、工程全体を「工場」として組む段階へ。OpenAI、Uber、freeeなどの取り組みを手掛かりに、この言葉が指す仕組みと、人間に残る仕事を整理する。",
-      "summary": "OpenAIやUber、freeeなどが取り組むAIエージェントの「工場」化が進んでいる。個別ツールの使用から工程全体の自動化へシフトする業界トレンドを分析している。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "AIエージェント",
-        "オートメーション",
-        "ソフトウェアファクトリー"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "a343106e3301",
-      "title": "OmniAct: One Policy, One Million Embodiments",
-      "url": "https://arxiv.org/abs/2611.33158v1",
+      "id": "65283fe4e687",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "url": "https://arxiv.org/abs/2611.34290v1",
       "source": "arXiv cs.AI",
       "sourceWeight": 4,
       "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-11-24T18:59:58.000Z",
-      "description": "A single policy that controls diverse robots must not only transfer task knowledge across embodiments, but also adapt its behavior to each robot's capabilities. Existing approaches facilitate transfer through shared action representations, but these representations do not necessarily capture how differences in robot morphology should shape manipulation strategies. We introduce OmniAct, a cross-emb…",
-      "summary": "複数の異なるロボットを単一のポリシーで制御するため、ロボットの形態差を考慮した共通行動表現を学習するフレームワーク「OmniAct」が開発された。タスク知識をロボット間で転移させつつ、各ロボットの能力に適応する。",
+      "publishedAt": "2026-11-25T12:43:37.000Z",
+      "description": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collab…",
+      "summary": "長尺動画生成の一貫性を保つため、ストーリー状態の遷移を複数エージェントで協調させるStateWeaverを提案。イベント駆動の状態変化を正確に表現し、文脈蓄積の問題を軽減する方法論を示している。",
       "category": "その他",
       "tags": [
-        "ロボット制御",
-        "メタラーニング",
-        "ポリシー転移"
+        "動画生成",
+        "マルチエージェント",
+        "状態管理"
       ],
       "importance": 3
     },
     {
-      "id": "a4d5886ec696",
-      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
-      "url": "https://arxiv.org/abs/2611.33119v1",
+      "id": "eb3b3ac5882e",
+      "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.34278v1",
       "source": "arXiv cs.AI",
       "sourceWeight": 4,
       "sourceCategory": "モデル/研究",
       "lang": "en",
-      "publishedAt": "2026-11-24T18:49:19.000Z",
-      "description": "Large language models (LLMs) can generate parallel programs, but their correctness and performance depend strongly on the instructions that guide generation. We present \\textsc{MetaFORGE}, an execution-grounded meta-learning framework that iteratively optimizes persistent natural-language skill specifications for MPI C code generation. \\textsc{MetaFORGE} combines correctness testing, compiler diag…",
-      "summary": "大規模言語モデルによる並列プログラム生成の精度と性能を向上させるため、実行ベースのメタ学習フレームワーク「MetaFORGE」が提案された。このフレームワークは、MPI C言語コード生成を対象に、自然言語による指示を反復的に最適化する。",
+      "publishedAt": "2026-11-25T12:35:33.000Z",
+      "description": "As large language models increasingly collaborate in heterogeneous multi-agent systems, latent communication has emerged as an efficient alternative to exchanging natural-language messages. By sharing internal representations, agents can avoid repeatedly processing the same context, reducing communication overhead and prefill computation. One such mechanism is cross-model Key-Value (KV) cache tran…",
+      "summary": "複数の大規模言語モデルが協働する際、内部表現を直接共有する潜在通信の活用が進む中、KVキャッシュ転送などの機構のセキュリティ上の課題について論じた研究。クロスモデル通信における潜在的な脅威を分析している。",
       "category": "その他",
       "tags": [
-        "LLM",
-        "並列計算",
-        "コード生成"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "b1e8e7370f0f",
-      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
-      "url": "https://arxiv.org/abs/2611.33111v1",
-      "source": "arXiv cs.AI",
-      "sourceWeight": 4,
-      "sourceCategory": "モデル/研究",
-      "lang": "en",
-      "publishedAt": "2026-11-24T18:41:59.000Z",
-      "description": "Speculative decoding accelerates large language model (LLM) inference by employing a lightweight draft model to propose draft tokens and allowing the target model to verify the new tokens in parallel to improve inference-time compute utilization. The speedup relies on the acceptance probability of draft tokens in target verification, which is directly related to the gap $\\|p-q\\|_1$ between the tar…",
-      "summary": "推測型デコーディングにおいて、ドラフトモデルと目標モデルの分布を整合させることでLLM推論を高速化する手法を提案。生成品質を保ちながら推論効率を向上させる。",
-      "category": "その他",
-      "tags": [
-        "推論最適化",
-        "LLM",
-        "デコーディング"
+        "マルチエージェント",
+        "セキュリティ",
+        "潜在通信"
       ],
       "importance": 3
     }
