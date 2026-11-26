@@ -1,0 +1,722 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-26T19:28:43.860Z",
+  "count": 30,
+  "stats": {
+    "fetched": 108,
+    "afterDedupe": 108,
+    "published": 30,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Hacker News"
+    ],
+    "summarized": 108,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 428
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1430,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 245
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 402
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 324
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 450
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 918,
+        "fetched": 5,
+        "ok": true,
+        "durationMs": 298
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 10,
+        "ok": true,
+        "durationMs": 249
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 335
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 323
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 1,
+        "ok": true,
+        "durationMs": 366
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 383
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 14,
+        "ok": true,
+        "durationMs": 793
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 500
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 60,
+        "ok": true,
+        "durationMs": 399
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 3,
+        "ok": true,
+        "durationMs": 649
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "254eaf8126f1",
+      "title": "脆弱性の発見数、1年で2倍超 Microsoft製品も月100件から1000件超に……AIで一変",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T05:04:44.000Z",
+      "description": "米Microsoftが毎月公開しているWindowsのセキュリティ更新プログラム。11月は1000件以上の脆弱性が修正された。他社の製品も含めると、2026年に入って発見された脆弱性は10万件を超え、すでに25年の倍以上だ。AIの進化に伴い脆弱性の発見とそれを悪用した攻撃が激増する中で、パッチを適用する側はどう対処すればいいのか。",
+      "summary": "AIの進化により脆弱性の発見数が大幅に増加し、2026年の発見件数は既に2025年の2倍以上となった。Microsoftの11月の修正脆弱性は1000件超に達し、パッチ対応の課題が深刻化している。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "脆弱性",
+        "AI"
+      ],
+      "importance": 5
+    },
+    {
+      "id": "7d45c1d0940a",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "description": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safegua…",
+      "summary": "42州の司法長官連合がCharacter.AIに対し、破産手続き中のユーザーチャット履歴売却を阻止しようとしています。210万人以上の未成年を含む2100万米国ユーザーのデータ保護が問題となっています。",
+      "category": "規制/政策",
+      "tags": [
+        "Character.AI",
+        "個人情報保護"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "3b54e9727dc2",
+      "title": "Character.AIのチャット履歴競売に41州とワシントンD.C.が異議 未成年者の約210万アカウント分も対象",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003479/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T04:32:50.000Z",
+      "description": "米カリフォルニアやコネチカットなど41州とワシントンD.C.の司法長官は、破産申請した「Character.AI」の資産競売に異議を申し立てた。競売には未成年者の210万以上を含む2100万超のチャット履歴が含まれるが、買い手にデータ保護の義務がなく、プライバシー法に反するとして売却の却下を求めている。",
+      "summary": "破産申請したCharacter.AIの資産競売に対し、41州とワシントンD.C.の司法長官が異議を申し立てた。未成年者210万人以上を含む2100万件以上のチャット履歴がプライバシー保護なしで売却されるため、売却の却下を求めている。",
+      "category": "規制/政策",
+      "tags": [
+        "プライバシー",
+        "未成年保護",
+        "Character.AI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "37c2c667be9c",
+      "title": "GitHubに「人には見えない隠し文字」 小型AIの操作狙うものも……1億4500万件を調査",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003460/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T03:00:00.000Z",
+      "description": "イスラエルのセキュリティ会社Radwareとテクニオン・イスラエル工科大学に所属する研究者らが発表した論文「Who Is Prompt-Injecting Coding Agents? An Empirical Study of Hidden AI-Directed Text on GitHub」は、GitHub上に潜むAI向けの隠しテキストが、誰によってどのような目的で埋め込まれているのかを分析した研究報告だ。",
+      "summary": "GitHub上に埋め込まれたAI向けの隠し文字について、イスラエルの研究者らが1億4500万件を調査した。プロンプトインジェクション攻撃を狙う隠しテキストが確認されており、誰がどのような目的で埋め込んでいるのかを分析している。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "プロンプトインジェクション",
+        "GitHub"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "82a0c0b03f05",
+      "title": "AnthropicのアモデイCEO、「人間の自由意志をAIに明け渡す」考えを否定 AI企業間で議論",
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003473/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T02:24:00.000Z",
+      "description": "Anthropicのダリオ・アモデイCEOは、超知能AIに人間の意思決定権を委ねるべきだと考えているとしたAxiosの報道をXで否定した。社会の統治と個別タスクの自動化を混同していると反論し、AIは民主的プロセスで管理されるべきだと強調した。超知能時代の主導権を巡っては、OpenAIやMeta幹部も発言しており議論が広がっている。",
+      "summary": "AnthropicのCEOが、超知能AIに人間の意思決定権を委譲すべき論に異を唱えた。AIは民主的プロセスで統制されるべきと主張し、業界内での議論が活発化している。",
+      "category": "規制/政策",
+      "tags": [
+        "超知能",
+        "統治",
+        "倫理論争"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "bf8a90aae327",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-25T17:44:51.000Z",
+      "description": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency has granted for a full \"constellation\" of AI satellites. The FC…",
+      "summary": "FCC（米連邦通信委員会）がSpaceXに最大100万個のAIチップ搭載衛星の配備を認可しました。SpaceXの「Starmind」計画の一環で、GoogleやBlue Originも同様の取り組みを進める中での初の衛星コンステレーション認可となります。",
+      "category": "規制/政策",
+      "tags": [
+        "SpaceX",
+        "衛星",
+        "AI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "7144a41279bd",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-25T17:35:58.000Z",
+      "description": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "summary": "Character.AIの破産手続きで210万人の未成年を含む2100万以上のアメリカユーザーの個人チャット情報が売却対象に含まれることに対し、州検事総長が異議を唱えています。個人データの保護に関する懸念が焦点です。",
+      "category": "規制/政策",
+      "tags": [
+        "Character.AI",
+        "プライバシー",
+        "破産"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "202b9b433d83",
+      "title": "From Models to Services: Systematizing Security Assurance for Model-as-a-Service",
+      "url": "https://arxiv.org/abs/2611.34623v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:11:04.000Z",
+      "description": "Large language models are mainly delivered as cloud services, in which the assets of different principals are coupled within a single service pipeline, while the related security research is scattered across several fields with differing threat models. This paper systematizes this research from a service perspective. We decompose Model-as-a-Service (MaaS) into a five-layer stack and five trust bou…",
+      "summary": "クラウドサービスとして提供される大規模言語モデルのセキュリティ研究を体系的に整理した論文。モデル・アズ・ア・サービスの5層構造と信頼境界を分析し、異なる分野に散在していた脅威モデルを統合している。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "MaaS",
+        "言語モデル"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "dbf7a9c6fcff",
+      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-25T13:00:00.000Z",
+      "description": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
+      "summary": "Nvidiaの最高経営責任者ジェンスン・フアンは、Megaspeed関連の調査において、チップの流通先把握と企業幹部との関係に関する説明が求められています。規制当局の関心は、Nvidiaが当該チップの最終用途をどこまで認識していたかに集中しています。",
+      "category": "規制/政策",
+      "tags": [
+        "Nvidia",
+        "Megaspeed",
+        "規制調査"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "fb8ed16cae56",
+      "title": "さくらのクラウド、新ネットワーク基盤、新データベースサービスなど投入。東京リージョン第三ゾーン新設も発表",
+      "url": "https://www.publickey1.jp/blog/26/post_310.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T15:47:22.000Z",
+      "description": "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催し、さくらのクラウドに関して東京リージョンの第三ゾーン、新ネットワーク基盤や新データベースサービスの投入などを発表しました。 東京リージョンに第三ゾーンを新設 さくらのクラウドは現在、北海道の石狩リージョンに3つのゾーン、東京リージョンに2つのゾーンを備えています。 今回、東京リージョンに3番目となる第三ゾーンの新設が発表されました。これ……",
+      "summary": "さくらインターネットは新イベントで、東京リージョンに第三ゾーンを新設することを発表しました。同時に新ネットワーク基盤とデータベースサービスもさくらのクラウドに投入されます。",
+      "category": "プロダクト",
+      "tags": [
+        "さくらのクラウド",
+        "インフラ",
+        "東京リージョン"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "34678c586ca2",
+      "title": "家計データをなぜ「Muse」「ChatGPT」に渡すのか？ マネーフォワードに聞いた狙いと安全策",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003490/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T06:09:25.000Z",
+      "description": "頼んでもいないのに、AIが朝一番にカードの引き落としと預金を照らし合わせて知らせてくる。家計簿アプリ「マネーフォワード ME」のデータがMetaのMuseに届くようになったからだ。だが家計の記録は、マネーフォワードにとって最大の資産のはず。なぜ外のAIに差し出したのか。安全は誰が守るのか。",
+      "summary": "家計簿アプリ「マネーフォワード ME」が利用者のデータをMetaのMuseに連携させる機能を開始した。外部AIへのデータ提供の狙いとセキュリティ対策について説明している。",
+      "category": "プロダクト",
+      "tags": [
+        "マネーフォワード",
+        "データ連携",
+        "プライバシー"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "4994a3f58323",
+      "title": "「Claude Duet」日本でも開始 AnthropicのAIエージェント、研究プレビューを米国外に拡大",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003483/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T05:09:57.000Z",
+      "description": "前にウェイトリストに登録していた「Pro」「Max」「Ultra」ユーザー向けに招待が届き始めており、「招待が来た」と報告する日本のユーザーが相次いでいる。",
+      "summary": "AnthropicのAIエージェント「Claude Duet」の研究プレビューが日本を含む米国外に拡大された。ProやMaxのユーザーへの招待配布が開始されている。",
+      "category": "プロダクト",
+      "tags": [
+        "Claude Duet",
+        "AI Agent",
+        "Anthropic"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "970183d83ad8",
+      "title": "旅行会社に残る価値は？ 生成AIに「旅の相談」が当たり前の今、業界の生存戦略",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/26/news033.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T03:00:00.000Z",
+      "description": "検索から予約、決済まで自律的にこなす「AIエージェント」の普及で、旅行会社の存在意義が問われている。日本旅行業協会（JATA）主催のシンポジウムに旅行・食・IT・大手旅行会社のプロ4人が登壇。「おいしい」を味わう感覚や、顧客の言葉の裏にある本音までは読み取れないAIの限界を指摘し、AIによる業務効率化で生み出した時間を「信頼関係」や現場の感動体験に振り向ける共創の生存戦略を議論した。",
+      "summary": "AIエージェント普及で旅行会社の役割が問われている。業界関係者は人間にしかできない信頼構築や感動体験提供を競争優位とする生存戦略を提示している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "旅行業",
+        "AIエージェント",
+        "業界転換"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "9207894da543",
+      "title": "図面を探す時間から技能を伝える時間へ、AI活用で業務効率化を進める空研工業",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/26/news014.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "description": "創業70周年を迎えた空研工業は、長年蓄積してきた図面や技術資料をAIで活用する「AIナレッジ基盤システム」をRecursiveと共同開発した。試行利用の結果を基にした試算では、図面検索工数を最大約90％削減する見通しで、業務効率化の先には技能伝承も見据える。AI活用に至った背景や現場が抱えていた課題、試行利用で得られた手応えについて、工場長と現場の技術者に話を聞いた。",
+      "summary": "空研工業が蓄積図面をAIで有効活用する知識基盤システムを開発。試行で図面検索工数を最大90％削減見通しで、技能伝承への活用も計画中。",
+      "category": "プロダクト",
+      "tags": [
+        "製造業",
+        "知識管理",
+        "効率化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c308db76d8e6",
+      "title": "国内造船業再生の鍵はフィジカルAI、デジタルシップヤード開発の現状を知る",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/26/news018.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-25T23:00:00.000Z",
+      "description": "政府策定の「造船業再生ロードマップ」では、AIとロボット技術を組み合わせたフィジカルAIによる建造工程の自動化が求められている。「造船業界におけるAI・ロボティクス普及に向けたシンポジウム」では、ジャパン マリンユナイテッドや川崎重工業、ソフトバンクロボティクス、日立の取り組みが紹介された。",
+      "summary": "日本の造船業復興戦略にフィジカルAIが重要と位置づけられている。大手メーカーが建造工程自動化に向けたAI・ロボット技術を推進中である。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "造船業",
+        "フィジカルAI",
+        "自動化"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c1bc45c1f9eb",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-25T22:44:32.000Z",
+      "description": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "summary": "S&Pがガバナンス上の課題とキーマン・リスクを理由に、Nvidiaの信用格付けをAA-（4番目に高い格付け）に引き下げることを検討しています。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "Nvidia",
+        "信用格付け"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "84d1f37b64a6",
+      "title": "管理職の約7割が黙認するシャドーAIの現実 「相談すると禁止されそう」「承認が遅い」",
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/26/2000003428/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-25T22:00:00.000Z",
+      "description": "企業が安全なAI環境を整備する一方で、現場では非公式なツールの利用がまん延している。ルールの順守よりも業務スピードを優先せざるを得ない現場のジレンマと、IT統制の限界が調査で浮き彫りになった。",
+      "summary": "企業のAI統制が不十分な中、現場で非公式ツール利用が横行している。業務効率性を優先する現場とルール順守のギャップが実態調査で明らかになった。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "シャドーAI",
+        "企業統制",
+        "現場課題"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d7abb2d2dcb6",
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-25T21:51:26.000Z",
+      "description": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come to market. First spotted by Patentlyze, the…",
+      "summary": "Googleが申請した「My Channel」特許は、ユーザー情報に基づいてAI生成動画と広告を配信するシステムで、すでに却下されています。しかし同社は異議申し立てや修正版の再申請を検討する可能性があります。",
+      "category": "プロダクト",
+      "tags": [
+        "Google",
+        "AI動画生成"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c2b0dc4a2636",
+      "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+      "url": "https://arxiv.org/abs/2611.34934v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:59:28.000Z",
+      "description": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation …",
+      "summary": "AIモニターの評価方法がその性能測定に大きく影響することを指摘。攻撃ポリシー生成手法と最適化レベルの選択が、偽陰性率の測定結果に高い感度を持つことをOpenAIモニターの事例で示した。",
+      "category": "規制/政策",
+      "tags": [
+        "AI安全",
+        "評価方法論",
+        "監視"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "47b84ca4ebff",
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "url": "https://arxiv.org/abs/2611.34928v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:59:11.000Z",
+      "description": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning …",
+      "summary": "難しい数学問題に対するLLMの推論を改善する手法DARTを提案。不正解トレースから出発して推論経路を分解・変換し、検証器に合格する多様な推論トレースを生成することで学習効率を向上させる。",
+      "category": "モデル/研究",
+      "tags": [
+        "LLM",
+        "数学推論",
+        "post-training"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "e75e0ef6805f",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face Blog",
+      "sourceWeight": 7,
+      "sourceCategory": "開発ツール",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:52:55.000Z",
+      "description": "",
+      "summary": "AIエージェント技術に関して、科学者コミュニティが安全性や倫理的側面での基準設定に着手している。技術進化と規範の検討バランスが議論されている。",
+      "category": "その他",
+      "tags": [
+        "AIエージェント",
+        "倫理",
+        "安全性"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "de3657687976",
+      "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+      "url": "https://arxiv.org/abs/2611.34868v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:33:07.000Z",
+      "description": "Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telec…",
+      "summary": "通信分野でのLLM導入に伴うセキュリティ、プライバシー、倫理上の課題を調査します。通信データの機密性と纏まった性質による固有のリスクと対策について網羅しています。",
+      "category": "規制/政策",
+      "tags": [
+        "LLM",
+        "セキュリティ",
+        "通信"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "1971cd26f058",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:11:46.000Z",
+      "description": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "summary": "ニューヨーク州がAIチャットボット玩具を5年間禁止しました。Common Sense Mediaの調査で、不適切な内容への露出や情動発達への悪影響など安全性の問題が明らかになったことが理由です。",
+      "category": "規制/政策",
+      "tags": [
+        "AI規制",
+        "児童保護"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "49d623ed5c08",
+      "title": "Make the Adversary Spend More: Stateful Deception as a Cost-Exchange Primitive for AI-Era Cyber Defense",
+      "url": "https://arxiv.org/abs/2611.34770v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T17:35:27.000Z",
+      "description": "Large language models (LLMs) are transforming the economics of intrusion by reducing the attacker's cost to scan and adapt, while tempting defenders into unbounded compute. We argue that cyber deception should be judged by the cost exchange it imposes, not by realism or detection, and that the primitive making that exchange favorable is adversary-specific persistent state. Rather than a honeypot t…",
+      "summary": "LLMが攻撃者の効率を向上させる中での防御戦略として、欺瞞システムの経済効果に着目。攻撃者固有の永続的状態を活用することで、防御側に利利をもたらすコスト交換の仕組みを提案。",
+      "category": "規制/政策",
+      "tags": [
+        "セキュリティ",
+        "LLM",
+        "サイバー防御"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "418ec345ff42",
+      "title": "Reading Fine-Tuning Diffs Through Lenses: Model Diffing for Backdoor Detection",
+      "url": "https://arxiv.org/abs/2611.34758v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T17:28:59.000Z",
+      "description": "We introduce a common scoring system based on token readouts to evaluate weight, activation and output-based model diffing methods for backdoor detection in fine-tuning processes. We also improve existing weight and activation based methods by incorporating the $J$-lens and its refinement, the $J{+}{+}$-lens. We test our setup in experiments where we compare a backdoored model with the base model …",
+      "summary": "ファインチューニング時のバックドア攻撃を検出するため、トークン読み出しに基づく統一的な評価体系を導入。重み、活性化、出力ベースの複数の検査方法を比較可能にし、既存手法をJ-レンズで改善する。",
+      "category": "その他",
+      "tags": [
+        "セキュリティ",
+        "バックドア検出",
+        "ファインチューニング"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "d4ca80374460",
+      "title": "A Failure-Driven Data Flywheel for Post-Training Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2611.34698v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:54:15.000Z",
+      "description": "Pretrained vision-language-action (VLA) models rarely satisfy all behavioral requirements of a new platform, and teams without a large deployed fleet lack the data to address the resulting failures. We propose a failure-driven data flywheel for post-training such models. It constructs target scenarios absent from the available data by inserting task-relevant entities into reconstructed real-world …",
+      "summary": "事前学習済み視覚言語行動モデルの失敗事例から学習データを自動構築するフライホイール手法を提案。大規模フリート保有以外の企業でもモデル適応を実現する方法を示す。",
+      "category": "その他",
+      "tags": [
+        "VLA",
+        "データフライホイール",
+        "ロボット"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "a05f306f468e",
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "source": "Ars Technica",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:47:14.000Z",
+      "description": "Militaries have many reasons to target data centers and the cloud in wartime.",
+      "summary": "軍事攻撃によるデータセンター標的化が戦争時に継続される可能性が指摘されています。クラウドインフラは今後も軍事的脅威にさらされ続けるとの見方です。",
+      "category": "規制/政策",
+      "tags": [
+        "データセンター",
+        "セキュリティ",
+        "軍事"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "898cefbc0953",
+      "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+      "url": "https://arxiv.org/abs/2611.34675v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:39:10.000Z",
+      "description": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents can discover solutions using broad prior knowledge and robot-control APIs, but repeated deliberation a…",
+      "summary": "ロボットが環境適応と新スキル習得を継続的に行う手法「RoboEvo²」を提案。視覚言語行動ポリシーと推論エージェントの共進化により、人間デモなしで未知環境での効率的な動作習得を実現する。",
+      "category": "その他",
+      "tags": [
+        "ロボット自動化",
+        "強化学習",
+        "スキル習得"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "cb7145cc2532",
+      "title": "DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Agents and Generative Rendering",
+      "url": "https://arxiv.org/abs/2611.34671v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:37:10.000Z",
+      "description": "Scaling robot learning requires demonstrations that combine realistic visual observations with reliable action supervision. Simulation-based synthesis faces a substantial visual gap relative to real environments, while video-only generation struggles to maintain physically consistent interactions and provide aligned action labels. We present DemoFoundry, an automated framework that couples coding …",
+      "summary": "ロボット学習用の大規模な現実的デモンストレーションデータを生成する自動化フレームワーク「DemoFoundry」を提案。コーディングエージェントと生成的レンダリングを組み合わせることで、視覚的リアリティと物理的一貫性を両立させたロボット制御データの合成を実現する。",
+      "category": "その他",
+      "tags": [
+        "ロボット学習",
+        "データ生成",
+        "シミュレーション"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "3fe1dc20b9b1",
+      "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?",
+      "url": "https://arxiv.org/abs/2611.34656v1",
+      "source": "arXiv cs.AI",
+      "sourceWeight": 4,
+      "sourceCategory": "モデル/研究",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:29:37.000Z",
+      "description": "Reinforcement learning has achieved remarkable success in sequential decision-making, but learning effective policies often requires substantial interaction experience. Model-based reinforcement learning alleviates this dependence by leveraging world models, which are typically used to support planning or policy optimization. In this paper, we investigate an alternative paradigm in which autonomou…",
+      "summary": "ワールドモデルから直接意思決定を導く新たなパラダイムを調査。強化学習における膨大な相互作用経験の必要性を軽減する手法を検討している。",
+      "category": "その他",
+      "tags": [
+        "強化学習",
+        "ワールドモデル",
+        "意思決定"
+      ],
+      "importance": 3
+    }
+  ]
+}
