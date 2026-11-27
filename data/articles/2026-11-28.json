@@ -1,0 +1,632 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-27T19:24:33.447Z",
+  "count": 25,
+  "stats": {
+    "fetched": 25,
+    "afterDedupe": 25,
+    "published": 25,
+    "removedByUrl": 0,
+    "removedByTitle": 0,
+    "failedSources": [
+      {
+        "name": "VentureBeat AI",
+        "error": "Status code 429"
+      }
+    ],
+    "emptySources": [],
+    "absentFromDigest": [
+      "Anthropic News",
+      "OpenAI Blog",
+      "Google AI Blog",
+      "Google DeepMind",
+      "Meta AI",
+      "VentureBeat AI",
+      "MIT Technology Review AI",
+      "Ars Technica",
+      "arXiv cs.AI"
+    ],
+    "summarized": 25,
+    "summaryFailures": 0,
+    "sources": [
+      {
+        "name": "Anthropic News",
+        "weight": 10,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 465
+      },
+      {
+        "name": "OpenAI Blog",
+        "weight": 10,
+        "itemsInFeed": 1430,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 212
+      },
+      {
+        "name": "Google AI Blog",
+        "weight": 9,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 453
+      },
+      {
+        "name": "Google DeepMind",
+        "weight": 9,
+        "itemsInFeed": 100,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 480
+      },
+      {
+        "name": "Meta AI",
+        "weight": 8,
+        "itemsInFeed": 63,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 476
+      },
+      {
+        "name": "Hugging Face Blog",
+        "weight": 7,
+        "itemsInFeed": 919,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 327
+      },
+      {
+        "name": "TechCrunch AI",
+        "weight": 6,
+        "itemsInFeed": 20,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 255
+      },
+      {
+        "name": "VentureBeat AI",
+        "weight": 5,
+        "itemsInFeed": 0,
+        "fetched": 0,
+        "ok": false,
+        "error": "Status code 429",
+        "durationMs": 281
+      },
+      {
+        "name": "The Verge AI",
+        "weight": 6,
+        "itemsInFeed": 10,
+        "fetched": 2,
+        "ok": true,
+        "durationMs": 269
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "weight": 7,
+        "itemsInFeed": 10,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 327
+      },
+      {
+        "name": "Ars Technica",
+        "weight": 5,
+        "itemsInFeed": 20,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 352
+      },
+      {
+        "name": "ITmedia AI+",
+        "weight": 7,
+        "itemsInFeed": 20,
+        "fetched": 9,
+        "ok": true,
+        "durationMs": 822
+      },
+      {
+        "name": "Publickey",
+        "weight": 6,
+        "itemsInFeed": 15,
+        "fetched": 4,
+        "ok": true,
+        "durationMs": 536
+      },
+      {
+        "name": "arXiv cs.AI",
+        "weight": 4,
+        "itemsInFeed": 60,
+        "fetched": 0,
+        "ok": true,
+        "durationMs": 467
+      },
+      {
+        "name": "Hacker News",
+        "weight": 5,
+        "itemsInFeed": 100,
+        "fetched": 6,
+        "ok": true,
+        "durationMs": 837
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "e6403407099c",
+      "title": "AI on brink of making online security useless, mathematicians fear",
+      "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-27T11:09:04.000Z",
+      "description": "https:&#x2F;&#x2F;archive.ph&#x2F;4hRp8",
+      "summary": "数学者らがAIによってオンラインセキュリティが無効化される危険性を指摘。暗号化技術への脅威に関する懸念が表明されている。",
+      "category": "規制/政策",
+      "tags": [
+        "AI",
+        "セキュリティ",
+        "暗号化"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "d6e587376ca0",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "description": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "summary": "Nvidiaがマレーシアやシンガポール、タイ、インドネシアへのサーバーチップ出荷を一時停止するよう製造パートナーに指示した。米国による中国への高度なAIチップ流出防止の取り組みが強化されている。",
+      "category": "規制/政策",
+      "tags": [
+        "チップ規制",
+        "対中政策",
+        "Nvidia"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "7d45c1d0940a",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "description": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safegua…",
+      "summary": "42の州司法長官がCharacter.AIに対し、破産手続き中のユーザーデータ売却を差し止めようとしている。200万人以上の未成年を含む2100万人超の米国ユーザーのプライベートチャット履歴が十分な保護なく売却される可能性があるとして反発している。",
+      "category": "規制/政策",
+      "tags": [
+        "プライバシー",
+        "データ保護",
+        "Character.AI"
+      ],
+      "importance": 4
+    },
+    {
+      "id": "307bad9528e8",
+      "title": "AIリスク監査の実施、わずか5.7％ 内部監査が追い付かない「もう一つのリスク」とは？",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news037.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-27T01:50:00.000Z",
+      "description": "ある調査によると、今後重要性が高まるリスクとして「AI・生成AI」を挙げた回答は半数を超えた。一方、AIのリスクに関する内部監査を「すでに実施」を選んだ回答者は5.7％にとどまる。同調査からは、内部監査が追い切れていない、AI以外の領域も浮かび上がった。",
+      "summary": "企業のAIリスク監査実施率は5.7％に留まっており、AIの重要性が高まる中で内部監査が対応できていない状況が明らかになった。調査では重要リスクとしてAI・生成AIを挙げる回答が半数を超えた一方で、リスク監査の実施は大きく遅れている。",
+      "category": "規制/政策",
+      "tags": [
+        "AIリスク管理",
+        "内部監査",
+        "コンプライアンス"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "120d249919b5",
+      "title": "電通が「Geminiを使いこなすFDE」ら3000人育成プログラムを開始 その内容とは？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-27T00:45:00.000Z",
+      "description": "生成AIを導入しても、現場の業務に生かせないと成果にはつながらない。電通は約3000人を対象に、「Gemini Enterprise」を使いこなし、現場での生成AI活用を推進できる人材の育成を始めた。人材をどう育てるのか。",
+      "summary": "電通が約3000人を対象に「Gemini Enterprise」を使いこなす人材育成プログラムを開始。現場での生成AI活用を推進できるFDE（Flexible Digital Engineer）など育成を進める。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "電通",
+        "人材育成",
+        "Gemini Enterprise"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "399d56ac1712",
+      "title": "AIエージェントの行動が「適切か暴走か」をどう見極める？ Googleが明かすテストの盲点",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news035.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T23:00:00.000Z",
+      "description": "AIエージェントが期待通りに動作するかどうかを、どのように検証すればよいのか。GoogleはAIコーディングエージェント向けのプラグイン開発を通じて、最終回答に基づく評価や、実際に操作させるテストだけでは見抜けない問題があることを明らかにした。",
+      "summary": "Googleはコーディングエージェント開発を通じ、AIエージェントの適切性を検証する際の課題を指摘。最終結果だけの評価や実操作テストだけでは発見できない問題があることを明らかにした。",
+      "category": "モデル/研究",
+      "tags": [
+        "AIエージェント",
+        "テスト",
+        "Google"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "751577968ee2",
+      "title": "「コスト削減」の“次”の成果、どう設定する？ ビジネス変革に結び付けるための「期待の中身」",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/27/news025.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T23:00:00.000Z",
+      "description": "ITRの調査によると、AI導入時に期待する効果として上位に並ぶのは「業務コストの削減」や「業務時間の短縮」でした。AIをビジネス変革の切り札とする企業は、AIの成果を問う前に、何を期待するかから見直す必要があると筆者は提言します。",
+      "summary": "企業のAI導入では「コスト削減」が期待される主要効果だが、ビジネス変革を実現するには、導入前に期待値そのものを見直す必要があるとの提言。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI導入",
+        "期待値設定",
+        "ビジネス変革"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "69dfa897256a",
+      "title": "アマダと日立、AIエージェントのPoCで効果確認 フィジカルAIの現場実装へ",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/27/news050.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T22:30:00.000Z",
+      "description": "アマダと日立製作所は、AIエージェントとフィジカルAIの実装により、アマダのユーザー工場の自律化とアマダの保守サービスのさらなる高度化に向けた協創を加速する。",
+      "summary": "アマダと日立製作所がAIエージェントとフィジカルAIの実装に関するPoC（概念実証）を実施し、工場の自律化と保守サービスの高度化に向けた協創を推進している。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AIエージェント",
+        "フィジカルAI",
+        "製造業"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "486df1c207e7",
+      "title": "Tracking Diseases Cured by AI",
+      "url": "https://diseasescuredbyai.com/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-26T17:16:41.000Z",
+      "description": "Hacker News で 317 ポイント獲得。",
+      "summary": "AIによって治癒された疾病の追跡に関する話題。医療分野におけるAI活用の成果事例について扱っている。",
+      "category": "その他",
+      "tags": [
+        "AI",
+        "医療",
+        "疾病治療"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "c3443c143cad",
+      "title": "GPT-6.2の使用量「誤って割引されていた」 修正後はAstraで上限に40％早く達する見込み",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003495/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T07:43:35.000Z",
+      "description": "OpenAIのプロダクト責任者ティボー・ソティオ氏（通称Tibo）は「GPT-6.2 Astra」と「GPT-6.2 Sol」の使用量の計算に誤りがあり、実際よりも少なく計算されていたとXで明かした。",
+      "summary": "OpenAIは「GPT-6.2 Astra」と「GPT-6.2 Sol」の使用量計算に誤りがあり、実際より少なく算出されていたことを発表。修正後はAstraで利用上限に従来より40％早く到達する見込み。",
+      "category": "プロダクト",
+      "tags": [
+        "GPT-6.2",
+        "OpenAI",
+        "使用量計算"
+      ],
+      "importance": 3
+    },
+    {
+      "id": "4c8dd3ffc59c",
+      "title": "Group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-27T06:44:34.000Z",
+      "description": "Hacker News で 608 ポイント獲得。",
+      "summary": "グループチャットでAIが背後で独立して会話する機能または現象について取り扱う記事。AIの自主的な行動に関する話題。",
+      "category": "その他",
+      "tags": [
+        "AI",
+        "チャット",
+        "自律性"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "c1d113f52f2a",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face Blog",
+      "sourceWeight": 7,
+      "sourceCategory": "開発ツール",
+      "lang": "en",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "description": "",
+      "summary": "AWS Trainium3を活用し、LTX-2.5で動画生成を行う事例が紹介されている。高性能AIチップによる動画生成の実装方法を示している。",
+      "category": "モデル/研究",
+      "tags": [
+        "Trainium3",
+        "LTX-2.5",
+        "動画生成"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "9ea38aced30e",
+      "title": "生成AI登場で人員増えた部門、減った部門は？ デロイト調査",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/27/2000003505/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T23:00:00.000Z",
+      "description": "デロイトが実施した調査で、企業における2026年のAI導入、活用状況が明らかになった。",
+      "summary": "デロイトの調査により、2026年の企業におけるAI導入・活用状況が明らかになった。生成AI登場に伴う各部門の人員増減が分析されている。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "デロイト",
+        "調査",
+        "人員"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "b39aca2571fd",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-26T21:47:45.000Z",
+      "description": "Hacker News で 1020 ポイント獲得。",
+      "summary": "AIがセルフホスティングをより身近で使いやすいものにしたという内容。技術者コミュニティで高い関心を集めている。",
+      "category": "プロダクト",
+      "tags": [
+        "AI",
+        "セルフホスティング",
+        "開発"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "642a918019d8",
+      "title": "さくらインターネットが大規模イベント開催。田中社長「日本から世界へ挑戦するためのデジタル基盤を支える」",
+      "url": "https://www.publickey1.jp/blog/26/post_311.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T15:50:16.000Z",
+      "description": "さくらインターネットは11月25日と26日の2日間、同社にとって初のパートナーやデベロッパー向け大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催しました。 2日目となる「Cloud/AI Day」の基調講演に登壇した同社代表取締役社長 田中邦裕氏は、日本が過去30年間の「デジタル敗戦」で諸外国に遅れをとった背景には、DXやITを単なる「コスト削減」のためだけに使いすぎた側面があると指摘。 この課題を解決する上で、単に海外の技術だから使わ……",
+      "summary": "さくらインターネットがパートナー向け初の大規模イベントを開催し、田中社長が日本の「デジタル敗戦」を指摘した。コスト削減に限定されたIT活用から脱却し、世界への挑戦を支えるデジタル基盤構築の重要性を強調した。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "デジタル化",
+        "経営戦略",
+        "日本"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "fb8ed16cae56",
+      "title": "さくらのクラウド、新ネットワーク基盤、新データベースサービスなど投入。東京リージョン第三ゾーン新設も発表",
+      "url": "https://www.publickey1.jp/blog/26/post_310.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T15:47:22.000Z",
+      "description": "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催し、さくらのクラウドに関して東京リージョンの第三ゾーン、新ネットワーク基盤や新データベースサービスの投入などを発表しました。 東京リージョンに第三ゾーンを新設 さくらのクラウドは現在、北海道の石狩リージョンに3つのゾーン、東京リージョンに2つのゾーンを備えています。 今回、東京リージョンに3番目となる第三ゾーンの新設が発表されました。これ……",
+      "summary": "さくらインターネットが東京リージョンに第三ゾーンを新設し、新ネットワーク基盤と新データベースサービスを投入することを発表した。クラウドインフラの拡張と機能強化により、より高度なサービス提供が可能になる。",
+      "category": "プロダクト",
+      "tags": [
+        "クラウドインフラ",
+        "ゾーン拡張",
+        "データベース"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "2d55407e1410",
+      "title": "さくらインターネット、AIを月額固定料金で提供する「シンプルAI」発表、システムへの組み込み用途を想定",
+      "url": "https://www.publickey1.jp/blog/26/aiai_1.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T15:45:31.000Z",
+      "description": "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。2日目の基調講演で、新サービスとして月額固定料金でAIを提供する「シンプルAI」を発表しました。 月額固定料金で安定したAIモデルを提供 同社はすでに各種の生成AIモデルをAPI経由で提供するマネージドサービス「さくらのAI Engine」を提供しています。 さくらのAI Engineは従量課金制なのに対し、今回発表された「シンプルAI……",
+      "summary": "さくらインターネットが月額固定料金でAIを提供する新サービス「シンプルAI」を発表した。従量課金制の既存サービスと異なり、システムへの組み込み用途を想定した安定したAI提供を実現する。",
+      "category": "プロダクト",
+      "tags": [
+        "生成AI",
+        "API",
+        "クラウドサービス"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "6c856052072b",
+      "title": "さくらインターネット、AWSやAzureなど他クラウドでバックアップ可能な新ストレージ「Object Storage Suite」（OS2）発表",
+      "url": "https://www.publickey1.jp/blog/26/awsazureobject_storage_suiteos2.html",
+      "source": "Publickey",
+      "sourceWeight": 6,
+      "sourceCategory": "開発ツール",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T15:42:36.000Z",
+      "description": "さくらインターネットは11月25日と26日の2日間、大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催。2日めの基調講演で、新たなストレージサービス「Object Storage Suite」（OS2）を発表しました。 Object Storage Suiteはバックアップなど低頻度なアクセスを想定した大容量ストレージです。 ペタバイトクラスの大容量に対応し、AWSやGoogle Cloud、Microsoft Azureなどマルチクラウ……",
+      "summary": "さくらインターネットがマルチクラウド対応の新ストレージサービス「Object Storage Suite」を発表した。バックアップなどの低頻度アクセスを想定した大容量ストレージで、AWSやAzureなど複数クラウドでのバックアップが可能である。",
+      "category": "プロダクト",
+      "tags": [
+        "クラウドストレージ",
+        "マルチクラウド",
+        "バックアップ"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "49da20359108",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face Blog",
+      "sourceWeight": 7,
+      "sourceCategory": "開発ツール",
+      "lang": "en",
+      "publishedAt": "2026-11-26T11:37:17.000Z",
+      "description": "",
+      "summary": "AMD RyzenおよびRadeon向けのllama.cppベンチマークダッシュボードが公開された。LLM推論性能の測定・比較が可能になる。",
+      "category": "開発ツール",
+      "tags": [
+        "llama.cpp",
+        "AMD",
+        "ベンチマーク"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "7d65fd677881",
+      "title": "「Gemini 4 Neon」が実際の標高データからスキーシミュレーターを開発――Google公式が勧める利用例まとめ",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003494/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T09:00:00.000Z",
+      "description": "Googleが新発表したAIモデル「Gemini 4 Neon」について、公式ブログで披露されたデモや日常での活用場面をまとめて紹介する。",
+      "summary": "Googleが新モデル「Gemini 4 Neon」について、実際の標高データを用いてスキーシミュレーターを開発するなど、実践的な活用例を公式ブログで紹介している。",
+      "category": "モデル/研究",
+      "tags": [
+        "Gemini 4 Neon",
+        "Google",
+        "活用例"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "c03445467af5",
+      "title": "Obsidian公式の「エージェント向け」スキル集が登場 Vault操作法とファイル形式をひとまとめに",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003470/",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T08:06:20.000Z",
+      "description": "マークダウンエディタ「Obsidian」に「エージェント向けの公式コネクタ」機能が登場した。",
+      "summary": "マークダウンエディタ「Obsidian」にエージェント向けの公式コネクタ機能が追加された。Vaultの操作方法やファイル形式を統一的に提供し、エージェント開発を支援する。",
+      "category": "開発ツール",
+      "tags": [
+        "Obsidian",
+        "エージェント",
+        "API"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "9921ceee6fef",
+      "title": "I'm Scared of AI",
+      "url": "https://thesoapbox.email/archive/3",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-27T17:45:31.000Z",
+      "description": "Hacker News で 160 ポイント獲得。",
+      "summary": "AIに対する懸念や恐怖を扱った個人的な見解。AIの発展に伴う社会的不安についての議論。",
+      "category": "その他",
+      "tags": [
+        "AI",
+        "倫理",
+        "懸念"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "c9329332fadc",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-27T14:00:00.000Z",
+      "description": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and select my stop will slow me down enough to miss a bus. I need glanceable infor…",
+      "summary": "Androidのカスタムウィジェット機能がユーザーの日常的なニーズに応える可能性を示している。リアルタイムのバス到着情報など、素早く確認できるウィジェット設計がAI活用で実現されようとしている。",
+      "category": "プロダクト",
+      "tags": [
+        "Android",
+        "ウィジェット",
+        "UI/UX"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "39eaeccc5490",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "TechCrunch AI",
+      "sourceWeight": 6,
+      "sourceCategory": "ビジネス/資金調達",
+      "lang": "en",
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "description": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "summary": "Grand Theft Auto VIの成功が、効率性だけが必ずしも価値ではないことを示している。同日のAnthropic上場と対比させ、人手をかけた娯楽作品の価値を議論している。",
+      "category": "その他",
+      "tags": [
+        "ゲーム開発",
+        "効率性",
+        "人間的価値"
+      ],
+      "importance": 1
+    },
+    {
+      "id": "dadebd14f24a",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "source": "Hacker News",
+      "sourceWeight": 5,
+      "sourceCategory": "その他",
+      "lang": "en",
+      "publishedAt": "2026-11-26T09:44:23.000Z",
+      "description": "Hacker News で 414 ポイント獲得。",
+      "summary": "GoogleがAIエージェント向けにMCPサーバーを実装する予定だが、Gmailサーバーはメール送信機能が実装されていない状況が指摘されている。AIの実用的な機能拡張における課題が表面化している。",
+      "category": "開発ツール",
+      "tags": [
+        "Google",
+        "AIエージェント",
+        "MCP"
+      ],
+      "importance": 1
+    }
+  ]
+}
