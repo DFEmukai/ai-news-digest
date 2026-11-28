@@ -1,10 +1,10 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-27T19:24:33.447Z",
+  "generatedAt": "2026-11-28T03:48:20.628Z",
   "count": 25,
   "stats": {
-    "fetched": 25,
-    "afterDedupe": 25,
+    "fetched": 16,
+    "afterDedupe": 16,
     "published": 25,
     "removedByUrl": 0,
     "removedByTitle": 0,
@@ -26,7 +26,7 @@
       "Ars Technica",
       "arXiv cs.AI"
     ],
-    "summarized": 25,
+    "summarized": 16,
     "summaryFailures": 0,
     "sources": [
       {
@@ -35,7 +35,7 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 465
+        "durationMs": 380
       },
       {
         "name": "OpenAI Blog",
@@ -43,7 +43,7 @@
         "itemsInFeed": 1430,
         "fetched": 0,
         "ok": true,
-        "durationMs": 212
+        "durationMs": 291
       },
       {
         "name": "Google AI Blog",
@@ -51,7 +51,7 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 453
+        "durationMs": 657
       },
       {
         "name": "Google DeepMind",
@@ -59,23 +59,23 @@
         "itemsInFeed": 100,
         "fetched": 0,
         "ok": true,
-        "durationMs": 480
+        "durationMs": 540
       },
       {
         "name": "Meta AI",
         "weight": 8,
-        "itemsInFeed": 63,
+        "itemsInFeed": 62,
         "fetched": 0,
         "ok": true,
-        "durationMs": 476
+        "durationMs": 326
       },
       {
         "name": "Hugging Face Blog",
         "weight": 7,
         "itemsInFeed": 919,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 327
+        "durationMs": 455
       },
       {
         "name": "TechCrunch AI",
@@ -83,7 +83,7 @@
         "itemsInFeed": 20,
         "fetched": 2,
         "ok": true,
-        "durationMs": 255
+        "durationMs": 337
       },
       {
         "name": "VentureBeat AI",
@@ -92,15 +92,15 @@
         "fetched": 0,
         "ok": false,
         "error": "Status code 429",
-        "durationMs": 281
+        "durationMs": 342
       },
       {
         "name": "The Verge AI",
         "weight": 6,
         "itemsInFeed": 10,
-        "fetched": 2,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 269
+        "durationMs": 389
       },
       {
         "name": "MIT Technology Review AI",
@@ -108,7 +108,7 @@
         "itemsInFeed": 10,
         "fetched": 0,
         "ok": true,
-        "durationMs": 327
+        "durationMs": 461
       },
       {
         "name": "Ars Technica",
@@ -116,23 +116,23 @@
         "itemsInFeed": 20,
         "fetched": 0,
         "ok": true,
-        "durationMs": 352
+        "durationMs": 708
       },
       {
         "name": "ITmedia AI+",
         "weight": 7,
         "itemsInFeed": 20,
-        "fetched": 9,
+        "fetched": 6,
         "ok": true,
-        "durationMs": 822
+        "durationMs": 773
       },
       {
         "name": "Publickey",
         "weight": 6,
         "itemsInFeed": 15,
-        "fetched": 4,
+        "fetched": 1,
         "ok": true,
-        "durationMs": 536
+        "durationMs": 368
       },
       {
         "name": "arXiv cs.AI",
@@ -140,15 +140,15 @@
         "itemsInFeed": 60,
         "fetched": 0,
         "ok": true,
-        "durationMs": 467
+        "durationMs": 470
       },
       {
         "name": "Hacker News",
         "weight": 5,
         "itemsInFeed": 100,
-        "fetched": 6,
+        "fetched": 5,
         "ok": true,
-        "durationMs": 837
+        "durationMs": 809
       }
     ]
   },
@@ -163,7 +163,7 @@
       "lang": "en",
       "publishedAt": "2026-11-27T11:09:04.000Z",
       "description": "https:&#x2F;&#x2F;archive.ph&#x2F;4hRp8",
-      "summary": "数学者らがAIによってオンラインセキュリティが無効化される危険性を指摘。暗号化技術への脅威に関する懸念が表明されている。",
+      "summary": "数学者らがAIによってオンラインセキュリティが無効化される危険性を警告している。現在の暗号化技術が今後脅かされる可能性が指摘されている。",
       "category": "規制/政策",
       "tags": [
         "AI",
@@ -182,12 +182,12 @@
       "lang": "en",
       "publishedAt": "2026-11-26T20:03:54.000Z",
       "description": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
-      "summary": "Nvidiaがマレーシアやシンガポール、タイ、インドネシアへのサーバーチップ出荷を一時停止するよう製造パートナーに指示した。米国による中国への高度なAIチップ流出防止の取り組みが強化されている。",
+      "summary": "Nvidiaが東南アジアへのサーバー出荷を一時停止するよう製造パートナーに指示した。米国による中国へのAIチップ流出防止の施策強化に伴う措置である。",
       "category": "規制/政策",
       "tags": [
+        "AI規制",
         "チップ規制",
-        "対中政策",
-        "Nvidia"
+        "地政学"
       ],
       "importance": 4
     },
@@ -220,31 +220,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-27T01:50:00.000Z",
       "description": "ある調査によると、今後重要性が高まるリスクとして「AI・生成AI」を挙げた回答は半数を超えた。一方、AIのリスクに関する内部監査を「すでに実施」を選んだ回答者は5.7％にとどまる。同調査からは、内部監査が追い切れていない、AI以外の領域も浮かび上がった。",
-      "summary": "企業のAIリスク監査実施率は5.7％に留まっており、AIの重要性が高まる中で内部監査が対応できていない状況が明らかになった。調査では重要リスクとしてAI・生成AIを挙げる回答が半数を超えた一方で、リスク監査の実施は大きく遅れている。",
+      "summary": "AIリスク監査の実施は5.7％にとどまり、企業のAIリスク対応が遅れている。内部監査がAI領域に追いつけていない状況が指摘されており、ガバナンス強化が課題とされている。",
       "category": "規制/政策",
       "tags": [
-        "AIリスク管理",
+        "AIリスク",
         "内部監査",
-        "コンプライアンス"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "120d249919b5",
-      "title": "電通が「Geminiを使いこなすFDE」ら3000人育成プログラムを開始 その内容とは？",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-27T00:45:00.000Z",
-      "description": "生成AIを導入しても、現場の業務に生かせないと成果にはつながらない。電通は約3000人を対象に、「Gemini Enterprise」を使いこなし、現場での生成AI活用を推進できる人材の育成を始めた。人材をどう育てるのか。",
-      "summary": "電通が約3000人を対象に「Gemini Enterprise」を使いこなす人材育成プログラムを開始。現場での生成AI活用を推進できるFDE（Flexible Digital Engineer）など育成を進める。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "電通",
-        "人材育成",
-        "Gemini Enterprise"
+        "ガバナンス"
       ],
       "importance": 3
     },
@@ -258,31 +239,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-26T23:00:00.000Z",
       "description": "AIエージェントが期待通りに動作するかどうかを、どのように検証すればよいのか。GoogleはAIコーディングエージェント向けのプラグイン開発を通じて、最終回答に基づく評価や、実際に操作させるテストだけでは見抜けない問題があることを明らかにした。",
-      "summary": "Googleはコーディングエージェント開発を通じ、AIエージェントの適切性を検証する際の課題を指摘。最終結果だけの評価や実操作テストだけでは発見できない問題があることを明らかにした。",
-      "category": "モデル/研究",
+      "summary": "Googleは、AIエージェントの検証において最終結果のみの評価では発見できない問題があることを指摘した。AIコーディングエージェント開発を通じて、実際の操作テストの限界を明らかにしている。",
+      "category": "その他",
       "tags": [
         "AIエージェント",
         "テスト",
-        "Google"
-      ],
-      "importance": 3
-    },
-    {
-      "id": "751577968ee2",
-      "title": "「コスト削減」の“次”の成果、どう設定する？ ビジネス変革に結び付けるための「期待の中身」",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/27/news025.html",
-      "source": "ITmedia AI+",
-      "sourceWeight": 7,
-      "sourceCategory": "その他",
-      "lang": "ja",
-      "publishedAt": "2026-11-26T23:00:00.000Z",
-      "description": "ITRの調査によると、AI導入時に期待する効果として上位に並ぶのは「業務コストの削減」や「業務時間の短縮」でした。AIをビジネス変革の切り札とする企業は、AIの成果を問う前に、何を期待するかから見直す必要があると筆者は提言します。",
-      "summary": "企業のAI導入では「コスト削減」が期待される主要効果だが、ビジネス変革を実現するには、導入前に期待値そのものを見直す必要があるとの提言。",
-      "category": "ビジネス/資金調達",
-      "tags": [
-        "AI導入",
-        "期待値設定",
-        "ビジネス変革"
+        "検証"
       ],
       "importance": 3
     },
@@ -296,12 +258,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-26T22:30:00.000Z",
       "description": "アマダと日立製作所は、AIエージェントとフィジカルAIの実装により、アマダのユーザー工場の自律化とアマダの保守サービスのさらなる高度化に向けた協創を加速する。",
-      "summary": "アマダと日立製作所がAIエージェントとフィジカルAIの実装に関するPoC（概念実証）を実施し、工場の自律化と保守サービスの高度化に向けた協創を推進している。",
-      "category": "ビジネス/資金調達",
+      "summary": "アマダと日立製作所がAIエージェントとフィジカルAIの実装に向けた協創を進めている。ユーザー工場の自律化と保守サービスの高度化をめざし、実装効果の確認を進めている。",
+      "category": "プロダクト",
       "tags": [
         "AIエージェント",
         "フィジカルAI",
-        "製造業"
+        "協創"
       ],
       "importance": 3
     },
@@ -314,13 +276,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-26T17:16:41.000Z",
-      "description": "Hacker News で 317 ポイント獲得。",
-      "summary": "AIによって治癒された疾病の追跡に関する話題。医療分野におけるAI活用の成果事例について扱っている。",
+      "description": "Hacker News で 321 ポイント獲得。",
+      "summary": "AIが治療に貢献した疾患についての追跡・記録に関する記事。AIと医療分野の関連性を扱うテーマだが、概要から詳細な内容は不明である。",
       "category": "その他",
       "tags": [
         "AI",
         "医療",
-        "疾病治療"
+        "疾患治療"
       ],
       "importance": 3
     },
@@ -344,6 +306,25 @@
       "importance": 3
     },
     {
+      "id": "c9329332fadc",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "source": "The Verge AI",
+      "sourceWeight": 6,
+      "sourceCategory": "プロダクト",
+      "lang": "en",
+      "publishedAt": "2026-11-27T14:00:00.000Z",
+      "description": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and select my stop will slow me down enough to miss a bus. I need glanceable infor…",
+      "summary": "Androidで利用者が自分の用途に合わせてウィジェットをカスタマイズできる機能について取り上げている。リアルタイムのバス到着情報など、素早く確認したい情報をホーム画面に配置できる利点が紹介されている。",
+      "category": "プロダクト",
+      "tags": [
+        "Android",
+        "ウィジェット",
+        "UI/UX"
+      ],
+      "importance": 2
+    },
+    {
       "id": "4c8dd3ffc59c",
       "title": "Group chat where your AI talks behind your back",
       "url": "https://construct22.com/",
@@ -352,13 +333,32 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-27T06:44:34.000Z",
-      "description": "Hacker News で 608 ポイント獲得。",
-      "summary": "グループチャットでAIが背後で独立して会話する機能または現象について取り扱う記事。AIの自主的な行動に関する話題。",
+      "description": "Hacker News で 689 ポイント獲得。",
+      "summary": "グループチャットでAIが利用者に気づかれないように情報交換する仕組みについて扱っている。AIとのプライバシーや透明性に関わる内容と考えられる。",
       "category": "その他",
       "tags": [
         "AI",
         "チャット",
-        "自律性"
+        "プライバシー"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "120d249919b5",
+      "title": "電通が「Geminiを使いこなすFDE」ら3000人育成プログラムを開始 その内容とは？",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-27T00:45:00.000Z",
+      "description": "生成AIを導入しても、現場の業務に生かせないと成果にはつながらない。電通は約3000人を対象に、「Gemini Enterprise」を使いこなし、現場での生成AI活用を推進できる人材の育成を始めた。人材をどう育てるのか。",
+      "summary": "電通が約3000人を対象にGemini Enterpriseを使いこなせる人材育成プログラムを開始した。生成AI導入後の現場活用を推進できるFDE育成が焦点である。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "人材育成",
+        "Gemini",
+        "生成AI"
       ],
       "importance": 2
     },
@@ -372,12 +372,31 @@
       "lang": "en",
       "publishedAt": "2026-11-27T00:00:00.000Z",
       "description": "",
-      "summary": "AWS Trainium3を活用し、LTX-2.5で動画生成を行う事例が紹介されている。高性能AIチップによる動画生成の実装方法を示している。",
-      "category": "モデル/研究",
+      "summary": "Trainium3プロセッサを用いてLTX-2.5によるビデオ生成技術の実装が行われている。ハードウェアと生成モデルの組み合わせによる動画生成の取り組みが紹介されている。",
+      "category": "プロダクト",
       "tags": [
+        "ビデオ生成",
         "Trainium3",
-        "LTX-2.5",
-        "動画生成"
+        "LTX-2.5"
+      ],
+      "importance": 2
+    },
+    {
+      "id": "751577968ee2",
+      "title": "「コスト削減」の“次”の成果、どう設定する？ ビジネス変革に結び付けるための「期待の中身」",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/27/news025.html",
+      "source": "ITmedia AI+",
+      "sourceWeight": 7,
+      "sourceCategory": "その他",
+      "lang": "ja",
+      "publishedAt": "2026-11-26T23:00:00.000Z",
+      "description": "ITRの調査によると、AI導入時に期待する効果として上位に並ぶのは「業務コストの削減」や「業務時間の短縮」でした。AIをビジネス変革の切り札とする企業は、AIの成果を問う前に、何を期待するかから見直す必要があると筆者は提言します。",
+      "summary": "企業のAI導入では「コスト削減」が期待効果の上位に来るが、ビジネス変革につなげるには期待値の見直しが必要と指摘されている。AI導入の成果指標をどう設定するかが課題である。",
+      "category": "ビジネス/資金調達",
+      "tags": [
+        "AI導入",
+        "期待効果",
+        "ビジネス変革"
       ],
       "importance": 2
     },
@@ -391,12 +410,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-26T23:00:00.000Z",
       "description": "デロイトが実施した調査で、企業における2026年のAI導入、活用状況が明らかになった。",
-      "summary": "デロイトの調査により、2026年の企業におけるAI導入・活用状況が明らかになった。生成AI登場に伴う各部門の人員増減が分析されている。",
+      "summary": "デロイトの調査により、2026年における企業のAI導入・活用状況が明らかになった。生成AI導入に伴う人員の増減について業界別の差が存在することが示されている。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "デロイト",
-        "調査",
-        "人員"
+        "AI導入",
+        "人員配置",
+        "デロイト調査"
       ],
       "importance": 2
     },
@@ -409,13 +428,13 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-26T21:47:45.000Z",
-      "description": "Hacker News で 1020 ポイント獲得。",
-      "summary": "AIがセルフホスティングをより身近で使いやすいものにしたという内容。技術者コミュニティで高い関心を集めている。",
+      "description": "Hacker News で 1107 ポイント獲得。",
+      "summary": "AIの登場によってサーバーの自主運用がより手軽になったことを述べている。複雑だと考えられていた自宅サーバー構築がAIの支援で実現しやすくなった点が焦点。",
       "category": "プロダクト",
       "tags": [
         "AI",
-        "セルフホスティング",
-        "開発"
+        "自宅サーバー",
+        "自動化"
       ],
       "importance": 2
     },
@@ -429,12 +448,12 @@
       "lang": "ja",
       "publishedAt": "2026-11-26T15:50:16.000Z",
       "description": "さくらインターネットは11月25日と26日の2日間、同社にとって初のパートナーやデベロッパー向け大規模イベント「SAKURA DEKIRU Conference 2026」を都内で開催しました。 2日目となる「Cloud/AI Day」の基調講演に登壇した同社代表取締役社長 田中邦裕氏は、日本が過去30年間の「デジタル敗戦」で諸外国に遅れをとった背景には、DXやITを単なる「コスト削減」のためだけに使いすぎた側面があると指摘。 この課題を解決する上で、単に海外の技術だから使わ……",
-      "summary": "さくらインターネットがパートナー向け初の大規模イベントを開催し、田中社長が日本の「デジタル敗戦」を指摘した。コスト削減に限定されたIT活用から脱却し、世界への挑戦を支えるデジタル基盤構築の重要性を強調した。",
+      "summary": "さくらインターネットが初の大規模イベント「SAKURA DEKIRU Conference 2026」を開催した。同社代表は、日本のデジタル競争力向上に向けたクラウド・AI基盤の必要性を強調している。",
       "category": "ビジネス/資金調達",
       "tags": [
-        "デジタル化",
-        "経営戦略",
-        "日本"
+        "さくらインターネット",
+        "デジタル基盤",
+        "DX"
       ],
       "importance": 2
     },
@@ -561,32 +580,12 @@
       "sourceCategory": "その他",
       "lang": "en",
       "publishedAt": "2026-11-27T17:45:31.000Z",
-      "description": "Hacker News で 160 ポイント獲得。",
-      "summary": "AIに対する懸念や恐怖を扱った個人的な見解。AIの発展に伴う社会的不安についての議論。",
+      "description": "Hacker News で 206 ポイント獲得。",
+      "summary": "AIに関する懸念や恐怖心をテーマとした個人的な見方を述べた記事。AIの発展に伴う社会的な不安について扱っている。",
       "category": "その他",
       "tags": [
         "AI",
-        "倫理",
-        "懸念"
-      ],
-      "importance": 1
-    },
-    {
-      "id": "c9329332fadc",
-      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
-      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
-      "source": "The Verge AI",
-      "sourceWeight": 6,
-      "sourceCategory": "プロダクト",
-      "lang": "en",
-      "publishedAt": "2026-11-27T14:00:00.000Z",
-      "description": "Widgets, your way. | Photo: Allison Johnson / The Verge Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and select my stop will slow me down enough to miss a bus. I need glanceable infor…",
-      "summary": "Androidのカスタムウィジェット機能がユーザーの日常的なニーズに応える可能性を示している。リアルタイムのバス到着情報など、素早く確認できるウィジェット設計がAI活用で実現されようとしている。",
-      "category": "プロダクト",
-      "tags": [
-        "Android",
-        "ウィジェット",
-        "UI/UX"
+        "社会不安"
       ],
       "importance": 1
     },
@@ -600,12 +599,12 @@
       "lang": "en",
       "publishedAt": "2026-11-26T16:00:00.000Z",
       "description": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
-      "summary": "Grand Theft Auto VIの成功が、効率性だけが必ずしも価値ではないことを示している。同日のAnthropic上場と対比させ、人手をかけた娯楽作品の価値を議論している。",
+      "summary": "Grand Theft Auto VIの成功事例から、効率性だけが評価指標ではないことが示唆されている。Anthropicの公開市場上場と同日の記事で、人手をかけた製品作りの価値が論じられている。",
       "category": "その他",
       "tags": [
         "ゲーム開発",
         "効率性",
-        "人間的価値"
+        "人工物製作"
       ],
       "importance": 1
     },
